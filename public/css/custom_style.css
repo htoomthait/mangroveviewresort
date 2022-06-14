@@ -1,0 +1,24 @@
+.logo-brand-text{
+    display: inline-block;    
+    color:#87F2C9;
+    font-weight:800;
+    width:50%;
+    /* border:2px solid red; */
+}
+
+.dp-flex{
+    display:flex;
+}
+
+.navbar-brand{
+    gap:16px;
+    align-items: center;
+    /* border:2px solid green; */
+    width:95%;
+}
+
+#bs-example-navbar-collapse-1{
+    width:100%;
+    /* border:1px solid blue; */
+    /* margin-left:-50px; */
+}
