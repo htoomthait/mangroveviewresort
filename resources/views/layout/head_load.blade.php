@@ -29,7 +29,8 @@
         <link href="vendors/bootstrap-selector/bootstrap-select.css" rel="stylesheet">
         <link href="vendors/lightbox/simpleLightbox.css" rel="stylesheet">
         
-        <link href="css/style.css" rel="stylesheet">
+        {{-- <link href="css/style.css" rel="stylesheet"> --}}
+        <link rel="stylesheet" href="scss-compiled/style.css" />
         <link href="css/responsive.css" rel="stylesheet">
 
         <link rel="stylesheet" href="/css/custom_style.css">
