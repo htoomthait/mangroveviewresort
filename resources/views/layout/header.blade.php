@@ -3,8 +3,8 @@
         <div class="container">
             <div class="header_top_inner">
                 <div class="pull-left">
-                    <a href="#"><i class="fa fa-phone"></i>+ (1800) 456 7890</a>
-                    <a href="#"><i class="fa fa-envelope-o"></i>info@hilltownresort.com</a>
+                    <a href="#"><i class="fa fa-phone"></i>(+95)0000000000</a>
+                    <a href="#"><i class="fa fa-envelope-o"></i>sales@mangroveviewreort.com</a>
                 </div>
                 <div class="pull-right">
                     <ul class="header_social">

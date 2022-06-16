@@ -4,14 +4,17 @@
             <div class="row">
                 <div class="col-md-3 col-xs-6">
                     <aside class="f_widget about_widget">
-                        <img src="img/footer-logo.png" alt="">
+                        {{-- <img src="img/footer-logo.png" alt=""> --}}
+                        <img src="img/logo/sea_and_lake_transparent_logo.png" alt="sea and lake transparent logo" width="72px">
+                            {{-- <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                 --}}
+
                         <div class="ab_wd_list">
                             <div class="media">
                                 <div class="media-left">
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>54B, Tailstoi Town 5238 MT, La city, IA 522364</h4>
+                                    <h4>No 000 ABC Road, XYX, EFG</h4>
                                 </div>
                             </div>
                             <div class="media">
@@ -19,7 +22,7 @@
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>+ 547 5895 621</h4>
+                                    <h4>+9500000000000</h4>
                                 </div>
                             </div>
                         </div>
