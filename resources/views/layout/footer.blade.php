@@ -73,10 +73,10 @@
     <div class="footer_copyright_area">
         <div class="container">
             <div class="pull-left">
-                <h4>Copyright © HillTown Resort  <script>document.write(new Date().getFullYear());</script>. All rights reserved. </h4>
+                <h4>Copyright © Sea And Lake Resort  <script>document.write(new Date().getFullYear());</script>. All rights reserved. </h4>
             </div>
             <div class="pull-right">
-                <h4>Created by: <a href="#">DesignArc</a></h4>
+                <h4>developed by: <a href="mailto: htoomaungthait@gmail.com">Htoo Maung Thait</a></h4>
             </div>
         </div>
     </div>
