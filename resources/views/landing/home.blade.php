@@ -6,7 +6,7 @@
     <!--================End Slider Area =================-->
     
     <!--================Book A Table Area =================-->
-    @include('landing.book_a_table')
+    {{-- @include('landing.book_a_table') --}}
     <!--================End Book A Table Area =================-->
     
     <!--================Introduction Area =================-->
