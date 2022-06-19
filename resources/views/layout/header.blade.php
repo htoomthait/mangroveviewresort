@@ -37,20 +37,15 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown submenu active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="index.html">Home Page 1</a></li>
-                                <li><a href="index-2.html">Home Page 2</a></li>
-                                <li><a href="index-3.html">Home Page 3</a></li>
-                                <li><a href="index-4.html">Home Page 4</a></li>
-                            </ul>
+                        <li class="dropdown submenu @if(session('page_title') === 'home') active @endif">
+                            <a href="{{route('home.page')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            
                         </li>
-                        <li class="submenu dropdown">
-                            <a href="{{route('page.about_us')}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <i class="fa fa-chevron-down" aria-hidden="true"></i></a>                            
+                        <li class="submenu dropdown @if(session('page_title') === 'about_us') active @endif">
+                            <a href="{{route('page.about_us')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">About Us <i class="fa fa-chevron-down" aria-hidden="true"></i></a>                            
                         </li>
-                        <li class="submenu dropdown">
-                            <a href="{{route('page.resort')}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resort <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <li class="submenu dropdown @if(session('page_title') === 'resort') active @endif">
+                            <a href="{{route('page.resort')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Resort <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="aminities.html">Aminities</a></li>
                                 <li><a href="search.html">Search</a></li>
@@ -77,8 +72,8 @@
                                 <li><a href="404.html">404 Error</a></li>
                             </ul>
                         </li>
-                        <li class="submenu dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <li class="submenu dropdown @if(session('page_title') === 'activities') active @endif">
+                            <a href="{{route('page.activities')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Activities <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="blog-left-sidebar.html">Blog with leftside bar</a></li>
                                 <li><a href="blog-right-sidebar.html">Blog with rightside bar</a></li>
@@ -86,14 +81,14 @@
                                 <li><a href="blog-details.html">Blog details</a></li>
                             </ul>
                         </li>
-                        <li class="submenu dropdown">
-                            <a href="about-us.html"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Bar &amp; Restaurant</a>
+                        <li class="submenu dropdown @if(session('page_title') === 'barAndRestaurant') active @endif">
+                            <a href="{{route('page.bar_and_restaurant')}}"  class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false"> Bar &amp; Restaurant</a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Sea and Lake</a></li>
                                 <li><a href="#">Mangrove View</a></li>                                
                             </ul>
                         </li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li class="@if(session('page_title') === 'contactUs') active @endif"><a href="{{route('page.contact_us')}}">Contact Us</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="search_dropdown">
