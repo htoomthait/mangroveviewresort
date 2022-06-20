@@ -29,7 +29,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand dp-flex" href="#">                        
-                            <img src="img/logo/sea_and_lake_transparent_logo.png" alt="sea and lake transparent logo" width="72px">
+                            <img src="img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="72px">
                             <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                
                     </a>
                 </div>

@@ -5,7 +5,7 @@
                 <div class="col-md-3 col-xs-6">
                     <aside class="f_widget about_widget">
                         {{-- <img src="img/footer-logo.png" alt=""> --}}
-                        <img src="img/logo/sea_and_lake_transparent_logo.png" alt="sea and lake transparent logo" width="72px">
+                        <img src="img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="72px">
                             {{-- <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                 --}}
 
                         <div class="ab_wd_list">
