@@ -1,8 +1,10 @@
 .logo-brand-text{
     display: inline-block;    
-    color:#87F2C9;
+    /* color:#013362; */
+    color:#008b72;
     font-weight:800;
-    width:50%;
+    /* width:100%; */
+    font-size: 22px;
     /* border:2px solid red; */
 }
 
@@ -14,7 +16,7 @@
     gap:16px;
     align-items: center;
     /* border:2px solid green; */
-    width:95%;
+    /* width:100%; */
 }
 
 #bs-example-navbar-collapse-1{

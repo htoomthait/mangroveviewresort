@@ -3,7 +3,7 @@
         <div class="container">
             <div class="header_top_inner">
                 <div class="pull-left">
-                    <a href="#"><i class="fa fa-phone"></i>(+95)0000000000</a>
+                    <a href="#"><i class="fa fa-phone"></i>(+95) 9 881 777944</a>
                     <a href="#"><i class="fa fa-envelope-o"></i>sales@mangroveviewreort.com</a>
                 </div>
                 <div class="pull-right">
@@ -29,8 +29,8 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand dp-flex" href="#">                        
-                            <img src="img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="72px">
-                            <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                
+                            <img src="img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="80px">
+                            <h3 class="logo-brand-text">Sea &amp; Lake Garden</h3>                                                
                     </a>
                 </div>
 

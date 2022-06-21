@@ -14,7 +14,7 @@
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>No 000 ABC Road, XYX, EFG</h4>
+                                    <h4>No. (3) Ward, Shwe Thaung Yan Road, Shwe Thaung Yan Township, Pathein District, Ayeyarwady Region, Myanmar.</h4>
                                 </div>
                             </div>
                             <div class="media">
@@ -22,7 +22,7 @@
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>+9500000000000</h4>
+                                    <h4>+95 9 881 777944</h4>
                                 </div>
                             </div>
                         </div>
