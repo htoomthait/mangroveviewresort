@@ -2429,7 +2429,7 @@ i:before {
 /* Discount Area css
 ============================================================================================ */
 .discount_area {
-  background: url(/images/discount-bg.jpg?c7c5855fa756fc400adf905e53f28e72) no-repeat fixed center center;
+  background: url(/images/discounted_area.jpg?9015c827c5b341c191276215b58f037d) no-repeat fixed center center;
   background-size: cover;
   padding: 70px 0px 65px 0px;
 }
@@ -2757,7 +2757,7 @@ i:before {
 /* Service Area css
 ============================================================================================ */
 .our_service_area {
-  background: url(/images/service-bg.jpg?6af35fdd447fa1a59e741afb55d42be8) no-repeat fixed center center;
+  background: url(/images/our_service_area.jpg?d6a45aa4289aeec5128dd14ac64dc498) no-repeat fixed center center;
   background-size: cover;
   position: relative;
   z-index: 2;
@@ -2892,7 +2892,7 @@ i:before {
 /* Choose Resort Area css
 ============================================================================================ */
 .choose_resort_area {
-  background: url(/images/choose-resort-bg.jpg?ca7391a13993ba18dbf8145e8dd5bfec) no-repeat fixed center center;
+  background: url(/images/slide_img_6.jpg?6b78d6baa4b894a2775278a2cfa40358) no-repeat fixed center center;
   background-size: cover;
   position: relative;
   z-index: 3;
@@ -4312,7 +4312,7 @@ i:before {
 /* Video Area css
 ============================================================================================ */
 .video_area {
-  background: url(/images/video-bg.png?5ac70fec5d6cbfa6810d31e6fc5da162) no-repeat scroll center center;
+  background: url(/images/video_tour.jpg?4b206163bf5c650627dc36bfcc3f4b66) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   z-index: 3;
