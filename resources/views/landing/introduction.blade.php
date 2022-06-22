@@ -1,5 +1,5 @@
 <!--================Introduction Area =================-->
-<section class="introduction_area intro_area2 mt-10">
+<section class="introduction_area intro_area2 ">
     <div class="container">
         <div class="row introduction_inner">
             <div class="col-md-6">

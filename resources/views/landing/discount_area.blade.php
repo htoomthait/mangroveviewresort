@@ -3,7 +3,7 @@
         <div class="row discount_inner">
             <div class="col-md-4">
                 <div class="discount_img">
-                    <img src="img/discount-person.png" alt="">
+                    <img src="images/discount/discount_image_june_2022.jpg" alt="Discount june 2022" width="388px">
                 </div>
             </div>
             <div class="col-md-8">
