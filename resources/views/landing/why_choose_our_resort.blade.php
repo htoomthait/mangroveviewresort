@@ -1,3 +1,35 @@
+@php    
+    $titlesOfPhoto = [
+        'AAA',  
+        'AAB',
+        'AAC',
+        'AAD',
+        'AAE',
+        'AAF',
+        'AAG',
+        'AAH',
+        'AAI',
+        'AAJ',
+        'AAK',
+        'AAL',
+        'AAM',
+        'AAN',
+        'AAO',
+        'AAP',
+        'AAQ',
+        'AAR',
+        'AAS',
+        'AAT',
+        'AAU',
+        'AAV',
+        'AAW',
+        'AAX',
+        'AAY',
+        'AAZ',
+        'ABA',
+    ];
+@endphp
+
 <section class="choose_resort_area">
     <div class="container">
         <div class="center_w_title">
@@ -29,42 +61,19 @@
     </div>
     <div class="resort_gallery_inner">
         <div class="resort_gallery owl-carousel imageGallery1">
+            @foreach($titlesOfPhoto as $index => $photoTitle)
             <div class="item">
-                <img src="img/gallery/resort-g-1.jpg" alt="">
+                <img src="images/why_our_resort/why_our_resort_{{$index+1}}.jpg" alt="">
                 <div class="resort_g_hover">
                     <div class="resort_hover_inner">
-                        <a class="light" href="img/gallery/gallery-big/img-1.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
-                        <h5>Our Room</h5>
+                        <a class="light" href="images/why_our_resort/why_our_resort_{{$index+1}}.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
+                        <h5>{{$photoTitle}}</h5>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <img src="img/gallery/resort-g-2.jpg" alt="">
-                <div class="resort_g_hover">
-                    <div class="resort_hover_inner">
-                        <a class="light" href="img/gallery/gallery-big/img-2.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
-                        <h5>Our Room</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="img/gallery/resort-g-3.jpg" alt="">
-                <div class="resort_g_hover">
-                    <div class="resort_hover_inner">
-                        <a class="light" href="img/gallery/gallery-big/img-3.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
-                        <h5>Our Room</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="img/gallery/resort-g-4.jpg" alt="">
-                <div class="resort_g_hover">
-                    <div class="resort_hover_inner">
-                        <a class="light" href="img/gallery/gallery-big/img-4.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
-                        <h5>Our Room</h5>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+            
         </div>
+        
     </div>
 </section>
