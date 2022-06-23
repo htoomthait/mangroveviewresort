@@ -43,6 +43,10 @@
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'about_us') active @endif">
                             <a href="{{route('page.about_us')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">About Us <i class="fa fa-chevron-down" aria-hidden="true"></i></a>                            
+                            <ul class="dropdown-menu">
+                                <li><a href="aminities.html">Introduction</a></li>
+                                <li><a href="search.html">Why choose our resort and garden</a></li>
+                            </ul>
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'resort') active @endif">
                             <a href="{{route('page.resort')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Resort <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
