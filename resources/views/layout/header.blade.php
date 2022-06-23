@@ -79,10 +79,13 @@
                         <li class="submenu dropdown @if(session('page_title') === 'activities') active @endif">
                             <a href="{{route('page.activities')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Activities <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog-left-sidebar.html">Blog with leftside bar</a></li>
-                                <li><a href="blog-right-sidebar.html">Blog with rightside bar</a></li>
-                                <li><a href="blog.html">Blog without side bar</a></li>
-                                <li><a href="blog-details.html">Blog details</a></li>
+                                <li><a href="#"> Boat</a></li>
+                                <li><a href="#">Fishing</a></li>
+                                <li><a href="#"> Cycling</a></li>
+                                <li><a href="#">Muesium</a></li>
+                                <li><a href="#">Swimming</a></li>
+                                <li><a href="#">Zipriding</a></li>
+                                <li><a href="#">Waterboom</a></li>
                             </ul>
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'barAndRestaurant') active @endif">

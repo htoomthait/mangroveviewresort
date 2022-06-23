@@ -77,11 +77,13 @@
                             <h3>Activities</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  Activities 1</a></li>
-                            <li><a href="#">-  Activities 2</a></li>
-                            <li><a href="#">-  Activities 3</a></li>
-                            <li><a href="#">-  Activities 4</a></li>
-                            <li><a href="#">-  Activities 5</a></li>
+                            <li><a href="#">-  Boat  </a></li>
+                            <li><a href="#">-  Fishing  </a></li>
+                            <li><a href="#">-  Cycling  </a></li>
+                            <li><a href="#">-  Museum   </a></li>
+                            <li><a href="#">-  Swimming </a></li>
+                            <li><a href="#">-  Zipriding </a></li>
+                            <li><a href="#">-  Waterboom </a></li>
                         </ul>
                     </aside>
                 </div>
