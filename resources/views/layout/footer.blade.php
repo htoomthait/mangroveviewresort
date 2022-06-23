@@ -27,7 +27,7 @@
                             </div>
                         </div>
                         <div class="book_now_area">
-                            <a class="book_now_btn" href="#">Book now</a>
+                            {{-- <a class="book_now_btn" href="#">Book now</a> --}}
                         </div>
                     </aside>
                 </div>
@@ -38,10 +38,10 @@
                         </div>
                         <ul>
                             <li><a href="#">-  About Us</a></li>
-                            <li><a href="#">-  Faq’s</a></li>
-                            <li><a href="#">-  Blog</a></li>
+                            {{-- <li><a href="#">-  Faq’s</a></li> --}}                            
                             <li><a href="#">-  Testimonials</a></li>
-                            <li><a href="#">-  Reservation Now</a></li>
+                            <li><a href="#">-  Activities</a></li>
+                            {{-- <li><a href="#">-  Reservation Now</a></li> --}}
                         </ul>
                     </aside>
                 </div>
@@ -51,20 +51,38 @@
                             <h3>our services</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  Food & Drinks</a></li>
                             <li><a href="#">-  Rooms</a></li>
-                            <li><a href="#">-  Amenities</a></li>
-                            <li><a href="#">-  Spa & Gym</a></li>
-                            <li><a href="#">-  Hill Tours</a></li>
+                            <li><a href="#">-  Amenties</a></li>
+                            <li><a href="#">-  Bar &amp; Restaurant</a></li>
+                            <li><a href="#">-  Spa &amp; Gym</a></li>
+                            <li><a href="#">-  Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <aside class="f_widget instagram_widget">
+                    {{-- <aside class="f_widget instagram_widget">
                         <div class="f_title">
-                            <h3>Instagram</h3>
+                            <h3>Activities</h3>
                         </div>
-                        <ul class="instagram_list" id="instafeed"></ul>
+                        <ul class="instagram_list" id="instafeed">
+                            <li><a href="#"> Activities 1</a></li>
+                            <li><a href="#"> Activities 2</a></li>
+                            <li><a href="#"> Activities 3</a></li>
+                            <li><a href="#"> Activities 4</a></li>
+                            <li><a href="#"> Activities 5</a></li>
+                        </ul>
+                    </aside> --}}
+                    <aside class="f_widget link_widget">
+                        <div class="f_title">
+                            <h3>Activities</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">-  Activities 1</a></li>
+                            <li><a href="#">-  Activities 2</a></li>
+                            <li><a href="#">-  Activities 3</a></li>
+                            <li><a href="#">-  Activities 4</a></li>
+                            <li><a href="#">-  Activities 5</a></li>
+                        </ul>
                     </aside>
                 </div>
             </div>

@@ -47,27 +47,27 @@
                         <li class="submenu dropdown @if(session('page_title') === 'resort') active @endif">
                             <a href="{{route('page.resort')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Resort <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="aminities.html">Aminities</a></li>
-                                <li><a href="search.html">Search</a></li>
-                                <li class="dropdown submenu">
+                                <li><a href="aminities.html">Room Type</a></li>
+                                <li><a href="search.html">Aminities</a></li>
+                                {{-- <li class="dropdown submenu">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="event.html">-  Event List</a></li>
                                         <li><a href="event-two-column.html">-  Event Grid</a></li>
                                         <li><a href="event-details.html">-  Event Single</a></li>
                                     </ul>
-                                </li>
-                                <li class="dropdown submenu">
+                                </li> --}}
+                                {{-- <li class="dropdown submenu">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="gallery-two-column.html">-  Gallery 2 Column</a></li>
                                         <li><a href="gallery-three-column.html">-  Gallery 3 Column</a></li>
                                         <li><a href="cobage-gallery.html">-  Gallery Cobage</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="restaurant.html">Our Reataurant</a></li>
-                                <li><a href="spa.html">Spa & Relax</a></li>
-                                <li><a href="activities.html">Activities</a></li>
+                                </li> --}}
+                                <li><a href="spa.html">Spa &amp; Relax</a></li>
+                                <li><a href="restaurant.html">Bar &amp; Restaurant</a></li>                                
+                                <li><a href="activities.html">Gallery</a></li>
                                 <li><a href="comming-soon.html">Coming Soon page</a></li>
                                 <li><a href="404.html">404 Error</a></li>
                             </ul>

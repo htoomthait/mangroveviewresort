@@ -15,7 +15,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="room-details.html" class="room_image">
-                        <img src="images/room/room_img_1.jpg" alt="">
+                        <img src="images/room/explore_room_1.jpg" alt="">
                     </a>
                     <div class="explor_text">
                         <a href="room-details.html"><h4>Budget room</h4></a>
@@ -38,7 +38,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="room-details.html" class="room_image">
-                        <img src="images/room/room_img_2.jpg" alt="">
+                        <img src="images/room/explore_room_2.jpg" alt="">
                     </a>
                     <div class="explor_text">
                         <a href="room-details.html"><h4>Budget room</h4></a>
@@ -61,7 +61,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="room-details.html" class="room_image">
-                        <img src="images/room/room_img_3.jpg" alt="">
+                        <img src="images/room/explore_room_3.jpg" alt="">
                     </a>
                     <div class="explor_text">
                         <a href="room-details.html"><h4>Budget room</h4></a>
