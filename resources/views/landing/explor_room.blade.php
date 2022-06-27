@@ -3,7 +3,7 @@
         <div class="explor_title row m0">
             <div class="pull-left">
                 <div class="left_ex_title">
-                    <h2>Explor Our <span>rooms</span></h2>
+                    <h2>Explor Our <span>Resort</span></h2>
                     <p>choose room according to budget</p>
                 </div>
             </div>
@@ -18,17 +18,17 @@
                         <img src="images/room/explore_room_1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Room</h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
                             <li><a href="#">2 Balcony</a></li>
                         </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
+                        <div class="explor_footer content-h-center">
+                            {{-- <div class="pull-left">
                                 <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
+                            </div> --}}
+                            <div class="">
                                 <a class="book_now_btn" href="#">View details</a>
                             </div>
                         </div>
@@ -41,17 +41,17 @@
                         <img src="images/room/explore_room_2.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>SPA</h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
                             <li><a href="#">2 Balcony</a></li>
                         </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
+                        <div class="explor_footer content-h-center" style="">
+                            {{-- <div class="pull-left">
                                 <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
+                            </div> --}}
+                            <div class="">
                                 <a class="book_now_btn" href="#">View details</a>
                             </div>
                         </div>
@@ -64,17 +64,17 @@
                         <img src="images/room/explore_room_3.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Restaurant</h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
                             <li><a href="#">2 Balcony</a></li>
                         </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
+                        <div class="explor_footer content-h-center">
+                            {{-- <div class="pull-left">
                                 <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
+                            </div> --}}
+                            <div class="">
                                 <a class="book_now_btn" href="#">View details</a>
                             </div>
                         </div>

@@ -1,7 +1,7 @@
 .logo-brand-text{
     display: inline-block;    
     /* color:#013362; */
-    color:#008b72;
+    color:#E24B20;
     font-weight:800;
     /* width:100%; */
     font-size: 22px;
@@ -24,3 +24,18 @@
     /* border:1px solid blue; */
     /* margin-left:-50px; */
 }
+
+.banner-text-color{
+    color:#efefef;   
+}
+
+.header_top .header_top_inner .pull-left a,
+.header_top .header_top_inner .pull-right a  {
+    opacity: 1;
+}
+
+.content-h-center
+{
+    display:flex; justify-content: center;
+}
+

@@ -3,15 +3,15 @@
         <div class="container">
             <div class="header_top_inner">
                 <div class="pull-left">
-                    <a href="#"><i class="fa fa-phone"></i>(+95) 9 881 777944</a>
-                    <a href="#"><i class="fa fa-envelope-o"></i>sales@mangroveviewreort.com</a>
+                    <a href="#" class="banner-text-color"><i class="fa fa-phone "></i>(+95) 9 881 777944</a>
+                    <a href="#" class="banner-text-color"><i class="fa fa-envelope-o"></i>sales@mangroveviewreort.com</a>
                 </div>
                 <div class="pull-right">
                     <ul class="header_social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook banner-text-color"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter banner-text-color"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus banner-text-color"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin banner-text-color"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -44,8 +44,8 @@
                         <li class="submenu dropdown @if(session('page_title') === 'about_us') active @endif">
                             <a href="{{route('page.about_us')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">About Us <i class="fa fa-chevron-down" aria-hidden="true"></i></a>                            
                             <ul class="dropdown-menu">
-                                <li><a href="aminities.html">Introduction</a></li>
-                                <li><a href="search.html">Why choose our resort and garden</a></li>
+                                {{-- <li><a href="aminities.html">Introduction</a></li>
+                                <li><a href="search.html">Why choose our resort and garden</a></li> --}}
                             </ul>
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'resort') active @endif">
@@ -72,8 +72,8 @@
                                 <li><a href="spa.html">Spa &amp; Relax</a></li>
                                 <li><a href="restaurant.html">Bar &amp; Restaurant</a></li>                                
                                 <li><a href="activities.html">Gallery</a></li>
-                                <li><a href="comming-soon.html">Coming Soon page</a></li>
-                                <li><a href="404.html">404 Error</a></li>
+                                <li><a href="comming-soon.html">Karaokie</a></li>
+                                {{-- <li><a href="404.html">404 Error</a></li> --}}
                             </ul>
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'activities') active @endif">
@@ -84,15 +84,15 @@
                                 <li><a href="#"> Cycling</a></li>
                                 <li><a href="#">Muesium</a></li>
                                 <li><a href="#">Swimming</a></li>
-                                <li><a href="#">Zipriding</a></li>
-                                <li><a href="#">Waterboom</a></li>
+                                <li><a href="#">Zipriding <span class="badge badge-warning">comming soon</span></a></li>
+                                <li><a href="#">Waterboom <span class="badge badge-warning">comming soon</span></a></li>
                             </ul>
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'barAndRestaurant') active @endif">
                             <a href="{{route('page.bar_and_restaurant')}}"  class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false"> Bar &amp; Restaurant</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Sea and Lake</a></li>
-                                <li><a href="#">Mangrove View</a></li>                                
+                                <li><a href="#">Sea and Lake Garden</a></li>
+                                <li><a href="#">Mangrove View Resort</a></li>                                
                             </ul>
                         </li>
                         <li class="@if(session('page_title') === 'contactUs') active @endif"><a href="{{route('page.contact_us')}}">Contact Us</a></li>

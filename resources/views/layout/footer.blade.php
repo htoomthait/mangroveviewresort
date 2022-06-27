@@ -23,8 +23,21 @@
                                 </div>
                                 <div class="media-body">
                                     <h4>+95 9 881 777944</h4>
+                                    
+                                </div>
+                               
+                            </div>
+                            <div class="media">
+                                <div class="media-body">
+                                    <ul class="header_social">
+                                        <li><a href="#"><i class="fa fa-facebook banner-text-color"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter banner-text-color"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus banner-text-color"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin banner-text-color"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
+
                         </div>
                         <div class="book_now_area">
                             {{-- <a class="book_now_btn" href="#">Book now</a> --}}
