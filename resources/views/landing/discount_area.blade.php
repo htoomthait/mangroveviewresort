@@ -10,7 +10,7 @@
                 <div class="discount_right_content">
                     <h5>Hot offer</h5>
                     <h4>Get 40% <span>discount</span> <br /> in summer vocations</h4>
-                    <a class="book_now_btn" href="#">book now</a>
+                    <a class="book_now_btn" href="#">Contact Us</a>
                 </div>
             </div>
         </div>

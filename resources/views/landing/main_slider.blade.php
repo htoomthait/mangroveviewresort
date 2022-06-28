@@ -7,8 +7,9 @@
             
 
                 <!-- LAYER NR. 1 -->
-                <div class="slider_text_box">
+                <div class="slider_text_box" style="">
                     <div class="tp-caption tp-resizeme first_text" 
+                    style="background-color: rgba(12, 11, 11, 0.25)"                    
                     id="slide-1586-layer-1" 
                     data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                     data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']" 
@@ -22,8 +23,9 @@
                     data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                     data-textAlign="['left','left','left','left']">Spend Quality Holidays With Us </div>
                     
-                    <div class="tp-caption tp-resizeme secand_text" 
-                        id="slide-1587-layer-2" 
+                    <div class="tp-caption tp-resizeme secand_text cp-bg-trasparent" 
+                        id="slide-1587-layer-2"
+                        style="background-color: rgba(12, 11, 11, 0.25)" 
                         data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                         data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  
                         data-fontsize="['18','18','18','18','16']"
@@ -62,6 +64,7 @@
                 <!-- LAYER NR. 1 -->
                 <div class="slider_text_box">
                     <div class="tp-caption tp-resizeme first_text" 
+                    style="background-color: rgba(12, 11, 11, 0.25)"     
                     id="slide-1589-layer-1" 
                     data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                     data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']" 
@@ -75,7 +78,7 @@
                     data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                     data-textAlign="['left','left','left','left']">Explore & Enjoy <br /> With Sea and Lake Resort</div>
                     
-                    <div class="tp-caption tp-resizeme secand_text" 
+                    <div class="tp-caption tp-resizeme secand_text cp-bg-trasparent" 
                         id="slide-1590-layer-2" 
                         data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                         data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  
@@ -112,6 +115,7 @@
                 <!-- LAYER NR. 1 -->
                 <div class="slider_text_box">
                     <div class="tp-caption tp-resizeme first_text" 
+                    style="background-color: rgba(12, 11, 11, 0.25)"     
                     id="slide-1592-layer-1" 
                     data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                     data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']" 
@@ -125,7 +129,7 @@
                     data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                     data-textAlign="['left','left','left','left']">Enjoy The World of <br />Relaxation & Tranquility </div>
                     
-                    <div class="tp-caption tp-resizeme secand_text" 
+                    <div class="tp-caption tp-resizeme secand_text cp-bg-trasparent" 
                         id="slide-1593-layer-2" 
                         data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                         data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  
@@ -163,6 +167,7 @@
                     <!-- LAYER NR. 1 -->
                     <div class="slider_text_box">
                         <div class="tp-caption tp-resizeme first_text" 
+                        style="background-color: rgba(12, 11, 11, 0.25)"     
                         id="slide-1592-layer-1" 
                         data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                         data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']" 
@@ -176,7 +181,7 @@
                         data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                         data-textAlign="['left','left','left','left']">Enjoy The World of <br />Relaxation & Tranquility </div>
                         
-                        <div class="tp-caption tp-resizeme secand_text" 
+                        <div class="tp-caption tp-resizeme secand_text cp-bg-trasparent" 
                             id="slide-1593-layer-2" 
                             data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                             data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  

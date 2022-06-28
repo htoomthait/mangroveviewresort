@@ -39,3 +39,9 @@
     display:flex; justify-content: center;
 }
 
+
+
+.cp-bg-transparent{
+    background-color: rgba(12, 11, 11, 0.25)
+}
+
