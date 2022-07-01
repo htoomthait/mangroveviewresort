@@ -12,4 +12,24 @@
     <!--================Aminities Content Area =================-->
     @include('resort.aminities');
     <!--================End Aminities Content Area =================-->
+
+    <!-- ============== SPA Area =========================-->  
+    @include('resort.spa_area')
+    <!-- ============== End SPA Area ===================== -->
+
+    <!-- ============== Restaurant =========================-->  
+    @include('resort.restaurant')
+    <!-- ============== Restaurant Area ===================== -->
+
+    <!-- ============== gallery Area =========================-->  
+    @include('resort.gallery')
+    <!-- ============== end gallery Area ===================== -->
+
+    <!-- ============== karaoke Area =========================-->  
+    @include('resort.karaokie')
+    <!-- ============== end karaoke Area ===================== -->
+
+
+
+   
 @endsection
