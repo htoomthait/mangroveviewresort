@@ -1,4 +1,4 @@
-<section class="explor_room_area explore_room_list">
+<section class="explor_room_area explore_room_list" id="sec_room_type">
     <div class="container">
         <div class="explor_title row m0">
             <div class="left_ex_title">

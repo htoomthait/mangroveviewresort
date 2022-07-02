@@ -1,5 +1,5 @@
  <!--================Spa Wellness Area =================-->
- <section class="spa_wellness_area">
+ <section class="spa_wellness_area" id="sec_spa">
     <div class="container">
         <div class="main_big_title">
             <h2>spa & <span>wellness</span></h2>

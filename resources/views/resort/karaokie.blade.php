@@ -1,4 +1,4 @@
-<section class="introduction_area resort_story_area">
+<section class="introduction_area resort_story_area" id="sec_karaokie">
     <div class="container">
         <div class="left_ex_title">
             <h2>our <span>karaokie</span></h2>

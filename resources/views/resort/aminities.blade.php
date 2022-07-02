@@ -1,4 +1,4 @@
-<section class="aminities_area">
+<section class="aminities_area" id="sec_aminities">
     <div class="container">
         <div class="main_big_title">
             <h2>room <span>aminities</span></h2>

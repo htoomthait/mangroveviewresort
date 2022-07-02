@@ -1,4 +1,4 @@
-<section class="grid_gallery_area">    
+<section class="grid_gallery_area" id="sec_gallery">    
     <div class="container">
         <div class="left_ex_title">
             <h2>our <span>gallery</span></h2>

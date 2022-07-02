@@ -1,5 +1,5 @@
  <!--================Special Dishes Area =================-->
- <section class="special_dish_area">
+ <section class="special_dish_area" id="sec_restaurant">
     <div class="container">
         <div class="special_dish_inner_area">
             <div class="main_big_title">
