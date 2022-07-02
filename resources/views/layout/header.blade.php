@@ -63,13 +63,13 @@
                         <li class="submenu dropdown @if(session('page_title') === 'activities') active @endif">
                             <a href="{{route('page.activities')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Activities <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#"> Boat</a></li>
-                                <li><a href="#">Fishing</a></li>
-                                <li><a href="#"> Cycling</a></li>
-                                <li><a href="#">Muesium</a></li>
-                                <li><a href="#">Swimming</a></li>
-                                <li><a href="#">Zipriding <span class="badge badge-warning">comming soon</span></a></li>
-                                <li><a href="#">Waterboom <span class="badge badge-warning">comming soon</span></a></li>
+                                <li><a href="{{route('page.activities')}}#activity_boat"> Boat</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_fisihing">Fishing</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_cycling"> Cycling</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_mueseum">Muesium</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_swimming">Swimming</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_zip_riding">Zipriding <span class="badge badge-warning">comming soon</span></a></li>
+                                <li><a href="{{route('page.activities')}}#activity_waterboom">Waterboom <span class="badge badge-warning">comming soon</span></a></li>
                             </ul>
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'barAndRestaurant') active @endif">

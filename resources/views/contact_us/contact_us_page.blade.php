@@ -15,6 +15,11 @@
      </section>
      <!--================End Banner Area =================-->
 
-     <!--================Introduction Area =================-->
-     @include('landing.introduction')
+      <!--================Get Contact Area =================-->
+      @include('contact_us.contact_area');
+      <!--================End Get Contact Area =================-->
+      
+      <!--================Map Area =================-->
+      {{-- @include('contact_us.map_area') --}}
+      <!--================End Map Area =================-->
 @endsection
