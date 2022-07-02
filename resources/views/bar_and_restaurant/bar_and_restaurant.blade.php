@@ -15,6 +15,12 @@
      </section>
      <!--================End Banner Area =================-->
 
-     <!--================Introduction Area =================-->
-     @include('landing.introduction')
-@endsection
+     <!--================sea and lake garden Area =================-->
+     @include('bar_and_restaurant.sea_and_lake_garden')
+     <!--================end sea and lake garde Area =================-->
+
+     <!--================sea and lake garden Area =================-->
+     @include('bar_and_restaurant.mangroview_resort')
+     <!--================end sea and lake garde Area =================-->
+
+      @endsection
