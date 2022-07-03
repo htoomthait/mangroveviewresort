@@ -131,6 +131,7 @@
                     
                     <div class="tp-caption tp-resizeme secand_text cp-bg-trasparent" 
                         id="slide-1593-layer-2" 
+                        style="background-color: rgba(12, 11, 11, 0.25)"                    
                         data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                         data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  
                         data-fontsize="['18','18','18','18','16']"
@@ -182,7 +183,8 @@
                         data-textAlign="['left','left','left','left']">Enjoy The World of <br />Relaxation & Tranquility </div>
                         
                         <div class="tp-caption tp-resizeme secand_text cp-bg-trasparent" 
-                            id="slide-1593-layer-2" 
+                            id="slide-1593-layer-2"
+                            style="background-color: rgba(12, 11, 11, 0.25)"      
                             data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                             data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  
                             data-fontsize="['18','18','18','18','16']"
@@ -213,13 +215,14 @@
                     </div>
                 </li>
                 
-                {{-- <li data-index="rs-1592" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="images/landing_carousel/slider_img_6.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                <li data-index="rs-1592" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="images/landing_carousel/slider_img_5.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="images/landing_carousel/slider_img_6.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    <img src="images/landing_carousel/slider_img_5.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYER NR. 1 -->
                         <div class="slider_text_box">
                             <div class="tp-caption tp-resizeme first_text" 
                             id="slide-1592-layer-1" 
+                            style="background-color: rgba(12, 11, 11, 0.35)"                    
                             data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                             data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']" 
                             data-fontsize="['55','55','55','40','25']"
@@ -232,8 +235,9 @@
                             data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                             data-textAlign="['left','left','left','left']">Enjoy The World of <br />Relaxation & Tranquility </div>
                             
-                            <div class="tp-caption tp-resizeme secand_text" 
+                            <div class="tp-caption tp-resizeme secand_text cp-bg-trasparent" 
                                 id="slide-1593-layer-2" 
+                                style="background-color: rgba(12, 11, 11, 0.35)"                    
                                 data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                                 data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  
                                 data-fontsize="['18','18','18','18','16']"
@@ -261,7 +265,7 @@
                                 data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
                             </div>
                         </div>
-                    </li> --}}
+                    </li>
                     
                     {{-- <li data-index="rs-1593" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="images/landing_carousel/slider_img_7.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
