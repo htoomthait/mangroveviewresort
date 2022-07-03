@@ -54,9 +54,9 @@
                                 <li><a href="{{route('page.resort')}}#sec_room_type">Room Type</a></li>
                                 <li><a href="{{route('page.resort')}}#sec_aminities">Aminities</a></li>                                
                                 <li><a href="{{route('page.resort')}}#sec_spa">Spa &amp; Relax</a></li>
-                                <li><a href="{{route('page.resort')}}#sec_restaurant">Bar &amp; Restaurant</a></li>                                
-                                <li><a href="{{route('page.resort')}}#sec_gallery">Gallery</a></li>
+                                <li><a href="{{route('page.resort')}}#sec_restaurant">Bar &amp; Restaurant</a></li>                              
                                 <li><a href="{{route('page.resort')}}#sec_karaokie">Karaokie</a></li>
+                                <li><a href="{{route('page.resort')}}#sec_gallery">Gallery</a></li>
                                 {{-- <li><a href="404.html">404 Error</a></li> --}}
                             </ul>
                         </li>

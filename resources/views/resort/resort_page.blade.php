@@ -19,15 +19,15 @@
 
     <!-- ============== Restaurant =========================-->  
     @include('resort.restaurant')
-    <!-- ============== Restaurant Area ===================== -->
-
-    <!-- ============== gallery Area =========================-->  
-    @include('resort.gallery')
-    <!-- ============== end gallery Area ===================== -->
+    <!-- ============== Restaurant Area ===================== -->    
 
     <!-- ============== karaoke Area =========================-->  
     @include('resort.karaokie')
     <!-- ============== end karaoke Area ===================== -->
+
+    <!-- ============== gallery Area =========================-->  
+    @include('resort.gallery')
+    <!-- ============== end gallery Area ===================== -->
 
 
 
