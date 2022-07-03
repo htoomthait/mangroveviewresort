@@ -18,7 +18,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="our_service_item">
                     <i class="flaticon-toaster"></i>
-                    <h4>Morning Buefy Breakfast</h4>
+                    <h4>Morning Bueffet Breakfast</h4>
                     <p>Incidunt ut labore et dolore magnam aliquam quaerat volup tatem. Utad minima.</p>
                 </div>
             </div>

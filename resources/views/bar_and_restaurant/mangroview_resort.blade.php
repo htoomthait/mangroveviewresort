@@ -1,4 +1,4 @@
-<section class="choose_resot_area">
+<section class="choose_resot_area" id="mangroview">
     <div class="container">
         <div class="center_title">
             <h2>Mangrove View <span>Resort</span></h2>

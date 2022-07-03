@@ -1,4 +1,4 @@
-<section class="choose_resot_area">
+<section class="choose_resot_area" id="sea_and_lake">
     <div class="container">
         <div class="center_title">
             <h2>sea &amp; lake <span>garden</span></h2>

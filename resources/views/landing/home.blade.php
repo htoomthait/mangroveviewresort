@@ -14,7 +14,7 @@
     <!--================End Introduction Area =================-->
 
     <!--================Choose Resot Area =================-->
-    @include('landing.why_choose_our_resort')
+    @include('landing.why_choose_our_garden')
     <!--================End Choose Resot Area =================-->
     
     <!--================Explor Room Area =================-->
