@@ -70,7 +70,7 @@
                     data-y="['top','top','top','top']" data-voffset="['290','290','290','220','130']" 
                     data-fontsize="['55','55','55','40','25']"
                     data-lineheight="['59','59','59','50','35']"
-                    data-width="['630','630','630','630']"
+                    data-width="['800','800','800','800']"
                     data-height="none"
                     data-whitespace="normal"
                     data-type="text" 
@@ -80,6 +80,7 @@
                     
                     <div class="tp-caption tp-resizeme secand_text cp-bg-trasparent" 
                         id="slide-1590-layer-2" 
+                        style="background-color: rgba(12, 11, 11, 0.25)"     
                         data-x="['left','left','left','15','0']" data-hoffset="['0','0','0','0']" 
                         data-y="['top','top','top','top']" data-voffset="['435','435','435','340','225']"  
                         data-fontsize="['18','18','18','18','16']"
