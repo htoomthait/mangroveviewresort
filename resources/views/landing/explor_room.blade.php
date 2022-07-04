@@ -24,11 +24,11 @@
                             <li><a href="#">Mountain view</a></li>
                             <li><a href="#">2 Balcony</a></li>
                         </ul>
-                        <div class="explor_footer content-h-center">
-                            {{-- <div class="pull-left">
+                        <div class="explor_footer ">
+                            <div class="pull-left">
                                 <h3>$170 <span>/ Night</span></h3>
-                            </div> --}}
-                            <div class="">
+                            </div>
+                            <div class="pull-right">
                                 <a class="book_now_btn" href="#">View details</a>
                             </div>
                         </div>
@@ -47,11 +47,11 @@
                             <li><a href="#">Mountain view</a></li>
                             <li><a href="#">2 Balcony</a></li>
                         </ul>
-                        <div class="explor_footer content-h-center" style="">
-                            {{-- <div class="pull-left">
+                        <div class="explor_footer" style="">
+                            <div class="pull-left">
                                 <h3>$170 <span>/ Night</span></h3>
-                            </div> --}}
-                            <div class="">
+                            </div>
+                            <div class="pull-right">
                                 <a class="book_now_btn" href="#">View details</a>
                             </div>
                         </div>
@@ -70,11 +70,11 @@
                             <li><a href="#">Mountain view</a></li>
                             <li><a href="#">2 Balcony</a></li>
                         </ul>
-                        <div class="explor_footer content-h-center">
-                            {{-- <div class="pull-left">
+                        <div class="explor_footer">
+                            <div class="pull-left">
                                 <h3>$170 <span>/ Night</span></h3>
-                            </div> --}}
-                            <div class="">
+                            </div>
+                            <div class="pull-right">
                                 <a class="book_now_btn" href="#">View details</a>
                             </div>
                         </div>

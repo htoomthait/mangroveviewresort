@@ -9,9 +9,8 @@
                 <div class="pull-right">
                     <ul class="header_social">
                         <li><a href="#"><i class="fa fa-facebook banner-text-color"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter banner-text-color"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus banner-text-color"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin banner-text-color"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram banner-text-color"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube banner-text-color"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -66,10 +65,20 @@
                                 <li><a href="{{route('page.activities')}}#activity_boat"> Boat</a></li>
                                 <li><a href="{{route('page.activities')}}#activity_fisihing">Fishing</a></li>
                                 <li><a href="{{route('page.activities')}}#activity_cycling"> Cycling</a></li>
-                                <li><a href="{{route('page.activities')}}#activity_mueseum">Muesium</a></li>
+                                <li>
+                                    <li class="dropdown submenu">
+                                        <a href="{{route('page.activities')}}#activity_mueseum" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Museum <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="{{route('page.activities')}}#jade_mueseum"> Jade Mueseum</a></li>
+                                            <li><a href="{{route('page.activities')}}#wooden_statue_mueseum">Wooden Statue Mueseum </a></li>                                            
+                                        </ul>
+                                    </li>
+                                    
+                                </li>
                                 <li><a href="{{route('page.activities')}}#activity_swimming">Swimming</a></li>
                                 <li><a href="{{route('page.activities')}}#activity_zip_riding">Zipriding <span class="badge badge-warning">comming soon</span></a></li>
                                 <li><a href="{{route('page.activities')}}#activity_waterboom">Waterboom <span class="badge badge-warning">comming soon</span></a></li>
+                                <li><a href="{{route('page.activities')}}#sailing_in_the_lake">Sailing In the Lake <span class="badge badge-warning">comming soon</span></a></li>
                             </ul>
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'barAndRestaurant') active @endif">

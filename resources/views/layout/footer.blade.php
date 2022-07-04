@@ -31,9 +31,8 @@
                                 <div class="media-body">
                                     <ul class="header_social">
                                         <li><a href="#"><i class="fa fa-facebook banner-text-color"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter banner-text-color"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus banner-text-color"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin banner-text-color"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram banner-text-color"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-youtube banner-text-color"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

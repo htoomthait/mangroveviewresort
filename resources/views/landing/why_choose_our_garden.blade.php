@@ -33,7 +33,7 @@
 <section class="choose_resort_area">
     <div class="container">
         <div class="center_w_title">
-            <h2>why choose our <span>Garden</span></h2>
+            <h2>why choose our <span>Sea And Lake</span></h2>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
         </div>
         <div class="row">

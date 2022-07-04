@@ -237,7 +237,7 @@
 <!--================End Our Menu Area =================-->
 
 <!--================Reserve Table Area =================-->
-<section class="reserv_table_area">
+{{-- <section class="reserv_table_area">
     <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -269,5 +269,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!--================End Reserve Table Area =================-->
