@@ -4,14 +4,17 @@
             <div class="row">
                 <div class="col-md-3 col-xs-6">
                     <aside class="f_widget about_widget">
-                        <img src="img/footer-logo.png" alt="">
+                        {{-- <img src="img/footer-logo.png" alt=""> --}}
+                        <img src="img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="72px">
+                            {{-- <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                 --}}
+
                         <div class="ab_wd_list">
                             <div class="media">
                                 <div class="media-left">
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>54B, Tailstoi Town 5238 MT, La city, IA 522364</h4>
+                                    <h4>No. (3) Ward, Shwe Thaung Yan Road, Shwe Thaung Yan Township, Pathein District, Ayeyarwady Region, Myanmar.</h4>
                                 </div>
                             </div>
                             <div class="media">
@@ -19,12 +22,24 @@
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>+ 547 5895 621</h4>
+                                    <h4>+95 9 881 777944</h4>
+                                    
+                                </div>
+                               
+                            </div>
+                            <div class="media">
+                                <div class="media-body">
+                                    <ul class="header_social">
+                                        <li><a href="#"><i class="fa fa-facebook banner-text-color"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram banner-text-color"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-youtube banner-text-color"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
+
                         </div>
                         <div class="book_now_area">
-                            <a class="book_now_btn" href="#">Book now</a>
+                            {{-- <a class="book_now_btn" href="#">Book now</a> --}}
                         </div>
                     </aside>
                 </div>
@@ -35,10 +50,10 @@
                         </div>
                         <ul>
                             <li><a href="#">-  About Us</a></li>
-                            <li><a href="#">-  Faq’s</a></li>
-                            <li><a href="#">-  Blog</a></li>
+                            {{-- <li><a href="#">-  Faq’s</a></li> --}}                            
                             <li><a href="#">-  Testimonials</a></li>
-                            <li><a href="#">-  Reservation Now</a></li>
+                            <li><a href="#">-  Activities</a></li>
+                            {{-- <li><a href="#">-  Reservation Now</a></li> --}}
                         </ul>
                     </aside>
                 </div>
@@ -48,20 +63,40 @@
                             <h3>our services</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  Food & Drinks</a></li>
                             <li><a href="#">-  Rooms</a></li>
-                            <li><a href="#">-  Amenities</a></li>
-                            <li><a href="#">-  Spa & Gym</a></li>
-                            <li><a href="#">-  Hill Tours</a></li>
+                            <li><a href="#">-  Amenties</a></li>
+                            <li><a href="#">-  Bar &amp; Restaurant</a></li>
+                            <li><a href="#">-  Spa &amp; Gym</a></li>
+                            <li><a href="#">-  Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <aside class="f_widget instagram_widget">
+                    {{-- <aside class="f_widget instagram_widget">
                         <div class="f_title">
-                            <h3>Instagram</h3>
+                            <h3>Activities</h3>
                         </div>
-                        <ul class="instagram_list" id="instafeed"></ul>
+                        <ul class="instagram_list" id="instafeed">
+                            <li><a href="#"> Activities 1</a></li>
+                            <li><a href="#"> Activities 2</a></li>
+                            <li><a href="#"> Activities 3</a></li>
+                            <li><a href="#"> Activities 4</a></li>
+                            <li><a href="#"> Activities 5</a></li>
+                        </ul>
+                    </aside> --}}
+                    <aside class="f_widget link_widget">
+                        <div class="f_title">
+                            <h3>Activities</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">-  Boat  </a></li>
+                            <li><a href="#">-  Fishing  </a></li>
+                            <li><a href="#">-  Cycling  </a></li>
+                            <li><a href="#">-  Museum   </a></li>
+                            <li><a href="#">-  Swimming </a></li>
+                            <li><a href="#">-  Zipriding </a></li>
+                            <li><a href="#">-  Waterboom </a></li>
+                        </ul>
                     </aside>
                 </div>
             </div>
@@ -70,10 +105,10 @@
     <div class="footer_copyright_area">
         <div class="container">
             <div class="pull-left">
-                <h4>Copyright © HillTown Resort  <script>document.write(new Date().getFullYear());</script>. All rights reserved. </h4>
+                <h4>Copyright © Sea And Lake Resort  <script>document.write(new Date().getFullYear());</script>. All rights reserved. </h4>
             </div>
             <div class="pull-right">
-                <h4>Created by: <a href="#">DesignArc</a></h4>
+                <h4>developed by: <a href="mailto: htoomaungthait@gmail.com">Htoo Maung Thait</a></h4>
             </div>
         </div>
     </div>

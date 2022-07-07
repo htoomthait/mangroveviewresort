@@ -17,3 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'landingPage'])->name('home.landing_page');
 
 Route::get('/home', [HomeController::class, 'landingPage'])->name('home.page');
+
+
+Route::get('/about-us', [HomeController::class, 'aboutUsPage'])->name('page.about_us');
+
+Route::get('/resort', [HomeController::class, 'resortPage'])->name('page.resort');
+
+Route::get('/activities', [HomeController::class, 'activitiesPage'])->name('page.activities');
+
+Route::get('/bar-and-restaurant', [HomeController::class, 'barAndRestaurantPage'])->name('page.bar_and_restaurant');
+
+Route::get('/contact-us', [HomeController::class, 'contactUsPage'])->name('page.contact_us');
+

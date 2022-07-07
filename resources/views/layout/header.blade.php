@@ -3,15 +3,14 @@
         <div class="container">
             <div class="header_top_inner">
                 <div class="pull-left">
-                    <a href="#"><i class="fa fa-phone"></i>+ (1800) 456 7890</a>
-                    <a href="#"><i class="fa fa-envelope-o"></i>info@hilltownresort.com</a>
+                    <a href="#" class="banner-text-color"><i class="fa fa-phone "></i>(+95) 9 881 777944</a>
+                    <a href="#" class="banner-text-color"><i class="fa fa-envelope-o"></i>sales@mangroveviewreort.com</a>
                 </div>
                 <div class="pull-right">
                     <ul class="header_social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook banner-text-color"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram banner-text-color"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube banner-text-color"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -29,71 +28,68 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand dp-flex" href="#">                        
-                            <img src="img/logo/sea_and_lake_transparent_logo.png" alt="sea and lake transparent logo" width="72px">
-                            <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                
+                            <img src="img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="80px">
+                            <h3 class="logo-brand-text">Sea &amp; Lake Garden</h3>                                                
                     </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown submenu active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <li class="dropdown submenu @if(session('page_title') === 'home') active @endif">
+                            <a href="{{route('home.page')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            
+                        </li>
+                        <li class="submenu dropdown @if(session('page_title') === 'about_us') active @endif">
+                            <a href="{{route('page.about_us')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">About Us <i class="fa fa-chevron-down" aria-hidden="true"></i></a>                            
                             <ul class="dropdown-menu">
-                                <li><a href="index.html">Home Page 1</a></li>
-                                <li><a href="index-2.html">Home Page 2</a></li>
-                                <li><a href="index-3.html">Home Page 3</a></li>
-                                <li><a href="index-4.html">Home Page 4</a></li>
+                                {{-- <li><a href="aminities.html">Introduction</a></li>
+                                <li><a href="search.html">Why choose our resort and garden</a></li> --}}
                             </ul>
                         </li>
-                        <li class="submenu dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <i class="fa fa-chevron-down" aria-hidden="true"></i></a>                            
-                        </li>
-                        <li class="submenu dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resort <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <li class="submenu dropdown @if(session('page_title') === 'resort') active @endif">
+                            <a href="{{route('page.resort')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Resort <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="aminities.html">Aminities</a></li>
-                                <li><a href="search.html">Search</a></li>
-                                <li class="dropdown submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="event.html">-  Event List</a></li>
-                                        <li><a href="event-two-column.html">-  Event Grid</a></li>
-                                        <li><a href="event-details.html">-  Event Single</a></li>
-                                    </ul>
+                                <li><a href="{{route('page.resort')}}#sec_room_type">Room Type</a></li>
+                                <li><a href="{{route('page.resort')}}#sec_aminities">Aminities</a></li>                                
+                                <li><a href="{{route('page.resort')}}#sec_spa">Spa &amp; Relax</a></li>
+                                <li><a href="{{route('page.resort')}}#sec_restaurant">Bar &amp; Restaurant</a></li>                              
+                                <li><a href="{{route('page.resort')}}#sec_karaokie">Karaokie</a></li>
+                                <li><a href="{{route('page.resort')}}#sec_gallery">Gallery</a></li>
+                                {{-- <li><a href="404.html">404 Error</a></li> --}}
+                            </ul>
+                        </li>
+                        <li class="submenu dropdown @if(session('page_title') === 'activities') active @endif">
+                            <a href="{{route('page.activities')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Activities <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{route('page.activities')}}#activity_boat"> Boat</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_fisihing">Fishing</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_cycling"> Cycling</a></li>
+                                <li>
+                                    <li class="dropdown submenu">
+                                        <a href="{{route('page.activities')}}#activity_mueseum" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Museum <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="{{route('page.activities')}}#jade_mueseum"> Jade Mueseum</a></li>
+                                            <li><a href="{{route('page.activities')}}#wooden_statue_mueseum">Wooden Statue Mueseum </a></li>                                            
+                                        </ul>
+                                    </li>
+                                    
                                 </li>
-                                <li class="dropdown submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="gallery-two-column.html">-  Gallery 2 Column</a></li>
-                                        <li><a href="gallery-three-column.html">-  Gallery 3 Column</a></li>
-                                        <li><a href="cobage-gallery.html">-  Gallery Cobage</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="restaurant.html">Our Reataurant</a></li>
-                                <li><a href="spa.html">Spa & Relax</a></li>
-                                <li><a href="activities.html">Activities</a></li>
-                                <li><a href="comming-soon.html">Coming Soon page</a></li>
-                                <li><a href="404.html">404 Error</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_swimming">Swimming</a></li>
+                                <li><a href="{{route('page.activities')}}#activity_zip_riding">Zipriding <span class="badge badge-warning">comming soon</span></a></li>
+                                <li><a href="{{route('page.activities')}}#activity_waterboom">Waterboom <span class="badge badge-warning">comming soon</span></a></li>
+                                <li><a href="{{route('page.activities')}}#sailing_in_the_lake">Sailing In the Lake <span class="badge badge-warning">comming soon</span></a></li>
                             </ul>
                         </li>
-                        <li class="submenu dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <li class="submenu dropdown @if(session('page_title') === 'barAndRestaurant') active @endif">
+                            <a href="{{route('page.bar_and_restaurant')}}"  class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false"> Bar &amp; Restaurant</a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog-left-sidebar.html">Blog with leftside bar</a></li>
-                                <li><a href="blog-right-sidebar.html">Blog with rightside bar</a></li>
-                                <li><a href="blog.html">Blog without side bar</a></li>
-                                <li><a href="blog-details.html">Blog details</a></li>
+                                <li><a href="{{route('page.bar_and_restaurant')}}#sea_and_lake">Sea and Lake Garden</a></li>
+                                <li><a href="{{route('page.bar_and_restaurant')}}#mangroview">Mangrove View Resort</a></li>
+                                <li><a href="{{route('page.bar_and_restaurant')}}#lobby_bar">Lobby bar</a></li>                                                                
                             </ul>
                         </li>
-                        <li class="submenu dropdown">
-                            <a href="about-us.html"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Bar &amp; Restaurant</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Sea and Lake</a></li>
-                                <li><a href="#">Mangrove View</a></li>                                
-                            </ul>
-                        </li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li class="@if(session('page_title') === 'contactUs') active @endif"><a href="{{route('page.contact_us')}}">Contact Us</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="search_dropdown">

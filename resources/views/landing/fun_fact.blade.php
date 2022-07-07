@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="row fun_subscrib_inner">
-            <div class="col-md-5">
+            {{-- <div class="col-md-5">
                 <div class="left_text_subs">
                     <p>Subscribe to our brief newsletter to get exclusive discounts and new theme launches right in your inbox.</p>
                 </div>
@@ -57,7 +57,7 @@
                         <button class="btn btn-default submit_btn" type="button">Subscribtion</button>
                     </span>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+        <link rel="icon" href="img/logo/sea_and_lake_logo_picture.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Mangrove View Resort</title>
+        <title>Sea &amp; Lake Garden</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -29,7 +29,8 @@
         <link href="vendors/bootstrap-selector/bootstrap-select.css" rel="stylesheet">
         <link href="vendors/lightbox/simpleLightbox.css" rel="stylesheet">
         
-        <link href="css/style.css" rel="stylesheet">
+        {{-- <link href="css/style.css" rel="stylesheet"> --}}
+        <link rel="stylesheet" href="scss-compiled/style.css" />
         <link href="css/responsive.css" rel="stylesheet">
 
         <link rel="stylesheet" href="/css/custom_style.css">
