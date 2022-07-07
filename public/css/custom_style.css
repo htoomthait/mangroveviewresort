@@ -46,3 +46,40 @@
     background-color: rgba(12, 11, 11, 0.25)
 }
 
+.landing-page-google-map-iframe{
+    width: 550px;
+    height: 450px;
+}
+/* @media only screen and (max-width: 600px) {
+    .landing-page-google-map-iframe{
+        width: 550px;
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .landing-page-google-map-iframe{
+        /* position: relative; */
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .landing-page-google-map-iframe{
+        width: 550px;
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .landing-page-google-map-iframe{
+        width: 550px;
+        height: 450px;
+    }
+} */
+
+   
+
+
+

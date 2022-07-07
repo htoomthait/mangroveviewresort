@@ -85,7 +85,8 @@
                             <a href="{{route('page.bar_and_restaurant')}}"  class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false"> Bar &amp; Restaurant</a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{route('page.bar_and_restaurant')}}#sea_and_lake">Sea and Lake Garden</a></li>
-                                <li><a href="{{route('page.bar_and_restaurant')}}#mangroview">Mangrove View Resort</a></li>                                
+                                <li><a href="{{route('page.bar_and_restaurant')}}#mangroview">Mangrove View Resort</a></li>
+                                <li><a href="{{route('page.bar_and_restaurant')}}#lobby_bar">Lobby bar</a></li>                                                                
                             </ul>
                         </li>
                         <li class="@if(session('page_title') === 'contactUs') active @endif"><a href="{{route('page.contact_us')}}">Contact Us</a></li>
