@@ -89,13 +89,14 @@
                             <h3>Activities</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  Boat  </a></li>
-                            <li><a href="#">-  Fishing  </a></li>
-                            <li><a href="#">-  Cycling  </a></li>
-                            <li><a href="#">-  Museum   </a></li>
-                            <li><a href="#">-  Swimming </a></li>
-                            <li><a href="#">-  Zipriding </a></li>
-                            <li><a href="#">-  Waterboom </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_boat">-  Boat  </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_fishing">-  Fishing  </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_cycling">-  Cycling  </a></li>
+                            <li><a href="{{route('page.activities')}}#jade_mueseum">-  Museum   </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_swimming">-  Swimming </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_zip_riding">-  Zipriding </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_waterboom">-  Waterboom </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_sailing_in_the_lake">-  Sailing in the lake </a></li>
                         </ul>
                     </aside>
                 </div>

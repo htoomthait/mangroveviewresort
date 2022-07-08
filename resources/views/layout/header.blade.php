@@ -78,7 +78,7 @@
                                 <li><a href="{{route('page.activities')}}#activity_swimming">Swimming</a></li>
                                 <li><a href="{{route('page.activities')}}#activity_zip_riding">Zipriding <span class="badge badge-warning">comming soon</span></a></li>
                                 <li><a href="{{route('page.activities')}}#activity_waterboom">Waterboom <span class="badge badge-warning">comming soon</span></a></li>
-                                <li><a href="{{route('page.activities')}}#sailing_in_the_lake">Sailing In the Lake <span class="badge badge-warning">comming soon</span></a></li>
+                                <li><a href="{{route('page.activities')}}#activity_sailing_in_the_lake">Sailing In the Lake <span class="badge badge-warning">comming soon</span></a></li>
                             </ul>
                         </li>
                         <li class="submenu dropdown @if(session('page_title') === 'barAndRestaurant') active @endif">
