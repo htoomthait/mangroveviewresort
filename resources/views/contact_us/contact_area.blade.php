@@ -217,6 +217,7 @@
                                     text: resp.messages.request_msg
                                 });
 
+                                $("#ddlRoomType").val('').trigger('change');
                                 $("form#contactForm").trigger('reset');
                             }
                         },
