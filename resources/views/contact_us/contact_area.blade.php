@@ -187,10 +187,10 @@
             submitContactUsForm = async () => {
                 setTimeout(() => {
                     $(".loader").css('display', 'block');
-                    
+
                 }, 300);
 
-                
+
 
 
 
@@ -240,7 +240,10 @@
                             }
                         },
                         complete: function() {
-                        
+                            setTimeout(() => {
+                                $(".loader").css('display', 'none');
+
+                            }, 300);
                         }
 
                     });
@@ -251,7 +254,7 @@
 
                 setTimeout(() => {
                     $(".loader").css('display', 'none');
-                    
+
                 }, 300);
             }
         });
