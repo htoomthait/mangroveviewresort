@@ -29,3 +29,5 @@ Route::get('/bar-and-restaurant', [HomeController::class, 'barAndRestaurantPage'
 
 Route::get('/contact-us', [HomeController::class, 'contactUsPage'])->name('page.contact_us');
 
+Route::post('/submit-contact-us-form', [HomeController::class, 'submitContactUsForm'])->name('submit.contact_us_form');
+
