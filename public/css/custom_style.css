@@ -107,6 +107,19 @@
     z-index: 10000;
   }
 
+  .resort-background{
+        
+        background-color:rgba(29, 59, 41);
+        background-image: url("../images/logos/mangrove_view_logo_lemon_chiffon_color.png");         
+        background-size:96px;
+        
+  }
+
+  .resort-block-container{
+    background-color:#fff;
+    padding:64px;
+  }
+
    
 
 

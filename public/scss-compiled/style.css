@@ -159,6 +159,18 @@ i:before {
 .left_ex_title h2 span {
   color: #242424;
 }
+.left_ex_title h3 {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #008b72;
+  letter-spacing: 0.72px;
+  position: relative;
+}
+.left_ex_title h3 span {
+  color: #242424;
+}
 .left_ex_title p {
   font-size: 14px;
   color: #a0a0a0;
@@ -323,6 +335,29 @@ i:before {
   color: #242424;
 }
 .main_big_title h2:before {
+  content: "";
+  width: 70px;
+  background: #000;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  bottom: 0px;
+  position: absolute;
+}
+.main_big_title h3 {
+  color: #008b72;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  position: relative;
+}
+.main_big_title h3 span {
+  color: #242424;
+}
+.main_big_title h3:before {
   content: "";
   width: 70px;
   background: #000;
@@ -5409,7 +5444,7 @@ i:before {
 }
 
 .our_menu_area {
-  margin-top: 2px;
+  margin-top: 0px;
 }
 .our_menu_area .our_menu_inner {
   border-top: 1px solid #dcdcdc;

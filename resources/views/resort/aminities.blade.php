@@ -1,5 +1,5 @@
-<section class="aminities_area" id="sec_aminities">
-    <div class="container">
+<section class="aminities_area resort-background" id="sec_aminities" style="padding-bottom: 144px;">
+    <div class="container resort-block-container">
         <div class="main_big_title">
             <h2>room <span>aminities</span></h2>
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam</p>

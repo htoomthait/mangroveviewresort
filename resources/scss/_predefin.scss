@@ -103,6 +103,18 @@ i{
             color: $dip;
         }
     }
+    h3{
+        font-size: 24px;
+        font-family: $mon;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $baseColor;
+        letter-spacing: .72px;
+        position: relative;
+        span{
+            color: $dip;
+        }
+    }
     p{
         font-size: 14px;
         color: #a0a0a0;
@@ -258,6 +270,29 @@ i{
         letter-spacing: .96px;
         text-transform: uppercase;
         padding-bottom: 15px;
+        position: relative;
+        span{
+            color: $dip; 
+        }
+        &:before{
+            content: "";
+            width: 70px;
+            background: #000;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 1px;
+            bottom: 0px;
+            position: absolute;
+        }
+    }
+    h3{
+        color: $baseColor;
+        font-family: $mon;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: .72px;
+        text-transform: uppercase;
+        padding-bottom: 8px;
         position: relative;
         span{
             color: $dip; 

@@ -33,3 +33,14 @@
 
    
 @endsection
+
+
+@push('page_js')
+
+    <script>
+        $(document).ready(function(){
+            // $("#body").addClass('resort-background');
+        })
+    </script>
+
+@endpush
