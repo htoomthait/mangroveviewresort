@@ -1,4 +1,4 @@
-<section class="client_area">
+<section class="client_area" id="testimonials">
     <div class="container">
         <div class="clients_slider owl-carousel">
             <div class="item">

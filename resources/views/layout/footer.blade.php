@@ -49,10 +49,10 @@
                             <h3>Extra Links</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  About Us</a></li>
+                            <li><a href="{{route('page.about_us')}}">-  About Us</a></li>
                             {{-- <li><a href="#">-  Faq’s</a></li> --}}                            
-                            <li><a href="#">-  Testimonials</a></li>
-                            <li><a href="#">-  Activities</a></li>
+                            <li><a href="{{route('home.page')}}#testimonials">-  Testimonials</a></li>
+                            <li><a href="{{route('page.activities')}}">-  Activities</a></li>
                             {{-- <li><a href="#">-  Reservation Now</a></li> --}}
                         </ul>
                     </aside>
@@ -63,11 +63,11 @@
                             <h3>our services</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  Rooms</a></li>
-                            <li><a href="#">-  Amenties</a></li>
-                            <li><a href="#">-  Bar &amp; Restaurant</a></li>
-                            <li><a href="#">-  Spa &amp; Gym</a></li>
-                            <li><a href="#">-  Karaoke</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_room_type">-  Rooms</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_aminities">-  Amenties</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_restaurant">-  Bar &amp; Restaurant</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_spa">-  Spa &amp; Gym</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_karaokie">-  Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
