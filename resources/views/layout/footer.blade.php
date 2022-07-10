@@ -67,7 +67,7 @@
                             <li><a href="{{route('page.resort')}}#sec_aminities">-  Amenties</a></li>
                             <li><a href="{{route('page.resort')}}#sec_restaurant">-  Bar &amp; Restaurant</a></li>
                             <li><a href="{{route('page.resort')}}#sec_spa">-  Spa &amp; Gym</a></li>
-                            <li><a href="{{route('page.resort')}}#sec_karaokie">-  Karaoke</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_karaoke">-  Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
