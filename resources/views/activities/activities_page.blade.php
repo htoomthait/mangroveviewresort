@@ -80,12 +80,29 @@
                 </div>
             </div>
         </div>
-        <div class="activities_item_inner" id="activity_mueseum">
+        <div class="activities_item_inner" id="activity_jade_mueseum">
             <div class="container">
                 <div class="row activities_item_row">
                    <div class="col-md-6">
                         <div class="activities_content left_activities">
-                            <h4>mueseum <span>visiting</span></h4>
+                            <h4>jade mueseum <span>visiting</span></h4>
+                            <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="activities.html" class="activities_img">
+                            <img src="img/activities/activities-4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="activities_item_inner" id="activity_wooden_statue_mueseum">
+            <div class="container">
+                <div class="row activities_item_row">
+                   <div class="col-md-6">
+                        <div class="activities_content left_activities">
+                            <h4>wooden statue mueseum <span>visiting</span></h4>
                             <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
                         </div>
                     </div>
@@ -137,6 +154,23 @@
                    <div class="col-md-6">
                         <div class="activities_content left_activities">
                             <h4>waterboom <span>fun</span> (coming soon)</h4>
+                            <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="activities.html" class="activities_img">
+                            <img src="img/activities/activities-6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="activities_item_inner" id="activity_sailing_in_the_lake">
+            <div class="container">
+                <div class="row activities_item_row">
+                   <div class="col-md-6">
+                        <div class="activities_content left_activities">
+                            <h4>Sailing in the lake <span>fun</span> (coming soon)</h4>
                             <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
                         </div>
                     </div>
