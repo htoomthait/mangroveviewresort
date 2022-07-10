@@ -1,5 +1,5 @@
  <!--================Special Dishes Area =================-->
- <section class="special_dish_area resort-background" id="sec_restaurant" style="margin-top:0px; padding-bottom:32px;">
+ <section class="special_dish_area resort-background" id="sec_restaurant" style="margin-top:0px; padding-bottom:0px;">
     <div class="container resort-block-container">
         <div class="special_dish_inner_area">
             <div class="main_big_title">
