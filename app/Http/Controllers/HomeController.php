@@ -39,6 +39,12 @@ class HomeController extends GenericController
         return view('bar_and_restaurant.bar_and_restaurant');
     }
 
+    public function karaokePage()
+    {
+        $this->setPageTitle('karaoke', '');
+        return view('karaoke.karaoke_page');
+    }
+
     public function contactUsPage()
     {
         $this->setPageTitle('contactUs', '');

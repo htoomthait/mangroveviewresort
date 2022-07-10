@@ -34,8 +34,8 @@
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                    <ul class="nav navbar-nav" >
                         <li class="dropdown submenu @if(session('page_title') === 'home') active @endif">
                             <a href="{{route('home.page')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Home <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             
@@ -51,10 +51,10 @@
                             <a href="{{route('page.resort')}}" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Resort <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{route('page.resort')}}#sec_room_type">Room Type</a></li>
-                                <li><a href="{{route('page.resort')}}#sec_aminities">Aminities</a></li>                                
+                                <li><a href="{{route('page.resort')}}#sec_amenities">Amenities</a></li>                                
                                 <li><a href="{{route('page.resort')}}#sec_spa">Spa &amp; Relax</a></li>
-                                <li><a href="{{route('page.resort')}}#sec_restaurant">Bar &amp; Restaurant</a></li>                              
-                                <li><a href="{{route('page.resort')}}#sec_karaokie">Karaokie</a></li>
+                                <li><a href="{{route('page.resort')}}#sec_restaurant">Bar &amp; Restaurant</a></li>
+                                <li><a href="{{route('page.resort')}}#sec_karaoke">Karaoke</a></li>                                                              
                                 <li><a href="{{route('page.resort')}}#sec_gallery">Gallery</a></li>
                                 {{-- <li><a href="404.html">404 Error</a></li> --}}
                             </ul>
@@ -69,8 +69,8 @@
                                     <li class="dropdown submenu">
                                         <a href="{{route('page.activities')}}#activity_mueseum" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Museum <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="{{route('page.activities')}}#activity_jade_mueseum"> Jade Mueseum</a></li>
-                                            <li><a href="{{route('page.activities')}}#activity_wooden_statue_mueseum">Wooden Statue Mueseum </a></li>                                            
+                                            <li><a href="{{route('page.activities')}}#activity_jade_museum"> Jade Museum</a></li>
+                                            <li><a href="{{route('page.activities')}}#activity_wooden_statue_museum">Wooden Statue Museum </a></li>                                            
                                         </ul>
                                     </li>
                                     
@@ -89,16 +89,18 @@
                                 <li><a href="{{route('page.bar_and_restaurant')}}#lobby_bar">Lobby bar</a></li>                                                                
                             </ul>
                         </li>
+                        {{-- <li class="@if(session('page_title') === 'karaoke') active @endif"><a href="{{route('page.karaoke')}}">Karaoke</a></li> --}}
                         <li class="@if(session('page_title') === 'contactUs') active @endif"><a href="{{route('page.contact_us')}}">Contact Us</a></li>
+                        
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    {{-- <ul class="nav navbar-nav navbar-right">
                         <li class="search_dropdown">
                             <a class="popup-with-zoom-anim" href="#test-search"><i class="icon icon-Search"></i></a>
                         </li>
-                        {{-- <li class="book_btn">
+                        <li class="book_btn">
                             <a class="book_now_btn" href="#">Book now</a>
-                        </li> --}}
-                    </ul>
+                        </li>
+                    </ul> --}}
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>

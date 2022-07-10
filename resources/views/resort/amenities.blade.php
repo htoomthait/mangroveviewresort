@@ -1,4 +1,4 @@
-<section class="aminities_area resort-background" id="sec_aminities" style="padding-bottom: 144px;">
+<section class="aminities_area resort-background" id="sec_amenities" style="padding-bottom: 144px;">
     <div class="container resort-block-container">
         <div class="main_big_title">
             <h2>room <span>aminities</span></h2>

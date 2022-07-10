@@ -9,9 +9,9 @@
     @include('resort.room_type')
     <!--================End Explor Room Area =================-->
 
-    <!--================Aminities Content Area =================-->
-    @include('resort.aminities');
-    <!--================End Aminities Content Area =================-->
+    <!--================Amennities Content Area =================-->
+    @include('resort.amenities');
+    <!--================End Amenities Content Area =================-->
 
     <!-- ============== SPA Area =========================-->  
     @include('resort.spa_area')
@@ -21,9 +21,10 @@
     @include('resort.restaurant')
     <!-- ============== Restaurant Area ===================== -->    
 
-    <!-- ============== karaoke Area =========================-->  
-    @include('resort.karaokie')
-    <!-- ============== end karaoke Area ===================== -->
+    <!-- ============== Restaurant =========================-->  
+    @include('resort.karaoke')
+    <!-- ============== Restaurant Area ===================== -->    
+    
 
     <!-- ============== gallery Area =========================-->  
     @include('resort.gallery')

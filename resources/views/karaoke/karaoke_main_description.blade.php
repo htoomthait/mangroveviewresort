@@ -1,4 +1,4 @@
-<section class="introduction_area resort_story_area resort-background" id="sec_karaokie" style="padding-bottom:52px;">
+<section class="introduction_area resort_story_area " id="sec_karaoke" style="padding-bottom:52px;">
     <div class="container resort-block-container">
         <div class="left_ex_title">
             <h2>our <span>karaokie</span></h2>
