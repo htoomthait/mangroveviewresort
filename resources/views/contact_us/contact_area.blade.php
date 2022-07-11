@@ -1,3 +1,4 @@
+
 <section class="get_contact_area">
     <div class="container">
         <div class="row get_contact_inner">
@@ -24,19 +25,14 @@
                         <select class="form-control select2RoomType" name="room_type" id="ddlRoomType"
                             class="contact_us" style="height:54px;">
                             <option value="">--- Please select a room type ---</option>
-                            <option value="Single Deluxe Villa"> Single Deluxe Villa | 2 persons | 149,000 mmk</option>
-                            <option value="Duplex Room Villa"> Duplex Room Villa | 2 persons | 149,000 mmk </option>
-                            <option value="Duplex Sutie Villa"> Duplex Suite Villa | 3 persons | 214,000 mmk </option>
-                            <option value="Mangrove Suite Villa"> Mangrove Suite Villa | 3 persons | 214,000 mmk
-                            </option>
-                            <option value="Family Deluxe Villa"> Family Deluxe Villa | 4 persons | 298,000 mmk</option>
-                            <option value="Jade Suite Villa"> Jade Suite Villa | 2 persons | 299,000 mmk</option>
-                            <option value="Family Jade Suite Villa 4"> Family Jade Suite Villa | 4 persons | 398,000 mmk
-                            </option>
-                            <option value="Faily Jade Suite Villa 8"> Faily Jade Suite Villa | 8 persons | 430,000 mmk
-                            </option>
-                            <option value="Presidential Jade Suite Villa">Persidential Jade Suite Villa | 2 persons |
-                                271,000 mmk </option>
+                            @foreach ($roomTypes as $roomType)
+                                
+                                <option value="{{$roomType['room_name']}}">
+                                    {{$roomType['room_name']}} | 
+                                    {{$roomType['num_of_person']}} | 
+                                    {{$roomType['original_price']}} MMK
+                                </option>
+                            @endforeach
                         </select>
                     </div>
                     <div class="form-group col-md-12">
@@ -216,7 +212,7 @@
                                     width: '35%',
                                     text: resp.messages.request_msg
                                 });
-
+                                
                                 $("#ddlRoomType").val('').trigger('change');
                                 $("form#contactForm").trigger('reset');
                             }
