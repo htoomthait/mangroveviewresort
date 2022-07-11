@@ -29,7 +29,7 @@
                                 
                                 <option value="{{$roomType['room_name']}}">
                                     {{$roomType['room_name']}} | 
-                                    {{$roomType['num_of_person']}} | 
+                                    {{$roomType['num_of_person']}} persons | 
                                     {{$roomType['original_price']}} MMK
                                 </option>
                             @endforeach
