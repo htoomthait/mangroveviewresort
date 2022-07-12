@@ -8,10 +8,10 @@
                 </div>
                 <div class="pull-right">
                     <ul class="header_social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/seaandlakegarden"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        {{-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> --}}
                     </ul>
                 </div>
             </div>
