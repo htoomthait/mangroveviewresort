@@ -92,7 +92,7 @@
                             <li><a href="{{route('page.activities')}}#activity_boat">-  Boat  </a></li>
                             <li><a href="{{route('page.activities')}}#activity_fishing">-  Fishing  </a></li>
                             <li><a href="{{route('page.activities')}}#activity_cycling">-  Cycling  </a></li>
-                            <li><a href="{{route('page.activities')}}#jade_mueseum">-  Museum   </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_jade_museum">-  Museum   </a></li>
                             <li><a href="{{route('page.activities')}}#activity_swimming">-  Swimming </a></li>
                             <li><a href="{{route('page.activities')}}#activity_zip_riding">-  Zipriding </a></li>
                             <li><a href="{{route('page.activities')}}#activity_waterboom">-  Waterboom </a></li>
