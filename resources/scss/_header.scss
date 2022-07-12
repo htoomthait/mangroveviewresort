@@ -9,7 +9,8 @@
     background: rgba(0, 0, 0, .55);
     &.white_menu{
         .header_top{
-            background: #fff;
+            // background:red;
+            background: rgba(255, 255, 255, .55);
             .header_top_inner{
                 border-bottom: 1px solid #e7e7e7;
                 .pull-left{
@@ -40,7 +41,8 @@
             }
         }
         .header_menu{
-            background: #fff;
+            // background: red;
+            // background: rgba(255, 255, 255, .55);
             .navbar.navbar-default{
                 .nav.navbar-nav{
                     > li{
@@ -346,7 +348,7 @@
         left: 0px;
         top: 0px;
         position: fixed;
-        background: #fff;
+        background: rgba(0,0,0,0.85);
         z-index: 999;
         box-shadow: 0px -2px 24px 1px rgba(0, 0, 0, 0.06);
         .navbar.navbar-default{
@@ -366,7 +368,7 @@
                 > li{
                     > a{
                         line-height: 70px;
-                        color: #242424;
+                        color: #fff;
                     }
                     &:hover, &.active{
                         > a{
@@ -474,6 +476,7 @@
                     .icon-Search{
                         display: inline-block;
                     }
+                    
                 } 
                 &:last-child{
                     margin-right: 0px;
@@ -498,6 +501,7 @@
                             top: 100%;
                             left: -40px;
                             min-width: 232px;
+                            color: #181426;
                             background: #eeeeee;
                             text-align: left;
                             opacity: 0;
@@ -616,9 +620,15 @@
         .navbar.navbar-default{
             .nav.navbar-nav{
                 > li{
+                   
                     > a{
-                        color: #181426;
+                        // color: #181426;
+                        color:#fff;
                         line-height: 70px;
+                        @media (min-width: 992px){
+                            color: #181426;
+                        }
+
                     }
                     &:hover, &.active{
                         > a{

@@ -80,7 +80,7 @@
                                 <li><a href="{{route('page.bar_and_restaurant')}}#lobby_bar">Lobby bar</a></li>                                                                
                             </ul>
                         </li>
-                        {{-- <li><a href="about-us.html">About Us</a></li> --}}
+                        {{-- <li class="@if(session('page_title') === 'karaoke') active @endif"><a href="{{route('page.karaoke')}}">Karaoke</a></li> --}}
                         <li class="@if(session('page_title') === 'contactUs') active @endif"><a href="{{route('page.contact_us')}}">Contact Us</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
