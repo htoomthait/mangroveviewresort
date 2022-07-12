@@ -98,8 +98,8 @@
 
 <div class="loader"></div>
 
-
 @push('page_js')
+    
     <script>
         let contactUsFormSubmissinValidationStatus = null;
         let submitContactUsForm = null;
