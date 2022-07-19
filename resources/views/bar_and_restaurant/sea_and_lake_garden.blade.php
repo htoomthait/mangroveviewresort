@@ -1,7 +1,7 @@
 <section class="choose_resot_area" id="sea_and_lake">
     <div class="container">
         <div class="center_title">
-            <h2>sea &amp; lake <span>garden</span></h2>
+            <h2>sea &amp; lake <span>Restaurant</span></h2>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
         </div>
         <div class="row choose_resot_inner">

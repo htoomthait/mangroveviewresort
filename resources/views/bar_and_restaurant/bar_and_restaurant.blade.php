@@ -23,4 +23,12 @@
      @include('bar_and_restaurant.mangroview_resort')
      <!--================end sea and lake garde Area =================-->
 
-      @endsection
+     <!--================Lobby Bar Area =================-->
+     @include('bar_and_restaurant.lobby_bar')
+     <!--================End Lobby Bar Area =================-->
+
+
+
+
+
+@endsection

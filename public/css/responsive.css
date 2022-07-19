@@ -148,6 +148,7 @@
     }
     .header_menu.affix .navbar.navbar-default .nav.navbar-nav li a {
         line-height: 45px;
+        color: #181426;
     }
     .navbar-default .navbar-toggle {
         border: none;

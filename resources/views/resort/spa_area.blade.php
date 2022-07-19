@@ -1,6 +1,6 @@
  <!--================Spa Wellness Area =================-->
- <section class="spa_wellness_area" id="sec_spa">
-    <div class="container">
+ <section class="spa_wellness_area resort-background" id="sec_spa" style="margin-top:-24px;padding-bottom: 56px;">
+    <div class="container resort-block-container">
         <div class="main_big_title">
             <h2>spa & <span>wellness</span></h2>
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
@@ -51,8 +51,8 @@
 <!--================End Spa Wellness Area =================-->
 
 <!--================Spa Area =================-->
-<section class="spa_area">
-    <div class="container">
+<section class="spa_area resort-background" style="margin-top:-16px; padding-bottom:42px;">
+    <div class="container resort-block-container">
         <div class="row">
             <div class="col-md-4">
                 <div class="spa_left_text">

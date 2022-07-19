@@ -1,5 +1,7 @@
+</body>
+</html>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-2.2.4.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <!-- Rev slider js -->
@@ -26,6 +28,22 @@
 <script type="text/javascript" src="vendors/instafeed/instafeed.min.js"></script>
 <script type="text/javascript" src="vendors/instafeed/script.js"></script>
 
+
+{{-- select2 --}}
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+{{-- Date Range Picker --}}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
 <script src="js/theme.js"></script>
-</body>
-</html>
+
+{{-- Sweet Alert 2 --}}
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+{{-- Jquery Validation --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+
+
+@stack('page_js')

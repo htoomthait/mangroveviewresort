@@ -20,6 +20,6 @@
       <!--================End Get Contact Area =================-->
       
       <!--================Map Area =================-->
-      {{-- @include('contact_us.map_area') --}}
+      @include('contact_us.map_area')
       <!--================End Map Area =================-->
 @endsection

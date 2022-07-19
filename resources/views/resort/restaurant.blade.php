@@ -1,9 +1,10 @@
  <!--================Special Dishes Area =================-->
- <section class="special_dish_area" id="sec_restaurant">
-    <div class="container">
+ <section class="special_dish_area resort-background" id="sec_restaurant" style="margin-top:0px; padding-bottom:0px;">
+    <div class="container resort-block-container">
         <div class="special_dish_inner_area">
             <div class="main_big_title">
-                <h2>our special <span>dishes</span></h2>
+                <h2>our restaurant<span> menu &amp; services</span></h2>
+                <h3>our special <span>dishes</span></h3>
                 <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise</p>
             </div>
             <div class="row special_dish_inner">
@@ -50,11 +51,11 @@
 <!--================End Special Dishes Area =================-->
 
 <!--================Our Menu Area =================-->
-<section class="our_menu_area">
-    <div class="container">
+<section class="our_menu_area resort-background" style="maring-top:0px; border:none; padding-bottom:36px;">
+    <div class="container resort-block-container">
         <div class="our_menu_inner">
             <div class="left_ex_title">
-                <h2>our <span>menu</span></h2>
+                <h3>our <span>menu</span></h3>
                 <p>Checkout Our Special Menu Price</p>
             </div>
             <div class="our_menu_list_inner">

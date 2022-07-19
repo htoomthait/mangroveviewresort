@@ -30,7 +30,7 @@
                             <div class="media">
                                 <div class="media-body">
                                     <ul class="header_social">
-                                        <li><a href="#"><i class="fa fa-facebook banner-text-color"></i></a></li>
+                                        <li><a href="https://www.facebook.com/seaandlakegarden"><i class="fa fa-facebook banner-text-color"></i></a></li>
                                         <li><a href="#"><i class="fa fa-instagram banner-text-color"></i></a></li>
                                         <li><a href="#"><i class="fa fa-youtube banner-text-color"></i></a></li>
                                     </ul>
@@ -49,10 +49,10 @@
                             <h3>Extra Links</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  About Us</a></li>
+                            <li><a href="{{route('page.about_us')}}">-  About Us</a></li>
                             {{-- <li><a href="#">-  Faq’s</a></li> --}}                            
-                            <li><a href="#">-  Testimonials</a></li>
-                            <li><a href="#">-  Activities</a></li>
+                            <li><a href="{{route('home.page')}}#testimonials">-  Testimonials</a></li>
+                            <li><a href="{{route('page.activities')}}">-  Activities</a></li>
                             {{-- <li><a href="#">-  Reservation Now</a></li> --}}
                         </ul>
                     </aside>
@@ -63,11 +63,11 @@
                             <h3>our services</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  Rooms</a></li>
-                            <li><a href="#">-  Amenties</a></li>
-                            <li><a href="#">-  Bar &amp; Restaurant</a></li>
-                            <li><a href="#">-  Spa &amp; Gym</a></li>
-                            <li><a href="#">-  Karaoke</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_room_type">-  Rooms</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_aminities">-  Amenties</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_restaurant">-  Bar &amp; Restaurant</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_spa">-  Spa &amp; Gym</a></li>
+                            <li><a href="{{route('page.resort')}}#sec_karaoke">-  Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -89,13 +89,14 @@
                             <h3>Activities</h3>
                         </div>
                         <ul>
-                            <li><a href="#">-  Boat  </a></li>
-                            <li><a href="#">-  Fishing  </a></li>
-                            <li><a href="#">-  Cycling  </a></li>
-                            <li><a href="#">-  Museum   </a></li>
-                            <li><a href="#">-  Swimming </a></li>
-                            <li><a href="#">-  Zipriding </a></li>
-                            <li><a href="#">-  Waterboom </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_boat">-  Boat  </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_fishing">-  Fishing  </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_cycling">-  Cycling  </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_jade_museum">-  Museum   </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_swimming">-  Swimming </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_zip_riding">-  Zipriding </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_waterboom">-  Waterboom </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_sailing_in_the_lake">-  Sailing in the lake </a></li>
                         </ul>
                     </aside>
                 </div>

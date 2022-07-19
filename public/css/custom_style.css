@@ -59,7 +59,7 @@
 
 @media only screen and (min-width: 768px) {
     .landing-page-google-map-iframe{
-        /* position: relative; */
+        position: relative;
         width: 450px;
         height: 450px;
     }
@@ -78,6 +78,47 @@
         height: 450px;
     }
 } */
+
+.select2-selection__rendered {
+    line-height: 51px !important;
+}
+.select2-container .select2-selection--single {
+    height: 54px !important;
+}
+.select2-selection__arrow {
+    height: 54px !important;
+}
+
+.error{
+    padding:5px;
+    color:red;
+    font-size:11px;
+}
+
+.loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.75) url("../images/loading/Rolling-1s-200px.svg") no-repeat center center;
+    z-index: 10000;
+  }
+
+  .resort-background{
+        
+        background-color:rgba(29, 59, 41);
+        background-image: url("../images/logos/mangrove_view_logo_lemon_chiffon_color.png");         
+        background-size:96px;
+        
+  }
+
+  .resort-block-container{
+    background-color:#fff;
+    padding:64px;
+  }
 
    
 
