@@ -1,6 +1,6 @@
 <section class="client_area" id="testimonials">
     <div class="container">
-        <div class="clients_slider owl-carousel">
+        <div class="clients_slider nav_true landing_testimonial_slider owl-carousel">
             <div class="item">
                 <div class="media">
                     <div class="media-left">
@@ -40,3 +40,7 @@
         </div>
     </div>
 </section>
+
+{{-- @push('page_is')
+    @include('landing.js_load.landing_page_client_testimonial_js')
+@endpush --}}
