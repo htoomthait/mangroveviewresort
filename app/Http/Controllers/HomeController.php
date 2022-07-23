@@ -99,7 +99,7 @@ class HomeController extends GenericController
                 'phone' => $request->input('phone'),
                 'room_type' => $request->input('room_type'),
                 'check_in_date' => $request->input('check_in_date'),
-                'check_out_date' => $request->input('check_in_date'),
+                'check_out_date' => $request->input('check_out_date'),
                 'body' => $request->input('message'),
             ];
 
