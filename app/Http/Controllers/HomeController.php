@@ -103,7 +103,11 @@ class HomeController extends GenericController
                 'body' => $request->input('message'),
             ];
 
-            $mailSentStatus = Mail::to('sales@mangroveviewresort.com')->send(new \App\Mail\ContactUsMail($details));
+            $mailSentStatus = Mail::to('sales@mangroveviewresort.com')
+                                    ->cc([$details['email']])
+                                    ->send(new \App\Mail\ContactUsMail($details));
+
+            
 
             // Log::debug($mailSentStatus);
 
