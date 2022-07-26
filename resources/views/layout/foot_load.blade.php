@@ -46,5 +46,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
 
+{{-- lightbox 2 js load  --}}
+<script type="text/javascript" src="/js/light_box/js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="/js/light_box/js/lightbox.min.js" ></script>
+
 
 @stack('page_js')
