@@ -3,8 +3,11 @@
         <div class="container">
             <div class="header_top_inner">
                 <div class="pull-left">
-                    <a href="#"><i class="fa fa-phone"></i>+ (1800) 456 7890</a>
-                    <a href="#"><i class="fa fa-envelope-o"></i>info@hilltownresort.com</a>
+                    <a href="#"><i class="fa fa-phone"></i>
+                        (+95) 9 881 222207
+                        <span class="badge badge-primary">hotline</span>
+                    </a>
+                    <a href="#"><i class="fa fa-envelope-o"></i>sales@mangroviewresort.com</a>
                 </div>
                 <div class="pull-right">
                     <ul class="header_social">
