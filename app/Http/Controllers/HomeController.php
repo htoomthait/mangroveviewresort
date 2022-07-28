@@ -48,27 +48,27 @@ class HomeController extends GenericController
     public function contactUsPage()
     {
         $this->setPageTitle('contactUs', '');
-        $roomTypes = [
-            ['room_name' => 'Single Deluxe Villa', 'num_of_person' => 2, 'original_price' => '149,000', 'discounted_price' => '119,000'],
-            
-            ['room_name' => 'Duplex Room Villa', 'num_of_person' => 2, 'original_price' => '149,000', 'discounted_price' => '119,000'],
-            
-            ['room_name' => 'Duplex Suite Villa', 'num_of_person' => 3, 'original_price' => '214,000', 'discounted_price' => '171,000'],
-            
-            ['room_name' => 'Mangrove Suite Villa', 'num_of_person' => 3, 'original_price' => '214,000', 'discounted_price' => '171,000'],
-            
-            ['room_name' => 'Family Deluxe Villa', 'num_of_person' => 4, 'original_price' => '298,000', 'discounted_price' => '239,000'],
-            
-            ['room_name' => 'Jade Suite Villa', 'num_of_person' => 2, 'original_price' => '299,000', 'discounted_price' => '239,000'],
-            
-            ['room_name' => 'Family Jade Suite Villa 4', 'num_of_person' => 4, 'original_price' => '398,000', 'discounted_price' => '318,000'],
-            
-            ['room_name' => 'Family Jade Suite  Villa 8', 'num_of_person' => 8, 'original_price' => '538,000', 'discounted_price' => '430,000'],
-            
-            ['room_name' => 'Presenditial Jade Suite Villa', 'num_of_person' => 2, 'original_price' => '339,000', 'discounted_price' => '271,000'],
+        $villaTypes = [
+            ['villa_name' => 'Single Deluxe Villa', 'num_of_person' => 2, 'original_price' => '149,000', 'discounted_price' => '119,000'],
+
+            ['villa_name' => 'Duplex Room Villa', 'num_of_person' => 2, 'original_price' => '149,000', 'discounted_price' => '119,000'],
+
+            ['villa_name' => 'Duplex Suite Villa', 'num_of_person' => 3, 'original_price' => '214,000', 'discounted_price' => '171,000'],
+
+            ['villa_name' => 'Mangrove Suite Villa', 'num_of_person' => 3, 'original_price' => '214,000', 'discounted_price' => '171,000'],
+
+            ['villa_name' => 'Family Deluxe Villa', 'num_of_person' => 4, 'original_price' => '298,000', 'discounted_price' => '239,000'],
+
+            ['villa_name' => 'Jade Suite Villa', 'num_of_person' => 2, 'original_price' => '299,000', 'discounted_price' => '239,000'],
+
+            ['villa_name' => 'Family Jade Suite Villa 4', 'num_of_person' => 4, 'original_price' => '398,000', 'discounted_price' => '318,000'],
+
+            ['villa_name' => 'Family Jade Suite  Villa 8', 'num_of_person' => 8, 'original_price' => '538,000', 'discounted_price' => '430,000'],
+
+            ['villa_name' => 'Presenditial Jade Suite Villa', 'num_of_person' => 2, 'original_price' => '339,000', 'discounted_price' => '271,000'],
         ];
 
-        return view('contact_us.contact_us_page', compact('roomTypes'));
+        return view('contact_us.contact_us_page', compact('villaTypes'));
     }
 
     public function submitContactUsForm(Request $request)
@@ -107,13 +107,13 @@ class HomeController extends GenericController
                                     ->cc([$details['email']])
                                     ->send(new \App\Mail\ContactUsMail($details));
 
-            
+
 
             // Log::debug($mailSentStatus);
 
             // set response message
             $this->setResponseInfo('success','Your contact form has been sent successfully!', '', '', '');
-            
+
         } catch (\Throwable $th) {
               // Log error
               Log::error("Contact Form Submission Error Msg :" . $th->getMessage());
@@ -126,7 +126,7 @@ class HomeController extends GenericController
                   '',
                   $th->getMessage()
               );
-  
+
         }
 
         return response()->json($this->response, $this->httpStatus);
