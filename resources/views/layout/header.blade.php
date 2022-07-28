@@ -68,6 +68,7 @@
                                 <li><a href="{{ route('page.resort') }}#sec_villa_type">Villa Types</a></li>
                                 <li><a href="{{ route('page.resort') }}#sec_amenities">Amenities</a></li>
                                 <li><a href="{{ route('page.resort') }}#sec_spa">Spa &amp; Relax</a></li>
+                                <li><a href="{{ route('page.resort') }}#sec_pool">Pool</a></li>
                                 <li><a href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li>
                                 <li><a href="{{ route('page.resort') }}#sec_karaoke">Karaoke</a></li>
                                 <li><a href="{{ route('page.resort') }}#sec_gallery">Gallery</a></li>
@@ -88,6 +89,8 @@
                                         <li><a href="{{ route('page.activities') }}#activity_wooden_statue_museum">-  Wooden Statue Museum</a></li>
                                     </ul>
                                 </li>
+
+                                <li><a href="{{ route('page.activities') }}#activity_gift_shop">Gift Shop</a></li>
 
 
                                 <li><a href="{{ route('page.activities') }}#activity_swimming">Swimming</a></li>

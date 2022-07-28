@@ -21,6 +21,10 @@
     @include('resort.spa_area')
     <!-- ============== End SPA Area ===================== -->
 
+    <!-- ============== Pool Area =========================-->
+    @include('resort.pool_area')
+    <!-- ============== Pool Area End =========================-->
+
     <!-- ============== Restaurant =========================-->
     @include('resort.restaurant')
     <!-- ============== Restaurant Area ===================== -->
