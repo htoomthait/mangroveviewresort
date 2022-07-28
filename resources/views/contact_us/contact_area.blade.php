@@ -26,10 +26,10 @@
                             class="contact_us" style="height:54px;">
                             <option value="">--- Please select a room type ---</option>
                             @foreach ($roomTypes as $roomType)
-                                
+
                                 <option value="{{$roomType['room_name']}}">
-                                    {{$roomType['room_name']}} | 
-                                    {{$roomType['num_of_person']}} persons | 
+                                    {{$roomType['room_name']}} |
+                                    {{$roomType['num_of_person']}} persons |
                                     {{$roomType['original_price']}} MMK
                                 </option>
                             @endforeach
@@ -84,7 +84,11 @@
                             </div>
                             <div class="media-body">
                                 <h4>Phone</h4>
-                                <a href="#">+95 9 881 777944</a>
+                                <a href="#">(+95) 9 881 777944</a>
+                                <a href="#">
+                                    (+95) 9 881 222207
+                                    <span class="badge badge-primary">hotline</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +103,7 @@
 <div class="loader"></div>
 
 @push('page_js')
-    
+
     <script>
         let contactUsFormSubmissinValidationStatus = null;
         let submitContactUsForm = null;
@@ -212,7 +216,7 @@
                                     width: '35%',
                                     text: resp.messages.request_msg
                                 });
-                                
+
                                 $("#ddlRoomType").val('').trigger('change');
                                 $("form#contactForm").trigger('reset');
                             }

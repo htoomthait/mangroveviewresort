@@ -3,8 +3,11 @@
         <div class="container">
             <div class="header_top_inner">
                 <div class="pull-left">
-                    <a href="#"><i class="fa fa-phone"></i>+ (1800) 456 7890</a>
-                    <a href="#"><i class="fa fa-envelope-o"></i>info@hilltownresort.com</a>
+                    <a href="#"><i class="fa fa-phone"></i>
+                        (+95) 9 881 222207
+                        <span class="badge badge-primary">hotline</span>
+                    </a>
+                    <a href="#"><i class="fa fa-envelope-o"></i>sales@mangroviewresort.com</a>
                 </div>
                 <div class="pull-right">
                     <ul class="header_social">
@@ -41,10 +44,24 @@
                     <ul class="nav navbar-nav">
                         <li class="@if (session('page_title') === 'home') active @endif"><a
                                 href="{{ route('home.page') }}">Home</a></li>
-                        <li class="@if (session('page_title') === 'about_us') active @endif"><a
-                                href="{{ route('page.about_us') }}">About Us</a></li>
+                        <li class="submenu dropdown @if (session('page_title') === 'about_us') active @endif">
+                            <a
+                                href="{{ route('page.about_us') }}"
+                                class="dropdown-toggle"
+                                role="button" aria-haspopup="true"
+                                aria-expanded="false"
+                                >About Us <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ route('page.about_us') }}#sec_garden">Garden Story</a></li>
+                                <li><a href="{{ route('page.about_us') }}#sec_resort">Resort Story</a></li>
+                                <li><a href="{{ route('page.about_us') }}#activity_jade_museum">Jade Museum</a></li>
+                                <li><a href="{{ route('page.about_us') }}#activity_wooden_statue_museum">Wood Statue Museum</a></li>
+                            </ul>
+
+                        </li>
                         <li class="submenu dropdown @if (session('page_title') === 'resort') active @endif">
-                            <a href="{{ route('page.resort') }}" class="dropdown-toggle" data-toggle="dropdown"
+                            <a href="{{ route('page.resort') }}" class="dropdown-toggle"
                                 role="button" aria-haspopup="true" aria-expanded="false">Resort <i
                                     class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
@@ -57,27 +74,13 @@
                             </ul>
                         </li>
                         <li class="submenu dropdown @if (session('page_title') === 'activities') active @endif">
-                            <a href="{{ route('page.activities') }}" class="dropdown-toggle" data-toggle="dropdown"
+                            <a href="{{ route('page.activities') }}" class="dropdown-toggle"
                                 role="button" aria-haspopup="true" aria-expanded="false">Activities <i
                                     class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('page.activities') }}#activity_boat"> Boat</a></li>
                                 <li><a href="{{ route('page.activities') }}#activity_fisihing">Fishing</a></li>
                                 <li><a href="{{ route('page.activities') }}#activity_cycling"> Cycling</a></li>
-
-                                {{-- <li class="dropdown submenu">
-                                    <a href="{{ route('page.activities') }}#activity_mueseum" class="dropdown-toggle"
-                                        data-toggle="dropdown" role="button" aria-haspopup="true"
-                                        aria-expanded="false">Museum <i class="fa fa-chevron-down"
-                                            aria-hidden="true"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="{{ route('page.activities') }}#activity_jade_museum"> Jade
-                                                Museum</a></li>
-                                        <li><a href="{{ route('page.activities') }}#activity_wooden_statue_museum">Wooden
-                                                Statue Museum </a></li>
-                                    </ul>
-                                </li> --}}
-
                                 <li class="dropdown submenu">
                                     <a href="{{ route('page.activities') }}#activity_jade_museum" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Museum</a>
                                     <ul class="dropdown-menu">
@@ -98,8 +101,11 @@
                         </li>
                         <li class="submenu dropdown @if (session('page_title') === 'barAndRestaurant') active @endif">
                             <a href="{{ route('page.bar_and_restaurant') }}" class="dropdown-toggle"
-                                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bar
+                                role="button" aria-haspopup="true" aria-expanded="false">Bar
                                 &amp; Restaurant <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            {{-- <a href="{{ route('page.bar_and_restaurant') }}" class="dropdown-toggle"
+                            data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bar
+                            &amp; Restaurant <i class="fa fa-chevron-down" aria-hidden="true"></i></a>    for not direct link --}}
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('page.bar_and_restaurant') }}#sea_and_lake">Sea and Lake
                                         Restaurant</a></li>

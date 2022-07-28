@@ -5,6 +5,10 @@
     @include('resort.resort_banner_area')
     <!--================End Banner Area =================-->
 
+    <!--================Resort Breif Area  Start =================-->
+    @include('resort.resort_brief_area')
+    <!--================Resort Brief Area End =================-->
+
     <!--================Explor Room Area =================-->
     @include('resort.room_type')
     <!--================End Explor Room Area =================-->
@@ -13,26 +17,26 @@
     @include('resort.amenities');
     <!--================End Amenities Content Area =================-->
 
-    <!-- ============== SPA Area =========================-->  
+    <!-- ============== SPA Area =========================-->
     @include('resort.spa_area')
     <!-- ============== End SPA Area ===================== -->
 
-    <!-- ============== Restaurant =========================-->  
+    <!-- ============== Restaurant =========================-->
     @include('resort.restaurant')
-    <!-- ============== Restaurant Area ===================== -->    
+    <!-- ============== Restaurant Area ===================== -->
 
-    <!-- ============== Restaurant =========================-->  
+    <!-- ============== Restaurant =========================-->
     @include('resort.karaoke')
-    <!-- ============== Restaurant Area ===================== -->    
-    
+    <!-- ============== Restaurant Area ===================== -->
 
-    <!-- ============== gallery Area =========================-->  
+
+    <!-- ============== gallery Area =========================-->
     @include('resort.gallery')
     <!-- ============== end gallery Area ===================== -->
 
 
 
-   
+
 @endsection
 
 

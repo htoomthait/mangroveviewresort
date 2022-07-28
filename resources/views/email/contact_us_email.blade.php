@@ -27,6 +27,8 @@
         Body : {{ $details['body'] }}
     </p>
    
-    
+    <p>
+        resort and website server received date time : {{ date('d-m-Y H:i:s')}} TZ {{ date_default_timezone_get(); }}
+    </p>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<section class="explor_room_area explore_room_list resort-background" id="sec_room_type"  style="padding-bottom: 56px;">
+<section class="explor_room_area explore_room_list p" id="sec_room_type"  style="padding-bottom: 56px;">
     <div class="container resort-block-container" >
         <div class="explor_title row m0">
             <div class="left_ex_title">
