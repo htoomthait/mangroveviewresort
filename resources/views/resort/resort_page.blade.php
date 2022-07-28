@@ -10,7 +10,7 @@
     <!--================Resort Brief Area End =================-->
 
     <!--================Explor Room Area =================-->
-    @include('resort.room_type')
+    @include('resort.villa_type')
     <!--================End Explor Room Area =================-->
 
     <!--================Amennities Content Area =================-->

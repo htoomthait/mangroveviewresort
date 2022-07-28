@@ -1,9 +1,9 @@
-<section class="explor_room_area explore_room_list p" id="sec_room_type"  style="padding-bottom: 56px;">
+<section class="explor_room_area explore_room_list p resort-background" id="sec_villa_type"  style="padding-bottom: 56px;">
     <div class="container resort-block-container" >
         <div class="explor_title row m0">
             <div class="left_ex_title">
-                <h2>Explor Our <span>rooms</span></h2>
-                <p>choose room according to budget</p>
+                <h2>Explor Our <span>Villas</span></h2>
+                <p>choose room according to your comfort</p>
             </div>
         </div>
         <div class="row explor_room_item_inner">
@@ -13,7 +13,7 @@
                         <img src="img/room/room-1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -36,7 +36,7 @@
                         <img src="img/room/room-2.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -59,7 +59,7 @@
                         <img src="img/room/room-3.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -82,7 +82,7 @@
                         <img src="img/room/room-1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -105,7 +105,7 @@
                         <img src="img/room/room-2.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -128,7 +128,7 @@
                         <img src="img/room/room-3.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -151,7 +151,7 @@
                         <img src="img/room/room-1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -174,7 +174,7 @@
                         <img src="img/room/room-2.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -197,7 +197,7 @@
                         <img src="img/room/room-3.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Budget room</h4></a>
+                        <a href="room-details.html"><h4>Budget Villa </h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>

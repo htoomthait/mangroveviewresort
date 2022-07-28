@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="pull-right">
-                <a class="about_btn_b" href="#">view all rooms</a>
+                <a class="about_btn_b" href="#">explore resort more</a>
             </div>
         </div>
         <div class="row explor_room_item_inner">
@@ -18,7 +18,7 @@
                         <img src="images/room/explore_room_1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Room</h4></a>
+                        <a href="room-details.html"><h4>Villa</h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>

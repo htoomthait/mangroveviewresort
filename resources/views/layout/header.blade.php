@@ -65,7 +65,7 @@
                                 role="button" aria-haspopup="true" aria-expanded="false">Resort <i
                                     class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="{{ route('page.resort') }}#sec_room_type">Room Type</a></li>
+                                <li><a href="{{ route('page.resort') }}#sec_villa_type">Villa Types</a></li>
                                 <li><a href="{{ route('page.resort') }}#sec_amenities">Amenities</a></li>
                                 <li><a href="{{ route('page.resort') }}#sec_spa">Spa &amp; Relax</a></li>
                                 <li><a href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li>
