@@ -16,7 +16,7 @@
     <!--================End Banner Area =================-->
 
     <!--================Garden Story Area =================-->
-    <section class="introduction_area resort_story_area">
+    <section class="introduction_area resort_story_area" id="sec_garden">
         <div class="container">
             <div class="row introduction_inner">
                 <div class="col-md-5">
@@ -43,7 +43,7 @@
     <!--================End Garden Story Area =================-->
 
     <!--================Resort Story Area =================-->
-    <section class="introduction_area resort_story_area">
+    <section class="introduction_area resort_story_area" id="sec_resort">
         <div class="container">
             <div class="row introduction_inner">
                 <div class="col-md-7">

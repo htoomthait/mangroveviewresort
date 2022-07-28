@@ -44,8 +44,22 @@
                     <ul class="nav navbar-nav">
                         <li class="@if (session('page_title') === 'home') active @endif"><a
                                 href="{{ route('home.page') }}">Home</a></li>
-                        <li class="@if (session('page_title') === 'about_us') active @endif"><a
-                                href="{{ route('page.about_us') }}">About Us</a></li>
+                        <li class="submenu dropdown @if (session('page_title') === 'about_us') active @endif">
+                            <a
+                                href="{{ route('page.about_us') }}"
+                                class="dropdown-toggle"
+                                role="button" aria-haspopup="true"
+                                aria-expanded="false"
+                                >About Us <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ route('page.about_us') }}#sec_garden">Garden Story</a></li>
+                                <li><a href="{{ route('page.about_us') }}#sec_resort">Resort Story</a></li>
+                                <li><a href="{{ route('page.about_us') }}#activity_jade_museum">Jade Museum</a></li>
+                                <li><a href="{{ route('page.about_us') }}#activity_wooden_statue_museum">Wood Statue Museum</a></li>
+                            </ul>
+
+                        </li>
                         <li class="submenu dropdown @if (session('page_title') === 'resort') active @endif">
                             <a href="{{ route('page.resort') }}" class="dropdown-toggle"
                                 role="button" aria-haspopup="true" aria-expanded="false">Resort <i
