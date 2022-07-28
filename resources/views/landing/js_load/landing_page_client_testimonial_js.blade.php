@@ -1,5 +1,21 @@
-<script> 
+<script>
     $(document).ready(function(){
-        alert("alert from testimonial!");
+        $('.landing_testimonial_slider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dots: false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
     })
 </script>
