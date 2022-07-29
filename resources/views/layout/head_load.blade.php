@@ -52,29 +52,32 @@
     {{-- lightbox 2 css load --}}
     <link rel="stylesheet" href="/js/light_box/css/lightbox.min.css" />
 
-    <style>
-        .owl-carousel .owl-nav .owl-next {
-            margin: 0 auto;
-            /* border:2px solid yellow; */
-        }
+    @if (session('page_title') === 'home')
+        <style>
+            .owl-carousel .owl-nav .owl-next {
+                margin: 0 auto;
+                /* border:2px solid yellow; */
+            }
 
-        .owl-carousel .owl-nav .owl-prev {
-            margin: 0 auto;
-            /* border:2px solid green; */
-        }
+            .owl-carousel .owl-nav .owl-prev {
+                margin: 0 auto;
+                /* border:2px solid green; */
+            }
 
 
 
 
-        .owl-carousel .owl-nav {
-            display: flex;
-            align-items: flex-end;
-        }
+            .owl-carousel .owl-nav {
+                display: flex;
+                align-items: center;
+                margin-top: 32px;
+            }
 
-        .owl-carousel .owl-nav .fa {
-            font-size: 60px;
-        }
-    </style>
+            .owl-carousel .owl-nav .fa {
+                font-size: 60px;
+            }
+        </style>
+    @endif
 </head>
 
 <body id="body">

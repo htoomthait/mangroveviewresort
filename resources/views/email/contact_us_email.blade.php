@@ -4,29 +4,32 @@
     <title>seaandlakemm.com</title>
 </head>
 <body>
+    <img src="http://seaandlakemm.com/img/logo/sea_and_lake_logo_picture.png" alt="sea and lake logo" width="72px"/>
+
+
     <h1>Contact Us Form Submission </h1>
-    <p> 
+    <p>
         Name : {{$details['name']}}
     <p>
-    <p> 
+    <p>
         Email : {{$details['email']}}
-    <p>    
-    <p> 
+    <p>
+    <p>
         Phone : {{$details['phone']}}
     <p>
-    <p> 
+    <p>
         Room Type : {{$details['room_type']}}
-    <p>                    
-    <p> 
+    <p>
+    <p>
         Check In Date : {{$details['check_in_date']}}
-    <p>                        
-    <p> 
+    <p>
+    <p>
         Check Out Date : {{$details['check_out_date']}}
-    <p>                        
-    <p> 
+    <p>
+    <p>
         Body : {{ $details['body'] }}
     </p>
-   
+
     <p>
         resort and website server received date time : {{ date('d-m-Y H:i:s')}} TZ {{ date_default_timezone_get(); }}
     </p>

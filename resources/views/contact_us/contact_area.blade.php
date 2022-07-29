@@ -22,15 +22,15 @@
                             placeholder="Phoen no.">
                     </div>
                     <div class="form-group col-md-12">
-                        <select class="form-control select2RoomType" name="room_type" id="ddlRoomType"
+                        <select class="form-control select2VillaType" name="room_type" id="ddlRoomType"
                             class="contact_us" style="height:54px;">
-                            <option value="">--- Please select a room type ---</option>
-                            @foreach ($roomTypes as $roomType)
+                            <option value="">--- Please select a villa type ---</option>
+                            @foreach ($villaTypes as $villaType)
 
-                                <option value="{{$roomType['room_name']}}">
-                                    {{$roomType['room_name']}} |
-                                    {{$roomType['num_of_person']}} persons |
-                                    {{$roomType['original_price']}} MMK
+                                <option value="{{$villaType['villa_name']}}">
+                                    {{$villaType['villa_name']}} |
+                                    {{$villaType['num_of_person']}} persons |
+                                    {{$villaType['original_price']}} MMK
                                 </option>
                             @endforeach
                         </select>
@@ -111,7 +111,7 @@
 
 
         $(document).ready(function() {
-            $(".select2RoomType").select2();
+            $(".select2VillaType").select2();
 
             $("#txt_check_in_checkout_date_range").daterangepicker({
                 minDate: moment()

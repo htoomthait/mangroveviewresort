@@ -10,7 +10,7 @@
     <!--================Resort Brief Area End =================-->
 
     <!--================Explor Room Area =================-->
-    @include('resort.room_type')
+    @include('resort.villa_type')
     <!--================End Explor Room Area =================-->
 
     <!--================Amennities Content Area =================-->
@@ -20,6 +20,10 @@
     <!-- ============== SPA Area =========================-->
     @include('resort.spa_area')
     <!-- ============== End SPA Area ===================== -->
+
+    <!-- ============== Pool Area =========================-->
+    @include('resort.pool_area')
+    <!-- ============== Pool Area End =========================-->
 
     <!-- ============== Restaurant =========================-->
     @include('resort.restaurant')

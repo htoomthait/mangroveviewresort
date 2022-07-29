@@ -4,7 +4,7 @@
             <div class="item">
                 <div class="media">
                     <div class="media-left">
-                        <img src="images/dummy_img/john_doe.png" alt="john doe as Micheal John" >
+                        <img src="img/clients/client-1.png" alt="">
                     </div>
                     <div class="media-body">
                         <p><i>“</i> Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis. Lorem ipsum dolor sit ametion consectetur elit. Vesti bulum nec odio ipsum. Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus suada faci lisis. </p>

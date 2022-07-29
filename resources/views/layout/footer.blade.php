@@ -23,9 +23,9 @@
                                 </div>
                                 <div class="media-body">
                                     <h4>+95 9 881 777944</h4>
-                                    
+
                                 </div>
-                               
+
                             </div>
                             <div class="media">
                                 <div class="media-body">
@@ -50,7 +50,7 @@
                         </div>
                         <ul>
                             <li><a href="{{route('page.about_us')}}">-  About Us</a></li>
-                            {{-- <li><a href="#">-  Faq’s</a></li> --}}                            
+                            {{-- <li><a href="#">-  Faq’s</a></li> --}}
                             <li><a href="{{route('home.page')}}#testimonials">-  Testimonials</a></li>
                             <li><a href="{{route('page.activities')}}">-  Activities</a></li>
                             {{-- <li><a href="#">-  Reservation Now</a></li> --}}
@@ -93,6 +93,7 @@
                             <li><a href="{{route('page.activities')}}#activity_fishing">-  Fishing  </a></li>
                             <li><a href="{{route('page.activities')}}#activity_cycling">-  Cycling  </a></li>
                             <li><a href="{{route('page.activities')}}#activity_jade_museum">-  Museum   </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_gift_shop">-  Gift Shop   </a></li>
                             <li><a href="{{route('page.activities')}}#activity_swimming">-  Swimming </a></li>
                             <li><a href="{{route('page.activities')}}#activity_zip_riding">-  Zipriding </a></li>
                             <li><a href="{{route('page.activities')}}#activity_waterboom">-  Waterboom </a></li>
