@@ -70,6 +70,7 @@
                                 <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_spa">Spa &amp; Relax</a></li>
                                 <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_pool">Pool</a></li>
                                 <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_fitness">Fitness </a></li>
                                 <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_karaoke">Karaoke</a></li>
                                 <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_gallery">Gallery</a></li>
                             </ul>
