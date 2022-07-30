@@ -82,6 +82,7 @@
                                 <li><a href="{{ route('page.activities') }}#activity_boat"> Boat</a></li>
                                 <li><a href="{{ route('page.activities') }}#activity_fisihing">Fishing</a></li>
                                 <li><a href="{{ route('page.activities') }}#activity_cycling"> Cycling</a></li>
+                                <li><a href="{{ route('page.activities') }}#activity_gift_shop">Gift Shop</a></li>
                                 <li class="dropdown submenu">
                                     <a href="{{ route('page.activities') }}#activity_jade_museum" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Museum</a>
                                     <ul class="dropdown-menu">
@@ -90,7 +91,7 @@
                                     </ul>
                                 </li>
 
-                                <li><a href="{{ route('page.activities') }}#activity_gift_shop">Gift Shop</a></li>
+
 
 
                                 <li><a href="{{ route('page.activities') }}#activity_swimming">Swimming</a></li>
