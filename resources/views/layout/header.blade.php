@@ -53,10 +53,10 @@
                                 >About Us <i class="fa fa-chevron-down" aria-hidden="true"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="{{ route('page.about_us') }}#sec_garden">Garden Story</a></li>
-                                <li><a href="{{ route('page.about_us') }}#sec_resort">Resort Story</a></li>
-                                <li><a href="{{ route('page.about_us') }}#activity_jade_museum">Jade Museum</a></li>
-                                <li><a href="{{ route('page.about_us') }}#activity_wooden_statue_museum">Wood Statue Museum</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.about_us') }}#sec_garden">Garden Story</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.about_us') }}#sec_resort">Resort Story</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.about_us') }}#activity_jade_museum">Jade Museum</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.about_us') }}#activity_wooden_statue_museum">Wood Statue Museum</a></li>
                             </ul>
 
                         </li>
@@ -65,56 +65,71 @@
                                 role="button" aria-haspopup="true" aria-expanded="false">Resort <i
                                     class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="{{ route('page.resort') }}#sec_villa_type">Villa Types</a></li>
-                                <li><a href="{{ route('page.resort') }}#sec_amenities">Amenities</a></li>
-                                <li><a href="{{ route('page.resort') }}#sec_spa">Spa &amp; Relax</a></li>
-                                <li><a href="{{ route('page.resort') }}#sec_pool">Pool</a></li>
-                                <li><a href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li>
-                                <li><a href="{{ route('page.resort') }}#sec_karaoke">Karaoke</a></li>
-                                <li><a href="{{ route('page.resort') }}#sec_gallery">Gallery</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_villa_type">Villa Types</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_amenities">Amenities</a></li>
+                                <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_spa">Spa &amp; Relax</a></li>
+                                <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_pool">Pool</a></li>
+                                <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_fitness">Fitness </a></li>
+                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_karaoke">Karaoke</a></li>
+                                <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_gallery">Gallery</a></li>
                             </ul>
                         </li>
                         <li class="submenu dropdown @if (session('page_title') === 'activities') active @endif">
-                            <a href="{{ route('page.activities') }}" class="dropdown-toggle"
-                                role="button" aria-haspopup="true" aria-expanded="false">Activities <i
-                                    class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            <a
+                                href="{{ route('page.activities') }}"
+                                class="dropdown-toggle"
+                                role="button"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >
+                                    Activities
+                                    <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="{{ route('page.activities') }}#activity_boat"> Boat</a></li>
-                                <li><a href="{{ route('page.activities') }}#activity_fisihing">Fishing</a></li>
-                                <li><a href="{{ route('page.activities') }}#activity_cycling"> Cycling</a></li>
-                                <li class="dropdown submenu">
-                                    <a href="{{ route('page.activities') }}#activity_jade_museum" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Museum</a>
+                                <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_boat"> Boat</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_fisihing">Fishing</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_cycling"> Cycling</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_gift_shop">Gift Shop</a></li>
+                                {{-- <li class="dropdown submenu">
+                                    <a
+                                        href="{{ route('page.activities') }}#activity_jade_museum"
+                                        class="dropdown-toggle dropdown-toggle-lvl2"
+                                        role="button"
+                                        aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Museum
+                                    </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="{{ route('page.activities') }}#activity_jade_museum">-  Jade Meseum</a></li>
-                                        <li><a href="{{ route('page.activities') }}#activity_wooden_statue_museum">-  Wooden Statue Museum</a></li>
+                                        <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_jade_museum">-  Jade Meseum</a></li>
+                                        <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_wooden_statue_museum">-  Wooden Statue Museum</a></li>
                                     </ul>
-                                </li>
-
-                                <li><a href="{{ route('page.activities') }}#activity_gift_shop">Gift Shop</a></li>
+                                </li> --}}
 
 
-                                <li><a href="{{ route('page.activities') }}#activity_swimming">Swimming</a></li>
-                                <li><a href="{{ route('page.activities') }}#activity_zip_riding">Zipriding <span
+
+
+                                <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_swimming">Swimming</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_zip_riding">Zipriding <span
                                             class="badge badge-warning">comming soon</span></a></li>
-                                <li><a href="{{ route('page.activities') }}#activity_waterboom">Waterboom <span
+                                <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_waterboom">Waterboom <span
                                             class="badge badge-warning">comming soon</span></a></li>
-                                <li><a href="{{ route('page.activities') }}#activity_sailing_in_the_lake">Sailing In
+                                <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_sailing_in_the_lake">Sailing In
                                         the Lake <span class="badge badge-warning">comming soon</span></a></li>
                             </ul>
                         </li>
                         <li class="submenu dropdown @if (session('page_title') === 'barAndRestaurant') active @endif">
-                            <a href="{{ route('page.bar_and_restaurant') }}" class="dropdown-toggle"
+                            <a class="anchor_link" href="{{ route('page.bar_and_restaurant') }}" class="dropdown-toggle"
                                 role="button" aria-haspopup="true" aria-expanded="false">Bar
                                 &amp; Restaurant <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             {{-- <a href="{{ route('page.bar_and_restaurant') }}" class="dropdown-toggle"
                             data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bar
                             &amp; Restaurant <i class="fa fa-chevron-down" aria-hidden="true"></i></a>    for not direct link --}}
                             <ul class="dropdown-menu">
-                                <li><a href="{{ route('page.bar_and_restaurant') }}#sea_and_lake">Sea and Lake
+                                <li><a class="anchor_link" href="{{ route('page.bar_and_restaurant') }}#sea_and_lake">Sea and Lake
                                         Restaurant</a></li>
-                                <li><a href="{{ route('page.bar_and_restaurant') }}#mangroview">Mangrove View
+                                <li><a class="anchor_link" href="{{ route('page.bar_and_restaurant') }}#mangroview">Mangrove View
                                         Restaurant</a></li>
-                                <li><a href="{{ route('page.bar_and_restaurant') }}#lobby_bar">Lobby bar</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.bar_and_restaurant') }}#lobby_bar">Lobby bar</a></li>
                             </ul>
                         </li>
                         {{-- <li class="@if (session('page_title') === 'karaoke') active @endif"><a href="{{route('page.karaoke')}}">Karaoke</a></li> --}}

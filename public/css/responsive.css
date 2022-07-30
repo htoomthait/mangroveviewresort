@@ -113,7 +113,7 @@
         top: 12px;
     }
 }
-@media(max-width: 991px){
+@media screen and (max-width: 991px){
     .header_menu .navbar.navbar-default .navbar-header .navbar-brand {
         height: 70px;
         line-height: 60px;
@@ -234,7 +234,7 @@
         margin-bottom: 30px;
     }
     .introduction_inner .introduction_left_text {
-        padding-right: 0px; 
+        padding-right: 0px;
         margin-bottom: 40px;
     }
     .explor_room_item_inner{
@@ -253,7 +253,7 @@
         margin: 0px auto 30px;
     }
     .fun_fact_area .fun_fact_box .col-md-3:nth-child(3) .media {
-        margin-left: 0px; 
+        margin-left: 0px;
     }
     .fun_fact_area .fun_fact_box .col-md-3:nth-child(3) .media:before {
         display: none;
@@ -295,7 +295,7 @@
         position: relative;
     }
     .latest_news_area.client_twin_area .client_area {
-        min-height: none; 
+        min-height: none;
     }
     .latest_news_area.client_twin_area {
         margin-top: 0px;
@@ -540,9 +540,9 @@
         overflow: hidden;
     }
     .room_list_inner .room_list_item{
-        width: 48%; 
+        width: 48%;
         float: left;
-        overflow: hidden; 
+        overflow: hidden;
         clear: inherit;
         margin-right: 15px;
     }
@@ -615,9 +615,9 @@
         padding-left: 0px;
     }
     .room_list_inner .room_list_item{
-        width: 100%; 
+        width: 100%;
         float: none;
-        overflow: hidden; 
+        overflow: hidden;
         clear: inherit;
         margin-right: 0px;
         margin: 0px auto 30px;
@@ -692,14 +692,14 @@
     .activities_item_inner .activities_item_row .col-md-6{
         display: block;
         width: 100%;
-    }  
+    }
     .activities_area .activities_item_inner .activities_item_row .activities_img{
         text-align: center;
     }
     .activities_area .activities_item_inner .activities_item_row .activities_content {
         max-width: 570px;
         margin: 30px auto 0px;
-        
+
     }
     .activities_area .activities_item_inner .activities_item_row .activities_content.left_activities {
         margin: 0px auto 30px;
@@ -773,7 +773,7 @@
         margin-bottom: -40px;
         overflow: hidden;
     }
-    
+
     /* title font Size */
     .left_ex_title h2 {
         font-size: 26px;
@@ -1029,22 +1029,22 @@
     }
     .comming_soon_area{
         padding: 100px 0px;
-    }    
+    }
     .comming_soon_area .comming_soon_inner .comming_soon_text .countdown .countdown-container{
         height: 100px;
         width: 100px;
-    }  
+    }
     .comming_soon_area .comming_soon_inner .comming_soon_text .countdown .countdown-container .countdown-value{
         font-size: 30px;
         line-height: 70px;
-    } 
+    }
     .comming_soon_area .comming_soon_inner .comming_soon_text .countdown .countdown-container .countdown-heading{
         font-size: 14px;
         top: 65%;
     }
     .comming_soon_area .comming_soon_inner {
         display: block;
-        min-height: auto; 
+        min-height: auto;
     }
     .comming_soon_area {
         min-height: auto;
@@ -1123,9 +1123,9 @@
     .two_column_sample h3 {
         line-height: 28px;
     }
-    
-    
-    
+
+
+
     /* Section Padding */
     .explor_room_area {
         padding: 80px 0px;

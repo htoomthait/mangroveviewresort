@@ -26,14 +26,14 @@ Table of Content:
 06/ Contact
 07/ feature
 08/ service
-09/ gallery 
-10/ client  
-11/ blog 
-12/ video 
-13/ banner  
-14/ event  
-15/ room  
-16/ resturant 
+09/ gallery
+10/ client
+11/ blog
+12/ video
+13/ banner
+14/ event
+15/ room
+16/ resturant
 17/ footer
 =====================================================================*/
 /*----------------------------------------------------*/
@@ -3867,9 +3867,13 @@ i:before {
   padding-right: 100px;
 }
 
-.activities_area .activities_item_inner:nth-child(odd) {
+/* .activities_area .activities_item_inner:nth-child(odd) {
   background: #f6f6f6;
-}
+} */
+
+.activities_area .activities_item_inner {
+    background: #f6f6f6;
+  }
 
 /* End Activities Area css
 ============================================================================================ */

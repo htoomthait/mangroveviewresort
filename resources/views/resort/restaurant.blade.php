@@ -61,8 +61,7 @@
             <div class="our_menu_list_inner">
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#carrers1" aria-controls="carrers1" role="tab" data-toggle="tab">Break fast</a></li>
-                    <li role="presentation"><a href="#carrers2" aria-controls="carrers2" role="tab" data-toggle="tab">Lunch</a></li>
-                    <li role="presentation"><a href="#carrers3" aria-controls="carrers3" role="tab" data-toggle="tab">Dinner</a></li>
+                    <li role="presentation"><a href="#carrers2" aria-controls="carrers2" role="tab" data-toggle="tab">  À la carte</a></li>
                 </ul>
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active fade in" id="carrers1">
@@ -125,7 +124,7 @@
                             <ul>
                                 <li>
                                     <img src="img/restaurant/price-list.jpg" alt="">
-                                    <h5>Lunch is served from 1 PM to 4 PM</h5>
+                                    <h5>a la carte  is served from 1 PM to 4 PM</h5>
                                 </li>
                                 <li>
                                     <div class="pull-left">

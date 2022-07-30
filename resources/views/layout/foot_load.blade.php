@@ -1,4 +1,5 @@
 </body>
+
 </html>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
@@ -46,8 +47,34 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
 
-{{-- lightbox 2 js load  --}}
-<script type="text/javascript" src="/js/light_box/js/lightbox.min.js" ></script>
+{{-- lightbox 2 js load --}}
+<script type="text/javascript" src="/js/light_box/js/lightbox.min.js"></script>
+<script>
+    $(document).ready(function() {
+
+
+        $(window).on('resize load pagebeforecreate', function() {
+            if ($(window).width() < 992) {
+                $(".dropdown-toggle").attr("data-toggle", "dropdown");
+            }
+
+
+
+        });
+
+        $(window).on('resize load pagebeforecreate', function() {
+            if ($(window).width() >= 992) {
+                $(".dropdown-toggle").removeAttr("data-toggle");
+            }
+
+
+        });
+
+        $(".anchor_link").click(function() {
+            $("button.navbar-toggle").trigger('click');
+        });
+    })
+</script>
 
 
 @stack('page_js')

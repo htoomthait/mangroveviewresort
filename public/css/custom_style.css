@@ -1,5 +1,5 @@
 .logo-brand-text{
-    display: inline-block;    
+    display: inline-block;
     /* color:#013362; */
     /* color:#E24B20; */
     color: #81E3D3;
@@ -20,6 +20,10 @@
     /* width:100%; */
 }
 
+/* .navbar-collapse.in{
+    overflow-y: visible;
+} */
+
 #bs-example-navbar-collapse-1{
     width:100%;
     /* border:1px solid blue; */
@@ -27,7 +31,7 @@
 }
 
 .banner-text-color{
-    color:#efefef;   
+    color:#efefef;
 }
 
 .header_top .header_top_inner .pull-left a,
@@ -108,11 +112,11 @@
   }
 
   .resort-background{
-        
+
         background-color:rgba(29, 59, 41);
-        background-image: url("../images/logos/mangrove_view_logo_lemon_chiffon_color.png");         
+        background-image: url("../images/logos/mangrove_view_logo_lemon_chiffon_color.png");
         background-size:96px;
-        
+
   }
 
   .resort-block-container{
