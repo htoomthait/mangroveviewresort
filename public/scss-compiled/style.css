@@ -3212,12 +3212,76 @@ i:before {
   padding-top: 30px;
 }
 
+.activities_area .activities_item_inner {
+  padding: 100px 0px;
+}
+.activities_area .activities_item_inner .activities_item_row {
+  display: flex;
+}
+.activities_area .activities_item_inner .activities_item_row .col-md-6 {
+  flex: 1;
+  align-self: center;
+  vertical-align: middle;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_img {
+  display: block;
+  position: relative;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_img:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: all 300ms linear 0s;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_img img {
+  max-width: 100%;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_img:hover:before {
+  opacity: 1;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_content {
+  padding-left: 100px;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_content h4 {
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 0.96px;
+  padding-bottom: 35px;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_content h4 span {
+  color: #008b72;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.225px;
+  color: #898989;
+}
+.activities_area .activities_item_inner .activities_item_row .activities_content.left_activities {
+  padding-left: 0px;
+  padding-right: 100px;
+}
+.activities_area .activities_item_inner:nth-child(odd) {
+  background: #f6f6f6;
+}
 .activities_area .activity_row {
   display: block;
 }
 .activities_area .activity_row .activity_block {
   display: block;
   padding-top: 70px;
+}
+.activities_area .activity_row .activity_block:last-child {
+  margin-bottom: 128px;
 }
 .activities_area .activity_row .heading h4 {
   color: #242424;
