@@ -113,7 +113,7 @@
         top: 12px;
     }
 }
-@media(max-width: 991px){
+@media screen and (max-width: 991px){
     .header_menu .navbar.navbar-default .navbar-header .navbar-brand {
         height: 70px;
         line-height: 60px;

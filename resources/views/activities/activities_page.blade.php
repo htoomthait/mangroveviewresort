@@ -100,7 +100,7 @@
                 </div>
             </div>
 
-            <div class="row activity_row">
+            {{-- <div class="row activity_row">
                 <div class="col-md-6 activity_block" id="activity_jade_museum">
                     <div class="heading">
                         <h4>Jade Museum <span>visiting</span></h4>
@@ -131,7 +131,7 @@
                 </div>
 
 
-            </div>
+            </div> --}}
 
             <div class="row activity_row">
                 <div class="col-md-6 activity_block" id="activity_swimming">

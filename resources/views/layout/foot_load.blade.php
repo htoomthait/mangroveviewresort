@@ -51,19 +51,26 @@
 <script type="text/javascript" src="/js/light_box/js/lightbox.min.js"></script>
 <script>
     $(document).ready(function() {
+
+
         $(window).on('resize load pagebeforecreate', function() {
             if ($(window).width() < 992) {
-                $(".dropdown-toggle").attr("data-toggle", "dropdown")
+                $(".dropdown-toggle").attr("data-toggle", "dropdown");
             }
+
+
+
         });
 
         $(window).on('resize load pagebeforecreate', function() {
             if ($(window).width() >= 992) {
-                $(".dropdown-toggle").removeAttr("data-toggle")
+                $(".dropdown-toggle").removeAttr("data-toggle");
             }
+
+
         });
 
-        $(".anchor_link").click(function(){
+        $(".anchor_link").click(function() {
             $("button.navbar-toggle").trigger('click');
         });
     })

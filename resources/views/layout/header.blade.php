@@ -75,21 +75,34 @@
                             </ul>
                         </li>
                         <li class="submenu dropdown @if (session('page_title') === 'activities') active @endif">
-                            <a href="{{ route('page.activities') }}" class="dropdown-toggle"
-                                role="button" aria-haspopup="true" aria-expanded="false">Activities <i
-                                    class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                            <a
+                                href="{{ route('page.activities') }}"
+                                class="dropdown-toggle"
+                                role="button"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >
+                                    Activities
+                                    <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_boat"> Boat</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_fisihing">Fishing</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_cycling"> Cycling</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_gift_shop">Gift Shop</a></li>
-                                <li class="dropdown submenu">
-                                    <a href="{{ route('page.activities') }}#activity_jade_museum" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Museum</a>
+                                {{-- <li class="dropdown submenu">
+                                    <a
+                                        href="{{ route('page.activities') }}#activity_jade_museum"
+                                        class="dropdown-toggle dropdown-toggle-lvl2"
+                                        role="button"
+                                        aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Museum
+                                    </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_jade_museum">-  Jade Meseum</a></li>
                                         <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_wooden_statue_museum">-  Wooden Statue Museum</a></li>
                                     </ul>
-                                </li>
+                                </li> --}}
 
 
 
