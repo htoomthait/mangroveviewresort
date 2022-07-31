@@ -33,7 +33,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand dp-flex" href="#">
-                        <img src="img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo"
+                        <img src="{{url('/')}}/img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo"
                             width="80px">
                         <h3 class="logo-brand-text">Sea &amp; Lake Garden</h3>
                     </a>

@@ -7,218 +7,39 @@
             </div>
         </div>
         <div class="row explor_room_item_inner">
+            @foreach ($arrVillas as $villa)
+
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="room-details.html" class="room_image">
                         <img src="img/room/room-1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4> Single Delux Villa </h4></a>
-                        <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">River view</a></li>
-                            <li><a href="#">2 Persons</a></li>
-                        </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-2.jpg" alt="">
-                    </a>
-                    <div class="explor_text">
-                        <a href="room-details.html"><h4>Duplex Room Villa </h4></a>
-                        <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">River view</a></li>
-                            <li><a href="#">2 Persons</a></li>
-                        </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-3.jpg" alt="">
-                    </a>
-                    <div class="explor_text">
-                        <a href="room-details.html"><h4>Duplex Suite Villa </h4></a>
-                        <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">River view</a></li>
-                            <li><a href="#">3 Persons</a></li>
-                        </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-1.jpg" alt="">
-                    </a>
-                    <div class="explor_text">
-                        <a href="room-details.html"><h4>Mangrove Suite Villa </h4></a>
-                        <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">Mangrove view</a></li>
-                            <li><a href="#">3 Persons</a></li>
-                        </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-2.jpg" alt="">
-                    </a>
-                    <div class="explor_text">
-                        <a href="room-details.html"><h4>Family Dulex Villa </h4></a>
-                        <br/>
-                        <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">Mountain view</a></li>
-                            <li><a href="#">4 Persons</a></li>
-                        </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-3.jpg" alt="">
-                    </a>
-                    <div class="explor_text">
-                        <a href="room-details.html"><h4>Jade Suite Villa </h4></a>
-                        <br/>
-                        <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">Mountain view</a></li>
-                            <li><a href="#">2 Balcony</a></li>
-                        </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <a href="room-details.html"><h4> {{$villa['villa_name']}} </h4></a>
 
-            <div class="col-md-4 col-sm-6">
-                <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-3.jpg" alt="">
-                    </a>
-                    <div class="explor_text">
-                        <a href="room-details.html"><h4>Family Jade Suite Villa </h4></a>
-                        <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">Mountain view</a></li>
-                            <li><a href="#">4 Persons</a></li>
-                        </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        @if($villa['line_break_add'])
+                            <br/>
+                        @endif
 
-            <div class="col-md-4 col-sm-6">
-                <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-3.jpg" alt="">
-                    </a>
-                    <div class="explor_text">
-                        <a href="room-details.html"><h4>Family Jade Suite Villa </h4></a>
                         <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">Mountain view</a></li>
-                            <li><a href="#">8 Persons</a></li>
+                            <li><a href="#">{{$villa['area']}} </a></li>
+                            <li><a href="#">{{$villa['villa_view']}}</a></li>
+                            <li><a href="#">{{$villa['number_of_person']}} Persons</a></li>
                         </ul>
                         <div class="explor_footer">
                             <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
+                                <h3>{{$villa['original_price']}} {{$villa['currency']}} <span>/ Night</span></h3>
                             </div>
                             <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
+                                <a class="book_now_btn" href="{{route('page.resort.villa_detail',$villa['id'])}}">View details</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            @endforeach
 
-            <div class="col-md-4 col-sm-6">
-                <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-3.jpg" alt="">
-                    </a>
-                    <div class="explor_text">
-                        <a href="room-details.html"><h4>Presidential Jade Suite Villa </h4></a>
-                        <ul>
-                            <li><a href="#">10x15</a></li>
-                            <li><a href="#">Mountain view</a></li>
-                            <li><a href="#">2 Persons</a></li>
-                        </ul>
-                        <div class="explor_footer">
-                            <div class="pull-left">
-                                <h3>$170 <span>/ Night</span></h3>
-                            </div>
-                            <div class="pull-right">
-                                <a class="book_now_btn" href="room-details.html">View details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
 
 
