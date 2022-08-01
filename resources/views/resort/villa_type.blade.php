@@ -26,14 +26,16 @@
                             <li><a href="#">{{$villa['villa_view']}}</a></li>
                             <li><a href="#">{{$villa['number_of_person']}} Persons</a></li>
                         </ul>
-                        <div class="explor_footer">
+                        <div class="explor_footer villa-footer" >
+
                             <div class="pull-left">
-                                <h3>{{$villa['original_price']}} {{$villa['currency']}} <span>/ Night</span></h3>
+                                <h3>{{ number_format($villa['original_price'])}} {{$villa['currency']}} <span>/ Night</span></h3>
                             </div>
-                            <div class="pull-right">
+                            <div class="pull-right mt-4">
                                 <a class="book_now_btn" href="{{route('page.resort.villa_detail',$villa['id'])}}">View details</a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

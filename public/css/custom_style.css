@@ -13,6 +13,21 @@
     display:flex;
 }
 
+.db-flex-jc-center{
+    justify-content: center;
+}
+
+.w100{
+    width: 100%;
+}
+
+.villa-footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar-brand{
     gap:16px;
     align-items: center;
