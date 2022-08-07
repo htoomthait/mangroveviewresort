@@ -15,7 +15,7 @@
                         <img src="img/room/room-1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4> {{$villa['villa_name']}} </h4></a>
+                        <a href="room-details.html"><h4> {!!$villa['villa_name']!!} </h4></a>
 
                         @if($villa['line_break_add'])
                             <br/>

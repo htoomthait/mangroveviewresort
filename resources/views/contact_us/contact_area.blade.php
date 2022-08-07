@@ -28,7 +28,7 @@
                             @foreach ($villaTypes as $villaType)
 
                                 <option value="{{$villaType['villa_name']}}">
-                                    {{$villaType['villa_name']}} |
+                                    {!! $villaType['villa_name'] !!} |
                                     {{$villaType['number_of_person']}} persons |
                                     {{$villaType['original_price']}} MMK
                                 </option>

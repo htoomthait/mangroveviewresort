@@ -1,7 +1,7 @@
 [
     {
         "id" : 1,
-        "villa_name" : "Single Deluxe Villa",
+        "villa_name" : "Single Deluxe <span>Villa</span>",
         "villa_view" : "river view",
         "number_of_person" : 2,
         "area" : "20x40",
@@ -9,17 +9,30 @@
         "discounted_price" : 119000,
         "currency" : "MMK",
         "line_break_add" : false,
-        "description" : "lorem",
+        "description" : "<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?</p> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?</p>",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "2 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     },
     {
         "id" : 2,
-        "villa_name" : "Duplex Room Villa",
+        "villa_name" : "Duplex Room <span>Villa</span>",
         "villa_view" : "river view",
         "number_of_person" : 2,
         "area" : "20x40",
@@ -27,17 +40,30 @@
         "discounted_price" : 119000,
         "currency" : "MMK",
         "line_break_add" : false,
-        "description" : "lorem",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "2 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     },
     {
         "id" : 3,
-        "villa_name" : "Duplex Suite Villa",
+        "villa_name" : "Duplex Suite <span>Villa</span>",
         "villa_view" : "river view",
         "number_of_person" : 3,
         "area" : "20x40",
@@ -45,17 +71,30 @@
         "discounted_price" : 171000,
         "currency" : "MMK",
         "line_break_add" : false,
-        "description" : "lorem",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "3 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     },
     {
         "id" : 4,
-        "villa_name" : "Mangrove Suite Villa",
+        "villa_name" : "Mangrove Suite <span>Villa</span>",
         "villa_view" : "river view",
         "number_of_person" : 3,
         "area" : "20x40",
@@ -63,17 +102,30 @@
         "discounted_price" : 171000,
         "currency" : "MMK",
         "line_break_add" : false,
-        "description" : "lorem",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "3 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     },
     {
         "id" : 5,
-        "villa_name" : "Family Deluxe Villa",
+        "villa_name" : "Family Deluxe <span>Villa</span>",
         "villa_view" : "river view",
         "number_of_person" : 4,
         "area" : "20x40",
@@ -81,17 +133,30 @@
         "discounted_price" : 239000,
         "currency" : "MMK",
         "line_break_add" : true,
-        "description" : "lorem",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "4 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     },
     {
         "id" : 6,
-        "villa_name" : "Jade Suite Villa",
+        "villa_name" : "Jade Suite <span>Villa</span>",
         "villa_view" : "river view",
         "number_of_person" : 2,
         "area" : "20x40",
@@ -99,17 +164,30 @@
         "discounted_price" : 239000,
         "currency" : "MMK",
         "line_break_add" : true,
-        "description" : "lorem",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "2 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     },
     {
         "id" : 7,
-        "villa_name" : "Family Jade Suite Villa 4",
+        "villa_name" : "Family Jade Suite <span>Villa 4</span>",
         "villa_view" : "river view",
         "number_of_person" : 4,
         "area" : "20x40",
@@ -117,17 +195,30 @@
         "discounted_price" : 318000,
         "currency" : "MMK",
         "line_break_add" : false,
-        "description" : "lorem",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "4 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     },
     {
         "id" : 8,
-        "villa_name" : "Family Jade Suite  Villa 8",
+        "villa_name" : "Family Jade Suite  <span>Villa 8</span>",
         "villa_view" : "river view",
         "number_of_person" : 8,
         "area" : "20x40",
@@ -135,17 +226,30 @@
         "discounted_price" : 430000,
         "currency" : "MMK",
         "line_break_add" : false,
-        "description" : "lorem",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "8 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     },
     {
         "id" : 9,
-        "villa_name" : "Presenditial Jade Suite Villa",
+        "villa_name" : "Presenditial Jade Suite <span>Villa</span>",
         "villa_view" : "river view",
         "number_of_person" : 2,
         "area" : "20x40",
@@ -153,12 +257,25 @@
         "discounted_price" : 271000,
         "currency" : "MMK",
         "line_break_add" : false,
-        "description" : "lorem",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
             ""
         ],
+        "specifications" : [
+            "2 persons",
+            "20x40 square meter",
+            "breakfast included",
+            "river view"
+        ],
         "amenities" : [
-            ""
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
         ]
     }
 ]
