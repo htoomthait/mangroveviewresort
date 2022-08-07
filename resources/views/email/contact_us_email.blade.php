@@ -18,7 +18,7 @@
         Phone : {{$details['phone']}}
     <p>
     <p>
-        Room Type : {{$details['room_type']}}
+        Room Type : {!! $details['room_type'] !!}
     <p>
     <p>
         Check In Date : {{$details['check_in_date']}}
