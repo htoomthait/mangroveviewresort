@@ -6,6 +6,7 @@
                     <h3>Resort Services</h3>
                     <p>quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
                     <a class="all_s_btn" href="#">view all services</a>
+                    <i class="fa fa-sport"></i>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">

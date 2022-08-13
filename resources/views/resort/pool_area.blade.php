@@ -51,10 +51,11 @@
                 <div class="spa_left_text">
                     <div class="main_big_title">
                         <h2>Pool Fun & Sport <span>Moments</span></h2>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
+                        <p>1,216 square feet large pool with a natural Burmese terracotta tile decking. Stand showers decorated with teak wood for a natural feel. An excellent place to order classic cocktails, fresh salads and sandwiches. Juices, detox mixes and teas for the healthy conscious are offered, accompanied by dedicated pool service.
+                        </p>
                     </div>
                     <h5>it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</h5>
-                    <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no an</p>
+
                 </div>
             </div>
 
