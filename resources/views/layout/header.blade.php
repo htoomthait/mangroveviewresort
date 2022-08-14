@@ -57,22 +57,24 @@
                                 <li><a class="anchor_link" href="{{ route('page.about_us') }}#sec_resort">Resort Story</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.about_us') }}#activity_jade_museum">Jade Museum</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.about_us') }}#activity_wooden_statue_museum">Wood Statue Museum</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.promotion') }}#sec_garden">Promotions</a></li>
                             </ul>
 
                         </li>
                         <li class="submenu dropdown @if (session('page_title') === 'resort') active @endif">
                             <a href="{{ route('page.resort') }}" class="dropdown-toggle"
-                                role="button" aria-haspopup="true" aria-expanded="false">Resort <i
+                                role="button" aria-haspopup="true" aria-expanded="false">Mangrove View Resort <i
                                     class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_villa_type">Villa Types</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_amenities">Amenities</a></li>
                                 <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_spa">Spa &amp; Relax</a></li>
                                 <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_pool">Pool</a></li>
-                                <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li>
+                                <li><a class="anchor_link"  href="{{ route('page.bar_and_restaurant') }}#sec_restaurant">Bar &amp; Restaurant</a></li>
+                                {{-- <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li> --}}
                                 <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_fitness">Fitness </a></li>
-                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_karaoke">Karaoke</a></li>
-                                <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_gallery">Gallery</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.karaoke') }}">Karaoke</a></li>
+                                <li><a class="anchor_link"  href="{{ route('page.gallery') }}">Gallery</a></li>
                             </ul>
                         </li>
                         <li class="submenu dropdown @if (session('page_title') === 'activities') active @endif">
@@ -117,13 +119,10 @@
                                         the Lake <span class="badge badge-warning">comming soon</span></a></li>
                             </ul>
                         </li>
-                        <li class="submenu dropdown @if (session('page_title') === 'barAndRestaurant') active @endif">
+                        {{-- <li class="submenu dropdown @if (session('page_title') === 'barAndRestaurant') active @endif">
                             <a class="anchor_link" href="{{ route('page.bar_and_restaurant') }}" class="dropdown-toggle"
                                 role="button" aria-haspopup="true" aria-expanded="false">Bar
                                 &amp; Restaurant <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                            {{-- <a href="{{ route('page.bar_and_restaurant') }}" class="dropdown-toggle"
-                            data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bar
-                            &amp; Restaurant <i class="fa fa-chevron-down" aria-hidden="true"></i></a>    for not direct link --}}
                             <ul class="dropdown-menu">
                                 <li><a class="anchor_link" href="{{ route('page.bar_and_restaurant') }}#sea_and_lake">Sea and Lake
                                         Restaurant</a></li>
@@ -131,7 +130,8 @@
                                         Restaurant</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.bar_and_restaurant') }}#lobby_bar">Lobby bar</a></li>
                             </ul>
-                        </li>
+                        </li> --}}
+                        {{-- <li class="@if (session('page_title') === 'promotion') active @endif"><a href="{{route('page.promotion')}}">Promotion</a></li> --}}
                         {{-- <li class="@if (session('page_title') === 'karaoke') active @endif"><a href="{{route('page.karaoke')}}">Karaoke</a></li> --}}
                         <li class="@if (session('page_title') === 'contactUs') active @endif"><a
                                 href="{{ route('page.contact_us') }}">Contact Us</a></li>

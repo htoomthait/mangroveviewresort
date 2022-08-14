@@ -3,7 +3,8 @@
     <div class="container resort-block-container">
         <div class="main_big_title">
             <h2>spa & <span>wellness</span></h2>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
+            <p>Mangrove View Spa treatments blend authentic Burmese massage techniques and powerful ingredients to rejuvenate and replenish the body. From relaxing skin soothing aroma oil pulls to stress-relieving massages, Mangrove Spa menu features natural healing traditions to provide guests with a deep replenishing and relaxation.
+            </p>
         </div>
         <div class="row spa_wellness_inner">
             <div class="col-md-4 col-sm-6">
@@ -12,7 +13,7 @@
                         <img src="img/spa/spa-1.jpg" alt="">
                     </a>
                     <div class="spa_content">
-                        <a href="#"><h4>full body massage</h4></a>
+                        <a href="#"><h4>Traditional Burmese Massage </h4></a>
                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus cum soluta nobi  est eligendi optio cumque nihil impedit.</p>
                         <h5>$170 <span>/ setting</span></h5>
                         <a class="book_now_btn" href="#">View details</a>
@@ -25,7 +26,7 @@
                         <img src="img/spa/spa-2.jpg" alt="">
                     </a>
                     <div class="spa_content">
-                        <a href="#"><h4>franges spa treatment</h4></a>
+                        <a href="#"><h4>Aroma Oil Massage </h4></a>
                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus cum soluta nobi  est eligendi optio cumque nihil impedit.</p>
                         <h5>$120 <span>/ setting</span></h5>
                         <a class="book_now_btn" href="#">View details</a>
@@ -38,7 +39,7 @@
                         <img src="img/spa/spa-3.jpg" alt="">
                     </a>
                     <div class="spa_content">
-                        <a href="#"><h4>franges spa treatment</h4></a>
+                        <a href="#"><h4>Foot Salt Water Soak and Massage</h4></a>
                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus cum soluta nobi  est eligendi optio cumque nihil impedit.</p>
                         <h5>$270 <span>/ setting</span></h5>
                         <a class="book_now_btn" href="#">View details</a>
@@ -68,7 +69,7 @@
                             <img src="img/spa/spa-ms/spa-ms-1.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/spa/spa-ms/spa-ms-1.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
+                                    <a class="light" href="img/spa/spa-ms/spa-ms-1.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Spa & Relax</h5>
                                 </div>
                             </div>
@@ -79,7 +80,7 @@
                             <img src="img/spa/spa-ms/spa-ms-2.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/spa/spa-ms/spa-ms-2.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
+                                    <a class="light" href="img/spa/spa-ms/spa-ms-2.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Spa & Relax</h5>
                                 </div>
                             </div>
@@ -90,7 +91,7 @@
                             <img src="img/spa/spa-ms/spa-ms-3.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/spa/spa-ms/spa-ms-3.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
+                                    <a class="light" href="img/spa/spa-ms/spa-ms-3.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Spa & Relax</h5>
                                 </div>
                             </div>
@@ -99,7 +100,7 @@
                             <img src="img/spa/spa-ms/spa-ms-4.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/spa/spa-ms/spa-ms-4.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a> 
+                                    <a class="light" href="img/spa/spa-ms/spa-ms-4.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Spa & Relax</h5>
                                 </div>
                             </div>

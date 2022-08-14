@@ -34,15 +34,17 @@
             <div class="col-12 col-md-5">
                 <div class="introduction_left_text">
                     <div class="intro_title">
-                        <h2>Introduction <span>of Garden</span></h2>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                        <h2>About <span>Mangrove View Resort</span></h2>
+                        <p>
+                            Mangrove View Resort is a luxurious sanctuary for serenity and connecting with nature. Nestled within the mangrove forests, a salt water river floats peacefully alongside the hotel property. The hotel offers luxurious villas and suites; buggy tours of a 300-acre park that includes a huge lake and a view of the sea, dining at the river front restaurant featuring Burmese, Thai and Chinese Cuisines.
+                        </p>
                     </div>
-                    <h4>We are Available for business</h4>
+                    {{-- <h4>We are Available for business</h4>
                     <p>
                         quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exerci-tationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi con-sequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
 
                     <div class="row intro_box_item_area">
-                        {{-- <div class="col-xs-4">
+                        <div class="col-xs-4">
                             <div class="intro_box_item">
                                 <i class="flaticon-toaster"></i>
                                 <h4>Restaurant</h4>
@@ -59,8 +61,8 @@
                                 <i class="flaticon-wifi"></i>
                                 <h4>free wifi</h4>
                             </div>
-                        </div> --}}
-                    </div>
+                        </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

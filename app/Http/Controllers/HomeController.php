@@ -43,13 +43,15 @@ class HomeController extends GenericController
 
     public function barAndRestaurantPage()
     {
-        $this->setPageTitle('barAndRestaurant', '');
+        // $this->setPageTitle('barAndRestaurant', '');
+        $this->setPageTitle('resort', '');
         return view('bar_and_restaurant.bar_and_restaurant');
     }
 
     public function karaokePage()
     {
-        $this->setPageTitle('karaoke', '');
+        // $this->setPageTitle('karaoke', '');
+        $this->setPageTitle('resort', '');
         return view('karaoke.karaoke_page');
     }
 
@@ -64,6 +66,18 @@ class HomeController extends GenericController
 
 
         return view('villa.villa_details', compact('selectedVilla'));
+    }
+
+    public function promotion()
+    {
+        $this->setPageTitle('promotion', '');
+        return view('promotion.promotion_page');
+    }
+
+    public function gallery()
+    {
+        $this->setPageTitle('resort', '');
+        return view('gallery.gallery_page');
     }
 
 
