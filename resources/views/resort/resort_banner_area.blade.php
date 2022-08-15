@@ -3,8 +3,8 @@
         <div class="banner_inner_content">
             <h3>Resort</h3>
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">Resort</a></li>
+                <li ><a href="{{route('home.landing_page')}}">Home</a></li>
+                <li class="active"><a href="{{route('page.resort')}}">Resort</a></li>
             </ul>
         </div>
     </div>

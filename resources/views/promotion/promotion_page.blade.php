@@ -7,8 +7,9 @@
             <div class="banner_inner_content">
                 <h3>Promotions</h3>
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="event.html">Promotions</a></li>
+                    <li ><a href="{{route('home.landing_page')}}">Home</a></li>
+                    <li ><a href="{{route('page.about_us')}}">About Us</a></li>
+                    <li class="active"><a href="{{route('page.promotion')}}">Promotions</a></li>
                 </ul>
             </div>
         </div>

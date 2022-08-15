@@ -7,9 +7,9 @@
             <div class="banner_inner_content">
                 <h3>Gallery</h3>
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li ><a href="index.html">Home</a></li>
                     <li><a href="event.html">Resort</a></li>
-                    <li><a href="event.html">Gallery</a></li>
+                    <li class="active"><a href="event.html">Gallery</a></li>
                 </ul>
             </div>
         </div>
