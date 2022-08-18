@@ -12,7 +12,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="room-details.html" class="room_image">
-                        <img src="img/room/room-1.jpg" alt="">
+                        <img src="{{ $villa['images'][0] == "" ? 'img/room/room-1.jpg' : $villa['images'][0] }}" alt="">
                     </a>
                     <div class="explor_text">
                         <a href="room-details.html"><h4> {!!$villa['villa_name']!!} </h4></a>

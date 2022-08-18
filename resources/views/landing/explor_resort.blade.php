@@ -14,11 +14,11 @@
         <div class="row explor_room_item_inner">
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
+                    <a href="{{route('page.resort')}}#sec_villa_type" class="room_image">
                         <img src="images/room/explore_room_1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Villa</h4></a>
+                        <a href="{{route('page.resort')}}#sec_villa_type"><h4>Villa</h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -29,7 +29,7 @@
                                 <h3>$170 <span>/ Night</span></h3>
                             </div>
                             <div class="pull-right">
-                                <a class="book_now_btn" href="#">View details</a>
+                                <a class="book_now_btn" href="{{route('page.resort')}}#sec_villa_type">Check Around</a>
                             </div>
                         </div>
                     </div>
@@ -37,11 +37,11 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
+                    <a href="{{route('page.resort')}}#sec_spa" class="room_image">
                         <img src="images/room/explore_room_2.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>SPA</h4></a>
+                        <a href="{{route('page.resort')}}#sec_spa"><h4>SPA</h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -52,7 +52,7 @@
                                 <h3>$170 <span>/ Night</span></h3>
                             </div>
                             <div class="pull-right">
-                                <a class="book_now_btn" href="#">View details</a>
+                                <a class="book_now_btn" href="{{route('page.resort')}}#sec_spa">View details</a>
                             </div>
                         </div>
                     </div>
@@ -60,11 +60,11 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
+                    <a href="{{route('page.bar_and_restaurant')}}" class="room_image">
                         <img src="images/room/explore_room_3.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4>Restaurant</h4></a>
+                        <a href="{{route('page.bar_and_restaurant')}}"><h4>Restaurant</h4></a>
                         <ul>
                             <li><a href="#">10x15</a></li>
                             <li><a href="#">Mountain view</a></li>
@@ -75,7 +75,7 @@
                                 <h3>$170 <span>/ Night</span></h3>
                             </div>
                             <div class="pull-right">
-                                <a class="book_now_btn" href="#">View details</a>
+                                <a class="book_now_btn" href="{{route('page.bar_and_restaurant')}}">View details</a>
                             </div>
                         </div>
                     </div>
