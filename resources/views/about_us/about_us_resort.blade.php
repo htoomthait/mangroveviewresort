@@ -5,13 +5,15 @@
                 <div class="introduction_left_text">
                     <div class="resort_title">
                         <h2>our resort <span>story</span></h2>
-                        <h5>give best service to our customers</h5>
+                        {{-- <h5>give best service to our customers</h5> --}}
                     </div>
-                    <h6>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h6>
-                    <h4>We are Available for business</h4>
-                    <p>quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
-                    <p>Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatut.</p>
-                    <a class="about_btn_b" href="#">contact us</a>
+                    {{-- <h6>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h6> --}}
+                    {{-- <h4>We are Available for business</h4> --}}
+                    <p class="mt-6">
+                        Mangrove View Resort is a luxurious sanctuary for serenity and connecting with nature. Nestled within the mangrove forests, a salt water river floats peacefully alongside the hotel property. The hotel offers luxurious villas and suites; buggy tours of a 300-acre park that includes a huge lake and a view of the sea, dining at the river front restaurant featuring Burmese, Thai and Chinese Cuisines.
+                    </p>
+                    {{-- <p>Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatut.</p>
+                    <a class="about_btn_b" href="#">contact us</a> --}}
                 </div>
             </div>
             <div class="col-md-5">
