@@ -197,7 +197,7 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            ""
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_front.jpg"
         ],
         "specifications" : [
             "4 persons",
@@ -228,7 +228,7 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            ""
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_front.jpg"
         ],
         "specifications" : [
             "8 persons",
@@ -259,7 +259,7 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            ""
+            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_front.jpg"
         ],
         "specifications" : [
             "2 persons",
