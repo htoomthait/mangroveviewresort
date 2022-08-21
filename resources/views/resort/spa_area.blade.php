@@ -52,7 +52,7 @@
 <!--================End Spa Wellness Area =================-->
 
 <!--================Spa Area =================-->
-<section class="spa_area resort-background" style="margin-top:-16px; padding-bottom:42px;">
+{{-- <section class="spa_area resort-background" style="margin-top:-16px; padding-bottom:42px;">
     <div class="container resort-block-container">
         <div class="row">
             <div class="col-md-4">
@@ -110,5 +110,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!--================End Spa Area =================-->

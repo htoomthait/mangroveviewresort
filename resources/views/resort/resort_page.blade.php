@@ -34,7 +34,7 @@
     <!-- ============== Pool Area End =========================-->
 
     <!-- ============== Karaoke Area Start =========================-->
-    @include('resort.karaoke')
+    {{-- @include('resort.karaoke') --}}
     <!-- ============== Karaoke Area End===================== -->
 
 
