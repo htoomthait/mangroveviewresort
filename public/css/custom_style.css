@@ -189,6 +189,11 @@
     text-transform: uppercase;
 }
 
+.mangrove_view_resort_banner_text{
+    margin-top:32px;
+}
+
+
   @media only screen and (min-width: 1450px) {
     .carousel-caption-landing{
         height:16%;
