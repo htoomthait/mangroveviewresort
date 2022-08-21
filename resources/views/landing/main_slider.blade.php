@@ -15,7 +15,7 @@
         <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_1.jpg" alt="Los Angeles" style="width:100%;">
         <div class="carousel-caption carousel-caption-landing" >
           <h3>Sea and Lake 3D Logo</h3>
-          <p>A nice place to relax and memorial photos</p>
+          <p>A nice place to relax and to take memorial photos</p>
         </div>
       </div>
 
@@ -30,7 +30,7 @@
       <div class="item">
         <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_3.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption carousel-caption-landing">
-          <h3>Mangrove View Bridge Brid Sight</h3>
+          <h3>Mangrove View Bridge Bird Sight</h3>
           <p>Enjoy the natural views of our mangrove forest from the bridge</p>
         </div>
       </div>
