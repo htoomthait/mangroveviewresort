@@ -39,7 +39,7 @@
 
 
     <!-- ============== gallery Area =========================-->
-    @include('resort.gallery')
+    {{-- @include('resort.gallery') --}}
     <!-- ============== end gallery Area ===================== -->
 
 
