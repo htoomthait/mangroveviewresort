@@ -1,4 +1,17 @@
 @extends('layout.master')
+@php
+    $detailImages = $selectedVilla['images'];
+    $detailImages = array_slice($detailImages, 1);
+    if(count($detailImages) === 0){
+        $detailImages = [
+            'images/room/room-details.jpg',
+            'images/room/room-details.jpg',
+            'images/room/room-details.jpg'
+        ];
+    }
+    // dd($detailImages);
+
+@endphp
 
 @section('page_content')
     <section class="banner_area"
@@ -33,15 +46,11 @@
 
 
                             <div class="room_details_img owl-carousel">
-                                <div class="item">
-                                    <img src="{{url('/')}}/images/room/room-details.jpg" alt="room detail img-1">
-                                </div>
-                                <div class="item">
-                                    <img src="{{url('/')}}/images/room/room-details.jpg" alt="room detail img-2">
-                                </div>
-                                <div class="item">
-                                    <img src="{{url('/')}}/images/room/room-details.jpg" alt="room dtail img-3">
-                                </div>
+                                @foreach($detailImages as $image)
+                                    <div class="item">
+                                        <img src="{{asset($image)}}" alt="">
+                                    </div>
+                                @endforeach
                             </div>
 
                             <p>

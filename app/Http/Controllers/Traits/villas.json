@@ -11,7 +11,10 @@
         "line_break_add" : false,
         "description" : "<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?</p> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?</p>",
         "images" : [
-            "images/room/single_deluxe_villa/single_dulex_suite_villa.jpg"
+            "images/room/single_deluxe_villa/single_dulex_suite_villa.jpg",
+            "images/room/single_deluxe_villa/single_deluxe_villa_detail_1.jpg",
+            "images/room/single_deluxe_villa/single_deluxe_villa_detail_2.jpg",
+            "images/room/single_deluxe_villa/single_deluxe_villa_detail_3.jpg"
         ],
         "specifications" : [
             "2 persons",
@@ -42,7 +45,10 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            "images/room/deluxe_room_villa/dulex_room_villa_front.jpg"
+            "images/room/deluxe_room_villa/dulex_room_villa_front.jpg",
+            "images/room/deluxe_room_villa/duplex_room_villa_detail_1.jpg",
+            "images/room/deluxe_room_villa/duplex_room_villa_detail_2.jpg",
+            "images/room/deluxe_room_villa/duplex_room_villa_detail_3.jpg"
         ],
         "specifications" : [
             "2 persons",
@@ -73,7 +79,10 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            "images/room/duplex_suit_villa/duplex_suit_villa_front.jpg"
+            "images/room/duplex_suit_villa/duplex_suit_villa_front.jpg",
+            "images/room/duplex_suit_villa/duplex_suite_villa_detail_1.jpg",
+            "images/room/duplex_suit_villa/duplex_suite_villa_detail_2.jpg",
+            "images/room/duplex_suit_villa/duplex_suite_villa_detail_3.jpg"
         ],
         "specifications" : [
             "3 persons",
@@ -104,7 +113,10 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            "images/room/mangrove_suite_villa/mangrove_suite_villa_front.jpg"
+            "images/room/mangrove_suite_villa/mangrove_suite_villa_front.jpg",
+            "images/room/mangrove_suite_villa/mangrove_suite_villa_detail_1.jpg",
+            "images/room/mangrove_suite_villa/mangrove_suite_villa_detail_2.jpg",
+            "images/room/mangrove_suite_villa/mangrove_suite_villa_detail_3.jpg"
         ],
         "specifications" : [
             "3 persons",
@@ -135,7 +147,11 @@
         "line_break_add" : true,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            "images/room/family_deluxe_villa/family_deluxe_villa_front.jpg"
+            "images/room/family_deluxe_villa/family_deluxe_villa_front.jpg",
+            "images/room/family_deluxe_villa/family_deluxe_villa_detail_1.jpg",
+            "images/room/family_deluxe_villa/family_deluxe_villa_detail_2.jpg",
+            "images/room/family_deluxe_villa/family_deluxe_villa_detail_3.jpg",
+            "images/room/family_deluxe_villa/family_deluxe_villa_detail_4.jpg"
         ],
         "specifications" : [
             "4 persons",
@@ -166,7 +182,11 @@
         "line_break_add" : true,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            "images/room/jade_suite_villa/jade_suite_villa_front.jpg"
+            "images/room/jade_suite_villa/jade_suite_villa_front.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_1.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_2.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_3.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_4.jpg"
         ],
         "specifications" : [
             "2 persons",
@@ -197,7 +217,10 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_front.jpg"
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_front.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_detail_1.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_detail_2.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_detail_3.jpg"
         ],
         "specifications" : [
             "4 persons",
@@ -228,7 +251,10 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_front.jpg"
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_front.jpg",
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_detail_1.jpg",
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_detail_2.jpg",
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_detail_3.jpg"
         ],
         "specifications" : [
             "8 persons",
@@ -259,7 +285,13 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "images" : [
-            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_front.jpg"
+            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_front.jpg",
+            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_detail_1.jpg",
+            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_detail_2.jpg",
+            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_detail_3.jpg",
+            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_detail_4.jpg",
+            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_detail_5.jpg",
+            "images/room/presidential_jade_suite_villa/presidential_jade_suite_villa_detail_6.jpg"
         ],
         "specifications" : [
             "2 persons",
