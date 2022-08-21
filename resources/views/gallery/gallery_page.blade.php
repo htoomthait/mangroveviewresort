@@ -2,7 +2,9 @@
 
 @section('page_content')
     <!--================Banner Area =================-->
-    <section class="banner_area">
+    <section class="banner_area"
+    style="background: url({{asset('img/banner/gallery_banner_bg.jpg')}}) no-repeat center; background-size: cover;"
+    >
         <div class="container">
             <div class="banner_inner_content">
                 <h3>Gallery</h3>

@@ -61,7 +61,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="{{route('page.bar_and_restaurant')}}" class="room_image">
-                        <img src="images/room/explore_room_3.jpg" alt="">
+                        <img src="images/restaurant/restaurant_img_at_landing_page.jpg" alt="">
                     </a>
                     <div class="explor_text">
                         <a href="{{route('page.bar_and_restaurant')}}"><h4>Restaurant</h4></a>
