@@ -70,8 +70,12 @@
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="col-sm-3">
+                                    <button class="btn book_now_btn" onClick="bookNow({{$selectedVilla['id']}})"> Book Now</button>
+                                </div>
 
                             </div>
+                            
 
                         </div>
                         <div class="room_service_list" style="margin-top:48px;">
@@ -225,3 +229,7 @@
 
 
 @endsection
+
+@push('page_js')
+    @include('villa.js_load.villa_details_js')
+@endpush

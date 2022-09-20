@@ -13,12 +13,18 @@ class ContactUsController extends GenericController
 {
     use VillaUtilityTrait;
 
-    public function contactUsPage()
+    public function contactUsPage(Request $request)
     {
         $this->setPageTitle('contactUs', '');
         $villaTypes = $this->getAllVillas();
+        $selectedVilla = null;
+        
+        if($request->input('villaId')){
+            $collectVillas = collect($villaTypes);
+            $selectedVilla = $collectVillas->where('id', $request->input('villaId'))->first();
+        }
 
-        return view('contact_us.contact_us_page', compact('villaTypes'));
+        return view('contact_us.contact_us_page', compact(['villaTypes', 'selectedVilla']));
     }
 
     public function submitContactUsForm(Request $request)

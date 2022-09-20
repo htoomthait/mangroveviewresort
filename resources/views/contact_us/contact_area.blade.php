@@ -27,7 +27,7 @@
                             <option value="">--- Please select a villa type ---</option>
                             @foreach ($villaTypes as $villaType)
 
-                                <option value="{{$villaType['villa_name']}}">
+                                <option value="{{$villaType['villa_name']}}" {{ $selectedVilla != null && $selectedVilla['id'] == $villaType['id'] ? 'selected' : '' }}>
                                     {!! $villaType['villa_name'] !!} |
                                     {{$villaType['number_of_person']}} persons |
                                     {{$villaType['original_price']}} MMK
