@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-6">
                 <a href="activities.html" class="activities_img">
-                    <img src="img/activities/activities-4.jpg" alt="">
+                    <img src="{{url('/')}}/images/activities/wood_museum.jpg" alt="">
                 </a>
             </div>
 
