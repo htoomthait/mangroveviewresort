@@ -53,9 +53,9 @@
                                 @endforeach
                             </div>
 
-                            <p>
+                            {{-- <p>
                                 {!! $selectedVilla['description']!!}
-                            </p>
+                            </p> --}}
                         </div>
                         <div class="room_service_list">
                             <h3 class="room_d_title">Room Specifications</h3>
