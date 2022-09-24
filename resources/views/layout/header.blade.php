@@ -67,9 +67,9 @@
                                     class="fa fa-chevron-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_villa_type">Villa Types</a></li>
-                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_amenities">Amenities</a></li>
+                                {{-- <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_amenities">Amenities</a></li> --}}
                                 <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_spa">Spa &amp; Relax</a></li>
-                                <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_pool">Pool</a></li>
+                                <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_pool_and_private_beach">Pool &amp; Private Beach</a></li>
                                 <li><a class="anchor_link"  href="{{ route('page.bar_and_restaurant') }}#sec_restaurant">Bar &amp; Restaurant</a></li>
                                 {{-- <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li> --}}
                                 <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_fitness">Fitness </a></li>

@@ -14,15 +14,15 @@
     <!--================End Explor Room Area =================-->
 
     <!--================Amennities Content Area =================-->
-    @include('resort.amenities');
+    {{-- @include('resort.amenities'); --}}
     <!--================End Amenities Content Area =================-->
 
     <!-- ============== SPA Area =========================-->
     @include('resort.spa_area')
     <!-- ============== End SPA Area ===================== -->
 
-    <!-- ============== Pool Area Start=========================-->
-    @include('resort.pool_area')
+    <!-- ============== Pool and Private Beach Area Start=========================-->
+    @include('resort.pool_and_private_beach_area')
     <!-- ============== Pool Area End =========================-->
 
     <!-- ============== Restaurant Area Start =========================-->
