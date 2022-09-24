@@ -9,8 +9,12 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <a href="activities.html" class="activities_img">
-                    <img src="{{url('/')}}/images/activities/wood_museum.jpg" alt="">
+                <a href="{{ asset('images/activities/wood_museum_large.jpg') }}"
+                    data-lightbox="garden_guide_map_landing_page" data-title="Wood Museum">
+                    <i class="fa fa-expand"
+                        style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                        aria-hidden="true"></i>
+                    <img src="{{ asset('images/activities/wood_museum_small.jpg') }}" alt="">
                 </a>
             </div>
 

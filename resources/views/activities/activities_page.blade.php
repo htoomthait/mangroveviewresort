@@ -39,8 +39,13 @@
                     <div class="heading">
                         <h4>Boat <span>Riding</span></h4>
                     </div>
-                    <a href="activities.html" class="activities_img">
-                        <img src="img/activities/activities-1.jpg" alt="">
+                    <a
+                        href="{{url('/')}}/images/activities/boat_activity_large.jpg"
+                        data-lightbox="garden_guide_map_landing_page"
+                        data-title="Boat Riding"
+                        >
+                        <i class="fa fa-expand" style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;" aria-hidden="true"></i>
+                        <img src="{{url('/')}}/images/activities/boat_activity_small.jpg" alt="guide map">
                     </a>
 
                     <div class="content">

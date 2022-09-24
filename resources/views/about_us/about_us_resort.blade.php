@@ -63,46 +63,51 @@
                     </p>
 
                     <p>
-                        <h3>Villa Features & Amenities</h3>
-                        <ul class="mt-4">
-                            <li class="mt-2">
-                                <i class="fa fa-check-circle"></i>
-                                &nbsp;
-                                One and two-bedroom villas range from 750 to 2,500 square meters
+                    <h3>Villa Features & Amenities</h3>
+                    <ul class="mt-4">
+                        <li class="mt-2">
+                            <i class="fa fa-check-circle"></i>
+                            &nbsp;
+                            One and two-bedroom villas range from 750 to 2,500 square meters
 
-                            </li>
-                            <li class="mt-2">
-                                <i class="fa fa-check-circle"></i>
-                                &nbsp;
-                                Spacious bedroom with exquisite craftmanship
+                        </li>
+                        <li class="mt-2">
+                            <i class="fa fa-check-circle"></i>
+                            &nbsp;
+                            Spacious bedroom with exquisite craftmanship
 
-                            </li>
-                            <li class="mt-2">
-                                <i class="fa fa-check-circle"></i>
-                                &nbsp;
-                                Elegant bathroom with romantic bathtub
+                        </li>
+                        <li class="mt-2">
+                            <i class="fa fa-check-circle"></i>
+                            &nbsp;
+                            Elegant bathroom with romantic bathtub
 
-                            </li>
-                            <li class="mt-2">
-                                <i class="fa fa-check-circle"></i>
-                                &nbsp;
-                                Jade Suite Villa has separate living room to rest, dine or entertain in full A/C comfort
+                        </li>
+                        <li class="mt-2">
+                            <i class="fa fa-check-circle"></i>
+                            &nbsp;
+                            Jade Suite Villa has separate living room to rest, dine or entertain in full A/C comfort
 
-                            </li>
-                            <li class="mt-2">
-                                <i class="fa fa-check-circle"></i>
-                                &nbsp;
-                                All rooms are non-smoking
+                        </li>
+                        <li class="mt-2">
+                            <i class="fa fa-check-circle"></i>
+                            &nbsp;
+                            All rooms are non-smoking
 
-                            </li>
-                        </ul>
+                        </li>
+                    </ul>
                     </p>
                 </div>
             </div>
             <div class="col-md-5">
 
-                <a href="#" class="introduction_img">
-                    <img src="{{asset('images/entrance/resort_about_us_img.jpg')}}" alt="">
+
+                <a href="{{ asset('images/entrance/resort_about_us_large.jpg') }}"
+                    data-lightbox="garden_guide_map_landing_page" data-title="Resort Entrance">
+                    <i class="fa fa-expand"
+                        style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                        aria-hidden="true"></i>
+                    <img src="{{ asset('images/entrance/resort_about_us_small.jpg') }}" alt="">
                 </a>
             </div>
 
