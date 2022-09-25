@@ -24,8 +24,8 @@
             <div class="row event_inner">
                 <div class="event_item row m0 ">
                     <div class="col-md-5 event_img_block" >
-                        <a href="event-details.html" class="event_img">
-                            <img src="img/event/event-5.jpg" alt="">
+                        <a href="images/utility/comming_soon_promotion.jpg" class="event_img">
+                            <img src="images/utility/comming_soon_promotion.jpg" alt="">
                         </a>
                     </div>
                     <div class="col-md-7 ">
@@ -48,8 +48,8 @@
                 </div>
                 <div class="event_item row m0 ">
                     <div class="col-md-5 event_img_block" >
-                        <a href="event-details.html" class="event_img">
-                            <img src="img/event/event-5.jpg" alt="">
+                        <a href="images/utility/comming_soon_promotion.jpg" class="event_img">
+                            <img src="images/utility/comming_soon_promotion.jpg" alt="">
                         </a>
                     </div>
                     <div class="col-md-7 ">
@@ -72,8 +72,8 @@
                 </div>
                 <div class="event_item row m0 ">
                     <div class="col-md-5 event_img_block" >
-                        <a href="event-details.html" class="event_img">
-                            <img src="img/event/event-5.jpg" alt="">
+                        <a href="images/utility/comming_soon_promotion.jpg" class="event_img">
+                            <img src="images/utility/comming_soon_promotion.jpg" alt="">
                         </a>
                     </div>
                     <div class="col-md-7 ">
