@@ -7,7 +7,7 @@
         <div class="row introduction_inner">
             <div class="col-md-5">
                 <a href="#" class="introduction_img">
-                    <img src="img/resort-story-img.jpg" alt="">
+                    <img src="images/utility/coming_soon_karaoke.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-7">
