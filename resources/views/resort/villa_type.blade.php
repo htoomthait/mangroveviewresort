@@ -9,7 +9,7 @@
         <div class="row explor_room_item_inner">
             @foreach ($arrVillas as $villa)
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="{{route('page.resort.villa_detail',$villa['id'])}}" class="room_image">
                         <img src="{{ $villa['images'][0] == "" ? 'img/room/room-1.jpg' : $villa['images'][0] }}" alt="">
