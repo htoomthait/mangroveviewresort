@@ -3,10 +3,8 @@
      <div class="container resort-block-container">
          <div class="main_big_title">
              <h2>spa & <span>wellness</span></h2>
-             <p>Mangrove View Spa treatments blend authentic Burmese massage techniques and powerful ingredients to
-                 rejuvenate and replenish the body. From relaxing skin soothing aroma oil pulls to stress-relieving
-                 massages, Mangrove Spa menu features natural healing traditions to provide guests with a deep
-                 replenishing and relaxation.
+             <p>
+                <strong> Overview </strong>:  Mangrove View Spa treatments blend authentic Burmese massage techniques and powerful ingredients to rejuvenate and replenish the body. From relaxing skin soothing aroma oil pulls to stress-relieving massages, Mangrove Spa menu features natural healing traditions to provide guests with a deep replenishing and relaxation.
              </p>
          </div>
          <div class="row spa_wellness_inner">

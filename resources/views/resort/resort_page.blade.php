@@ -26,7 +26,7 @@
     <!-- ============== Pool Area End =========================-->
 
     <!-- ============== Restaurant Area Start =========================-->
-    @include('resort.restaurant')
+    {{-- @include('resort.restaurant') --}}
     <!-- ============== Restaurant Area End ===================== -->
 
     <!-- ============== Pool Area Start=========================-->
