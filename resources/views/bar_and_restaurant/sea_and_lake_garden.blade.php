@@ -5,7 +5,7 @@
             <p>Have enjoy at our garden restaurant</p>
         </div>
         <div class="row choose_resot_inner">
-            <div class="col-md-4">
+            <div class="col-md-4 restaurant-text">
                <p>
                 <strong>Highlight </strong>: Casual dining experience at the garden with a lake view.
                </p>
@@ -24,13 +24,6 @@
             </div>
             <div class="col-md-8" >
                 <div id="sea_and_lake_garden_restaurant" class="carousel slide" data-ride="carousel" >
-                    <!-- Indicators -->
-                    {{-- <ol class="carousel-indicators" id="carousel-indicator-landing-main" >
-                      <li data-target="#sea_and_lake_garden_restaurant" data-slide-to="0" class="active"></li>
-                      <li data-target="#sea_and_lake_garden_restaurant" data-slide-to="1"></li>
-                      <li data-target="#sea_and_lake_garden_restaurant" data-slide-to="2"></li>
-                      <li data-target="#sea_and_lake_garden_restaurant" data-slide-to="3"></li>
-                    </ol> --}}
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" >
@@ -67,6 +60,27 @@
                         <img class="landing_carousel_img" src="/images/restaurant/sea_and_lake_garden/sea_and_lake_garden_restaurant_menu_5.jpg" alt="Garden Menu 5" style="width:100%;">
                         <div class="carousel-caption carousel-caption-landing" >
                           <h3>Garden Menu 5</h3>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img class="landing_carousel_img" src="/images/restaurant/sea_and_lake_garden/sea_and_lake_garden_restaurant_menu_6.jpg" alt="Garden Menu 6" style="width:100%;">
+                        <div class="carousel-caption carousel-caption-landing" >
+                          <h3>Garden Menu 6</h3>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img class="landing_carousel_img" src="/images/restaurant/sea_and_lake_garden/sea_and_lake_garden_restaurant_menu_7.jpg" alt="Garden Menu 7" style="width:100%;">
+                        <div class="carousel-caption carousel-caption-landing" >
+                          <h3>Garden Menu 7</h3>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img class="landing_carousel_img" src="/images/restaurant/sea_and_lake_garden/sea_and_lake_garden_restaurant_menu_8.jpg" alt="Garden Menu 8" style="width:100%;">
+                        <div class="carousel-caption carousel-caption-landing" >
+                          <h3>Garden Menu 8</h3>
                         </div>
                       </div>
 

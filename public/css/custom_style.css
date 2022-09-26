@@ -214,6 +214,14 @@
     text-transform: uppercase;
 }
 
+.restaurant-text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.225px;
+    color: #898989;
+}
+
 @media only screen and (min-width: 1450px) {
     .carousel-caption-landing {
         height: 16%;
