@@ -9,16 +9,16 @@
         <div class="row explor_room_item_inner">
             @foreach ($arrVillas as $villa)
 
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="explor_item">
-                    <a href="room-details.html" class="room_image">
+                    <a href="{{route('page.resort.villa_detail',$villa['id'])}}" class="room_image">
                         <img src="{{ $villa['images'][0] == "" ? 'img/room/room-1.jpg' : $villa['images'][0] }}" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="room-details.html"><h4> {!!$villa['villa_name']!!} </h4></a>
+                        <a href="{{route('page.resort.villa_detail',$villa['id'])}}"><h4> {!!$villa['villa_name']!!} </h4></a>
 
                         @if($villa['line_break_add'])
-                            <br/>
+                            <br />
                         @endif
 
                         <ul>
@@ -46,22 +46,5 @@
 
 
         </div>
-        <nav aria-label="Page navigation" class="room_pagination">
-            <ul class="pagination">
-                <li>
-                    <a href="#" aria-label="Previous">
-                        <i class="fa fa-angle-left" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li>
-                    <a href="#" aria-label="Next">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+
 </section>

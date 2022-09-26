@@ -9,8 +9,8 @@
                     </a>
                     <a href="#"><i class="fa fa-envelope-o"></i>sales@mangroviewresort.com</a>
                 </div>
-                <div class="pull-right">
-                    <ul class="header_social">
+                <div class="pull-right" >
+                    <ul class="header_social" id="nav_social_icons">
                         <li><a href="https://www.facebook.com/seaandlakegarden"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="#"><i class="fa fa-youtube"></i></a></li>
@@ -33,7 +33,10 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand dp-flex" href="{{url('/')}}">
-                        <img src="{{url('/')}}/img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo"
+                        <img
+                            class="img-fluid"
+                            src="{{url('/')}}/img/logo/sea_and_lake_logo_picture.png"
+                            alt="sea and lake transparent logo"
                             width="80px">
                         <h3 class="logo-brand-text">Sea &amp; Lake Garden</h3>
                     </a>
@@ -136,7 +139,7 @@
                         <li class="@if (session('page_title') === 'contactUs') active @endif"><a
                                 href="{{ route('page.contact_us') }}">Contact Us</a></li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" >
                         <li class="search_dropdown">
                             <a class="popup-with-zoom-anim" href="#test-search"><i class="icon icon-Search"></i></a>
                         </li>

@@ -759,7 +759,7 @@
         top: 54%;
     }
     .introduction_area.intro_area2 {
-        padding-top: 240px;
+        padding-top: 24px;
     }
     .discount_inner .discount_right_content h4 {
         font-size: 26px;
@@ -875,7 +875,7 @@
         width: 200px;
     }
     .navbar-brand > img {
-        max-width: 100%;
+        max-width: 35%;
     }
     .middle_menu_area .navbar.navbar-default .navbar-brand {
         padding: 25px 0px 0px 15px;

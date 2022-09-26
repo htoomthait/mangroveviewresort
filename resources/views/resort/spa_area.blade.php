@@ -1,58 +1,97 @@
  <!--================Spa Wellness Area =================-->
  <section class="spa_wellness_area resort-background" id="sec_spa" style="margin-top:-24px;padding-bottom: 56px;">
-    <div class="container resort-block-container">
-        <div class="main_big_title">
-            <h2>spa & <span>wellness</span></h2>
-            <p>Mangrove View Spa treatments blend authentic Burmese massage techniques and powerful ingredients to rejuvenate and replenish the body. From relaxing skin soothing aroma oil pulls to stress-relieving massages, Mangrove Spa menu features natural healing traditions to provide guests with a deep replenishing and relaxation.
-            </p>
-        </div>
-        <div class="row spa_wellness_inner">
-            <div class="col-md-4 col-sm-6">
-                <div class="spa_item">
-                    <a href="spa.html" class="spa_img">
-                        <img src="img/spa/spa-1.jpg" alt="">
-                    </a>
-                    <div class="spa_content">
-                        <a href="#"><h4>Traditional Burmese Massage </h4></a>
-                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus cum soluta nobi  est eligendi optio cumque nihil impedit.</p>
-                        <h5>$170 <span>/ setting</span></h5>
-                        <a class="book_now_btn" href="#">View details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="spa_item">
-                    <a href="spa.html" class="spa_img">
-                        <img src="img/spa/spa-2.jpg" alt="">
-                    </a>
-                    <div class="spa_content">
-                        <a href="#"><h4>Aroma Oil Massage </h4></a>
-                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus cum soluta nobi  est eligendi optio cumque nihil impedit.</p>
-                        <h5>$120 <span>/ setting</span></h5>
-                        <a class="book_now_btn" href="#">View details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="spa_item">
-                    <a href="spa.html" class="spa_img">
-                        <img src="img/spa/spa-3.jpg" alt="">
-                    </a>
-                    <div class="spa_content">
-                        <a href="#"><h4>Foot Salt Water Soak and Massage</h4></a>
-                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus cum soluta nobi  est eligendi optio cumque nihil impedit.</p>
-                        <h5>$270 <span>/ setting</span></h5>
-                        <a class="book_now_btn" href="#">View details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--================End Spa Wellness Area =================-->
+     <div class="container resort-block-container">
+         <div class="main_big_title">
+             <h2>spa & <span>wellness</span></h2>
+             <p>Mangrove View Spa treatments blend authentic Burmese massage techniques and powerful ingredients to
+                 rejuvenate and replenish the body. From relaxing skin soothing aroma oil pulls to stress-relieving
+                 massages, Mangrove Spa menu features natural healing traditions to provide guests with a deep
+                 replenishing and relaxation.
+             </p>
+         </div>
+         <div class="row spa_wellness_inner">
+             <div class="col-md-4 col-sm-6">
+                 <div class="spa_item">
 
-<!--================Spa Area =================-->
-{{-- <section class="spa_area resort-background" style="margin-top:-16px; padding-bottom:42px;">
+                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                         data-lightbox="spa_on_resort" data-title="Tradittional Burmese Message">
+                         <i class="fa fa-expand"
+                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                             aria-hidden="true"></i>
+                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                     </a>
+
+                     <div class="spa_content">
+                         <a href="#">
+                             <h4>Traditional Burmese Massage </h4>
+                         </a>
+                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                             quod maxime placeat facere possimus cum soluta nobi est eligendi optio cumque nihil
+                             impedit.</p>
+
+                         {{-- <a class="book_now_btn" href="#">View details</a> --}}
+                     </div>
+                     <div class="spa_price">
+                         <h5>$170 <span>/ setting</span></h5>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-4 col-sm-6">
+                 <div class="spa_item">
+                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                         data-lightbox="spa_on_resort" data-title="Aroma Oil Massage">
+                         <i class="fa fa-expand"
+                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                             aria-hidden="true"></i>
+                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                     </a>
+                     <div class="spa_content">
+                         <a href="#">
+                             <h4>Aroma Oil Massage</h4>
+                         </a><br />
+                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                             quod maxime placeat facere possimu</p>
+
+                         {{-- <a class="book_now_btn" href="#">View details</a> --}}
+                     </div>
+                     <div class="spa_price">
+                         <h5>$120 <span>/ setting</span></h5>
+                     </div>
+
+                 </div>
+             </div>
+             <div class="col-md-4 col-sm-6">
+                 <div class="spa_item">
+                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                         data-lightbox="spa_on_resort" data-title="Foot Salt Water Soak and Massage">
+                         <i class="fa fa-expand"
+                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                             aria-hidden="true"></i>
+                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                     </a>
+                     <div class="spa_content">
+                         <a href="#">
+                             <h4>Foot Salt Water Soak and Massage</h4>
+                         </a>
+                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                             quod maxime placeat facere possimus cum soluta nobi est eligendi optio cumque nihil
+                             impedit.</p>
+
+                         {{-- <a class="book_now_btn" href="#">View details</a> --}}
+                     </div>
+                     <div class="spa_price">
+                         <h5>$270 <span>/ setting</span></h5>
+                     </div>
+
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!--================End Spa Wellness Area =================-->
+
+ <!--================Spa Area =================-->
+ {{-- <section class="spa_area resort-background" style="margin-top:-16px; padding-bottom:42px;">
     <div class="container resort-block-container">
         <div class="row">
             <div class="col-md-4">
@@ -111,4 +150,4 @@
         </div>
     </div>
 </section> --}}
-<!--================End Spa Area =================-->
+ <!--================End Spa Area =================-->
