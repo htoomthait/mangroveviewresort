@@ -6,9 +6,16 @@
         </div>
         <div class="row introduction_inner">
             <div class="col-md-5">
-                <a href="#" class="introduction_img">
-                    <img src="img/resort-story-img.jpg" alt="">
+
+
+                <a href="{{ asset('images/utility/fitness_coming_soon_large.jpg') }}"
+                    data-lightbox="resort_fitness" data-title="Fitness" class="introduction_img">
+                    <i class="fa fa-expand"
+                        style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                        aria-hidden="true"></i>
+                    <img src="{{ asset('images/utility/fitness_coming_soon_small.jpg') }}" alt="guide map">
                 </a>
+
             </div>
             <div class="col-md-7">
                 <div class="introduction_left_text">
