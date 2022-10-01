@@ -16,11 +16,11 @@
                     </div>
                     <div class="col-md-6 col-xs-6">
                         <div class="spa_img">
-                            <img src="{{url('/')}}/images/pool_and_beach/private_beach_2_small.jpg" alt="">
+                            <img src="{{url('/')}}/images/pool_and_beach/pool_3_small.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="{{url('/')}}/images/pool_and_beach/private_beach_2.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
-                                    <h5>Private Beach &amp; Fun Walk Through</h5>
+                                    <a class="light" href="{{url('/')}}/images/pool_and_beach/pool_3.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <h5>Wooden Shower &amp; Custom made experience</h5>
                                 </div>
                             </div>
                         </div>

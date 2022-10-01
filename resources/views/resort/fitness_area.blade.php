@@ -1,26 +1,26 @@
 <section class="introduction_area resort_story_area resort-background " id="sec_fitness" style="padding-bottom:52px;">
     <div class="container resort-block-container">
         <div class="left_ex_title">
-            <h2>our resort<span>fitness</span></h2>
+            <h2>our resort<span> fitness</span></h2>
             <p></p><p></p>
         </div>
         <div class="row introduction_inner">
             <div class="col-md-5">
 
 
-                <a href="{{ asset('images/utility/fitness_coming_soon_large.jpg') }}"
+                <a href="{{ asset('images/resort/fitness.jpg') }}"
                     data-lightbox="resort_fitness" data-title="Fitness" class="introduction_img">
                     <i class="fa fa-expand"
                         style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                         aria-hidden="true"></i>
-                    <img src="{{ asset('images/utility/fitness_coming_soon_small.jpg') }}" alt="guide map">
+                    <img src="{{ asset('images/resort/fitness_thumbnail.jpg') }}" alt="Fitness">
                 </a>
 
             </div>
             <div class="col-md-7">
                 <div class="introduction_left_text">
                     <div class="resort_title">
-                        <h2>our resort <span>fitness</span></h2>
+                        <h2>our resort <span> fitness</span></h2>
                         <h5>give best service to our customers</h5>
                     </div>
                     <br/>

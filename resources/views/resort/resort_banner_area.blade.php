@@ -6,8 +6,8 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-5 col-sm-5 col-xs-7" >
                         <img
-                        width="80%"
-                        src="{{ asset('images/logos/mangrove_view_logo_lemon_chiffon_color.png') }}" />
+                        width="100%"
+                        src="{{ asset('images/logos/mangrove_view_logo.jpg') }}" />
                     </div>
                     <div
                         class="col-lg-10 col-sm-12 col-xs-12 mangrove_view_resort_banner_text"

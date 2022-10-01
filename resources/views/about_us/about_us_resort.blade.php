@@ -109,6 +109,15 @@
                         aria-hidden="true"></i>
                     <img src="{{ asset('images/entrance/resort_about_us_small.jpg') }}" alt="">
                 </a>
+                <br/> <br/>
+
+                <a href="{{ asset('images/resort/resort_top_view.jpg') }}"
+                    data-lightbox="garden_guide_map_landing_page" data-title="Resort Top View">
+                    <i class="fa fa-expand"
+                        style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                        aria-hidden="true"></i>
+                    <img src="{{ asset('images/resort/resort_top_view_thumbnail.jpg') }}" alt="">
+                </a>
             </div>
 
         </div>

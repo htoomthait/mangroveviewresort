@@ -81,12 +81,12 @@
                     <div class="heading">
                         <h4>Cycling <span>Through</span></h4>
                     </div>
-                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
+                    <a href="{{ url('/') }}/images/activities/cycling_activity.jpg" data-lightbox="activity_page"
                     data-title="Cycling" class="activities_img">
                     <i class="fa fa-expand"
                         style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                         aria-hidden="true"></i>
-                    <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
+                    <img src="{{ url('/') }}/images/activities/cycling_activity_thumbnail.jpg" alt="guide map">
                 </a>
                     <div class="content">
                         <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
@@ -194,18 +194,15 @@
                     <div class="heading">
                         <h4>Kayaking <span>fun</span> <p>&nbsp;</p> </h4>
                     </div>
-                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
+                    <a href="{{ url('/') }}/images/activities/kayaking_activity.jpg" data-lightbox="activity_page"
                         data-title="Water Boom" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
+                        <img src="{{ url('/') }}/images/activities/kayaking_activity_thumbnail.jpg" alt="guide map">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
-                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                        <p>Kayaing activity is available.</p>
                     </div>
                 </div>
                 <div class="col-md-6 activity_block" id="activity_sailing_in_the_lake">
