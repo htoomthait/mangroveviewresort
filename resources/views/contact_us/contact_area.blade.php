@@ -84,10 +84,10 @@
                             </div>
                             <div class="media-body">
                                 <h4>Phone</h4>
-                                <a href="#">(+95) 9 881 777944</a>
+                                <a href="#"> Hotel contact -095501004</a>
                                 <a href="#">
-                                    (+95) 9 881 222207
-                                    <span class="badge badge-primary">hotline</span>
+                                    Reservation-09881777944, 09445991965
+                                    {{-- <span class="badge badge-primary">hotline</span> --}}
                                 </a>
                             </div>
                         </div>

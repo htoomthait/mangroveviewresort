@@ -11,10 +11,10 @@
                     Set in the deck of the private Sea & Lake Beach, the bespoke private dining experience exudes a magical feel with its unique and serene atmosphere. Indulge in a four-course set menu showcasing the finest taste and ingredients. With total privacy, romantic candlelit setting, along with cool evening breeze and nature's symphony from the waves, it is an idyllic spot for a romantic dinner under the stars.
                 </p>
                 <p class="mt-3">
-                    4-course dinner at 90,000++ MMK per person
+                    4-course dinner at 60++ USD per person
                 </p>
                 <p class="mt-3">
-                    Additional wine pairing at 120,000++ MMK per person
+                    Additional wine pairing at 75++ USD per person
                 </p>
             </div>
             <div class="col-md-8" >
@@ -96,10 +96,10 @@
                     Enjoy our mangrove signature cocktails specially handcrafted for this unforgettable evening.
                 </p>
                 <p class="mt-2">
-                    Standard 40,000++ MMK per person
+                    Standard 25++ USD per person
                 </p>
                 <p class="mt-2">
-                    Premium 90,000 ++ MMK per person
+                    Premium 40++ USD per person
                 </p>
             </div>
         </div>

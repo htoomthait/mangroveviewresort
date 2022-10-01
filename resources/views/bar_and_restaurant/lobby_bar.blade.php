@@ -102,7 +102,9 @@
                                 <i class="fa fa-expand"
                                     style="position: absolute; z-index:100; margin-top:8px; left: 88%; font-size:21px;"
                                     aria-hidden="true"></i>
-                                <img src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_7_thumbnail.jpg') }}" alt="lobby item 7">
+                                <img
+                                    style="width: 270px; height:260px; object-fit:cover;"
+                                    src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_7_thumbnail.jpg') }}" alt="lobby item 7">
                             </a>
                         </div>
                         <h4>Item 7</h4>
@@ -117,10 +119,97 @@
                                 <i class="fa fa-expand"
                                     style="position: absolute; z-index:100; margin-top:8px; left: 88%; font-size:21px;"
                                     aria-hidden="true"></i>
-                                <img src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_8_thumbnail.jpg') }}" alt="lobby item 8">
+                                <img
+                                style="width: 270px; height:260px; object-fit:cover;"
+                                src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_8_thumbnail.jpg') }}" alt="lobby item 8">
                             </a>
                         </div>
                         <h4>Item 8</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="special_dish_item text-center">
+                        <div class="dish_img">
+                            <a href="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_9.jpg') }}"
+                                data-lightbox="lobby_bar" data-title="Item 9">
+                                <i class="fa fa-expand"
+                                    style="position: absolute; z-index:100; margin-top:8px; left: 88%; font-size:21px;"
+                                    aria-hidden="true"></i>
+                                <img
+                                style="width: 270px; height:260px; object-fit:cover;"
+                                src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_9_thumbnail.jpg') }}" alt="lobby item 9">
+                            </a>
+                        </div>
+                        <h4>Item 9</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="special_dish_item text-center">
+                        <div class="dish_img">
+                            <a href="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_10.jpg') }}"
+                                data-lightbox="lobby_bar" data-title="Item 10">
+                                <i class="fa fa-expand"
+                                    style="position: absolute; z-index:100; margin-top:8px; left: 88%; font-size:21px;"
+                                    aria-hidden="true"></i>
+                                <img
+                                style="width: 270px; height:260px; object-fit:cover;"
+                                src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_10_thumbnail.jpg') }}" alt="lobby item 10">
+                            </a>
+                        </div>
+                        <h4>Item 10</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="special_dish_item text-center">
+                        <div class="dish_img">
+                            <a href="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_11.jpg') }}"
+                                data-lightbox="lobby_bar" data-title="Item 11">
+                                <i class="fa fa-expand"
+                                    style="position: absolute; z-index:100; margin-top:8px; left: 88%; font-size:21px;"
+                                    aria-hidden="true"></i>
+                                <img
+                                style="width: 270px; height:260px; object-fit:cover;"
+                                src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_11_thumbnail.jpg') }}" alt="lobby item 11">
+                            </a>
+                        </div>
+                        <h4>Item 11</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="special_dish_item text-center">
+                        <div class="dish_img">
+                            <a href="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_12.jpg') }}"
+                                data-lightbox="lobby_bar" data-title="Item 12">
+                                <i class="fa fa-expand"
+                                    style="position: absolute; z-index:100; margin-top:8px; left: 88%; font-size:21px;"
+                                    aria-hidden="true"></i>
+                                <img
+                                style="width: 270px; height:260px; object-fit:cover;"
+                                src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_12_thumbnail.jpg') }}" alt="lobby item 12">
+                            </a>
+                        </div>
+                        <h4>Item 12</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="special_dish_item text-center">
+                        <div class="dish_img">
+                            <a href="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_13.jpg') }}"
+                                data-lightbox="lobby_bar" data-title="Item 13">
+                                <i class="fa fa-expand"
+                                    style="position: absolute; z-index:100; margin-top:8px; left: 88%; font-size:21px;"
+                                    aria-hidden="true"></i>
+                                <img
+                                style="width: 270px; height:260px; object-fit:cover;"
+                                src="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_13_thumbnail.jpg') }}" alt="lobby item 13">
+                            </a>
+                        </div>
+                        <h4>Item 13</h4>
                     </div>
                 </div>
             </div>

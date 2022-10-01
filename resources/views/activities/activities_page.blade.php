@@ -47,10 +47,9 @@
                     </a>
 
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
-                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                        <p>
+                            Boat riding along the Ma Gyi String is one of your things to do while you are staying at Mangrove View Resort.
+                        </p>
                     </div>
 
                 </div>
@@ -191,9 +190,9 @@
 
             </div>
             <div class="row activity_row">
-                <div class="col-md-6 activity_block" id="activity_waterboom">
+                <div class="col-md-6 activity_block" id="activity_kayaking">
                     <div class="heading">
-                        <h4>waterboom <span>fun</span> (coming soon)</h4>
+                        <h4>Kayaking <span>fun</span> <p>&nbsp;</p> </h4>
                     </div>
                     <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
                         data-title="Water Boom" class="activities_img">
@@ -230,6 +229,49 @@
 
 
             </div>
+
+            <div class="row activity_row">
+                <div class="col-md-6 activity_block" id="activity_waterboom">
+                    <div class="heading">
+                        <h4>waterboom <span>fun</span> (coming soon)</h4>
+                    </div>
+                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
+                        data-title="Water Boom" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
+                    </a>
+                    <div class="content">
+                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p>
+                    </div>
+                </div>
+                {{-- <div class="col-md-6 activity_block" id="activity_sailing_in_the_lake">
+                    <div class="heading">
+                        <h4>Sailing in the lake <span>fun</span> (coming soon)</h4>
+                    </div>
+                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
+                        data-title="Sailing in the lake" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
+                    </a>
+                    <div class="content">
+                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p>
+                    </div>
+                </div> --}}
+
+
+            </div>
+
+
 
 
         </div>

@@ -22,7 +22,7 @@
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>+95 9 881 777944</h4>
+                                    <h4>(+95)9881777944, (+95) 95501004</h4>
 
                                 </div>
 
