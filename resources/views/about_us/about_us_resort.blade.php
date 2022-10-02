@@ -15,11 +15,13 @@
                         The hotel offers luxurious villas and suites; buggy tours of a 300-acre park that includes a
                         huge lake and a view of the sea, dining at the river front restaurant featuring Burmese, Thai
                         and Chinese Cuisines.
+                        <div id="resort_services"style="margin-bottom:16px;" ></div>
                     </p>
                     {{-- <p>Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatut.</p>
                     <a class="about_btn_b" href="#">contact us</a> --}}
-                    <p>
-                    <h3>Resort Features</h3>
+
+                    <p  >
+                    <h3 >Resort Features</h3>
                     <ul class="mt-4" style="font-size: 15px;">
                         <li class="mt-2">
                             <i class="fa fa-check-circle"></i>
