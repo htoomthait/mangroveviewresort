@@ -44,8 +44,8 @@
                         <a href="{{route('page.resort')}}#sec_spa"><h4>SPA</h4></a>
                         <ul>
                             <li><a href="#">3 different kinds of spa</a></li>
-                            {{-- <li><a href="#">Mountain view</a></li>
-                            <li><a href="#">2 Balcony</a></li> --}}
+                            <li><a href="#"> <br/> &amp;</a></li>
+                            {{-- <li><a href="#">2 Balcony</a></li> --}}
                         </ul>
                         <div class="explor_footer" style="">
                             <div class="pull-left">
