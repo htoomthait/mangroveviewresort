@@ -222,6 +222,10 @@
     color: #898989;
 }
 
+.about_us_graden_expand{
+    position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;
+}
+
 @media only screen and (min-width: 1450px) {
     .carousel-caption-landing {
         height: 16%;

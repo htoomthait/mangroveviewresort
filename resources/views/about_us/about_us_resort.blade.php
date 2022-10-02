@@ -20,7 +20,7 @@
                     <a class="about_btn_b" href="#">contact us</a> --}}
                     <p>
                     <h3>Resort Features</h3>
-                    <ul class="mt-4">
+                    <ul class="mt-4" style="font-size: 15px;">
                         <li class="mt-2">
                             <i class="fa fa-check-circle"></i>
                             &nbsp;
@@ -64,7 +64,7 @@
 
                     <p>
                     <h3>Villa Features & Amenities</h3>
-                    <ul class="mt-4">
+                    <ul class="mt-4" style="font-size: 15px;">
                         <li class="mt-2">
                             <i class="fa fa-check-circle"></i>
                             &nbsp;
@@ -107,7 +107,11 @@
                     <i class="fa fa-expand"
                         style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                         aria-hidden="true"></i>
-                    <img src="{{ asset('images/entrance/resort_about_us_small.jpg') }}" alt="">
+                    <img
+                        class="img-fluid"
+                        width="100%"
+                        src="{{ asset('images/entrance/resort_about_us_small.jpg') }}"
+                        alt="" />
                 </a>
                 <br/> <br/>
 
@@ -116,7 +120,11 @@
                     <i class="fa fa-expand"
                         style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                         aria-hidden="true"></i>
-                    <img src="{{ asset('images/resort/resort_top_view_thumbnail.jpg') }}" alt="">
+                    <img
+                        class="img-fluid"
+                        width="100%"
+                        src="{{ asset('images/resort/resort_top_view_thumbnail.jpg') }}"
+                        alt="" />
                 </a>
             </div>
 
