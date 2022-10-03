@@ -50,6 +50,11 @@
             "images/room/deluxe_room_villa/duplex_room_villa_detail_2.jpg",
             "images/room/deluxe_room_villa/duplex_room_villa_detail_3.jpg"
         ],
+        "thubnails_images" : [
+            "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_1_thumbnail.jpg",
+            "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_2_thumbnail.jpg",
+            "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_3_thumbnail.jpg"
+        ],
         "specifications" : [
             "2 persons",
             "20x40 square meter",

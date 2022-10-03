@@ -1,29 +1,33 @@
 @extends('layout.master')
 @php
-    $detailImages = $selectedVilla['images'];
-    $detailImages = array_slice($detailImages, 1);
-    if(count($detailImages) === 0){
-        $detailImages = [
-            'images/room/room-details.jpg',
-            'images/room/room-details.jpg',
-            'images/room/room-details.jpg'
-        ];
-    }
-    // dd($detailImages);
+$detailImages = $selectedVilla['images'];
+$detailThumbnails = $selectedVilla['thubnails_images'];
+$detailImages = array_slice($detailImages, 1);
+if (count($detailImages) === 0) {
+    $detailImages = ['images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg'];
+}
+// dd($detailImages);
 
+$villaThumbnailBlkClasses = "";
+
+if (count($detailThumbnails) > 3){
+    $villaThumbnailBlkClasses = "col-md-3 col-sm-6 col-xs-12";
+}
+else{
+    $villaThumbnailBlkClasses = "col-md-4 col-sm-6 col-xs-12";
+}
 @endphp
 
 @section('page_content')
     <section class="banner_area"
-    style="background: url({{asset('img/banner/villa_detail_banner_bg.jpg')}}) no-repeat center; background-size: cover;"
-    >
+        style="background: url({{ asset('img/banner/villa_detail_banner_bg.jpg') }}) no-repeat center; background-size: cover;">
         <div class="container">
             <div class="banner_inner_content">
                 <h3>Villa Details</h3>
                 <ul>
-                    <li ><a href="{{route('home.landing_page')}}">Home</a></li>
-                    <li><a href="{{route('page.resort')}}">Resort</a></li>
-                    <li class="active"><a href="{{URL::current()}}">Villa Detail</a></li>
+                    <li><a href="{{ route('home.landing_page') }}">Home</a></li>
+                    <li><a href="{{ route('page.resort') }}">Resort</a></li>
+                    <li class="active"><a href="{{ URL::current() }}">Villa Detail</a></li>
                 </ul>
             </div>
         </div>
@@ -39,19 +43,53 @@
                     @endphp
                     <div class="room_details_content">
                         <div class="room_d_main_text">
-                            <a href="#"><h4> {!! $selectedVilla['villa_name'] !!}</h4></a>
-                            <h5>Pricing  {{number_format($selectedVilla['original_price'])}} {{$selectedVilla['currency']}} <span>/ Night</span></h5>
+                            <a href="#">
+                                <h4> {!! $selectedVilla['villa_name'] !!}</h4>
+                            </a>
+                            <h5>Pricing {{ number_format($selectedVilla['original_price']) }}
+                                {{ $selectedVilla['currency'] }} <span>/ Night</span></h5>
 
-                            <br/>
+                            <br />
 
 
-                            <div class="room_details_img owl-carousel">
-                                @foreach($detailImages as $image)
+                            {{-- <div class="room_details_img owl-carousel">
+                                @foreach ($detailImages as $image)
                                     <div class="item">
                                         <img src="{{asset($image)}}" alt="">
                                     </div>
                                 @endforeach
-                            </div>
+                            </div> --}}
+
+                            <section class="special_dish_area">
+                                <div class="container">
+                                    <div class="special_dish_inner_area">
+                                        <div class="row special_dish_inner" >
+
+                                            @foreach ($detailImages as $index => $image)
+                                                <div class="{{$villaThumbnailBlkClasses}}" >
+                                                    <div class="special_dish_item">
+                                                        <div class="dish_img">
+                                                            {{-- <img src="{{ url('/') }}/{{ $image }}"
+                                                                alt=""> --}}
+                                                            <a href="{{ asset($image) }}"
+                                                                data-lightbox="garden_guide_map_landing_page"
+                                                                data-title="Garden Entrance">
+                                                                <img class="img-fluid" width="100%"
+                                                                    src="{{ asset($detailThumbnails[$index]) }}"
+                                                                    alt="guide map" />
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            @endforeach
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
 
                             {{-- <p>
                                 {!! $selectedVilla['description']!!}
@@ -63,15 +101,17 @@
                                 <div class="col-sm-5 col-md-offset-right-1">
                                     <div class="resot_list">
                                         <ul>
-                                            @foreach ($selectedVilla['specifications'] as $specification )
-                                                <li><a ><i class="fa fa-caret-right" aria-hidden="true"></i> {{$specification}}</a></li>
+                                            @foreach ($selectedVilla['specifications'] as $specification)
+                                                <li><a><i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                        {{ $specification }}</a></li>
                                             @endforeach
 
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
-                                    <button class="btn book_now_btn" onClick="bookNow({{$selectedVilla['id']}})"> Book Now</button>
+                                    <button class="btn book_now_btn" onClick="bookNow({{ $selectedVilla['id'] }})"> Book
+                                        Now</button>
                                 </div>
 
                             </div>
@@ -84,12 +124,13 @@
                                 <div class="col-sm-5 col-md-offset-right-1">
                                     <div class="resot_list">
                                         @php
-                                            $amenitiesListA = array_slice($selectedVilla['amenities'],0,5);
-                                            $amenitiesListB = array_slice($selectedVilla['amenities'],5);
+                                            $amenitiesListA = array_slice($selectedVilla['amenities'], 0, 5);
+                                            $amenitiesListB = array_slice($selectedVilla['amenities'], 5);
                                         @endphp
                                         <ul>
                                             @foreach ($amenitiesListA as $amenity)
-                                                <li><a ><i class="fa fa-caret-right" aria-hidden="true"></i>{!!$amenity!!}</a></li>
+                                                <li><a><i class="fa fa-caret-right"
+                                                            aria-hidden="true"></i>{!! $amenity !!}</a></li>
                                             @endforeach
 
 
@@ -100,7 +141,8 @@
                                     <div class="resot_list">
                                         <ul>
                                             @foreach ($amenitiesListB as $amenity)
-                                                <li><a ><i class="fa fa-caret-right" aria-hidden="true"></i>{!!$amenity!!}</a></li>
+                                                <li><a><i class="fa fa-caret-right"
+                                                            aria-hidden="true"></i>{!! $amenity !!}</a></li>
                                             @endforeach
                                         </ul>
                                     </div>
@@ -225,9 +267,6 @@
         </div>
     </section>
     <!--================End Search Room Area =================-->
-
-
-
 @endsection
 
 @push('page_js')
