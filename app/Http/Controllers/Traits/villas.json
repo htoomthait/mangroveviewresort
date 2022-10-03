@@ -2,9 +2,9 @@
     {
         "id" : 1,
         "villa_name" : "Single Deluxe <span>Villa</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view",
         "number_of_person" : 2,
-        "area" : "20x40",
+        "area" : "750 Sq. Ft",
         "original_price" : 149000,
         "discounted_price" : 119000,
         "currency" : "MMK",
@@ -18,9 +18,9 @@
         ],
         "specifications" : [
             "2 persons",
-            "20x40 square meter",
+            "750 Sq. Ft",
             "breakfast included",
-            "river view"
+            "mangrove view"
         ],
         "amenities" : [
             "FREE WIFI",
@@ -36,7 +36,7 @@
     {
         "id" : 2,
         "villa_name" : "Duplex Room <span>Villa</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view",
         "number_of_person" : 2,
         "area" : "20x40",
         "original_price" : 149000,
@@ -54,7 +54,7 @@
             "2 persons",
             "20x40 square meter",
             "breakfast included",
-            "river view"
+            "mangrove view"
         ],
         "amenities" : [
             "FREE WIFI",
@@ -70,7 +70,7 @@
     {
         "id" : 3,
         "villa_name" : "Duplex Suite <span>Villa</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view",
         "number_of_person" : 3,
         "area" : "20x40",
         "original_price" : 214000,
@@ -88,7 +88,7 @@
             "3 persons",
             "20x40 square meter",
             "breakfast included",
-            "river view"
+            "mangrove view"
         ],
         "amenities" : [
             "FREE WIFI",
@@ -104,9 +104,9 @@
     {
         "id" : 4,
         "villa_name" : "Mangrove Suite <span>Villa</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view, ",
         "number_of_person" : 3,
-        "area" : "20x40",
+        "area" : "1200 Sq. Ft, ",
         "original_price" : 214000,
         "discounted_price" : 171000,
         "currency" : "MMK",
@@ -120,9 +120,11 @@
         ],
         "specifications" : [
             "3 persons",
-            "20x40 square meter",
+            "1200 Sq. Ft",
             "breakfast included",
-            "river view"
+            "mangrove view",
+            "1 master bed room",
+            "1 dressing room"
         ],
         "amenities" : [
             "FREE WIFI",
@@ -138,9 +140,9 @@
     {
         "id" : 5,
         "villa_name" : "Family Deluxe <span>Villa</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view, ",
         "number_of_person" : 4,
-        "area" : "20x40",
+        "area" : "1000 Sq. Ft, ",
         "original_price" : 298000,
         "discounted_price" : 239000,
         "currency" : "MMK",
@@ -155,9 +157,10 @@
         ],
         "specifications" : [
             "4 persons",
-            "20x40 square meter",
+            "1000 Sq. Ft ",
             "breakfast included",
-            "river view"
+            "mangrove view",
+            "2 seperate bed rooms "
         ],
         "amenities" : [
             "FREE WIFI",
@@ -173,9 +176,9 @@
     {
         "id" : 6,
         "villa_name" : "Jade Suite <span>Villa</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view, ",
         "number_of_person" : 2,
-        "area" : "20x40",
+        "area" : "2500 Sq. Ft, ",
         "original_price" : 299000,
         "discounted_price" : 239000,
         "currency" : "MMK",
@@ -190,9 +193,12 @@
         ],
         "specifications" : [
             "2 persons",
-            "20x40 square meter",
+            "2500 Sq. Ft",
             "breakfast included",
-            "river view"
+            "mangrove view",
+            "1 master bed room",
+            "1 living room",
+            "1 mini kitchen"
         ],
         "amenities" : [
             "FREE WIFI",
@@ -208,9 +214,9 @@
     {
         "id" : 7,
         "villa_name" : "Family Jade Suite <span>Villa 4</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view, ",
         "number_of_person" : 4,
-        "area" : "20x40",
+        "area" : " 1700 Sq. Ft, ",
         "original_price" : 398000,
         "discounted_price" : 318000,
         "currency" : "MMK",
@@ -224,9 +230,11 @@
         ],
         "specifications" : [
             "4 persons",
-            "20x40 square meter",
+            " 1700 Sq. Ft",
             "breakfast included",
-            "river view"
+            "mangrove view",
+            "2 seperate bed rooms ",
+            "1 living room"
         ],
         "amenities" : [
             "FREE WIFI",
@@ -242,7 +250,7 @@
     {
         "id" : 8,
         "villa_name" : "Family Jade Suite  <span>Villa 8</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view",
         "number_of_person" : 8,
         "area" : "20x40",
         "original_price" : 538000,
@@ -260,7 +268,7 @@
             "8 persons",
             "20x40 square meter",
             "breakfast included",
-            "river view"
+            "mangrove view"
         ],
         "amenities" : [
             "FREE WIFI",
@@ -276,9 +284,9 @@
     {
         "id" : 9,
         "villa_name" : "Presenditial Jade Suite <span>Villa</span>",
-        "villa_view" : "river view",
+        "villa_view" : "mangrove view, ",
         "number_of_person" : 2,
-        "area" : "20x40",
+        "area" : "1700 Sq. Ft, ",
         "original_price" : 339000,
         "discounted_price" : 271000,
         "currency" : "MMK",
@@ -295,9 +303,11 @@
         ],
         "specifications" : [
             "2 persons",
-            "20x40 square meter",
+            "1700 Sq. Ft s",
             "breakfast included",
-            "river view"
+            "mangrove view",
+            "1 Master bed room",
+            "1 living room"
         ],
         "amenities" : [
             "FREE WIFI",
