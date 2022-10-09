@@ -64,6 +64,8 @@ class HomeController extends GenericController
 
         $selectedVilla = $collectVillas->where('id', $villaId)->first();
 
+        // dd($selectedVilla);
+
 
         return view('villa.villa_details', compact('selectedVilla'));
     }

@@ -1,7 +1,7 @@
 @extends('layout.master')
 @php
 $detailImages = $selectedVilla['images'];
-$detailThumbnails = $selectedVilla['thubnails_images'];
+$detailThumbnails = $selectedVilla['thumbnail_images'];
 $detailImages = array_slice($detailImages, 1);
 if (count($detailImages) === 0) {
     $detailImages = ['images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg'];
@@ -67,16 +67,16 @@ else{
 
                                             @foreach ($detailImages as $index => $image)
                                                 <div class="{{$villaThumbnailBlkClasses}}" >
-                                                    <div class="special_dish_item">
+                                                    <div class="special_dish_item mt-4">
                                                         <div class="dish_img">
                                                             {{-- <img src="{{ url('/') }}/{{ $image }}"
                                                                 alt=""> --}}
                                                             <a href="{{ asset($image) }}"
-                                                                data-lightbox="garden_guide_map_landing_page"
-                                                                data-title="Garden Entrance">
+                                                                data-lightbox="villa_detail_images"
+                                                                data-title="{{$selectedVilla['villa_name']}} Detail {{  $index + 1}}">
                                                                 <img class="img-fluid" width="100%"
                                                                     src="{{ asset($detailThumbnails[$index]) }}"
-                                                                    alt="guide map" />
+                                                                    alt="villa thumbnail" />
                                                             </a>
                                                         </div>
 
