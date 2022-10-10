@@ -68,7 +68,7 @@
                             <li><a href="{{route('page.about_us')}}#sec_our_services">-  Buggy Car Services</a></li>
                             <li><a href="{{route('page.resort')}}#sec_restaurant">-  Bar &amp; Restaurant</a></li>
                             <li><a href="{{route('page.resort')}}#sec_spa">-  Spa &amp; Gym</a></li>
-                            <li><a href="{{route('page.resort')}}#sec_karaoke">-  Karaoke</a></li>
+                            <li><a href="{{route('page.karaoke')}}">-  Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
