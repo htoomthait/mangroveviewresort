@@ -5,30 +5,30 @@
 <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> --}}
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="{{url('/')}}/js/bootstrap.min.js"></script>
 <!-- Rev slider js -->
-<script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="{{url('/')}}/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="{{url('/')}}/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="{{url('/')}}/vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="{{url('/')}}/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="{{url('/')}}/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="{{url('/')}}/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="{{url('/')}}/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 
-<script src="vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
-<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-<script src="vendors/isotope/isotope.pkgd.min.js"></script>
-<script src="vendors/counterup/waypoints.min.js"></script>
-<script src="vendors/counterup/jquery.counterup.min.js"></script>
-<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js"></script>
-<script src="vendors/bootstrap-selector/bootstrap-select.js"></script>
+<script src="{{url('/')}}/vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
+<script src="{{url('/')}}/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="{{url('/')}}/vendors/isotope/isotope.pkgd.min.js"></script>
+<script src="{{url('/')}}/vendors/counterup/waypoints.min.js"></script>
+<script src="{{url('/')}}/vendors/counterup/jquery.counterup.min.js"></script>
+<script src="{{url('/')}}/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="{{url('/')}}/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="{{url('/')}}/vendors/bootstrap-selector/bootstrap-select.js"></script>
 <!--        <script src="vendors/lightbox/js/lightbox.min.js"></script>-->
-<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+<script src="{{url('/')}}/vendors/lightbox/simpleLightbox.min.js"></script>
 
 <!-- instafeed-->
-<script type="text/javascript" src="vendors/instafeed/instafeed.min.js"></script>
-<script type="text/javascript" src="vendors/instafeed/script.js"></script>
+<script type="text/javascript" src="{{url('/')}}/vendors/instafeed/instafeed.min.js"></script>
+<script type="text/javascript" src="{{url('/')}}/vendors/instafeed/script.js"></script>
 
 
 {{-- select2 --}}
@@ -38,7 +38,7 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 
-<script src="js/theme.js"></script>
+<script src="{{url('/')}}/js/theme.js"></script>
 
 {{-- Sweet Alert 2 --}}
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

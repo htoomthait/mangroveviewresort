@@ -14,35 +14,35 @@
       <div class="item active" >
         <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_1.jpg" alt="Los Angeles" style="width:100%;">
         <div class="carousel-caption carousel-caption-landing" >
-          <h3>Los Angeles</h3>
-          <p>LA is always so much fun!</p>
+          <h3>Sea and Lake 3D Logo</h3>
+          <p>A nice place to relax and to take memorial photos</p>
         </div>
       </div>
 
       <div class="item">
         <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_2.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption carousel-caption-landing">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago!</p>
+          <h3>Private Beach</h3>
+          <p>Enjoy and relax at our pleaceful private beach</p>
         </div>
       </div>
-    
+
       <div class="item">
         <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_3.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption carousel-caption-landing">
-          <h3>New York</h3>
-          <p>We love the Big Apple!</p>
+          <h3>Mangrove View Bridge Bird Sight</h3>
+          <p>Enjoy the natural views of our mangrove forest from the bridge</p>
         </div>
       </div>
 
       <div class="item">
         <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_5.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption carousel-caption-landing">
-          <h3>Washington</h3>
-          <p>We love Washington!</p>
+          <h3>Welcome Entrance</h3>
+          <p>We warmly welcome with a huge wooden entrance</p>
         </div>
       </div>
-  
+
     </div>
 
     <!-- Left and right controls -->

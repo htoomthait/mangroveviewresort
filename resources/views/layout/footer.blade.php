@@ -5,7 +5,7 @@
                 <div class="col-md-3 col-xs-6">
                     <aside class="f_widget about_widget">
                         {{-- <img src="img/footer-logo.png" alt=""> --}}
-                        <img src="img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="72px">
+                        <img src="{{url('/')}}/img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="72px">
                             {{-- <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                 --}}
 
                         <div class="ab_wd_list">
@@ -22,7 +22,7 @@
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>+95 9 881 777944</h4>
+                                    <h4>(+95)9881777944, (+95) 95501004</h4>
 
                                 </div>
 
@@ -63,11 +63,12 @@
                             <h3>our services</h3>
                         </div>
                         <ul>
-                            <li><a href="{{route('page.resort')}}#sec_room_type">-  Rooms</a></li>
-                            <li><a href="{{route('page.resort')}}#sec_aminities">-  Amenties</a></li>
+                            <li><a href="{{route('page.about_us')}}#sec_our_services">-  Buffet Breakfast</a></li>
+                            <li><a href="{{route('page.about_us')}}#sec_our_services">-  Transportation Services</a></li>
+                            <li><a href="{{route('page.about_us')}}#sec_our_services">-  Buggy Car Services</a></li>
                             <li><a href="{{route('page.resort')}}#sec_restaurant">-  Bar &amp; Restaurant</a></li>
                             <li><a href="{{route('page.resort')}}#sec_spa">-  Spa &amp; Gym</a></li>
-                            <li><a href="{{route('page.resort')}}#sec_karaoke">-  Karaoke</a></li>
+                            <li><a href="{{route('page.karaoke')}}">-  Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -92,10 +93,11 @@
                             <li><a href="{{route('page.activities')}}#activity_boat">-  Boat  </a></li>
                             <li><a href="{{route('page.activities')}}#activity_fishing">-  Fishing  </a></li>
                             <li><a href="{{route('page.activities')}}#activity_cycling">-  Cycling  </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_jade_museum">-  Museum   </a></li>
                             <li><a href="{{route('page.activities')}}#activity_gift_shop">-  Gift Shop   </a></li>
                             <li><a href="{{route('page.activities')}}#activity_swimming">-  Swimming </a></li>
                             <li><a href="{{route('page.activities')}}#activity_zip_riding">-  Zipriding </a></li>
+                            <li><a href="{{route('page.activities')}}#activity_kayaking">-  Kayaking </a></li>
+                            <li><a href="{{route('page.about_us')}}#activity_jade_museum">-  Museum   </a></li>
                             <li><a href="{{route('page.activities')}}#activity_waterboom">-  Waterboom </a></li>
                             <li><a href="{{route('page.activities')}}#activity_sailing_in_the_lake">-  Sailing in the lake </a></li>
                         </ul>

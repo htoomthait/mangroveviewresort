@@ -18,7 +18,7 @@
         Phone : {{$details['phone']}}
     <p>
     <p>
-        Room Type : {{$details['room_type']}}
+        Room Type : {!! $details['room_type'] !!}
     <p>
     <p>
         Check In Date : {{$details['check_in_date']}}
@@ -31,7 +31,9 @@
     </p>
 
     <p>
-        resort and website server received date time : {{ date('d-m-Y H:i:s')}} TZ {{ date_default_timezone_get(); }}
+        resort and website server received date time : {{ date('d/m/Y H:i:s')}} TZ {{ date_default_timezone_get(); }}
     </p>
 </body>
 </html>
+
+

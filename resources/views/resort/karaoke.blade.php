@@ -7,13 +7,13 @@
         <div class="row introduction_inner">
             <div class="col-md-5">
                 <a href="#" class="introduction_img">
-                    <img src="img/resort-story-img.jpg" alt="">
+                    <img src="images/utility/coming_soon_karaoke.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-7">
                 <div class="introduction_left_text">
                     <div class="resort_title">
-                        <h2>our resort <span>karaokie</span></h2>
+                        <h2>our resort <span>family karaokie</span></h2>
                         <h5>give best service to our customers</h5>
                     </div>
                     <h6>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h6>
