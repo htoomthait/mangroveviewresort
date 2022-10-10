@@ -76,11 +76,7 @@ class HomeController extends GenericController
         return view('promotion.promotion_page');
     }
 
-    public function gallery()
-    {
-        $this->setPageTitle('resort', '');
-        return view('gallery.gallery_page');
-    }
+
 
 
 
