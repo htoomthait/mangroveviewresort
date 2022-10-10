@@ -54,6 +54,9 @@
                                         Story</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.about_us') }}#sec_resort">Resort
                                         Story</a></li>
+                                <li><a class="anchor_link"
+                                    href="{{ route('page.about_us') }}#sec_our_services">Our Services
+                                    </a></li>
                                 <li><a class="anchor_link" href="{{ route('page.about_us') }}#activity_jade_museum">Jade
                                         Museum</a></li>
                                 <li><a class="anchor_link"

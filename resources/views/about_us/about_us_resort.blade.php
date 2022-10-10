@@ -15,13 +15,13 @@
                         The hotel offers luxurious villas and suites; buggy tours of a 300-acre park that includes a
                         huge lake and a view of the sea, dining at the river front restaurant featuring Burmese, Thai
                         and Chinese Cuisines.
-                        <div id="resort_services"style="margin-bottom:16px;" ></div>
+                    <div id="resort_services"style="margin-bottom:16px;"></div>
                     </p>
                     {{-- <p>Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatut.</p>
                     <a class="about_btn_b" href="#">contact us</a> --}}
 
-                    <p  >
-                    <h3 >Resort Features</h3>
+                    <p>
+                    <h3>Resort Features</h3>
                     <ul class="mt-4" style="font-size: 15px;">
                         <li class="mt-2">
                             <i class="fa fa-check-circle"></i>
@@ -98,10 +98,57 @@
 
                         </li>
                     </ul>
+
+
+
+
+                    </p>
+                    <p id="sec_our_services"> &nbsp; </p>
+                    <p> &nbsp; </p>
+                    <p>
+                        <h3 > Our Services</h3>
+                        <ul class="mt-4" style="font-size: 15px;">
+                            <li class="mt-2">
+                                <i class="fa fa-check-circle"></i>
+                                &nbsp;
+                                Buffet Breakfast
+
+                            </li>
+                            <li class="mt-2">
+                                <i class="fa fa-check-circle"></i>
+                                &nbsp;
+                                Transportation Services to highway  pickup
+
+                            </li>
+                            <li class="mt-2">
+                                <i class="fa fa-check-circle"></i>
+                                &nbsp;
+                                Buggy Car Service aroud the resort
+
+                            </li>
+                            <li class="mt-2">
+                                <i class="fa fa-check-circle"></i>
+                                &nbsp;
+                                Bar &amp; Restaurant
+
+                            </li>
+                            <li class="mt-2">
+                                <i class="fa fa-check-circle"></i>
+                                &nbsp;
+                                Karaoke
+
+                            </li>
+                            <li class="mt-2">
+                                <i class="fa fa-check-circle"></i>
+                                &nbsp;
+                               Gym
+
+                            </li>
+                        </ul>
                     </p>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5" style="display:flex; flex-direction: column; gap: 24px;">
 
 
                 <a href="{{ asset('images/entrance/resort_about_us_large.jpg') }}"
@@ -109,24 +156,29 @@
                     <i class="fa fa-expand"
                         style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                         aria-hidden="true"></i>
-                    <img
-                        class="img-fluid"
-                        width="100%"
-                        src="{{ asset('images/entrance/resort_about_us_small.jpg') }}"
+                    <img class="img-fluid" width="100%" src="{{ asset('images/entrance/resort_about_us_small.jpg') }}"
                         alt="" />
                 </a>
-                <br/> <br/>
+                <br /> <br />
 
-                <a href="{{ asset('images/resort/resort_top_view.jpg') }}"
-                    data-lightbox="garden_guide_map_landing_page" data-title="Resort Top View">
+                <a href="{{ asset('images/resort/resort_top_view.jpg') }}" data-lightbox="garden_guide_map_landing_page"
+                    data-title="Resort Top View">
                     <i class="fa fa-expand"
                         style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                         aria-hidden="true"></i>
-                    <img
-                        class="img-fluid"
-                        width="100%"
-                        src="{{ asset('images/resort/resort_top_view_thumbnail.jpg') }}"
-                        alt="" />
+                    <img class="img-fluid" width="100%"
+                        src="{{ asset('images/resort/resort_top_view_thumbnail.jpg') }}" alt="" />
+                </a>
+
+
+
+                <a href="{{ asset('images/resort/buggy_car_service.jpg') }}" data-lightbox="garden_guide_map_landing_page"
+                    data-title="Buggy Car Service">
+                    <i class="fa fa-expand"
+                        style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                        aria-hidden="true"></i>
+                    <img class="img-fluid" width="100%"
+                        src="{{ asset('images/resort/buggy_car_service_thumbnail.jpg') }}" alt="" />
                 </a>
             </div>
 

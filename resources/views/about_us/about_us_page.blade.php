@@ -67,4 +67,7 @@
         {{-- End Wooden Statue Museum  --}}
     </section>
 
+
+
+
 @endsection
