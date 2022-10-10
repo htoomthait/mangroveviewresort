@@ -11,11 +11,9 @@ class GalleryController extends GenericController
     {
         $this->setPageTitle('resort', '');
 
-        // $galleryImages =Storage::url('galleryData.json');
-        // dd(Storage::get($galleryImages));
-        // $arrGalleryImages = json_decode($galleryImages, true);
+        $galleryImages = Storage::disk('local')->get('/public/galleryData.json');
+        $arrGalleryImages = json_decode($galleryImages, true);
 
-        // dd($arrGalleryImages);
 
         return view('gallery.gallery_page');
     }
