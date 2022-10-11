@@ -11,7 +11,7 @@ trait VillaUtilityTrait
 
     public function getAllVillas()
     {
-        $jsVillas = Storage::disk('local')->get('/public/villas.json');
+        $jsVillas = Storage::disk('local')->get('/data/villas.json');
         $arrVillas = json_decode($jsVillas, true);
 
         return $arrVillas;
