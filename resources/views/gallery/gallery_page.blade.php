@@ -22,7 +22,7 @@
     <section class="grid_gallery_area resort-background" id="sec_gallery" style="padding-bottom:96px;">
         <div class="container resort-block-container">
             <div class="left_ex_title">
-                <h2>our <span>gallery</span></h2>
+                <h2>our <span>gallery [in progress]</span></h2>
                 <p></p><p></p>
             </div>
             <div class="grid_gallery_inner cobage_gallery_inner">
