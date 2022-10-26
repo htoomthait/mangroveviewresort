@@ -58,6 +58,7 @@ class GalleryController extends GenericController
 
             $arrayToRand = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
             $randomizedGalleryImages = [
+                'name' => 'some random images',
                 'thumbnail_images' => [],
                 'images' => []
             ];

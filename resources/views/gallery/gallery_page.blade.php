@@ -3,13 +3,12 @@
 @section('page_content')
     <!--================Banner Area =================-->
     <section class="banner_area"
-    style="background: url({{asset('img/banner/gallery_banner_bg.jpg')}}) no-repeat center; background-size: cover;"
-    >
+        style="background: url({{ asset('img/banner/gallery_banner_bg.jpg') }}) no-repeat center; background-size: cover;">
         <div class="container">
             <div class="banner_inner_content">
                 <h3>Gallery</h3>
                 <ul>
-                    <li ><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="event.html">Resort</a></li>
                     <li class="active"><a href="event.html">Gallery</a></li>
                 </ul>
@@ -20,11 +19,14 @@
 
     <!--================Gallery Area =================-->
     <section class="grid_gallery_area resort-background" id="sec_gallery" style="padding-bottom:96px;">
+
         <div class="container resort-block-container">
             <div class="left_ex_title">
                 <h2>our <span>gallery [in progress]</span></h2>
-                <p></p><p></p>
+                <p></p>
+                <p></p>
             </div>
+            <button onClick="setGalleryImages('all')"> fetch images </button>
             <div class="grid_gallery_inner cobage_gallery_inner">
                 <ul class="gallery_filter">
                     <li class="active" data-filter="*"><a href="#">All</a></li>
@@ -40,7 +42,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-1.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-1.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-1.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -51,7 +54,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-2.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-2.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-2.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -62,7 +66,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-3.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-3.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-3.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -73,7 +78,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-6.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-6.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-6.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -84,7 +90,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-5.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-5.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-5.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -95,7 +102,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-4.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-4.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-4.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -106,7 +114,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-7.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-7.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-7.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -117,7 +126,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-8.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-8.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-8.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -129,7 +139,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-10.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-10.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-10.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -140,7 +151,8 @@
                             <img src="img/gallery/cobage-gallery/c-gallery-9.jpg" alt="">
                             <div class="resort_g_hover">
                                 <div class="resort_hover_inner">
-                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-9.jpg"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                    <a class="light" href="img/gallery/cobage-gallery/c-gallery-9.jpg"><i
+                                            class="fa fa-expand" aria-hidden="true"></i></a>
                                     <h5>Our Gallery</h5>
                                 </div>
                             </div>
@@ -149,8 +161,15 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <!--================End Gallery Area =================-->
-
 @endsection
+
+@push('page_js')
+    <script>
+
+    </script>
+    @include('gallery.js.gallery_js')
+@endpush
