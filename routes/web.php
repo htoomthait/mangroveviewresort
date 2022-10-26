@@ -40,3 +40,5 @@ Route::get('/promotions', [HomeController::class, 'promotion'])->name('page.prom
 
 Route::get('/gallery', [GalleryController::class, 'showGalleryPage'])->name('page.gallery');
 
+Route::get('/get-gallery-image', [GalleryController::class, 'getGalleryImageByName'])->name('get.gallery_images');
+
