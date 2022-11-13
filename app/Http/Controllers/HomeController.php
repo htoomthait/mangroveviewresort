@@ -76,6 +76,12 @@ class HomeController extends GenericController
         return view('promotion.promotion_page');
     }
 
+    public function showCelebritiesVideosPage()
+    {
+        $this->setPageTitle('celebrities videos', '');
+        return view('celebrities.videos_page');
+    }
+
 
 
 

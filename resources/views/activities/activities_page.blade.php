@@ -65,10 +65,10 @@
                         <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
 
                 </div>
@@ -89,10 +89,10 @@
                     <img src="{{ url('/') }}/images/activities/cycling_activity_thumbnail.jpg" alt="guide map">
                 </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
                 </div>
 
@@ -108,10 +108,10 @@
                         <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
                 </div>
             </div>
@@ -162,10 +162,10 @@
                         <img src="{{ url('/') }}/images/activities/swimming_activity_small.jpg" alt="guide map">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
                 </div>
                 <div class="col-md-6 activity_block" id="activity_zip_riding">
@@ -180,10 +180,10 @@
                         <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
                 </div>
 
@@ -217,10 +217,10 @@
                         <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
                 </div>
 
@@ -240,10 +240,10 @@
                         <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
                 </div>
                 <div class="col-md-6 activity_block" id="activity_wall_climbing">
@@ -258,10 +258,10 @@
                         <img src="{{ url('/') }}/images/activities/wall_climbing_thumbnail.jpg" alt="wall climbing">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
                 </div>
 
@@ -273,38 +273,38 @@
                     <div class="heading">
                         <h4>Quick Jumpb <span>fun</span> <br/> &nbsp;</h4>
                     </div>
-                    <a href="{{ url('/') }}/images/activities/quick_jump_mgv.jpg" data-lightbox="activity_page"
+                    <a href="{{ url('/') }}/images/activities/quick_jump.jpg" data-lightbox="activity_page"
                         data-title="Quick Jumpb" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ url('/') }}/images/activities/quick_jump_mgv_thumbnail.jpg" alt="quick jump">
+                        <img src="{{ url('/') }}/images/activities/quick_jump_thumbnail.jpg" alt="quick jump">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
                 </div>
-                {{-- <div class="col-md-6 activity_block" id="activity_wall_climbing">
+                <div class="col-md-6 activity_block" id="activity_wall_climbing">
                     <div class="heading">
-                        <h4>Wall Climbing <span>fun</span> <br/> &nbsp; </h4>
+                        <h4>Mini Golf <span>Sport</span> <br/> &nbsp; </h4>
                     </div>
-                    <a href="{{ url('/') }}/images/activities/wall_climbing.jpg" data-lightbox="activity_page"
+                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
                         data-title="Wall Climbing" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ url('/') }}/images/activities/wall_climbing_thumbnail.jpg" alt="wall climbing">
+                        <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="wall climbing">
                     </a>
                     <div class="content">
-                        <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
                             laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                            qui in ea volup.</p>
+                            qui in ea volup.</p> --}}
                     </div>
-                </div> --}}
+                </div>
 
 
             </div>

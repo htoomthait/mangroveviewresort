@@ -49,6 +49,9 @@
 
 {{-- lightbox 2 js load --}}
 <script type="text/javascript" src="/js/light_box/js/lightbox.min.js"></script>
+
+
+
 <script>
     $(document).ready(function() {
 

@@ -11,12 +11,12 @@
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
 
-                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
                          data-lightbox="spa_on_resort" data-title="Tradittional Burmese Message">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
-                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                         <img src="{{ asset('images/resort/spa_image_thumbnail.jpg') }}" alt="">
                      </a>
 
                      <div class="spa_content">
@@ -36,12 +36,12 @@
              </div>
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
-                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
                          data-lightbox="spa_on_resort" data-title="Aroma Oil Massage">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
-                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                         <img src="{{ asset('images/resort/spa_image_thumbnail.jpg') }}" alt="">
                      </a>
                      <div class="spa_content">
                          <a href="#">
@@ -60,12 +60,12 @@
              </div>
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
-                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
                          data-lightbox="spa_on_resort" data-title="Foot Salt Water Soak and Massage">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
-                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                         <img src="{{ asset('images/resort/spa_image_thumbnail.jpg') }}" alt="">
                      </a>
                      <div class="spa_content">
                          <a href="#">

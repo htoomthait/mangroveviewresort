@@ -34,6 +34,7 @@ class GalleryController extends GenericController
 
         if($galleryName !== 'all'){
             $galleryImages = $collGalleryImages->where('name', $galleryName)->first();
+            // dd($galleryImages);
 
 
             if(!empty($galleryImages)){

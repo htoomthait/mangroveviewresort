@@ -141,6 +141,9 @@
                                 <li><a class="anchor_link"
                                         href="{{ route('page.activities') }}#activity_quick_jump">Quick Jump
                                     </a></li>
+                                <li><a class="anchor_link"
+                                    href="{{ route('page.activities') }}#activity_mini_golf">Mini Golf
+                                </a></li>
 
                             </ul>
                         </li>

@@ -42,3 +42,5 @@ Route::get('/gallery', [GalleryController::class, 'showGalleryPage'])->name('pag
 
 Route::get('/get-gallery-image', [GalleryController::class, 'getGalleryImageByName'])->name('get.gallery_images');
 
+Route::get('/celibirties-videos', [HomeController::class, 'showCelebritiesVideosPage'])->name('page.celibrities_videos');
+

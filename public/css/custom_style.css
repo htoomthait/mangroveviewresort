@@ -226,6 +226,35 @@
     position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;
 }
 
+ul.gallery_page_tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+}
+ul.gallery_page_tabs li{
+    margin-top: 16px;
+}
+
+ul.gallery_page_tabs > li a{
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #6dc4b5;
+    /* border: 1px solid #6dc4b5; */
+}
+
+ul.gallery_page_tabs > li a.active{
+    color: #3f7a70;
+    /* border: 1px solid #3f7a70; */
+}
+
+div.grid_tab_block{
+    display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:12px;
+}
+
 @media only screen and (min-width: 1450px) {
     .carousel-caption-landing {
         height: 16%;
