@@ -88,28 +88,34 @@
         "name" : "restaurant",
         "thumbnail_images" :
             [
-                "images/gallery/restaurant/thumbnails/img_1_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_2_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_3_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_4_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_5_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_6_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_7_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_8_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_9_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/img_10_thumbnail.jpg"
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_1_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_2_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_3_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_4_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_5_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_6_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_7_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_8_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_9_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_10_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_11_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_12_thumbnail.jpg"
+
+
             ],
         "images" : [
-            "images/gallery/restaurant/image_1.jgp",
-            "images/gallery/restaurant/image_2.jpg",
-            "images/gallery/restaurant/image_3.jpg",
-            "images/gallery/restaurant/image_4.jgp",
-            "images/gallery/restaurant/image_5.jpg",
-            "images/gallery/restaurant/image_6.jpg",
-            "images/gallery/restaurant/image_7.jgp",
-            "images/gallery/restaurant/image_8.jpg",
-            "images/gallery/restaurant/image_9.jpg",
-            "images/gallery/restaurant/image_10.jpg"
+            "images/gallery/restaurant/bar_and_restaurant_1.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_2.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_3.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_4.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_5.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_6.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_7.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_8.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_9.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_10.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_11.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_12.jpg"
 
         ]
     },

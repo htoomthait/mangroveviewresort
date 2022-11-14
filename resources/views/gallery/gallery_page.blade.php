@@ -28,73 +28,53 @@
             </div>
             {{-- <button onClick="setGalleryImages('all')"> fetch images </button> --}}
             <div id="gallery_page_gallery">
-                <ul class="gallery_page_tabs" >
+                <ul class="gallery_page_tabs">
                     <li>
-                        <a
-                            class="active"
-                            href="#all"
-                            onclick="setGalleryImages('all')"
-                        >
-                                All
+                        <a class="active" href="#all" onclick="setGalleryImages('all')">
+                            All
                         </a>
                     </li>
                     <li>
-                        <a
-                            class=""
-                            href="#garden"
-                            onclick="setGalleryImages('garden')"
-                        >
+                        <a class="" href="#garden" onclick="setGalleryImages('garden')">
                             Garden
                         </a>
                     </li>
                     <li>
-                        <a
-                            href="#resort"
-                            onclick="setGalleryImages('resort')"
-                        >
+                        <a href="#resort" onclick="setGalleryImages('resort')">
                             Resort
                         </a>
                     </li>
                     <li>
-                        <a
-                            href="#villa"
-                            onclick="setGalleryImages('villa')"
-                        >
+                        <a href="#villa" onclick="setGalleryImages('villa')">
                             Villa
                         </a>
                     </li>
                     <li>
-                        <a
-                            href="#activity"
-                            onclick="setGalleryImages('activity')"
-                        >
+                        <a href="#activity" onclick="setGalleryImages('activity')">
                             Activity
                         </a>
                     </li>
                     <li>
-                        <a
-                            href="#restaurant"
-                            onclick="setGalleryImages('restaurant')"
-                        >
+                        <a href="#restaurant" onclick="setGalleryImages('restaurant')">
                             Restaurant
                         </a>
                     </li>
                     <li>
-                        <a
-                            href="#beach_and_other_outdoors"
-                            onclick="setGalleryImages('beach_and_other_outdoors')"
-                        >
+                        <a href="#beach_and_other_outdoors" onclick="setGalleryImages('beach_and_other_outdoors')">
                             Beach and Other Outdoors
                         </a>
                     </li>
                 </ul>
-                <div id='all' class="lightgallery grid_tab_block"></div>
-                <div id='garden' class="lightgallery grid_tab_block"></div>
-                <div id='resort' class="lightgallery grid_tab_block"></div>
-                <div id='villa' class="lightgallery grid_tab_block"></div>
-                <div id='activity' class="lightgallery grid_tab_block"></div>
-                <div id='restaurant' class="lightgallery grid_tab_block"></div>
-                <div id='beach_and_other_outdoors' class="lightgallery grid_tab_block"></div>
+                <div class="mt-4">
+                    <div id='all' class="lightgallery grid_tab_block"></div>
+                    <div id='garden' class="lightgallery grid_tab_block"></div>
+                    <div id='resort' class="lightgallery grid_tab_block"></div>
+                    <div id='villa' class="lightgallery grid_tab_block"></div>
+                    <div id='activity' class="lightgallery grid_tab_block"></div>
+                    <div id='restaurant' class="lightgallery grid_tab_block"></div>
+                    <div id='beach_and_other_outdoors' class="lightgallery grid_tab_block"></div>
+                </div>
+
 
             </div>
         </div>
