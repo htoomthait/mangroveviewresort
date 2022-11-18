@@ -195,7 +195,7 @@
                         <h4>Kayaking <span>fun</span> <p>&nbsp;</p> </h4>
                     </div>
                     <a href="{{ url('/') }}/images/activities/kayaking_activity.jpg" data-lightbox="activity_page"
-                        data-title="Water Boom" class="activities_img">
+                        data-title="Kayaking" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
@@ -250,12 +250,12 @@
                     <div class="heading">
                         <h4>Wall Climbing <span>fun</span> <br/> &nbsp; </h4>
                     </div>
-                    <a href="{{ url('/') }}/images/activities/wall_climbing.jpg" data-lightbox="activity_page"
+                    <a href="{{ url('/') }}/images/activities/wall_climbing_2.jpg" data-lightbox="activity_page"
                         data-title="Wall Climbing" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ url('/') }}/images/activities/wall_climbing_thumbnail.jpg" alt="wall climbing">
+                        <img src="{{ url('/') }}/images/activities/wall_climbing_2_thumbnail.jpg" alt="wall climbing">
                     </a>
                     <div class="content">
                         {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
