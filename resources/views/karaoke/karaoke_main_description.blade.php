@@ -11,7 +11,7 @@
                 <a
                     class="introduction_img"
                     href="{{ asset('images/resort/karaoke_1.jpg') }}"
-                    data-lightbox="karaoke_page" data-title="Karaoke Room">
+                    data-lightbox="karaoke_page" data-title="Karaoke Room Dark Theme">
                     <i class="fa fa-expand about_us_graden_expand" style="" aria-hidden="true"></i>
                     <img class="img-fluid" width="100%" src="{{ asset('images/resort/karaoke_1_thumbnail.jpg') }}"
                         alt="guide map" />
@@ -34,6 +34,29 @@
                         aliquid ex ea commodi consequatut.</p>
                     {{-- <a class="about_btn_b" href="#">contact us</a> --}}
                 </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 col-sm-12 mt-4">
+                <a
+                class="introduction_img"
+                href="{{ asset('images/resort/karaoke_2.jpg') }}"
+                data-lightbox="karaoke_page" data-title="Karaoke Room Outside">
+                <i class="fa fa-expand about_us_graden_expand" style="" aria-hidden="true"></i>
+                <img class="img-fluid" width="100%" src="{{ asset('images/resort/karaoke_2_thumbnail.jpg') }}"
+                    alt="guide map" />
+            </a>
+            </div>
+            <div class="col-md-6 col-sm-12 mt-4">
+                <a
+                class="introduction_img"
+                href="{{ asset('images/resort/karaoke_3.jpg') }}"
+                data-lightbox="karaoke_page" data-title="Karaoke Room Light Theme">
+                <i class="fa fa-expand about_us_graden_expand" style="" aria-hidden="true"></i>
+                <img class="img-fluid" width="100%" src="{{ asset('images/resort/karaoke_3_thumbnail.jpg') }}"
+                    alt="guide map" />
+            </a>
+
             </div>
         </div>
     </div>
