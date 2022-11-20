@@ -387,21 +387,20 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "thumbnail_images" : [
-            "images/room/family_jade_sweet_villa/thumbnails/presidential_jade_suite_villa_detail_1_thumbnail.jpg",
-            "images/room/family_jade_sweet_villa/thumbnails/presidential_jade_suite_villa_detail_2_thumbnail.jpg",
-            "images/room/family_jade_sweet_villa/thumbnails/presidential_jade_suite_villa_detail_3_thumbnail.jpg",
-            "images/room/family_jade_sweet_villa/thumbnails/presidential_jade_suite_villa_detail_4_thumbnail.jpg",
-            "images/room/family_jade_sweet_villa/thumbnails/presidential_jade_suite_villa_detail_5_thumbnail.jpg",
-            "images/room/family_jade_sweet_villa/thumbnails/presidential_jade_suite_villa_detail_6_thumbnail.jpg"
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_1_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_2_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_3_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_4_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_5_thumbnail.jpg"
+
         ],
         "images" : [
-            "images/room/family_jade_sweet_villa/presidential_jade_suite_villa_front.jpg",
-            "images/room/family_jade_sweet_villa/presidential_jade_suite_villa_detail_1.jpg",
-            "images/room/family_jade_sweet_villa/presidential_jade_suite_villa_detail_2.jpg",
-            "images/room/family_jade_sweet_villa/presidential_jade_suite_villa_detail_3.jpg",
-            "images/room/family_jade_sweet_villa/presidential_jade_suite_villa_detail_4.jpg",
-            "images/room/family_jade_sweet_villa/presidential_jade_suite_villa_detail_5.jpg",
-            "images/room/family_jade_sweet_villa/presidential_jade_suite_villa_detail_6.jpg"
+            "images/room/star_dome_villa/start_dome_front.jpg",
+            "images/room/star_dome_villa/star_dome_villa_1.jpg",
+            "images/room/star_dome_villa/star_dome_villa_2.jpg",
+            "images/room/star_dome_villa/star_dome_villa_3.jpg",
+            "images/room/star_dome_villa/star_dome_villa_4.jpg",
+            "images/room/star_dome_villa/star_dome_villa_5.jpg"
         ],
         "specifications" : [
             "2 persons",
