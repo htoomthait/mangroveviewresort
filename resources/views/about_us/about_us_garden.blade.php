@@ -65,7 +65,7 @@
                     {{-- <h6>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h6> --}}
                     {{-- <h4>We are Available for business</h4> --}}
                     <p class="mt-6">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic deleniti error obcaecati corrupti sed facere deserunt quam nesciunt! Voluptas fugit id tempora facere reiciendis voluptatum iure dolorum repudiandae debitis modi.
+                        Sea and lake garden spans 80 acres with a glistening blue lake at the heart of it all. The garden boasts a variety of tropical trees bearing seasonal fruits and flowers. The winding paths can be navigated by foot or visitors can choose to travel leisurely by renting bicycles and electric buggies to enjoy the many charms of the gardens. Undertake an array of activities suitable for different ages. It is a place where you can reconnect with nature and revel in all the beauty it has to offer.
                     </p>
 
 

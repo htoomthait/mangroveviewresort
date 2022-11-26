@@ -63,6 +63,10 @@
                                         href="{{ route('page.about_us') }}#activity_wooden_statue_museum">Wood Statue
                                         Museum</a></li>
                                 <li><a class="anchor_link"
+                                    href="{{ route('page.about_us') }}#activity_adeventure_zone"> Sea and Lake Adventure</a></li>
+                                <li><a class="anchor_link"
+                                    href="{{ route('page.about_us') }}#activity_mangrove_view_bridge"> Mangrove View Bridge</a></li>
+                                <li><a class="anchor_link"
                                         href="{{ route('page.promotion') }}#sec_garden">Promotions</a></li>
                             </ul>
 
