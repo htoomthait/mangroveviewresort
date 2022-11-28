@@ -165,28 +165,32 @@
         "name" : "garden",
         "thumbnail_images" :
             [
-                "images/gallery/garden/thumbnails/img_1_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_2_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_3_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_4_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_5_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_6_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_7_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_8_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_9_thumbnail.jpg",
-                "images/gallery/garden/thumbnails/img_10_thumbnail.jpg"
+                "images/gallery/garden/thumbnails/gallery_garden_1_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_2_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_3_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_4_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_5_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_6_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_7_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_8_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_9_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_10_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_11_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_12_thumbnail.jpg"
             ],
         "images" : [
-            "images/gallery/garden/image_1.jpg",
-            "images/gallery/garden/image_2.jpg",
-            "images/gallery/garden/image_3.jpg",
-            "images/gallery/garden/image_4.jpg",
-            "images/gallery/garden/image_5.jpg",
-            "images/gallery/garden/image_6.jpg",
-            "images/gallery/garden/image_7.jpg",
-            "images/gallery/garden/image_8.jpg",
-            "images/gallery/garden/image_9.jpg",
-            "images/gallery/garden/image_10.jpg"
+            "images/gallery/garden/gallery_garden_1.jpg",
+            "images/gallery/garden/gallery_garden_2.jpg",
+            "images/gallery/garden/gallery_garden_3.jpg",
+            "images/gallery/garden/gallery_garden_4.jpg",
+            "images/gallery/garden/gallery_garden_5.jpg",
+            "images/gallery/garden/gallery_garden_6.jpg",
+            "images/gallery/garden/gallery_garden_7.jpg",
+            "images/gallery/garden/gallery_garden_8.jpg",
+            "images/gallery/garden/gallery_garden_9.jpg",
+            "images/gallery/garden/gallery_garden_10.jpg",
+            "images/gallery/garden/gallery_garden_11.jpg",
+            "images/gallery/garden/gallery_garden_12.jpg"
 
         ]
     },

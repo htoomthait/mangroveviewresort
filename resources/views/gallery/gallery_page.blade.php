@@ -22,7 +22,7 @@
 
         <div class="container resort-block-container">
             <div class="left_ex_title">
-                <h2>our <span>gallery [in progress]</span></h2>
+                <h2>our <span>gallery</span></h2>
                 <p></p>
                 <p></p>
             </div>
