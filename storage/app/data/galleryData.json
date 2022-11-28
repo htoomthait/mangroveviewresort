@@ -3,28 +3,32 @@
         "name" : "resort",
         "thumbnail_images" :
             [
-                "images/gallery/resort/thumbnails/img_1_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_2_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_3_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_4_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_5_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_6_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_7_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_8_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_9_thumbnail.jpg",
-                "images/gallery/resort/thumbnails/img_10_thumbnail.jpg"
+                "images/gallery/resort/thumbnails/gallery_resort_1_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_2_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_3_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_4_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_5_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_6_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_7_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_8_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_9_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_10_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_11_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_12_thumbnail.jpg"
             ],
         "images" : [
-            "images/gallery/resort/image_1.jpg",
-            "images/gallery/resort/image_2.jpg",
-            "images/gallery/resort/image_3.jpg",
-            "images/gallery/resort/image_4.jpg",
-            "images/gallery/resort/image_5.jpg",
-            "images/gallery/resort/image_6.jpg",
-            "images/gallery/resort/image_7.jpg",
-            "images/gallery/resort/image_8.jpg",
-            "images/gallery/resort/image_9.jpg",
-            "images/gallery/resort/image_10.jpg"
+            "images/gallery/resort/gallery_resort_1.jpg",
+            "images/gallery/resort/gallery_resort_2.jpg",
+            "images/gallery/resort/gallery_resort_3.jpg",
+            "images/gallery/resort/gallery_resort_4.jpg",
+            "images/gallery/resort/gallery_resort_5.jpg",
+            "images/gallery/resort/gallery_resort_6.jpg",
+            "images/gallery/resort/gallery_resort_7.jpg",
+            "images/gallery/resort/gallery_resort_8.jpg",
+            "images/gallery/resort/gallery_resort_9.jpg",
+            "images/gallery/resort/gallery_resort_10.jpg",
+            "images/gallery/resort/gallery_resort_11.jpg",
+            "images/gallery/resort/gallery_resort_12.jpg"
 
         ]
     },

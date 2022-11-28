@@ -34,9 +34,28 @@ class GalleryController extends GenericController
 
         if($galleryName !== 'all'){
             $galleryImages = $collGalleryImages->where('name', $galleryName)->first();
+            $imageCount = count($galleryImages->thumbnail_images);
+            $imageArrayIndexes = [];
 
-            $galleryImages->thumbnail_images = collect($galleryImages->thumbnail_images)->shuffle();
-            $galleryImages->images = collect($galleryImages->images)->shuffle();
+            for($i = 0; $i <= $imageCount -1; $i++){
+                array_push($imageArrayIndexes, $i);
+            }
+
+            shuffle($imageArrayIndexes);
+
+            $shuffledThumbnails = [];
+            $shuffledImages = [];
+
+            foreach($imageArrayIndexes as $imageIndex){
+                array_push($shuffledThumbnails, $galleryImages->thumbnail_images[$imageIndex]);
+                array_push($shuffledImages, $galleryImages->images[$imageIndex]);
+            }
+
+            $galleryImages->thumbnail_images = $shuffledThumbnails;
+            $galleryImages->images = $shuffledImages;
+
+
+
 
             // dd($galleryImages);
 
