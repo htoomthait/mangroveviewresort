@@ -36,7 +36,7 @@
                     <div class="intro_title">
                         <h2>About <span>Sea and Lake Garden</span></h2>
                         <p>
-                            ea and lake garden spans 80 acres with a glistening blue lake at the heart of it all. The garden boasts a variety of tropical trees bearing seasonal fruits and flowers. The winding paths can be navigated by foot or visitors can choose to travel leisurely by renting bicycles and electric buggies to enjoy the many charms of the gardens. Undertake an array of activities suitable for different ages. It is a place where you can reconnect with nature and revel in all the beauty it has to offer.
+                            Sea and lake garden spans 80 acres with a glistening blue lake at the heart of it all. The garden boasts a variety of tropical trees bearing seasonal fruits and flowers. The winding paths can be navigated by foot or visitors can choose to travel leisurely by renting bicycles and electric buggies to enjoy the many charms of the gardens. Undertake an array of activities suitable for different ages. It is a place where you can reconnect with nature and revel in all the beauty it has to offer.
                         </p>
                     </div>
                     {{-- <h4>We are Available for business</h4>
