@@ -34,9 +34,9 @@
             <div class="col-12 col-md-5">
                 <div class="introduction_left_text">
                     <div class="intro_title">
-                        <h2>About <span>Mangrove View Resort</span></h2>
+                        <h2>About <span>Sea and Lake Garden</span></h2>
                         <p>
-                            Mangrove View Resort is a luxurious sanctuary for serenity and connecting with nature. Nestled within the mangrove forests, a salt water river floats peacefully alongside the hotel property. The hotel offers luxurious villas and suites; buggy tours of a 300-acre park that includes a huge lake and a view of the sea, dining at the river front restaurant featuring Burmese, Thai and Chinese Cuisines.
+                            ea and lake garden spans 80 acres with a glistening blue lake at the heart of it all. The garden boasts a variety of tropical trees bearing seasonal fruits and flowers. The winding paths can be navigated by foot or visitors can choose to travel leisurely by renting bicycles and electric buggies to enjoy the many charms of the gardens. Undertake an array of activities suitable for different ages. It is a place where you can reconnect with nature and revel in all the beauty it has to offer.
                         </p>
                     </div>
                     {{-- <h4>We are Available for business</h4>
