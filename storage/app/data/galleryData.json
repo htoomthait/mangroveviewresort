@@ -108,9 +108,13 @@
                 "images/gallery/activity/thumbnails/jade_museum_thumbnail.jpg",
                 "images/gallery/activity/thumbnails/kayaking_activity_thumbnail.jpg",
                 "images/gallery/activity/thumbnails/quick_jump_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/quick_jump_2_thumbnail.jpg",
                 "images/gallery/activity/thumbnails/swimming_activity_thumbnail.jpg",
                 "images/gallery/activity/thumbnails/wall_climbing_thumbnail.jpg",
-                "images/gallery/activity/thumbnails/wood_museum_thumbnail.jpg"
+                "images/gallery/activity/thumbnails/wood_museum_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/wall_climbing_2_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/mini_golf_activity_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/quick_jump_3_thumbnail.jpg"
 
             ],
         "images" : [
@@ -119,9 +123,13 @@
             "images/gallery/activity/jade_museum.jpg",
             "images/gallery/activity/kayaking_activity.jpg",
             "images/gallery/activity/quick_jump.jpg",
+            "images/gallery/activity/quick_jump_2.jpg",
             "images/gallery/activity/swimming_activity.jpg",
             "images/gallery/activity/wall_climbing.jpg",
-            "images/gallery/activity/wood_museum.jpg"
+            "images/gallery/activity/wood_museum.jpg",
+            "images/gallery/activity/wall_climbing_2.jpg",
+            "images/gallery/activity/mini_golf_activity.jpg",
+            "images/gallery/activity/quick_jump_3.jpg"
 
 
         ]

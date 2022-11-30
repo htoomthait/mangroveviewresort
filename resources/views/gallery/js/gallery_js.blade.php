@@ -50,8 +50,9 @@
 
 
             let content = ``;
+            $(".lightgallery").html("");
 
-            if ($(`#${galleryName}`).html() == "" || null || galleryName == 'all') {
+            // if ($(`#${galleryName}`).html() == "" || null || galleryName == 'all') {
                 responseData = await fetchGalleryImage(galleryName);
                 console.log(responseData);
 
@@ -79,7 +80,7 @@
                 $(`#${galleryName}`).html(`${content}`);
 
                 $('.lightgallery a').simpleLightbox({ overlay : true })
-            }
+            // }
 
 
 
@@ -90,7 +91,7 @@
 
         setGalleryImages('all');
 
-        var lightbox = $('.lightgallery a').simpleLightbox({ overlay : true });
+        $('.lightgallery a').simpleLightbox({ overlay : true });
 
     })
 </script>
