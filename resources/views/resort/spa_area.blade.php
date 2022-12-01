@@ -30,7 +30,7 @@
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>
                      <div class="spa_price">
-                         <h5>$170 <span>/ setting</span></h5>
+                         {{-- <h5>$170 <span>/ setting</span></h5> --}}
                      </div>
                  </div>
              </div>
@@ -53,7 +53,7 @@
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>
                      <div class="spa_price">
-                         <h5>$120 <span>/ setting</span></h5>
+                         {{-- <h5>$120 <span>/ setting</span></h5> --}}
                      </div>
 
                  </div>
@@ -78,7 +78,7 @@
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>
                      <div class="spa_price">
-                         <h5>$270 <span>/ setting</span></h5>
+                         {{-- <h5>$270 <span>/ setting</span></h5> --}}
                      </div>
 
                  </div>
