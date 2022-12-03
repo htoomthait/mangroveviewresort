@@ -138,7 +138,7 @@
 
 .carousel-caption-landing {
     width: 100%;
-    max-height:12%;
+    max-height: 12%;
     margin-left: -20%;
     margin-bottom: -2%;
     /* display: none; */
@@ -197,7 +197,7 @@
     /* border:1px solid green; */
 }
 
-.spa_price h5{
+.spa_price h5 {
     display: inline-block;
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
@@ -208,14 +208,14 @@
     margin-top: 28px;
 }
 
-.spa_price h5 span{
+.spa_price h5 span {
     color: #898989;
     font-weight: normal;
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.restaurant-text p{
+.restaurant-text p {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 26px;
@@ -223,23 +223,26 @@
     color: #898989;
 }
 
-.about_us_graden_expand{
-    position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;
+.about_us_graden_expand {
+    position: absolute;
+    z-index: 100;
+    margin-top: 8px;
+    left: 92%;
+    font-size: 21px;
 }
 
-ul.gallery_page_tabs{
+ul.gallery_page_tabs {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 10px;
-
 }
-ul.gallery_page_tabs li{
+ul.gallery_page_tabs li {
     margin-top: 16px;
 }
 
-ul.gallery_page_tabs > li a{
+ul.gallery_page_tabs > li a {
     padding: 5px 10px;
     font-size: 1.2em;
     font-weight: bold;
@@ -247,13 +250,39 @@ ul.gallery_page_tabs > li a{
     /* border: 1px solid #6dc4b5; */
 }
 
-ul.gallery_page_tabs > li a.active{
+ul.gallery_page_tabs > li a.active {
     color: #3f7a70;
     /* border: 1px solid #3f7a70; */
 }
 
-div.grid_tab_block{
-    display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:12px;
+div.grid_tab_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.btn_show_more_less {
+    border-radius: 3px;
+    background-color: #008b72;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+    line-height: 36px;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+.btn_show_more_less:hover {
+    border: 2px solid #008b72;
+    color: #008b72;
+    background-color: #fff;
+}
+
+.btn_show_more_less:active{
+    color:#fff;
 }
 
 @media only screen and (min-width: 1450px) {
@@ -266,8 +295,8 @@ div.grid_tab_block{
     .carousel-caption-landing {
         height: 20%;
     }
-    .explor_item .explor_text h4{
-        font-size:18px;
+    .explor_item .explor_text h4 {
+        font-size: 18px;
     }
 }
 
@@ -276,8 +305,8 @@ div.grid_tab_block{
         max-height: 15%;
         height: 15%;
     }
-    .explor_item .explor_text h4{
-        font-size:18px;
+    .explor_item .explor_text h4 {
+        font-size: 18px;
     }
 }
 
@@ -291,22 +320,23 @@ div.grid_tab_block{
         margin-bottom: -3%;
     }
 
-    .carousel-caption-landing h3{
+    .carousel-caption-landing h3 {
         font-size: 18px;
     }
 
-    .carousel-caption-landing p{
+    .carousel-caption-landing p {
         display: none;
-        font-size: 14px
+        font-size: 14px;
     }
-    
 
     #carousel-indicator-landing-main {
         display: none;
     }
 
-    div.grid_tab_block{
-        display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px;
+    div.grid_tab_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
     }
 }
 
@@ -330,13 +360,17 @@ div.grid_tab_block{
         font-size: 3.5vw;
     }
 
-    div.grid_tab_block{
-        display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap:8px;
+    div.grid_tab_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 8px;
     }
 }
 @media only screen and (max-width: 575px) {
-    div.grid_tab_block{
-        display:grid; grid-template-columns:1fr 1fr; gap:8px;
+    div.grid_tab_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
     }
 }
 
@@ -366,7 +400,9 @@ div.grid_tab_block{
         display: none;
     }
 
-    div.grid_tab_block{
-        display:grid; grid-template-columns:1fr 1fr; gap:8px;
+    div.grid_tab_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
     }
 }
