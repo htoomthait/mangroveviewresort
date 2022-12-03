@@ -40,7 +40,7 @@
     },
     {
         "id" : 2,
-        "villa_name" : "Family duplex Sweet <span>Villa</span>",
+        "villa_name" : "Family duplex Suite <span>Villa</span>",
         "villa_view" : "mangrove view",
         "number_of_person" : 5,
         "area" : "2,100 Sq. Ft, ",
@@ -53,12 +53,16 @@
             "images/room/deluxe_room_villa/dulex_room_villa_front.jpg",
             "images/room/deluxe_room_villa/duplex_room_villa_detail_1.jpg",
             "images/room/deluxe_room_villa/duplex_room_villa_detail_2.jpg",
-            "images/room/deluxe_room_villa/duplex_room_villa_detail_3.jpg"
+            "images/room/deluxe_room_villa/duplex_room_villa_detail_3.jpg",
+            "images/room/deluxe_room_villa/duplex_room_villa_detail_4.jpg",
+            "images/room/deluxe_room_villa/duplex_room_villa_detail_5.jpg"
         ],
         "thumbnail_images" : [
             "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_1_thumbnail.jpg",
             "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_2_thumbnail.jpg",
-            "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_3_thumbnail.jpg"
+            "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_3_thumbnail.jpg",
+            "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_4_thumbnail.jpg",
+            "images/room/deluxe_room_villa/thumbnails/duplex_room_villa_detail_5_thumbnail.jpg"
         ],
         "specifications" : [
             "2 persons",
@@ -391,7 +395,13 @@
             "images/room/star_dome_villa/thumbnails/star_dome_villa_2_thumbnail.jpg",
             "images/room/star_dome_villa/thumbnails/star_dome_villa_3_thumbnail.jpg",
             "images/room/star_dome_villa/thumbnails/star_dome_villa_4_thumbnail.jpg",
-            "images/room/star_dome_villa/thumbnails/star_dome_villa_5_thumbnail.jpg"
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_5_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_6_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_7_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_8_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_9_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_10_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_11_thumbnail.jpg"
 
         ],
         "images" : [
@@ -400,7 +410,13 @@
             "images/room/star_dome_villa/star_dome_villa_2.jpg",
             "images/room/star_dome_villa/star_dome_villa_3.jpg",
             "images/room/star_dome_villa/star_dome_villa_4.jpg",
-            "images/room/star_dome_villa/star_dome_villa_5.jpg"
+            "images/room/star_dome_villa/star_dome_villa_5.jpg",
+            "images/room/star_dome_villa/star_dome_villa_6.jpg",
+            "images/room/star_dome_villa/star_dome_villa_7.jpg",
+            "images/room/star_dome_villa/star_dome_villa_8.jpg",
+            "images/room/star_dome_villa/star_dome_villa_9.jpg",
+            "images/room/star_dome_villa/star_dome_villa_10.jpg",
+            "images/room/star_dome_villa/star_dome_villa_11.jpg"
         ],
         "specifications" : [
             "2 persons",

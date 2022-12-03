@@ -21,11 +21,11 @@
 
                      <div class="spa_content">
                          <a href="#">
-                             <h4>Traditional Burmese Massage </h4>
+                             <h4 style="text-align:center;">Traditional Burmese Massage </h4>
                          </a>
-                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                         {{-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
                              quod maxime placeat facere possimus cum soluta nobi est eligendi optio cumque nihil
-                             impedit.</p>
+                             impedit.</p> --}}
 
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>
@@ -45,10 +45,10 @@
                      </a>
                      <div class="spa_content">
                          <a href="#">
-                             <h4>Aroma Oil Massage</h4>
+                             <h4 style="text-align:center;">Aroma Oil Massage</h4>
                          </a><br />
-                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                             quod maxime placeat facere possimu</p>
+                         {{-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                             quod maxime placeat facere possimu</p> --}}
 
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>
@@ -69,11 +69,11 @@
                      </a>
                      <div class="spa_content">
                          <a href="#">
-                             <h4>Foot Salt Water Soak and Massage</h4>
+                             <h4 style="text-align:center;">Foot Salt Water Soak and Massage</h4>
                          </a>
-                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                         {{-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
                              quod maxime placeat facere possimus cum soluta nobi est eligendi optio cumque nihil
-                             impedit.</p>
+                             impedit.</p> --}}
 
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>

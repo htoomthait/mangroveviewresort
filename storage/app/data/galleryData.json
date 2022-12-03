@@ -114,7 +114,8 @@
                 "images/gallery/activity/thumbnails/wood_museum_thumbnail.jpg",
                 "images/gallery/activity/thumbnails/wall_climbing_2_thumbnail.jpg",
                 "images/gallery/activity/thumbnails/mini_golf_activity_thumbnail.jpg",
-                "images/gallery/activity/thumbnails/quick_jump_3_thumbnail.jpg"
+                "images/gallery/activity/thumbnails/quick_jump_3_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/mini_golf_activity_2_thumbnail.jpg"
 
             ],
         "images" : [
@@ -129,7 +130,8 @@
             "images/gallery/activity/wood_museum.jpg",
             "images/gallery/activity/wall_climbing_2.jpg",
             "images/gallery/activity/mini_golf_activity.jpg",
-            "images/gallery/activity/quick_jump_3.jpg"
+            "images/gallery/activity/quick_jump_3.jpg",
+            "images/gallery/activity/mini_golf_activity_2.jpg"
 
 
         ]
@@ -149,7 +151,11 @@
                 "images/gallery/restaurant/thumbnails/bar_and_restaurant_9_thumbnail.jpg",
                 "images/gallery/restaurant/thumbnails/bar_and_restaurant_10_thumbnail.jpg",
                 "images/gallery/restaurant/thumbnails/bar_and_restaurant_11_thumbnail.jpg",
-                "images/gallery/restaurant/thumbnails/bar_and_restaurant_12_thumbnail.jpg"
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_12_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_13_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_14_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_15_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_16_thumbnail.jpg"
 
 
             ],
@@ -165,7 +171,11 @@
             "images/gallery/restaurant/bar_and_restaurant_9.jpg",
             "images/gallery/restaurant/bar_and_restaurant_10.jpg",
             "images/gallery/restaurant/bar_and_restaurant_11.jpg",
-            "images/gallery/restaurant/bar_and_restaurant_12.jpg"
+            "images/gallery/restaurant/bar_and_restaurant_12.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_13.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_14.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_15.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_16.jpg"
 
         ]
     },
