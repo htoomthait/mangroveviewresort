@@ -334,7 +334,7 @@
     },
     {
         "id" : 9,
-        "villa_name" : "Family Jade Sweet <span>Villa</span>",
+        "villa_name" : "Family Jade Suite <span>Villa</span>",
         "villa_view" : "mangrove view, ",
         "number_of_person" : 4,
         "area" : "2,300 Sq. Ft, ",
@@ -385,7 +385,7 @@
         "villa_view" : "mangrove view, ",
         "number_of_person" : 2,
         "area" : "2,050 Sq. Ft, ",
-        "original_price" : 339000,
+        "original_price" : 350000,
         "discounted_price" : 271000,
         "currency" : "MMK",
         "line_break_add" : false,
