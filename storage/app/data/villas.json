@@ -179,14 +179,22 @@
             "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_1_thumbnail.jpg",
             "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_2_thumbnail.jpg",
             "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_3_thumbnail.jpg",
-            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_4_thumbnail.jpg"
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_4_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_5_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_6_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_7_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_8_thumbnail.jpg"
         ],
         "images" : [
             "images/room/jade_suite_villa/jade_suite_villa_front.jpg",
             "images/room/jade_suite_villa/jade_suite_villa_detail_1.jpg",
             "images/room/jade_suite_villa/jade_suite_villa_detail_2.jpg",
             "images/room/jade_suite_villa/jade_suite_villa_detail_3.jpg",
-            "images/room/jade_suite_villa/jade_suite_villa_detail_4.jpg"
+            "images/room/jade_suite_villa/jade_suite_villa_detail_4.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_5.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_6.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_7.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_8.jpg"
         ],
         "specifications" : [
             "2 persons",
@@ -262,15 +270,23 @@
         "line_break_add" : false,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "thumbnail_images" : [
-            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_detail_1_thumbnail.jpg",
-            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_detail_2_thumbnail.jpg",
-            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_detail_3_thumbnail.jpg"
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_1_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_2_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_3_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_4_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_5_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_6_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_7_thumbnail.jpg"
         ],
         "images" : [
             "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_front.jpg",
-            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_detail_1.jpg",
-            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_detail_2.jpg",
-            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_detail_3.jpg"
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_1.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_2.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_3.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_4.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_5.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_6.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_7.jpg"
         ],
         "specifications" : [
             "4 persons",
