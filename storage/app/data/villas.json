@@ -220,17 +220,15 @@
         "line_break_add" : true,
         "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
         "thumbnail_images" : [
-            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_1_thumbnail.jpg",
-            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_2_thumbnail.jpg",
-            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_3_thumbnail.jpg",
-            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_4_thumbnail.jpg"
+            "images/room/antique_villa/thumbnails/antique_villa_detail_1_thumbnail.jpg",
+            "images/room/antique_villa/thumbnails/antique_villa_detail_2_thumbnail.jpg"
+
         ],
         "images" : [
-            "images/room/jade_suite_villa/jade_suite_villa_front.jpg",
-            "images/room/jade_suite_villa/jade_suite_villa_detail_1.jpg",
-            "images/room/jade_suite_villa/jade_suite_villa_detail_2.jpg",
-            "images/room/jade_suite_villa/jade_suite_villa_detail_3.jpg",
-            "images/room/jade_suite_villa/jade_suite_villa_detail_4.jpg"
+            "images/room/antique_villa/antique_villa_front.jpg",
+            "images/room/antique_villa/antique_villa_detail_1.jpg",
+            "images/room/antique_villa/antique_villa_detail_2.jpg"
+
         ],
         "specifications" : [
             "2 persons",
