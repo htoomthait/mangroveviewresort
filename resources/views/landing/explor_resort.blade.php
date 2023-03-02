@@ -20,7 +20,7 @@
                     <div class="explor_text">
                         <a href="{{route('page.resort')}}#sec_villa_type"><h4>Villas</h4></a>
                         <ul>
-                            <li><a href="#">750 to 2,500 square meters</a></li>
+                            <li><a href="#">750 to 2,500 square feet</a></li>
                             <li><a href="#">Mangrove  view</a></li>
                             <li><a href="#">2 Balcony</a></li>
                         </ul>
@@ -38,13 +38,13 @@
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="{{route('page.resort')}}#sec_spa" class="room_image">
-                        <img src="images/utility/spa_coming_soon_landing_page.jpg" alt="">
+                        <img src="images/resort/spa_landing_page.jpg" alt="">
                     </a>
                     <div class="explor_text">
                         <a href="{{route('page.resort')}}#sec_spa"><h4>SPA</h4></a>
                         <ul>
-                            <li><a href="#">3 different kinds of spa</a></li>
-                            <li><a href="#"> <br/> &amp;</a></li>
+                            <li><a href="#">3 different kinds of spa and treatments</a></li>
+                            <li><a href="#"> <br/> &nbsp;</a></li>
                             {{-- <li><a href="#">2 Balcony</a></li> --}}
                         </ul>
                         <div class="explor_footer" style="">

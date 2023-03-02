@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Traits;
 
+use Illuminate\Support\Facades\Storage;
+
 trait VillaUtilityTrait
 {
 
@@ -9,9 +11,7 @@ trait VillaUtilityTrait
 
     public function getAllVillas()
     {
-        $villasJsonFilePath = __DIR__."/villas.json";
-        $jsVillas = file_get_contents($villasJsonFilePath);
-
+        $jsVillas = Storage::disk('local')->get('/data/villas.json');
         $arrVillas = json_decode($jsVillas, true);
 
         return $arrVillas;

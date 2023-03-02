@@ -11,10 +11,10 @@ if (count($detailImages) === 0) {
 $villaThumbnailBlkClasses = "";
 
 if (count($detailThumbnails) > 3){
-    $villaThumbnailBlkClasses = "col-md-3 col-sm-6 col-xs-12";
+    $villaThumbnailBlkClasses = "villa_detail_images col-md-3 col-sm-6 col-xs-12";
 }
 else{
-    $villaThumbnailBlkClasses = "col-md-4 col-sm-6 col-xs-12";
+    $villaThumbnailBlkClasses = "villa_detail_images col-md-4 col-sm-6 col-xs-12";
 }
 @endphp
 
@@ -87,7 +87,17 @@ else{
 
 
                                         </div>
+                                        <div class="row mt-3" style="display:flex; justify-content:center;">
+                                            <div class="col-3">
+                                                <button class="btn_show_more_less">
+                                                    <span class="more_or_less_content">show more +</span>
+                                                    <span class="more_or_less_content" style="display:none;"> show less - </span>
+                                                </button>
+                                            </div>
+                                        </div>
+
                                     </div>
+
                                 </div>
                             </section>
 

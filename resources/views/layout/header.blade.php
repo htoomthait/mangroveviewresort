@@ -54,14 +54,18 @@
                                         Story</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.about_us') }}#sec_resort">Resort
                                         Story</a></li>
-                                <li><a class="anchor_link"
-                                    href="{{ route('page.about_us') }}#sec_our_services">Our Services
+                                <li><a class="anchor_link" href="{{ route('page.about_us') }}#sec_our_services">Our
+                                        Services
                                     </a></li>
                                 <li><a class="anchor_link" href="{{ route('page.about_us') }}#activity_jade_museum">Jade
                                         Museum</a></li>
                                 <li><a class="anchor_link"
                                         href="{{ route('page.about_us') }}#activity_wooden_statue_museum">Wood Statue
                                         Museum</a></li>
+                                <li><a class="anchor_link"
+                                    href="{{ route('page.about_us') }}#activity_adeventure_zone"> Sea and Lake Adventure</a></li>
+                                <li><a class="anchor_link"
+                                    href="{{ route('page.about_us') }}#activity_mangrove_view_bridge"> Mangrove View Bridge</a></li>
                                 <li><a class="anchor_link"
                                         href="{{ route('page.promotion') }}#sec_garden">Promotions</a></li>
                             </ul>
@@ -135,6 +139,15 @@
                                 <li><a class="anchor_link"
                                         href="{{ route('page.activities') }}#activity_waterboom">Waterboom <span
                                             class="badge badge-warning">comming soon</span></a></li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_wall_climbing">Wall Climbing
+                                    </a></li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_quick_jump">Quick Jump
+                                    </a></li>
+                                <li><a class="anchor_link"
+                                    href="{{ route('page.activities') }}#activity_mini_golf">Mini Golf
+                                </a></li>
 
                             </ul>
                         </li>

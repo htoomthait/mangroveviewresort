@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\GalleryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,5 +38,9 @@ Route::get('/villa-detail/{villaId}', [HomeController::class, 'villaDetail'])->n
 
 Route::get('/promotions', [HomeController::class, 'promotion'])->name('page.promotion');
 
-Route::get('/gallery', [HomeController::class, 'gallery'])->name('page.gallery');
+Route::get('/gallery', [GalleryController::class, 'showGalleryPage'])->name('page.gallery');
+
+Route::get('/get-gallery-image', [GalleryController::class, 'getGalleryImageByName'])->name('get.gallery_images');
+
+Route::get('/celibirties-videos', [HomeController::class, 'showCelebritiesVideosPage'])->name('page.celibrities_videos');
 

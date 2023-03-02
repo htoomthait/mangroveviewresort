@@ -11,74 +11,74 @@
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
 
-                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
                          data-lightbox="spa_on_resort" data-title="Tradittional Burmese Message">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
-                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                         <img src="{{ asset('images/resort/spa_image_thumbnail.jpg') }}" alt="">
                      </a>
 
                      <div class="spa_content">
                          <a href="#">
-                             <h4>Traditional Burmese Massage </h4>
+                             <h4 style="text-align:center;">Traditional Burmese Massage </h4>
                          </a>
-                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                         {{-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
                              quod maxime placeat facere possimus cum soluta nobi est eligendi optio cumque nihil
-                             impedit.</p>
+                             impedit.</p> --}}
 
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>
                      <div class="spa_price">
-                         <h5>$170 <span>/ setting</span></h5>
+                         {{-- <h5>$170 <span>/ setting</span></h5> --}}
                      </div>
                  </div>
              </div>
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
-                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
                          data-lightbox="spa_on_resort" data-title="Aroma Oil Massage">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
-                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                         <img src="{{ asset('images/resort/spa_image_thumbnail.jpg') }}" alt="">
                      </a>
                      <div class="spa_content">
                          <a href="#">
-                             <h4>Aroma Oil Massage</h4>
+                             <h4 style="text-align:center;">Aroma Oil Massage</h4>
                          </a><br />
-                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                             quod maxime placeat facere possimu</p>
+                         {{-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                             quod maxime placeat facere possimu</p> --}}
 
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>
                      <div class="spa_price">
-                         <h5>$120 <span>/ setting</span></h5>
+                         {{-- <h5>$120 <span>/ setting</span></h5> --}}
                      </div>
 
                  </div>
              </div>
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
-                     <a class="spa_img" href="{{ asset('images/utility/coming_soon_spa_large.jpg') }}"
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
                          data-lightbox="spa_on_resort" data-title="Foot Salt Water Soak and Massage">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
-                         <img src="{{ asset('images/utility/coming_soon_spa_small.jpg') }}" alt="">
+                         <img src="{{ asset('images/resort/spa_image_thumbnail.jpg') }}" alt="">
                      </a>
                      <div class="spa_content">
                          <a href="#">
-                             <h4>Foot Salt Water Soak and Massage</h4>
+                             <h4 style="text-align:center;">Foot Salt Water Soak and Massage</h4>
                          </a>
-                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
+                         {{-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
                              quod maxime placeat facere possimus cum soluta nobi est eligendi optio cumque nihil
-                             impedit.</p>
+                             impedit.</p> --}}
 
                          {{-- <a class="book_now_btn" href="#">View details</a> --}}
                      </div>
                      <div class="spa_price">
-                         <h5>$270 <span>/ setting</span></h5>
+                         {{-- <h5>$270 <span>/ setting</span></h5> --}}
                      </div>
 
                  </div>

@@ -1,0 +1,417 @@
+[
+    {
+        "id" : 1,
+        "villa_name" : "Deluxe <span>Villa</span>",
+        "villa_view" : "mangrove view",
+        "number_of_person" : 2,
+        "area" : "750 Sq. Ft",
+        "original_price" : 149000,
+        "discounted_price" : 119000,
+        "currency" : "MMK",
+        "line_break_add" : true,
+        "description" : "<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?</p> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?</p>",
+        "thumbnail_images" : [
+            "images/room/deluxe_villa/thumbnails/deluxe_villa_detail_1_thumbnail.jpg",
+            "images/room/deluxe_villa/thumbnails/deluxe_villa_detail_2_thumbnail.jpg",
+            "images/room/deluxe_villa/thumbnails/deluxe_villa_detail_3_thumbnail.jpg"
+        ],
+        "images" : [
+            "images/room/deluxe_villa/dulex_suite_villa.jpg",
+            "images/room/deluxe_villa/deluxe_villa_detail_1.jpg",
+            "images/room/deluxe_villa/deluxe_villa_detail_2.jpg",
+            "images/room/deluxe_villa/deluxe_villa_detail_3.jpg"
+        ],
+        "specifications" : [
+            "2 persons",
+            "750 Sq. Ft",
+            "breakfast included",
+            "mangrove view"
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    },
+    {
+        "id" : 2,
+        "villa_name" : "Family duplex Suite <span>Villa</span>",
+        "villa_view" : "mangrove view",
+        "number_of_person" : 5,
+        "area" : "2,100 Sq. Ft, ",
+        "original_price" : 370000,
+        "discounted_price" : 370000,
+        "currency" : "MMK",
+        "line_break_add" : false,
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
+        "images" : [
+            "images/room/family_duplex_suite_villa/family_duplex_suite_villa_front.jpg",
+            "images/room/family_duplex_suite_villa/family_duplex_suite_villa_detail_1.jpg",
+            "images/room/family_duplex_suite_villa/family_duplex_suite_villa_detail_2.jpg",
+            "images/room/family_duplex_suite_villa/family_duplex_suite_villa_detail_3.jpg",
+            "images/room/family_duplex_suite_villa/family_duplex_suite_villa_detail_4.jpg",
+            "images/room/family_duplex_suite_villa/family_duplex_suite_villa_detail_5.jpg",
+            "images/room/family_duplex_suite_villa/family_duplex_suite_villa_detail_6.jpg"
+        ],
+        "thumbnail_images" : [
+            "images/room/family_duplex_suite_villa/thumbnails/family_duplex_suite_villa_1_thumbnail.jpg",
+            "images/room/family_duplex_suite_villa/thumbnails/family_duplex_suite_villa_2_thumbnail.jpg",
+            "images/room/family_duplex_suite_villa/thumbnails/family_duplex_suite_villa_3_thumbnail.jpg",
+            "images/room/family_duplex_suite_villa/thumbnails/family_duplex_suite_villa_4_thumbnail.jpg",
+            "images/room/family_duplex_suite_villa/thumbnails/family_duplex_suite_villa_5_thumbnail.jpg",
+            "images/room/family_duplex_suite_villa/thumbnails/family_duplex_suite_villa_6_thumbnail.jpg"
+        ],
+        "specifications" : [
+            "5 persons",
+            "2,100 square feet",
+            "breakfast included",
+            "mangrove view"
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    },
+    {
+        "id" : 3,
+        "villa_name" : "Mangrove Suite <span>Villa</span>",
+        "villa_view" : "mangrove view, ",
+        "number_of_person" : 3,
+        "area" : "1200 Sq. Ft, ",
+        "original_price" : 214000,
+        "discounted_price" : 171000,
+        "currency" : "MMK",
+        "line_break_add" : false,
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
+        "thumbnail_images" : [
+            "images/room/mangrove_suite_villa/thumbnails/mangrove_suite_villa_detail_1_thumbnail.jpg",
+            "images/room/mangrove_suite_villa/thumbnails/mangrove_suite_villa_detail_2_thumbnail.jpg",
+            "images/room/mangrove_suite_villa/thumbnails/mangrove_suite_villa_detail_3_thumbnail.jpg"
+        ],
+        "images" : [
+            "images/room/mangrove_suite_villa/mangrove_suite_villa_front.jpg",
+            "images/room/mangrove_suite_villa/mangrove_suite_villa_detail_1.jpg",
+            "images/room/mangrove_suite_villa/mangrove_suite_villa_detail_2.jpg",
+            "images/room/mangrove_suite_villa/mangrove_suite_villa_detail_3.jpg"
+        ],
+        "specifications" : [
+            "3 persons",
+            "1,200 Sq. Ft",
+            "breakfast included",
+            "mangrove view",
+            "1 master bed room",
+            "1 dressing room"
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    },
+    {
+        "id" : 4,
+        "villa_name" : "Family Deluxe <span>Villa</span>",
+        "villa_view" : "mangrove view, ",
+        "number_of_person" : 4,
+        "area" : "1,500 Sq. Ft, ",
+        "original_price" : 298000,
+        "discounted_price" : 239000,
+        "currency" : "MMK",
+        "line_break_add" : true,
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
+        "thumbnail_images" : [
+            "images/room/family_deluxe_villa/thumbnails/family_deluxe_villa_detail_1_thumbnail.jpg",
+            "images/room/family_deluxe_villa/thumbnails/family_deluxe_villa_detail_2_thumbnail.jpg",
+            "images/room/family_deluxe_villa/thumbnails/family_deluxe_villa_detail_3_thumbnail.jpg",
+            "images/room/family_deluxe_villa/thumbnails/family_deluxe_villa_detail_4_thumbnail.jpg"
+        ],
+        "images" : [
+            "images/room/family_deluxe_villa/family_deluxe_villa_front.jpg",
+            "images/room/family_deluxe_villa/family_deluxe_villa_detail_1.jpg",
+            "images/room/family_deluxe_villa/family_deluxe_villa_detail_2.jpg",
+            "images/room/family_deluxe_villa/family_deluxe_villa_detail_3.jpg",
+            "images/room/family_deluxe_villa/family_deluxe_villa_detail_4.jpg"
+        ],
+        "specifications" : [
+            "4 persons",
+            "1000 Sq. Ft ",
+            "breakfast included",
+            "mangrove view",
+            "2 seperate bed rooms "
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    },
+    {
+        "id" : 5,
+        "villa_name" : "Jade Suite <span>Villa</span>",
+        "villa_view" : "mangrove view, ",
+        "number_of_person" : 2,
+        "area" : "1,700 Sq. Ft, ",
+        "original_price" : 299000,
+        "discounted_price" : 239000,
+        "currency" : "MMK",
+        "line_break_add" : true,
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
+        "thumbnail_images" : [
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_1_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_2_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_3_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_4_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_5_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_6_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_7_thumbnail.jpg",
+            "images/room/jade_suite_villa/thumbnails/jade_suite_villa_detail_8_thumbnail.jpg"
+        ],
+        "images" : [
+            "images/room/jade_suite_villa/jade_suite_villa_front.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_1.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_2.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_3.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_4.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_5.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_6.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_7.jpg",
+            "images/room/jade_suite_villa/jade_suite_villa_detail_8.jpg"
+        ],
+        "specifications" : [
+            "2 persons",
+            "1,700 Sq. Ft",
+            "breakfast included",
+            "mangrove view",
+            "1 master bed room",
+            "1 living room",
+            "1 mini kitchen"
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    },
+    {
+        "id" : 6,
+        "villa_name" : "Antique <span>Villa</span>",
+        "villa_view" : "mangrove view, ",
+        "number_of_person" : 3,
+        "area" : "1,700 Sq. Ft, ",
+        "original_price" : 214000,
+        "discounted_price" : 214000,
+        "currency" : "MMK",
+        "line_break_add" : true,
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
+        "thumbnail_images" : [
+            "images/room/antique_villa/thumbnails/antique_villa_detail_1_thumbnail.jpg",
+            "images/room/antique_villa/thumbnails/antique_villa_detail_2_thumbnail.jpg"
+
+        ],
+        "images" : [
+            "images/room/antique_villa/antique_villa_front.jpg",
+            "images/room/antique_villa/antique_villa_detail_1.jpg",
+            "images/room/antique_villa/antique_villa_detail_2.jpg"
+
+        ],
+        "specifications" : [
+            "2 persons",
+            "1,700 Sq. Ft",
+            "breakfast included",
+            "mangrove view",
+            "1 master bed room",
+            "1 living room",
+            "1 mini kitchen"
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    },
+    {
+        "id" : 7,
+        "villa_name" : "Family Jade Suite <span>Villa 4</span>",
+        "villa_view" : "mangrove view, ",
+        "number_of_person" : 4,
+        "area" : " 2,300 Sq. Ft, ",
+        "original_price" : 339000,
+        "discounted_price" : 339000,
+        "currency" : "MMK",
+        "line_break_add" : false,
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
+        "thumbnail_images" : [
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_1_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_2_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_3_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_4_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_5_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_6_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_7_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_8_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_4/thumbnails/family_jade_suite_villa_4_detail_9_thumbnail.jpg"
+        ],
+        "images" : [
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_front.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_1.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_2.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_3.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_4.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_5.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_6.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_7.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_8.jpg",
+            "images/room/family_jade_suite_villa_4/family_jade_suite_villa_4_detail_9.jpg"
+        ],
+        "specifications" : [
+            "4 persons",
+            "1,700 Sq. Ft",
+            "breakfast included",
+            "mangrove view",
+            "2 seperate bed rooms ",
+            "1 living room"
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    },
+    {
+        "id" : 8,
+        "villa_name" : "Family Jade Suite  <span>Villa 8</span>",
+        "villa_view" : "mangrove view",
+        "number_of_person" : 8,
+        "area" : "2,500 sq. ft",
+        "original_price" : 538000,
+        "discounted_price" : 430000,
+        "currency" : "MMK",
+        "line_break_add" : false,
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
+        "thumbnail_images" : [
+            "images/room/family_jade_suite_villa_8/thumbnails/family_jade_suite_villa_8_detail_1_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_8/thumbnails/family_jade_suite_villa_8_detail_2_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_8/thumbnails/family_jade_suite_villa_8_detail_3_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_8/thumbnails/family_jade_suite_villa_8_detail_4_thumbnail.jpg",
+            "images/room/family_jade_suite_villa_8/thumbnails/family_jade_suite_villa_8_detail_5_thumbnail.jpg"
+        ],
+        "images" : [
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_front.jpg",
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_detail_1.jpg",
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_detail_2.jpg",
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_detail_3.jpg",
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_detail_4.jpg",
+            "images/room/family_jade_suite_villa_8/family_jade_suite_villa_8_detail_5.jpg"
+        ],
+        "specifications" : [
+            "8 persons",
+            "2,500 square feet",
+            "breakfast included",
+            "mangrove view"
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    },
+    {
+        "id" : 9,
+        "villa_name" : "Star Dome <span>Villa</span>",
+        "villa_view" : "mangrove view, ",
+        "number_of_person" : 2,
+        "area" : "2,050 Sq. Ft, ",
+        "original_price" : 350000,
+        "discounted_price" : 271000,
+        "currency" : "MMK",
+        "line_break_add" : true,
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatum magni rerum repellendus distinctio ullam iste nesciunt ea! Sapiente accusamus saepe quaerat magnam adipisci error autem possimus veniam inventore magni?",
+        "thumbnail_images" : [
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_1_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_2_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_3_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_4_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_5_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_6_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_7_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_8_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_9_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_10_thumbnail.jpg",
+            "images/room/star_dome_villa/thumbnails/star_dome_villa_11_thumbnail.jpg"
+
+        ],
+        "images" : [
+            "images/room/star_dome_villa/star_dome_front.jpg",
+            "images/room/star_dome_villa/star_dome_villa_1.jpg",
+            "images/room/star_dome_villa/star_dome_villa_2.jpg",
+            "images/room/star_dome_villa/star_dome_villa_3.jpg",
+            "images/room/star_dome_villa/star_dome_villa_4.jpg",
+            "images/room/star_dome_villa/star_dome_villa_5.jpg",
+            "images/room/star_dome_villa/star_dome_villa_6.jpg",
+            "images/room/star_dome_villa/star_dome_villa_7.jpg",
+            "images/room/star_dome_villa/star_dome_villa_8.jpg",
+            "images/room/star_dome_villa/star_dome_villa_9.jpg",
+            "images/room/star_dome_villa/star_dome_villa_10.jpg",
+            "images/room/star_dome_villa/star_dome_villa_11.jpg"
+        ],
+        "specifications" : [
+            "2 persons",
+            "2,050 Sq. Ft s",
+            "breakfast included",
+            "mangrove view",
+            "1 Master bed room",
+            "1 living room"
+        ],
+        "amenities" : [
+            "FREE WIFI",
+            "DOUBLE BED",
+            "PRIVATE BALCONY",
+            "GOOD ROOM SERVICE",
+            "45\" FLAT TV",
+            "Good TV Channels",
+            "Fully Air Condition",
+            "free pick &amp; drop facility"
+        ]
+    }
+]

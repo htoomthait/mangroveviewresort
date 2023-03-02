@@ -9,6 +9,7 @@
         <div class="row explor_room_item_inner">
             @foreach ($arrVillas as $villa)
 
+
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
                     <a href="{{route('page.resort.villa_detail',$villa['id'])}}" class="room_image">
