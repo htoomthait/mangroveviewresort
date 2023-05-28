@@ -48,10 +48,12 @@
 
                     <div class="content">
                         <p>
-                            Boat riding along the Ma Gyi String is one of your things to do while you are staying at Mangrove View Resort.
+                            Boat riding along the Ma Gyi String is one of your things to do while you are staying at
+                            Mangrove View Resort.
                         </p>
                         <p>
-                            Enjoy a leisure boat ride along the quiet, tranquil river while being surrounded by the luscious green mangrove forest.
+                            Enjoy a leisure boat ride along the quiet, tranquil river while being surrounded by the luscious
+                            green mangrove forest.
                         </p>
                     </div>
 
@@ -60,8 +62,8 @@
                     <div class="heading">
                         <h4>Fishing <span>Around</span></h4>
                     </div>
-                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
-                        data-title="Fishing" class="activities_img">
+                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg"
+                        data-lightbox="activity_page" data-title="Fishing" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
@@ -85,12 +87,12 @@
                         <h4>Cycling <span>Through</span></h4>
                     </div>
                     <a href="{{ url('/') }}/images/activities/cycling_activity.jpg" data-lightbox="activity_page"
-                    data-title="Cycling" class="activities_img">
-                    <i class="fa fa-expand"
-                        style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
-                        aria-hidden="true"></i>
-                    <img src="{{ url('/') }}/images/activities/cycling_activity_thumbnail.jpg" alt="guide map">
-                </a>
+                        data-title="Cycling" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ url('/') }}/images/activities/cycling_activity_thumbnail.jpg" alt="guide map">
+                    </a>
                     <div class="content">
                         {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                             voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
@@ -99,16 +101,16 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 activity_block" id="activity_gift_shop">
+                <div class="col-md-6 activity_block" id="activity_fashion_shop">
                     <div class="heading">
-                        <h4>Gift Shop <span>visiting</span></h4>
+                        <h4>Fashion Shop <span>visiting</span></h4>
                     </div>
-                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
-                        data-title="Gift Shop" class="activities_img">
+                    <a href="{{ url('/') }}/images/activities/fashion_shop_activity_large.jpg"
+                        data-lightbox="activity_page" data-title="Gift Shop" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
+                        <img src="{{ url('/') }}/images/activities/fashion_shop_activity_small.jpg" alt="guide map">
                     </a>
                     <div class="content">
                         {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
@@ -157,8 +159,8 @@
                     <div class="heading">
                         <h4>Swimming <span>fun</span></h4>
                     </div>
-                    <a href="{{ url('/') }}/images/activities/swimming_activity_large.jpg" data-lightbox="activity_page"
-                        data-title="Swimming" class="activities_img">
+                    <a href="{{ url('/') }}/images/activities/swimming_activity_large.jpg"
+                        data-lightbox="activity_page" data-title="Swimming" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
@@ -173,18 +175,19 @@
                 </div>
                 <div class="col-md-6 activity_block" id="activity_zip_riding">
                     <div class="heading">
-                        <h4>zip <span>riding</span> (coming soon) </h4>
+                        <h4>zip <span>riding</span> </h4>
                     </div>
-                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
-                        data-title="Zip Riding" class="activities_img">
+                    <a href="{{ url('/') }}/images/activities/zipline_activity_large.jpg"
+                        data-lightbox="activity_page" data-title="Zip Riding" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ url('/') }}/images/utility/coming_soon_activity_small.jpg" alt="guide map">
+                        <img src="{{ url('/') }}/images/activities/zipline_activity_small.jpg" alt="guide map">
                     </a>
                     <div class="content">
                         <p>
-                            From the height of 100 feet, the 1800 feet Zipline spans across the garden and lake. Enjoy the exhilarating ziplining experience while appreciating the stunning views. Suitable for most ages.
+                            From the height of 100 feet, the 1800 feet Zipline spans across the garden and lake. Enjoy the
+                            exhilarating ziplining experience while appreciating the stunning views. Suitable for most ages.
                         </p>
                     </div>
                 </div>
@@ -194,7 +197,9 @@
             <div class="row activity_row">
                 <div class="col-md-6 activity_block" id="activity_kayaking">
                     <div class="heading">
-                        <h4>Kayaking <span>fun</span> <p>&nbsp;</p> </h4>
+                        <h4>Kayaking <span>fun</span>
+                            <p>&nbsp;</p>
+                        </h4>
                     </div>
                     <a href="{{ url('/') }}/images/activities/kayaking_activity.jpg" data-lightbox="activity_page"
                         data-title="Kayaking" class="activities_img">
@@ -211,8 +216,8 @@
                     <div class="heading">
                         <h4>Sailing in the lake <span>fun</span> (coming soon)</h4>
                     </div>
-                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
-                        data-title="Sailing in the lake" class="activities_img">
+                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg"
+                        data-lightbox="activity_page" data-title="Sailing in the lake" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
@@ -234,8 +239,8 @@
                     <div class="heading">
                         <h4>waterboom <span>fun</span> (coming soon)</h4>
                     </div>
-                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg" data-lightbox="activity_page"
-                        data-title="Water Boom" class="activities_img">
+                    <a href="{{ url('/') }}/images/utility/coming_soon_activity_large.jpg"
+                        data-lightbox="activity_page" data-title="Water Boom" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
@@ -250,14 +255,15 @@
                 </div>
                 <div class="col-md-6 activity_block" id="activity_wall_climbing">
                     <div class="heading">
-                        <h4>Wall Climbing <span>fun</span> <br/> &nbsp; </h4>
+                        <h4>Wall Climbing <span>fun</span> <br /> &nbsp; </h4>
                     </div>
                     <a href="{{ url('/') }}/images/activities/wall_climbing_2.jpg" data-lightbox="activity_page"
                         data-title="Wall Climbing" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ url('/') }}/images/activities/wall_climbing_2_thumbnail.jpg" alt="wall climbing">
+                        <img src="{{ url('/') }}/images/activities/wall_climbing_2_thumbnail.jpg"
+                            alt="wall climbing">
                     </a>
                     <div class="content">
                         <p>
@@ -272,7 +278,7 @@
             <div class="row activity_row">
                 <div class="col-md-6 activity_block" id="activity_quick_jump">
                     <div class="heading">
-                        <h4>Quick Jumpb <span>fun</span> <br/> &nbsp;</h4>
+                        <h4>Quick Jumpb <span>fun</span> <br /> &nbsp;</h4>
                     </div>
                     <a href="{{ url('/') }}/images/activities/quick_jump.jpg" data-lightbox="activity_page"
                         data-title="Quick Jumpb" class="activities_img">
@@ -291,14 +297,15 @@
                 </div>
                 <div class="col-md-6 activity_block" id="activity_mini_golf">
                     <div class="heading">
-                        <h4>Mini Golf <span>Sport</span> <br/> &nbsp; </h4>
+                        <h4>Mini Golf <span>Sport</span> <br /> &nbsp; </h4>
                     </div>
                     <a href="{{ url('/') }}/images/activities/mini_golf_activity.jpg" data-lightbox="activity_page"
                         data-title="Mini Golf" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ url('/') }}/images/activities/mini_golf_activity_thumbnail.jpg" alt="wall climbing">
+                        <img src="{{ url('/') }}/images/activities/mini_golf_activity_thumbnail.jpg"
+                            alt="wall climbing">
                     </a>
                     <div class="content">
                         {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat

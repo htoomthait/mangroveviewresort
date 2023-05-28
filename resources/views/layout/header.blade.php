@@ -62,10 +62,11 @@
                                 <li><a class="anchor_link"
                                         href="{{ route('page.about_us') }}#activity_wooden_statue_museum">Wood Statue
                                         Museum</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.about_us') }}#activity_adeventure_zone">
+                                        Sea and Lake Adventure</a></li>
                                 <li><a class="anchor_link"
-                                    href="{{ route('page.about_us') }}#activity_adeventure_zone"> Sea and Lake Adventure</a></li>
-                                <li><a class="anchor_link"
-                                    href="{{ route('page.about_us') }}#activity_mangrove_view_bridge"> Mangrove View Bridge</a></li>
+                                        href="{{ route('page.about_us') }}#activity_mangrove_view_bridge"> Mangrove
+                                        View Bridge</a></li>
                                 <li><a class="anchor_link"
                                         href="{{ route('page.promotion') }}#sec_garden">Promotions</a></li>
                             </ul>
@@ -107,7 +108,8 @@
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_cycling">
                                         Cycling</a></li>
                                 <li><a class="anchor_link"
-                                        href="{{ route('page.activities') }}#activity_gift_shop">Gift Shop</a></li>
+                                        href="{{ route('page.activities') }}#activity_fashion_shop">fashion Shop</a>
+                                </li>
                                 {{-- <li class="dropdown submenu">
                                     <a
                                         href="{{ route('page.activities') }}#activity_jade_museum"
@@ -129,8 +131,7 @@
                                 <li><a class="anchor_link"
                                         href="{{ route('page.activities') }}#activity_swimming">Swimming</a></li>
                                 <li><a class="anchor_link"
-                                        href="{{ route('page.activities') }}#activity_zip_riding">Zipriding <span
-                                            class="badge badge-warning">comming soon</span></a></li>
+                                        href="{{ route('page.activities') }}#activity_zip_riding">Zipriding </a></li>
                                 <li><a class="anchor_link"
                                         href="{{ route('page.activities') }}#activity_kayaking">Kayaking </a></li>
                                 <li><a class="anchor_link"
@@ -146,8 +147,8 @@
                                         href="{{ route('page.activities') }}#activity_quick_jump">Quick Jump
                                     </a></li>
                                 <li><a class="anchor_link"
-                                    href="{{ route('page.activities') }}#activity_mini_golf">Mini Golf
-                                </a></li>
+                                        href="{{ route('page.activities') }}#activity_mini_golf">Mini Golf
+                                    </a></li>
 
                             </ul>
                         </li>
