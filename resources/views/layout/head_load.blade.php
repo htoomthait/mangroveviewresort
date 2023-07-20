@@ -8,7 +8,7 @@
 
     <link rel="icon" href="{{ url('/') }}/img/logo/sea_and_lake_logo_picture.png" type="image/x-icon" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sea &amp; Lake Garden</title>
+    <title>Sea &amp; Lake Garden - {{ session('page_title') }}</title>
 
     <!-- Icon css link -->
     <link href="{{ url('/') }}/css/font-awesome.min.css" rel="stylesheet">
