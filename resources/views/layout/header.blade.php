@@ -7,7 +7,7 @@
                         (+95)9881777944, (+95) 95501004
                         {{-- <span class="badge badge-primary">hotline</span> --}}
                     </a>
-                    <a href="#"><i class="fa fa-envelope-o"></i>sales@mangroviewresort.com</a>
+                    <a href="#"><i class="fa fa-envelope-o"></i>sales@mangroveviewresort.com</a>
                 </div>
                 <div class="pull-right">
                     <ul class="header_social" id="nav_social_icons">

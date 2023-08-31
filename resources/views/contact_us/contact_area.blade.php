@@ -1,4 +1,3 @@
-
 <section class="get_contact_area">
     <div class="container">
         <div class="row get_contact_inner">
@@ -26,11 +25,11 @@
                             class="contact_us" style="height:54px;">
                             <option value="">--- Please select a villa type ---</option>
                             @foreach ($villaTypes as $villaType)
-
-                                <option value="{{$villaType['villa_name']}}" {{ $selectedVilla != null && $selectedVilla['id'] == $villaType['id'] ? 'selected' : '' }}>
+                                <option value="{{ $villaType['villa_name'] }}"
+                                    {{ $selectedVilla != null && $selectedVilla['id'] == $villaType['id'] ? 'selected' : '' }}>
                                     {!! $villaType['villa_name'] !!} |
-                                    {{$villaType['number_of_person']}} persons |
-                                    {{$villaType['original_price']}} MMK
+                                    {{ $villaType['number_of_person'] }} persons |
+                                    {{ $villaType['original_price'] }} MMK
                                 </option>
                             @endforeach
                         </select>
@@ -75,7 +74,7 @@
                             <div class="media-body">
                                 <h4>Email</h4>
                                 <a href="#">sales@mangroviewresort.com</a>
-                                <a href="#">reservations@mangroviewresort.com</a>
+                                {{-- <a href="#">reservations@mangroviewresort.com</a> --}}
                             </div>
                         </div>
                         <div class="media">
@@ -103,7 +102,6 @@
 <div class="loader"></div>
 
 @push('page_js')
-
     <script>
         let contactUsFormSubmissinValidationStatus = null;
         let submitContactUsForm = null;
