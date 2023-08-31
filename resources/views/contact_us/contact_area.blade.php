@@ -73,7 +73,7 @@
                             </div>
                             <div class="media-body">
                                 <h4>Email</h4>
-                                <a href="#">sales@mangroviewresort.com</a>
+                                <a href="#">sales@mangroveviewresort.com</a>
                                 {{-- <a href="#">reservations@mangroviewresort.com</a> --}}
                             </div>
                         </div>
