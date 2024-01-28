@@ -29,7 +29,15 @@
                                     {{ $selectedVilla != null && $selectedVilla['id'] == $villaType['id'] ? 'selected' : '' }}>
                                     {!! $villaType['villa_name'] !!} |
                                     {{ $villaType['number_of_person'] }} persons |
-                                    {{ $villaType['original_price'] }} MMK
+                                    {{ number_format($villaType['original_price']) }} {{ $villaType['currency'] }}
+                                    (normal)
+                                    |
+
+                                    {{ $villaType['foreigner_price'] }} {{ $villaType['foreigne_currency'] }}
+                                    (foreigner)
+
+
+
                                 </option>
                             @endforeach
                         </select>
