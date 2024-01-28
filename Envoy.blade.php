@@ -8,6 +8,7 @@
 
 @task('simple-deploy-prod', ['on' => 'prod'])
     cd /usr/share/nginx/seaandlakemm.com
+    git checkout .
     git pull
     php artisan optimize:clear
 @endtask
