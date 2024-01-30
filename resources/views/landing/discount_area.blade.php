@@ -9,8 +9,8 @@
             <div class="col-md-8">
                 <div class="discount_right_content">
                     <h5>Hot offer</h5>
-                    <h4>up to 20% <span>off</span> <br /> in week days!</h4>
-                    <a class="book_now_btn" href="{{route('page.contact_us')}}">Contact Us</a>
+                    <h4>up to 20% <span>off</span> {{-- <br /> in week days! --}}</h4>
+                    <a class="book_now_btn" href="{{ route('page.contact_us') }}">Contact Us</a>
                 </div>
             </div>
         </div>
