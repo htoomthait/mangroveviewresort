@@ -34,7 +34,9 @@
                                     <ul class="header_social">
                                         <li><a href="https://www.facebook.com/seaandlakegarden"><i
                                                     class="fa fa-facebook banner-text-color"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram banner-text-color"></i></a></li>
+                                        <li><a
+                                                href="https://www.instagram.com/mangroveview_resort?igsh=MTA4ZTJjd3VqMXltaw=="><i
+                                                    class="fa fa-instagram banner-text-color"></i></a></li>
                                         <li><a href="https://youtube.com/@mangroveviewresort?si=3Vmz8z24FQhEBHfF"><i
                                                     class="fa fa-youtube banner-text-color"></i></a></li>
                                     </ul>

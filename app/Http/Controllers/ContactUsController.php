@@ -65,7 +65,7 @@ class ContactUsController extends GenericController
 
 
 
-            // Log::debug($mailSentStatus);
+            Log::info($mailSentStatus);
 
             // set response message
             $this->setResponseInfo('success', 'Your contact form has been sent successfully!', '', '', '');
