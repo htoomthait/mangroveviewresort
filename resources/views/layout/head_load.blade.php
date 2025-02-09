@@ -52,6 +52,26 @@
     {{-- lightbox 2 css load --}}
     <link rel="stylesheet" href="{{ url('/') }}/js/light_box/css/lightbox.min.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <style>
+        .satisfy-regular {
+            font-family: "Satisfy", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h3.resort {
+            color: #EBD4AA;
+            font-family: "Satisfy", serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-top: 24px;
+        }
+    </style>
+
     @if (session('page_title') === 'home')
         <style>
             .owl-carousel .owl-nav .owl-next {

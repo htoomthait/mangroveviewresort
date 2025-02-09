@@ -34,7 +34,7 @@
     <section class="activities_area">
         <div class="container">
             <div class="row activity_row">
-                <div class="col-md-6 activity_block" id="activity_boat">
+                <div class="col-12 activity_block" id="activity_boat">
                     <div class="heading">
                         <h4>Boat <span>Riding</span></h4>
                     </div>
@@ -58,7 +58,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-6 activity_block" id="activity_fisihing">
+                <div class="col-12 activity_block" id="activity_fisihing">
                     <div class="heading">
                         <h4>Fishing <span>Around</span></h4>
                     </div>
@@ -82,7 +82,7 @@
 
 
             <div class="row activity_row">
-                <div class="col-md-6 activity_block" id="activity_cycling">
+                <div class="col-12 activity_block" id="activity_cycling">
                     <div class="heading">
                         <h4>Cycling <span>Through</span></h4>
                     </div>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 activity_block" id="activity_fashion_shop">
+                <div class="col-12 activity_block" id="activity_fashion_shop">
                     <div class="heading">
                         <h4>Fashion Shop <span>visiting</span></h4>
                     </div>
@@ -122,7 +122,7 @@
             </div>
 
             {{-- <div class="row activity_row">
-                <div class="col-md-6 activity_block" id="activity_jade_museum">
+                <div class="col-12 activity_block" id="activity_jade_museum">
                     <div class="heading">
                         <h4>Jade Museum <span>visiting</span></h4>
                     </div>
@@ -136,7 +136,7 @@
                             qui in ea volup.</p>
                     </div>
                 </div>
-                <div class="col-md-6 activity_block" id="activity_wooden_statue_museum">
+                <div class="col-12 activity_block" id="activity_wooden_statue_museum">
                     <div class="heading">
                         <h4>Wooden Statue <span>Museum</span></h4>
                     </div>
@@ -155,7 +155,7 @@
             </div> --}}
 
             <div class="row activity_row">
-                <div class="col-md-6 activity_block" id="activity_swimming">
+                <div class="col-12 activity_block" id="activity_swimming">
                     <div class="heading">
                         <h4>Swimming <span>fun</span></h4>
                     </div>
@@ -173,7 +173,7 @@
                             qui in ea volup.</p> --}}
                     </div>
                 </div>
-                <div class="col-md-6 activity_block" id="activity_zip_riding">
+                <div class="col-12 activity_block" id="activity_zip_riding">
                     <div class="heading">
                         <h4>zip <span>riding</span> </h4>
                     </div>
@@ -195,7 +195,7 @@
 
             </div>
             <div class="row activity_row">
-                <div class="col-md-6 activity_block" id="activity_kayaking">
+                <div class="col-12 activity_block" id="activity_kayaking">
                     <div class="heading">
                         <h4>Kayaking <span>fun</span>
                             <p>&nbsp;</p>
@@ -212,7 +212,7 @@
                         <p>Kayaing activity is available.</p>
                     </div>
                 </div>
-                <div class="col-md-6 activity_block" id="activity_sailing_in_the_lake">
+                <div class="col-12 activity_block" id="activity_sailing_in_the_lake">
                     <div class="heading">
                         <h4>Sailing in the lake <span>fun</span> (coming soon)</h4>
                     </div>
@@ -235,7 +235,7 @@
             </div>
 
             <div class="row activity_row">
-                <div class="col-md-6 activity_block" id="activity_waterboom">
+                <div class="col-12 activity_block" id="activity_waterboom">
                     <div class="heading">
                         <h4>waterboom <span>fun</span> (coming soon)</h4>
                     </div>
@@ -253,7 +253,7 @@
                             qui in ea volup.</p> --}}
                     </div>
                 </div>
-                <div class="col-md-6 activity_block" id="activity_wall_climbing">
+                <div class="col-12 activity_block" id="activity_wall_climbing">
                     <div class="heading">
                         <h4>Wall Climbing <span>fun</span> <br /> &nbsp; </h4>
                     </div>
@@ -276,7 +276,7 @@
             </div>
 
             <div class="row activity_row">
-                <div class="col-md-6 activity_block" id="activity_quick_jump">
+                <div class="col-12 activity_block" id="activity_quick_jump">
                     <div class="heading">
                         <h4>Quick Jumpb <span>fun</span> <br /> &nbsp;</h4>
                     </div>
@@ -295,7 +295,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 activity_block" id="activity_mini_golf">
+                <div class="col-12 activity_block" id="activity_mini_golf">
                     <div class="heading">
                         <h4>Mini Golf <span>Sport</span> <br /> &nbsp; </h4>
                     </div>

@@ -18,8 +18,8 @@ class ContactUsController extends GenericController
         $this->setPageTitle('contactUs', '');
         $villaTypes = $this->getAllVillas();
         $selectedVilla = null;
-        
-        if($request->input('villaId')){
+
+        if ($request->input('villaId')) {
             $collectVillas = collect($villaTypes);
             $selectedVilla = $collectVillas->where('id', $request->input('villaId'))->first();
         }
@@ -36,7 +36,7 @@ class ContactUsController extends GenericController
             'message' => 'required|min:5'
         ]);
 
-        if($validator->fails()){
+        if ($validator->fails()) {
             $this->setResponseInfo(
                 'invalid',
                 'Your contact web form inputs are invalid',
@@ -60,29 +60,27 @@ class ContactUsController extends GenericController
             ];
 
             $mailSentStatus = Mail::to('sales@mangroveviewresort.com')
-                                    ->cc([$details['email']])
-                                    ->send(new \App\Mail\ContactUsMail($details));
+                ->cc([$details['email']])
+                ->send(new \App\Mail\ContactUsMail($details));
 
 
 
             // Log::debug($mailSentStatus);
 
             // set response message
-            $this->setResponseInfo('success','Your contact form has been sent successfully!', '', '', '');
-
+            $this->setResponseInfo('success', 'Your contact form has been sent successfully!', '', '', '');
         } catch (\Throwable $th) {
-              // Log error
-              Log::error("Contact Form Submission Error Msg :" . $th->getMessage());
+            // Log error
+            Log::error("Contact Form Submission Error Msg :" . $th->getMessage());
 
-              // set response message
-              $this->setResponseInfo(
-                  'error',
-                  'Your contact form submission cannot be proceed!',
-                  [],
-                  '',
-                  $th->getMessage()
-              );
-
+            // set response message
+            $this->setResponseInfo(
+                'error',
+                'Your contact form submission cannot be proceed!',
+                [],
+                '',
+                $th->getMessage()
+            );
         }
 
         return response()->json($this->response, $this->httpStatus);
