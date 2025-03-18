@@ -65,7 +65,9 @@
 
         h3.resort {
             color: #EBD4AA;
-            font-family: "Satisfy", serif;
+            /* font-family: "Satisfy", serif; */
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-size: 40px;
             font-weight: 400;
             font-style: normal;
             margin-top: 24px;
