@@ -4,10 +4,11 @@ style="background: url({{asset('img/banner/karaoke_banner_bg.jpg')}}) no-repeat 
 >
     <div class="container">
     <div class="banner_inner_content">
-         <h3>Karaokie</h3>
+         <h3>Karaoke</h3>
          <ul>
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="{{route('page.karaoke')}}">Karaokie</a></li>
+              <li ><a href="{{route('home.page')}}">Home</a></li>
+              <li ><a href="{{route('page.resort')}}">Resort</a></li>
+              <li class="active"><a href="{{route('page.karaoke')}}">Karaoke</a></li>
          </ul>
     </div>
     </div>

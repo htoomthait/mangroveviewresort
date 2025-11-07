@@ -5239,6 +5239,13 @@ i:before {
   z-index: 2;
 }
 
+.banner_area_resort {
+    background: url(../img/banner/blog-banner-bg.jpg) no-repeat scroll center center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+  }
+
 .banner_area:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);

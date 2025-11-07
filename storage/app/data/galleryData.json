@@ -1,0 +1,260 @@
+[
+    {
+        "name" : "resort",
+        "thumbnail_images" :
+            [
+                "images/gallery/resort/thumbnails/gallery_resort_1_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_2_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_3_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_4_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_5_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_6_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_7_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_8_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_9_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_10_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_11_thumbnail.jpg",
+                "images/gallery/resort/thumbnails/gallery_resort_12_thumbnail.jpg"
+            ],
+        "images" : [
+            "images/gallery/resort/gallery_resort_1.jpg",
+            "images/gallery/resort/gallery_resort_2.jpg",
+            "images/gallery/resort/gallery_resort_3.jpg",
+            "images/gallery/resort/gallery_resort_4.jpg",
+            "images/gallery/resort/gallery_resort_5.jpg",
+            "images/gallery/resort/gallery_resort_6.jpg",
+            "images/gallery/resort/gallery_resort_7.jpg",
+            "images/gallery/resort/gallery_resort_8.jpg",
+            "images/gallery/resort/gallery_resort_9.jpg",
+            "images/gallery/resort/gallery_resort_10.jpg",
+            "images/gallery/resort/gallery_resort_11.jpg",
+            "images/gallery/resort/gallery_resort_12.jpg"
+
+        ]
+    },
+    {
+        "name" : "villa",
+        "thumbnail_images" :
+            [
+                "images/gallery/villa/thumbnails/gallery_villa_1_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_2_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_3_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_4_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_5_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_6_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_7_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_8_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_9_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_10_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_11_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_12_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_13_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_14_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_15_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_16_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_17_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_18_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_19_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_20_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_21_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_22_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_23_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_24_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_25_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_26_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_27_thumbnail.jpg",
+                "images/gallery/villa/thumbnails/gallery_villa_28_thumbnail.jpg"
+
+            ],
+        "images" : [
+            "images/gallery/villa/gallery_villa_1.jpg",
+            "images/gallery/villa/gallery_villa_2.jpg",
+            "images/gallery/villa/gallery_villa_3.jpg",
+            "images/gallery/villa/gallery_villa_4.jpg",
+            "images/gallery/villa/gallery_villa_5.jpg",
+            "images/gallery/villa/gallery_villa_6.jpg",
+            "images/gallery/villa/gallery_villa_7.jpg",
+            "images/gallery/villa/gallery_villa_8.jpg",
+            "images/gallery/villa/gallery_villa_9.jpg",
+            "images/gallery/villa/gallery_villa_10.jpg",
+            "images/gallery/villa/gallery_villa_11.jpg",
+            "images/gallery/villa/gallery_villa_12.jpg",
+            "images/gallery/villa/gallery_villa_13.jpg",
+            "images/gallery/villa/gallery_villa_14.jpg",
+            "images/gallery/villa/gallery_villa_15.jpg",
+            "images/gallery/villa/gallery_villa_16.jpg",
+            "images/gallery/villa/gallery_villa_17.jpg",
+            "images/gallery/villa/gallery_villa_18.jpg",
+            "images/gallery/villa/gallery_villa_19.jpg",
+            "images/gallery/villa/gallery_villa_20.jpg",
+            "images/gallery/villa/gallery_villa_21.jpg",
+            "images/gallery/villa/gallery_villa_22.jpg",
+            "images/gallery/villa/gallery_villa_23.jpg",
+            "images/gallery/villa/gallery_villa_24.jpg",
+            "images/gallery/villa/gallery_villa_25.jpg",
+            "images/gallery/villa/gallery_villa_26.jpg",
+            "images/gallery/villa/gallery_villa_27.jpg",
+            "images/gallery/villa/gallery_villa_28.jpg"
+
+
+        ]
+    },
+    {
+        "name" : "activity",
+        "thumbnail_images" :
+            [
+                "images/gallery/activity/thumbnails/boat_activity_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/cycling_activity_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/jade_museum_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/kayaking_activity_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/quick_jump_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/quick_jump_2_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/swimming_activity_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/wall_climbing_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/wood_museum_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/wall_climbing_2_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/mini_golf_activity_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/quick_jump_3_thumbnail.jpg",
+                "images/gallery/activity/thumbnails/mini_golf_activity_2_thumbnail.jpg"
+
+            ],
+        "images" : [
+            "images/gallery/activity/boat_activity.jpg",
+            "images/gallery/activity/cycling_activity.jpg",
+            "images/gallery/activity/jade_museum.jpg",
+            "images/gallery/activity/kayaking_activity.jpg",
+            "images/gallery/activity/quick_jump.jpg",
+            "images/gallery/activity/quick_jump_2.jpg",
+            "images/gallery/activity/swimming_activity.jpg",
+            "images/gallery/activity/wall_climbing.jpg",
+            "images/gallery/activity/wood_museum.jpg",
+            "images/gallery/activity/wall_climbing_2.jpg",
+            "images/gallery/activity/mini_golf_activity.jpg",
+            "images/gallery/activity/quick_jump_3.jpg",
+            "images/gallery/activity/mini_golf_activity_2.jpg"
+
+
+        ]
+    },
+    {
+        "name" : "restaurant",
+        "thumbnail_images" :
+            [
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_1_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_2_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_3_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_4_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_5_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_6_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_7_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_8_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_9_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_10_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_11_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_12_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_13_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_14_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_15_thumbnail.jpg",
+                "images/gallery/restaurant/thumbnails/bar_and_restaurant_16_thumbnail.jpg"
+
+
+            ],
+        "images" : [
+            "images/gallery/restaurant/bar_and_restaurant_1.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_2.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_3.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_4.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_5.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_6.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_7.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_8.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_9.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_10.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_11.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_12.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_13.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_14.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_15.jpg",
+            "images/gallery/restaurant/bar_and_restaurant_16.jpg"
+
+        ]
+    },
+    {
+        "name" : "garden",
+        "thumbnail_images" :
+            [
+                "images/gallery/garden/thumbnails/gallery_garden_1_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_2_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_3_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_4_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_5_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_6_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_7_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_8_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_9_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_10_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_11_thumbnail.jpg",
+                "images/gallery/garden/thumbnails/gallery_garden_12_thumbnail.jpg"
+            ],
+        "images" : [
+            "images/gallery/garden/gallery_garden_1.jpg",
+            "images/gallery/garden/gallery_garden_2.jpg",
+            "images/gallery/garden/gallery_garden_3.jpg",
+            "images/gallery/garden/gallery_garden_4.jpg",
+            "images/gallery/garden/gallery_garden_5.jpg",
+            "images/gallery/garden/gallery_garden_6.jpg",
+            "images/gallery/garden/gallery_garden_7.jpg",
+            "images/gallery/garden/gallery_garden_8.jpg",
+            "images/gallery/garden/gallery_garden_9.jpg",
+            "images/gallery/garden/gallery_garden_10.jpg",
+            "images/gallery/garden/gallery_garden_11.jpg",
+            "images/gallery/garden/gallery_garden_12.jpg"
+
+        ]
+    },
+    {
+        "name" : "beach_and_other_outdoors",
+        "thumbnail_images" :
+            [
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_1_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_2_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_3_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_4_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_5_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_6_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_7_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_8_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_9_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_10_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_11_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_12_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_13_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_14_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_15_thumbnail.jpg",
+                "images/gallery/beach_and_outdoor/thumbnails/beach_and_outdoor_16_thumbnail.jpg"
+
+            ],
+        "images" : [
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_1.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_2.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_3.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_4.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_5.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_6.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_7.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_8.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_9.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_10.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_11.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_12.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_13.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_14.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_15.jpg",
+            "images/gallery/beach_and_outdoor/beach_and_outdoor_16.jpg"
+
+        ]
+    }
+
+
+]
+

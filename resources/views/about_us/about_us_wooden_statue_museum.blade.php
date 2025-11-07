@@ -5,7 +5,9 @@
            <div class="col-xs-12 col-md-6">
                 <div class="activities_content left_activities">
                     <h4>wooden statue museum <span>visiting</span></h4>
-                    <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea volup.</p>
+                    <p>
+                        Visit our free of charge, wood museum, showcasing wonderful sculptures, crafted by local Burmese sculptors. Explore the intricate details of the life-size statues which capture the beauty of wild-life. Unique to our museum is the interactive experience we offer where visitors have the ability to be hands-on in exploring the statues by
+                    </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">

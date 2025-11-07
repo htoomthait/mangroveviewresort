@@ -1,21 +1,20 @@
 @extends('layout.master')
 @php
-$detailImages = $selectedVilla['images'];
-$detailThumbnails = $selectedVilla['thumbnail_images'];
-$detailImages = array_slice($detailImages, 1);
-if (count($detailImages) === 0) {
-    $detailImages = ['images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg'];
-}
-// dd($detailImages);
+    $detailImages = $selectedVilla['images'];
+    $detailThumbnails = $selectedVilla['thumbnail_images'];
+    $detailImages = array_slice($detailImages, 1);
+    if (count($detailImages) === 0) {
+        $detailImages = ['images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg'];
+    }
+    // dd($detailImages);
 
-$villaThumbnailBlkClasses = "";
+    $villaThumbnailBlkClasses = '';
 
-if (count($detailThumbnails) > 3){
-    $villaThumbnailBlkClasses = "col-md-3 col-sm-6 col-xs-12";
-}
-else{
-    $villaThumbnailBlkClasses = "col-md-4 col-sm-6 col-xs-12";
-}
+    if (count($detailThumbnails) > 3) {
+        $villaThumbnailBlkClasses = 'villa_detail_images col-md-3 col-sm-6 col-xs-12';
+    } else {
+        $villaThumbnailBlkClasses = 'villa_detail_images col-md-4 col-sm-6 col-xs-12';
+    }
 @endphp
 
 @section('page_content')
@@ -46,8 +45,11 @@ else{
                             <a href="#">
                                 <h4> {!! $selectedVilla['villa_name'] !!}</h4>
                             </a>
-                            <h5>Pricing {{ number_format($selectedVilla['original_price']) }}
+                            <h5>Normal Pricing {{ number_format($selectedVilla['original_price']) }}
                                 {{ $selectedVilla['currency'] }} <span>/ Night</span></h5>
+                            <br />
+                            <h5>Foreigner Pricing {{ number_format($selectedVilla['foreigner_price']) }}
+                                {{ $selectedVilla['foreigne_currency'] }} <span>/ Night</span></h5>
 
                             <br />
 
@@ -63,17 +65,17 @@ else{
                             <section class="special_dish_area">
                                 <div class="container">
                                     <div class="special_dish_inner_area">
-                                        <div class="row special_dish_inner" >
+                                        <div class="row special_dish_inner">
 
                                             @foreach ($detailImages as $index => $image)
-                                                <div class="{{$villaThumbnailBlkClasses}}" >
+                                                <div class="{{ $villaThumbnailBlkClasses }}">
                                                     <div class="special_dish_item mt-4">
                                                         <div class="dish_img">
                                                             {{-- <img src="{{ url('/') }}/{{ $image }}"
                                                                 alt=""> --}}
                                                             <a href="{{ asset($image) }}"
                                                                 data-lightbox="villa_detail_images"
-                                                                data-title="{{$selectedVilla['villa_name']}} Detail {{  $index + 1}}">
+                                                                data-title="{{ $selectedVilla['villa_name'] }} Detail {{ $index + 1 }}">
                                                                 <img class="img-fluid" width="100%"
                                                                     src="{{ asset($detailThumbnails[$index]) }}"
                                                                     alt="villa thumbnail" />
@@ -87,7 +89,18 @@ else{
 
 
                                         </div>
+                                        <div class="row mt-3" style="display:flex; justify-content:center;">
+                                            <div class="col-3">
+                                                <button class="btn_show_more_less">
+                                                    <span class="more_or_less_content">show more +</span>
+                                                    <span class="more_or_less_content" style="display:none;"> show less -
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+
                                     </div>
+
                                 </div>
                             </section>
 

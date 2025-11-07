@@ -5,8 +5,9 @@
                 <div class="col-md-3 col-xs-6">
                     <aside class="f_widget about_widget">
                         {{-- <img src="img/footer-logo.png" alt=""> --}}
-                        <img src="{{url('/')}}/img/logo/sea_and_lake_logo_picture.png" alt="sea and lake transparent logo" width="72px">
-                            {{-- <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                 --}}
+                        <img src="{{ url('/') }}/img/logo/sea_and_lake_logo_picture.png"
+                            alt="sea and lake transparent logo" width="72px">
+                        {{-- <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                 --}}
 
                         <div class="ab_wd_list">
                             <div class="media">
@@ -14,7 +15,8 @@
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>No. (3) Ward, Shwe Thaung Yan Road, Shwe Thaung Yan Township, Pathein District, Ayeyarwady Region, Myanmar.</h4>
+                                    <h4>No. (3) Ward, Shwe Thaung Yan Road, Shwe Thaung Yan Township, Pathein District,
+                                        Ayeyarwady Region, Myanmar.</h4>
                                 </div>
                             </div>
                             <div class="media">
@@ -30,9 +32,13 @@
                             <div class="media">
                                 <div class="media-body">
                                     <ul class="header_social">
-                                        <li><a href="https://www.facebook.com/seaandlakegarden"><i class="fa fa-facebook banner-text-color"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram banner-text-color"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-youtube banner-text-color"></i></a></li>
+                                        <li><a href="https://www.facebook.com/seaandlakegarden"><i
+                                                    class="fa fa-facebook banner-text-color"></i></a></li>
+                                        <li><a
+                                                href="https://www.instagram.com/mangroveview_resort?igsh=MTA4ZTJjd3VqMXltaw=="><i
+                                                    class="fa fa-instagram banner-text-color"></i></a></li>
+                                        <li><a href="https://youtube.com/@mangroveviewresort?si=3Vmz8z24FQhEBHfF"><i
+                                                    class="fa fa-youtube banner-text-color"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -49,10 +55,10 @@
                             <h3>Extra Links</h3>
                         </div>
                         <ul>
-                            <li><a href="{{route('page.about_us')}}">-  About Us</a></li>
+                            <li><a href="{{ route('page.about_us') }}">- About Us</a></li>
                             {{-- <li><a href="#">-  Faq’s</a></li> --}}
-                            <li><a href="{{route('home.page')}}#testimonials">-  Testimonials</a></li>
-                            <li><a href="{{route('page.activities')}}">-  Activities</a></li>
+                            <li><a href="{{ route('home.page') }}#testimonials">- Testimonials</a></li>
+                            <li><a href="{{ route('page.activities') }}">- Activities</a></li>
                             {{-- <li><a href="#">-  Reservation Now</a></li> --}}
                         </ul>
                     </aside>
@@ -63,12 +69,13 @@
                             <h3>our services</h3>
                         </div>
                         <ul>
-                            <li><a href="{{route('page.about_us')}}#sec_our_services">-  Buffet Breakfast</a></li>
-                            <li><a href="{{route('page.about_us')}}#sec_our_services">-  Transportation Services</a></li>
-                            <li><a href="{{route('page.about_us')}}#sec_our_services">-  Buggy Car Services</a></li>
-                            <li><a href="{{route('page.resort')}}#sec_restaurant">-  Bar &amp; Restaurant</a></li>
-                            <li><a href="{{route('page.resort')}}#sec_spa">-  Spa &amp; Gym</a></li>
-                            <li><a href="{{route('page.karaoke')}}">-  Karaoke</a></li>
+                            <li><a href="{{ route('page.about_us') }}#sec_our_services">- Buffet Breakfast</a></li>
+                            <li><a href="{{ route('page.about_us') }}#sec_our_services">- Transportation Services</a>
+                            </li>
+                            <li><a href="{{ route('page.about_us') }}#sec_our_services">- Buggy Car Services</a></li>
+                            <li><a href="{{ route('page.resort') }}#sec_restaurant">- Bar &amp; Restaurant</a></li>
+                            <li><a href="{{ route('page.resort') }}#sec_spa">- Spa &amp; Gym</a></li>
+                            <li><a href="{{ route('page.karaoke') }}">- Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -90,16 +97,17 @@
                             <h3>Activities</h3>
                         </div>
                         <ul>
-                            <li><a href="{{route('page.activities')}}#activity_boat">-  Boat  </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_fishing">-  Fishing  </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_cycling">-  Cycling  </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_gift_shop">-  Gift Shop   </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_swimming">-  Swimming </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_zip_riding">-  Zipriding </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_kayaking">-  Kayaking </a></li>
-                            <li><a href="{{route('page.about_us')}}#activity_jade_museum">-  Museum   </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_waterboom">-  Waterboom </a></li>
-                            <li><a href="{{route('page.activities')}}#activity_sailing_in_the_lake">-  Sailing in the lake </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_boat">- Boat </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_fishing">- Fishing </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_cycling">- Cycling </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_gift_shop">- Gift Shop </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_swimming">- Swimming </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_zip_riding">- Zipriding </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_kayaking">- Kayaking </a></li>
+                            <li><a href="{{ route('page.about_us') }}#activity_jade_museum">- Museum </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_waterboom">- Waterboom </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_sailing_in_the_lake">- Sailing in the
+                                    lake </a></li>
                         </ul>
                     </aside>
                 </div>
@@ -109,7 +117,11 @@
     <div class="footer_copyright_area">
         <div class="container">
             <div class="pull-left">
-                <h4>Copyright © Sea And Lake Resort  <script>document.write(new Date().getFullYear());</script>. All rights reserved. </h4>
+                <h4>Copyright © Sea And Lake Resort
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>. All rights reserved.
+                </h4>
             </div>
             <div class="pull-right">
                 <h4>developed by: <a href="mailto: htoomaungthait@gmail.com">Htoo Maung Thait</a></h4>
@@ -132,4 +144,3 @@
     </div>
 </div>
 <!--================End Search Box Area =================-->
-

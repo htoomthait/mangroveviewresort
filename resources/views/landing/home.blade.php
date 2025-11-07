@@ -22,7 +22,7 @@
     <!--================End Explor Resort Area =================-->
 
     <!--================Our Service Area =================-->
-    @include('landing.our_service')
+    {{-- @include('landing.our_service') --}}
     <!--================End Our Service Area =================-->
 
     <!--================Our Resort Gallery Area =================-->

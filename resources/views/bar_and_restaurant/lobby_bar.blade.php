@@ -11,6 +11,23 @@
                 <div class="col-md-3 col-xs-6">
                     <div class="special_dish_item text-center">
                         <div class="dish_img">
+                            <a href="{{ asset('images/restaurant/lobby_bar/lobby_bar_at_bar_counter.jpg') }}"
+                                data-lightbox="lobby_bar" data-title="&#64; Bar Counter">
+                                <i class="fa fa-expand"
+                                    style="position: absolute; z-index:100; margin-top:8px; left: 88%; font-size:21px;"
+                                    aria-hidden="true"></i>
+                                <img src="{{ asset('images/restaurant/lobby_bar/lobby_bar_at_bar_counter_thumbnail.jpg') }}" alt="&#64; Bar Counter">
+                            </a>
+                        </div>
+                        <h4>&#64; Bar Counter</h4>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="special_dish_item text-center">
+                        <div class="dish_img">
                             <a href="{{ asset('images/restaurant/lobby_bar/lobby_bar_item_1.jpg') }}"
                                 data-lightbox="lobby_bar" data-title="Item 1">
                                 <i class="fa fa-expand"

@@ -65,6 +65,15 @@
         {{-- Wooden Statue Museum Start  --}}
         @include('about_us.about_us_wooden_statue_museum')
         {{-- End Wooden Statue Museum  --}}
+
+
+        {{-- sea and lake adventure zone  --}}
+            @include('about_us.about_us_adeventure_zone')
+        {{-- end sea and lake adeventure zone --}}
+
+        {{-- sea and lake mangrove view bridge start  --}}
+            @include('about_us.about_us_mangrove_view_bridge')
+        {{-- sea and lake mangrove view bridge end  --}}
     </section>
 
 

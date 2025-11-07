@@ -23,7 +23,14 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" >
 
-                      <div class="item active" >
+                    <div class="item active" >
+                        <img class="landing_carousel_img" src="/images/restaurant/sea_and_lake_resort/resort_restaurant_table_view.jpg" alt="Resort Restaurant Table View" style="width:100%;">
+                        <div class="carousel-caption carousel-caption-landing" >
+                            <h3>Table View</h3>
+                        </div>
+                        </div>
+
+                      <div class="item" >
                         <img class="landing_carousel_img" src="/images/restaurant/sea_and_lake_resort/sea_and_lake_resort_restaurant_menu_1.jpg" alt="Resort Menu 1" style="width:100%;">
                         <div class="carousel-caption carousel-caption-landing" >
                           <h3>Resort Menu 1</h3>
