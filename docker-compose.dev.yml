@@ -1,0 +1,24 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true
+    volumes:
+      - ./:/var/www/html
+      - /var/www/html/vendor
+      - /var/www/html/node_modules
+    depends_on:
+      db:
+        condition: service_healthy
+    command: >
+      sh -c "
+        mkdir -p /var/log/supervisor &&
+        composer install &&
+        php artisan key:generate --ansi &&
+        php artisan migrate --force &&
+        php artisan storage:link &&
+        /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf
+      "
