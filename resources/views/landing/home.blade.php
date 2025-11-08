@@ -53,4 +53,3 @@
 @push('page_js')
     @include('landing.js_load.landing_page_js_load')
 @endpush
-{{ Debugbar::info("This is home page");}}
