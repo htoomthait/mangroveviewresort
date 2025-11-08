@@ -3,7 +3,7 @@ name: Deploy to Digital Ocean Production
 on:
   push:
     branches:
-      - main  # Only deploy on pushes/merges to main
+      - master  # Only deploy on pushes/merges to main
   workflow_dispatch:  # Optional: Allow manual triggers
 
 env:
@@ -66,7 +66,10 @@ jobs:
           username: ${{ secrets.DO_USER }}
           key: ${{ secrets.DO_SSH_KEY }}
           script: |
-            cd /path/to/your/app  # Replace with the deployment directory on the droplet
+            cd /root/mangroveviewresort  # Replace with the deployment directory on the droplet
             docker-compose down  # Stop existing containers
             docker-compose up -d --build  # Start with the new image
-            # Optional: Run Laravel-specific commands, e.g., php artisan migrate --force, php artisan config:cache
+            docker-compose exec app php artisan migrate --force  # Run migrations
+            docker-compose exec app php artisan optimize:clear  # Clear optimization caches
+            docker-compose exec app php artisan config:cache  # Cache config for performance
+
