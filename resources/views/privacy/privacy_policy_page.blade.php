@@ -20,7 +20,7 @@
     <section class="choose_resot_area" id="privacy_policy_section">
         <div class="container">
             <div class="center_title">
-                <h2>sea &amp; lake <span>Pravicy Policy</span></h2>
+                <h2>sea &amp; lake <span>Privacy Policy</span></h2>
                 {{-- <p>Have enjoy at our garden restaurant</p> --}}
             </div>
             <div class="row choose_resot_inner">
