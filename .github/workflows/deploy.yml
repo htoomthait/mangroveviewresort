@@ -69,7 +69,7 @@ jobs:
             cd /root/mangroveviewresort  # Replace with the deployment directory on the droplet
             docker-compose down  # Stop existing containers
             docker-compose up -d --build  # Start with the new image
-            docker-compose exec app php artisan migrate --force  # Run migrations
-            docker-compose exec app php artisan optimize:clear  # Clear optimization caches
-            docker-compose exec app php artisan config:cache  # Cache config for performance
+            docker-compose exec -T app php artisan migrate --force  # Run migrations
+            docker-compose exec -T app php artisan optimize:clear  # Clear optimization caches
+            docker-compose exec -T app php artisan config:cache  # Cache config for performance
 

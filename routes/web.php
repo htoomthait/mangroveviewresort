@@ -44,3 +44,5 @@ Route::get('/get-gallery-image', [GalleryController::class, 'getGalleryImageByNa
 
 Route::get('/celibirties-videos', [HomeController::class, 'showCelebritiesVideosPage'])->name('page.celibrities_videos');
 
+
+Route::get('/privacy-policy', [HomeController::class, 'privacyPolicyPage'])->name('page.privacy_policy');
