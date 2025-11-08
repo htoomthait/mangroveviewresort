@@ -38,7 +38,7 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 
-<script src="{{ url('/') }}/js/theme.js"></script>
+<script src="{{ asset('/js/theme.js') }}"></script>
 
 {{-- Sweet Alert 2 --}}
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
