@@ -22,7 +22,7 @@
 
         bookNow = (villaId) => {
             console.log("selected villa  id : " + villaId);
-            let urlToRedirect = "{{ route('contact.us') }}" + "?villaId=" + villaId;
+            let urlToRedirect = "{{ route('page.contact_us') }}" + "?villaId=" + villaId;
             console.log(urlToRedirect);
             window.location = urlToRedirect;
 
