@@ -68,14 +68,15 @@ jobs:
           script: |
             cd /root/mangroveviewresort  # Replace with the deployment directory on the droplet
             git pull origin master  # Ensure latest code is pulled
-            sleep 3  # Short delay to ensure git pull completes
+            sleep 5  # Short delay to ensure git pull completes
             docker-compose down  # Stop existing containers
-            sleep 5  # Short delay to ensure containers are stopped
+            sleep 10  # Short delay to ensure containers are stopped
             docker-compose up -d --build  # Start with the new image
             # Wait for DB to be ready (max 60s)
             echo "Waiting for DB to be ready..."
             for i in {1..30}; do
-              if docker-compose exec -T db mysql -h"$DB_HOST" -u"$DB_USERNAME" -p"$DB_PASSWORD" -e "SELECT 1" "$DB_DATABASE" >/dev/null 2>&1; then
+              docker-compose exec -T db mysql -h"$DB_HOST" -u"$DB_USERNAME" -p"$DB_PASSWORD" -e "SELECT 1" "$DB_DATABASE"
+              if [ $? -eq 0 ]; then
                 echo "DB is up!"; break
               fi
               echo "Waiting... ($i)"; sleep 2
