@@ -27,7 +27,9 @@ services:
     networks:
       - mangroveview
     command: >
-      sh -c "composer install --optimize-autoloader &&
+      sh -c "chown -R www-data:www-data storage bootstrap/cache &&
+             chmod -R 775 storage bootstrap/cache &&
+             if [ \"$${APP_ENV}\" = \"production\" ]; then composer install --no-dev --optimize-autoloader; else composer install --optimize-autoloader; fi &&
              /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf"
 
   db:
