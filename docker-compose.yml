@@ -26,6 +26,9 @@ services:
       - redis
     networks:
       - mangroveview
+    command: >
+      sh -c "composer install --no-dev --optimize-autoloader &&
+             /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf"
 
   db:
     image: mysql:8.0

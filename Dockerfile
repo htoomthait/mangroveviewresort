@@ -37,6 +37,9 @@ RUN npm run build || npm run production || true
 # Final production image
 FROM php:8.1-fpm-alpine
 
+# Install composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
 # Install system dependencies and PHP extensions
 RUN apk update && apk add --no-cache \
     nginx \

@@ -1,76 +1,72 @@
-name: CD - Deploy to Production
+name: Deploy to Digital Ocean Production
 
 on:
   push:
-    branches: [ main, master ]
-  workflow_dispatch:
+    branches:
+      - main  # Only deploy on pushes/merges to main
+  workflow_dispatch:  # Optional: Allow manual triggers
+
+env:
+  PHP_VERSION: '8.1'  # Matches your Laravel/PHP version
 
 jobs:
-  build-and-push:
+  build:
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ env.PHP_VERSION }}
+          extensions: pdo, pdo_mysql, mbstring, openssl, tokenizer, xml, ctype, json, bcmath, curl  # Laravel essentials
 
-    - name: Log in to Docker Hub
-      uses: docker/login-action@v3
-      with:
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Check for composer.json
+        id: check_composer
+        run: echo "exists=$(test -f composer.json && echo true || echo false)" >> $GITHUB_OUTPUT
 
-    - name: Build and push Docker image
-      uses: docker/build-push-action@v5
-      with:
-        context: .
-        file: ./Dockerfile
-        push: true
-        tags: |
-          ${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:latest
-          ${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:${{ github.sha }}
-        cache-from: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:buildcache
-        cache-to: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:buildcache,mode=max
+      - name: Install dependencies
+        if: steps.check_composer.outputs.exists == 'true'
+        run: composer install --prefer-dist --no-progress --optimize-autoloader --no-dev  # Production-optimized install
+
+      - name: Build Docker image
+        run: docker build -t laravel-app .  # Assumes Dockerfile in root; tag as needed
+
+      - name: Save Docker image
+        run: docker save laravel-app > laravel-app.tar  # Artifact for deployment
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: laravel-build
+          path: |
+            laravel-app.tar
+            docker-compose.yml
+            .env.production  # If you have a production env file; otherwise, set via secrets
 
   deploy:
-    needs: build-and-push
     runs-on: ubuntu-latest
-    
+    needs: build
+    environment:
+      name: production  # Use GitHub environments for protection (e.g., require approval)
     steps:
-    - uses: actions/checkout@v4
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: laravel-build
 
-    - name: Deploy to Server via SSH
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.DEPLOY_HOST }}
-        username: ${{ secrets.DEPLOY_USER }}
-        key: ${{ secrets.DEPLOY_SSH_KEY }}
-        port: ${{ secrets.DEPLOY_PORT || 22 }}
-        script: |
-          cd ${{ secrets.DEPLOY_PATH }}
-          
-          # Pull latest code
-          git pull origin main
-          
-          # Pull latest Docker image
-          docker pull ${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:latest
-          
-          # Stop and remove old containers
-          docker-compose down
-          
-          # Start new containers
-          docker-compose up -d
-          
-          # Run migrations
-          docker-compose exec -T app php artisan migrate --force
-          
-          # Clear and cache config
-          docker-compose exec -T app php artisan config:cache
-          docker-compose exec -T app php artisan route:cache
-          docker-compose exec -T app php artisan view:cache
-          
-          # Optimize
-          docker-compose exec -T app php artisan optimize
-          
-          echo "Deployment completed successfully!"
+      - name: Load Docker image
+        run: docker load < laravel-app.tar
+
+      - name: Deploy to Digital Ocean
+        uses: appleboy/ssh-action@v1.0.3  # Third-party action for SSH; pin to a commit SHA for security
+        with:
+          host: ${{ secrets.DO_HOST }}
+          username: ${{ secrets.DO_USER }}
+          key: ${{ secrets.DO_SSH_KEY }}
+          script: |
+            cd /path/to/your/app  # Replace with the deployment directory on the droplet
+            docker-compose down  # Stop existing containers
+            docker-compose up -d --build  # Start with the new image
+            # Optional: Run Laravel-specific commands, e.g., php artisan migrate --force, php artisan config:cache
