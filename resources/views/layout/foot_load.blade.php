@@ -5,7 +5,7 @@
 <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> --}}
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="{{ url('/') }}/js/bootstrap.min.js"></script>
+<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 <!-- Rev slider js -->
 <script src="{{ asset('/vendors/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
 <script src="{{ asset('/vendors/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
