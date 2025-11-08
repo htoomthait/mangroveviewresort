@@ -6,7 +6,7 @@
         style="background: url({{ asset('img/banner/restaurant_banner_bg.jpg') }}) no-repeat center; background-size: cover;">
         <div class="container">
             <div class="banner_inner_content">
-                <h3>Pravicy Policies</h3>
+                <h3>Privacy Policies</h3>
                 {{-- <ul>
                     <li><a href="{{ route('home.landing_page') }}">Home</a></li>
                     <li><a href="{{ route('page.resort') }}">Resort</a></li>
@@ -17,10 +17,10 @@
     </section>
     <!--================End Banner Area =================-->
 
-    <section class="choose_resot_area" id="sea_and_lake">
+    <section class="choose_resot_area" id="privacy_policy_section">
         <div class="container">
             <div class="center_title">
-                <h2>sea &amp; lake <span>Pravicy Policies</span></h2>
+                <h2>sea &amp; lake <span>Pravicy Policy</span></h2>
                 {{-- <p>Have enjoy at our garden restaurant</p> --}}
             </div>
             <div class="row choose_resot_inner">
