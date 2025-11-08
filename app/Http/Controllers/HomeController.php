@@ -83,9 +83,9 @@ class HomeController extends GenericController
     }
 
 
-
-
-
-
-
+    public function privacyPolicyPage()
+    {
+        $this->setPageTitle('privacy policy', '');
+        return view('privacy.privacy_policy_page');
+    }
 }
