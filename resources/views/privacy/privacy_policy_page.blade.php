@@ -35,6 +35,11 @@
                         sample text sample text sample text sample text sample text sample text sample text sample text
                         sample text sample text sample text sample text sample text sample text sample text.
                     </p>
+                    <p class="mt-2">
+                        <strong>Policy 3 </strong>: sample text sample text sample text sample text sample text sample text
+                        sample text sample text sample text sample text sample text sample text sample text sample text
+                        sample text sample text sample text sample text sample text sample text sample text.
+                    </p>
 
 
                 </div>
