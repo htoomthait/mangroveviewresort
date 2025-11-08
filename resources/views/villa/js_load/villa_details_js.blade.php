@@ -3,9 +3,9 @@
 
     $(document).ready(function() {
         $('.btn_show_more_less').hide();
-        let detailImageCount = "{{count($detailImages)}}";
+        let detailImageCount = "{{ count($detailImages) }}";
 
-        if(  detailImageCount > 4){
+        if (detailImageCount > 4) {
             $('.btn_show_more_less').show();
         }
 
@@ -22,7 +22,7 @@
 
         bookNow = (villaId) => {
             console.log("selected villa  id : " + villaId);
-            let urlToRedirect = "{{ url('/') }}" + "/contact-us?villaId=" + villaId;
+            let urlToRedirect = "{{ route('contact.us') }}" + "?villaId=" + villaId;
             console.log(urlToRedirect);
             window.location = urlToRedirect;
 

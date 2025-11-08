@@ -53,33 +53,35 @@
             $(".lightgallery").html("");
 
             // if ($(`#${galleryName}`).html() == "" || null || galleryName == 'all') {
-                responseData = await fetchGalleryImage(galleryName);
-                console.log(responseData);
+            responseData = await fetchGalleryImage(galleryName);
+            console.log(responseData);
 
 
-                let galleryImages = responseData.images;
-                let galleryThubmnails = responseData.thumbnail_images;
+            let galleryImages = responseData.images;
+            let galleryThubmnails = responseData.thumbnail_images;
 
-                galleryImages.map((gImage,index) => {
+            galleryImages.map((gImage, index) => {
 
 
-                    content += `
+                content += `
                         <div class="" >
-                            <a href="{{url('/')}}/${gImage}">
-                                <img src="{{url('/')}}/${galleryThubmnails[index]}" alt="" style="position: relative; width:100%;">
+                            <a href="{{ asset(${gImage}) }}">
+                                <img src="{{ asset(${galleryThubmnails[index]}) }}" alt="" style="position: relative; width:100%;">
                             </a>
 
                         </div>
                     `;
-                });
+            });
 
-                console.log(content);
+            console.log(content);
 
 
 
-                $(`#${galleryName}`).html(`${content}`);
+            $(`#${galleryName}`).html(`${content}`);
 
-                $('.lightgallery a').simpleLightbox({ overlay : true })
+            $('.lightgallery a').simpleLightbox({
+                overlay: true
+            })
             // }
 
 
@@ -91,7 +93,9 @@
 
         setGalleryImages('all');
 
-        $('.lightgallery a').simpleLightbox({ overlay : true });
+        $('.lightgallery a').simpleLightbox({
+            overlay: true
+        });
 
     })
 </script>

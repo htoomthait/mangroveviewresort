@@ -4,7 +4,12 @@
     $detailThumbnails = $selectedVilla['thumbnail_images'];
     $detailImages = array_slice($detailImages, 1);
     if (count($detailImages) === 0) {
-        $detailImages = ['images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg', 'images/room/room-details.jpg'];
+        $detailImages = [
+            'images/room/room-details.jpg',
+            'images/room/room-details.jpg',
+            'images/room/room-details.jpg',
+            'images/room/room-details.jpg',
+        ];
     }
     // dd($detailImages);
 
@@ -71,8 +76,7 @@
                                                 <div class="{{ $villaThumbnailBlkClasses }}">
                                                     <div class="special_dish_item mt-4">
                                                         <div class="dish_img">
-                                                            {{-- <img src="{{ url('/') }}/{{ $image }}"
-                                                                alt=""> --}}
+
                                                             <a href="{{ asset($image) }}"
                                                                 data-lightbox="villa_detail_images"
                                                                 data-title="{{ $selectedVilla['villa_name'] }} Detail {{ $index + 1 }}">

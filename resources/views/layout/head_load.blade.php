@@ -6,35 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="{{ url('/') }}/img/logo/sea_and_lake_logo_picture.png" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('/img/logo/sea_and_lake_logo_picture.png') }}" type="image/x-icon" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Sea &amp; Lake Garden - {{ session('page_title') }}</title>
 
     <!-- Icon css link -->
-    <link href="{{ url('/') }}/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/stroke-icon/style.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/flat-icon/flaticon.css" rel="stylesheet">
+    <link href="{{ asset('/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/stroke-icon/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/flat-icon/flaticon.css') }}" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="{{ url('/') }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Rev slider css -->
-    <link href="{{ url('/') }}/vendors/revolution/css/settings.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/revolution/css/layers.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/revolution/css/navigation.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/animate-css/animate.css" rel="stylesheet">
+    <link href="{{ asset('/vendors/revolution/css/settings.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/revolution/css/layers.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/revolution/css/navigation.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/animate-css/animate.css') }}" rel="stylesheet">
 
     <!-- Extra plugin css -->
-    <link href="{{ url('/') }}/vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/bootstrap-selector/bootstrap-select.css" rel="stylesheet">
-    <link href="{{ url('/') }}/vendors/lightbox/simpleLightbox.css" rel="stylesheet">
+    <link href="{{ asset('/vendors/magnify-popup/magnific-popup.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/owl-carousel/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/bootstrap-selector/bootstrap-select.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendors/lightbox/simpleLightbox.css') }}" rel="stylesheet">
 
     {{-- <link href="css/style.css" rel="stylesheet"> --}}
-    <link rel="stylesheet" href="{{ url('/') }}/scss-compiled/style.css" />
-    <link href="{{ url('/') }}/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('/scss-compiled/style.css') }}" />
+    <link href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ url('/') }}/css/custom_style.css">
+    <link rel="stylesheet" href="{{ asset('/css/custom_style.css') }}" />
 
     {{-- select 2 --}}
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -50,7 +50,7 @@
         <![endif]-->
 
     {{-- lightbox 2 css load --}}
-    <link rel="stylesheet" href="{{ url('/') }}/js/light_box/css/lightbox.min.css" />
+    <link rel="stylesheet" href="{{ asset('/js/light_box/css/lightbox.min.css') }}" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
