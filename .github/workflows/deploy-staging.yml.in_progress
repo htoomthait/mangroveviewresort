@@ -1,0 +1,73 @@
+name: CD - Deploy to Staging
+
+on:
+  push:
+    branches: [ develop ]
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v5
+      with:
+        context: .
+        file: ./Dockerfile.dev
+        push: true
+        tags: |
+          ${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:staging
+          ${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:staging-${{ github.sha }}
+        cache-from: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:buildcache-staging
+        cache-to: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:buildcache-staging,mode=max
+
+  deploy:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Deploy to Staging Server via SSH
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.STAGING_HOST }}
+        username: ${{ secrets.STAGING_USER }}
+        key: ${{ secrets.STAGING_SSH_KEY }}
+        port: ${{ secrets.STAGING_PORT || 22 }}
+        script: |
+          cd ${{ secrets.STAGING_PATH }}
+
+          # Pull latest code
+          git pull origin develop
+
+          # Pull latest Docker image
+          docker pull ${{ secrets.DOCKER_USERNAME }}/mangroveviewresort:staging
+
+          # Stop and remove old containers
+          docker-compose -f docker-compose.dev.yml down
+
+          # Start new containers
+          docker-compose -f docker-compose.dev.yml up -d
+
+          # Run migrations
+          docker-compose -f docker-compose.dev.yml exec -T app php artisan migrate --force
+
+          # Clear caches
+          docker-compose -f docker-compose.dev.yml exec -T app php artisan cache:clear
+          docker-compose -f docker-compose.dev.yml exec -T app php artisan config:clear
+          docker-compose -f docker-compose.dev.yml exec -T app php artisan view:clear
+
+          echo "Staging deployment completed successfully!"

@@ -1,11 +1,10 @@
-
 # Development (with hot-reload)
 
 ## Build and start
 
 docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build
 
-## View logs
+## View development logs
 
 docker-compose logs -f app
 
@@ -33,6 +32,10 @@ docker-compose down
 ## Build and start
 
 docker-compose up -d --build
+
+## View production logs
+
+docker-compose logs -f
 
 ## Run migrations
 
