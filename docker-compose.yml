@@ -27,7 +27,7 @@ services:
     networks:
       - mangroveview
     command: >
-      sh -c "composer install --no-dev --optimize-autoloader &&
+      sh -c "composer install --optimize-autoloader &&
              /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf"
 
   db:

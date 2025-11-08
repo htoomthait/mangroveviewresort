@@ -13,10 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // Register debugbar only in local environment
-        if ($this->app->environment('local')) {
-            $this->app->register(\Barryvdh\Debugbar\ServiceProvider::class);
-        }
+        // Debugbar is registered automatically in dev environments
+        // No need to manually register if not using dont-discover
     }
 
     /**
