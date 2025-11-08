@@ -24,7 +24,7 @@
                 {{-- <p>Have enjoy at our garden restaurant</p> --}}
             </div>
             <div class="row choose_resot_inner">
-                <div class="col-md-4 restaurant-text">
+                <div class="col restaurant-text">
                     <p>
                         <strong>Policy 1 </strong>: sample text sample text sample text sample text sample text sample text
                         sample text sample text sample text sample text sample text sample text sample text sample text
