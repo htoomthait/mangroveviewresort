@@ -74,6 +74,12 @@ jobs:
             docker-compose up -d --build  # Start with the new image
             # Wait for DB to be ready (max 60s)
             echo "Waiting for DB to be ready..."
+            # Source environment variables from .env.production or .env
+            if [ -f .env.production ]; then
+              set -a && source .env.production && set +a
+            elif [ -f .env ]; then
+              set -a && source .env && set +a
+            fi
             for i in {1..30}; do
               docker-compose exec -T db mysql -h"$DB_HOST" -u"$DB_USERNAME" -p"$DB_PASSWORD" -e "SELECT 1" "$DB_DATABASE"
               if [ $? -eq 0 ]; then
