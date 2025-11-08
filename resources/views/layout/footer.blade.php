@@ -5,7 +5,7 @@
                 <div class="col-md-3 col-xs-6">
                     <aside class="f_widget about_widget">
                         {{-- <img src="img/footer-logo.png" alt=""> --}}
-                        <img src="{{ url('/') }}/img/logo/sea_and_lake_logo_picture.png"
+                        <img src="{{ asset('/img/logo/sea_and_lake_logo_picture.png') }}"
                             alt="sea and lake transparent logo" width="72px">
                         {{-- <h3 class="logo-brand-text">Sea And Lake Garden</h3>                                                 --}}
 
