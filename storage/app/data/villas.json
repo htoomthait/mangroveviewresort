@@ -89,7 +89,7 @@
     },
     {
         "id": 3,
-        "villa_name": "Mangrove Suite <span>Villa</span>",
+        "villa_name": "Mangrove Suite <span>Villa</span> <br/> &nbsp; &nbsp;",
         "villa_view": "mangrove view, ",
         "number_of_person": 3,
         "area": "1200 Sq. Ft, ",
@@ -275,7 +275,7 @@
     },
     {
         "id": 7,
-        "villa_name": "Family Jade Suite",
+        "villa_name": "Family Jade Suite </br> &nbsp; &nbsp;",
         "villa_view": "mangrove view, ",
         "number_of_person": 4,
         "area": " 2,300 Sq. Ft, ",

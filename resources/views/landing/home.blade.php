@@ -46,7 +46,7 @@
     <!--================End Video Area =================-->
 
     <!--================Fun Fact Area =================-->
-    @include('landing.fun_fact')
+    {{-- @include('landing.fun_fact') --}}
     <!--================End Fun Fact Area =================-->
 @endsection
 

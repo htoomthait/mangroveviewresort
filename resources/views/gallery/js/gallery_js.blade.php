@@ -63,10 +63,11 @@
             galleryImages.map((gImage, index) => {
 
 
+                // console.log(gImage);
                 content += `
                         <div class="" >
-                            <a href="{{ asset(${gImage}) }}">
-                                <img src="{{ asset(${galleryThubmnails[index]}) }}" alt="" style="position: relative; width:100%;">
+                            <a href="{{ url('/${gImage}') }}" class="lightgallery" style="position: relative; display:block; width:100%; height: 100%;">
+                                <img src="{{ url('/${galleryThubmnails[index]}') }}" alt="" style="position: relative; width:100%; display:block; height: 100%; object-fit: cover;">
                             </a>
 
                         </div>
@@ -77,7 +78,11 @@
 
 
 
-            $(`#${galleryName}`).html(`${content}`);
+            // $(`#${galleryName}`).html(`${content}`);
+
+            $("#" + galleryName).html(`${content}`);
+
+            // $("#all").html(`${content}`);
 
             $('.lightgallery a').simpleLightbox({
                 overlay: true
