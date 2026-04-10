@@ -34,7 +34,7 @@
                                 a{
                                     color: $baseColor;
                                 }
-                            }    
+                            }
                         }
                     }
                 }
@@ -60,7 +60,7 @@
                     .book_btn{
                         .book_now_btn{
                             color: #fff;
-                        }    
+                        }
                     }
                 }
             }
@@ -132,7 +132,7 @@
         &:hover{
             a{
                 opacity: 1;
-            }    
+            }
         }
     }
 }
@@ -141,6 +141,13 @@
         border-radius: 0px;
         margin-bottom: 0px;
         background: transparent;
+
+        #bs-example-navbar-collapse-1{
+            @media (max-width: 992px){
+                background-color: #676767;
+            }
+        }
+
         border: none;
         .navbar-header{
             .navbar-brand{
@@ -156,12 +163,17 @@
             }
         }
         .navbar-collapse{
-            text-align: right;
+            text-align: center;
+
+
         }
         .nav.navbar-nav{
             float: none;
-            text-align: right;
+            text-align: center;
             display: inline-block;
+
+
+
             li{
                 float: none;
                 display: inline-block;
@@ -173,10 +185,11 @@
                     font-weight: 600;
                     font-family: $mon;
                     text-transform: uppercase;
-                    padding: 0px;
+                    padding: 0 0 0 8px;
                     letter-spacing: .45px;
                     line-height: 85px;
                     transition: all 150ms linear;
+
                     i{
                         display: none;
                     }
@@ -193,12 +206,13 @@
                         padding: 0px;
                         border-radius: 0px;
                         box-shadow: none;
+                        background-color: #676767;
                         @media (min-width: 992px){
                             position: absolute;
                             top: 100%;
                             left: -40px;
                             min-width: 232px;
-                            background: #eeeeee;
+                            background-color:#676767;
                             text-align: left;
                             opacity: 0;
                             transition: all 300ms ease-in;
@@ -227,16 +241,20 @@
                             float: none;
                             margin-right: 0px;
                             border-bottom: 1px solid #cbcbcb;
+                            padding-left: 0px;
                             a{
+                                display: block;
+                                width: 100%;
                                 line-height: 45px;
                                 color: $dip;
                                 font-family: $mon;
                                 font-size: 15px;
-                                padding: 0px 30px;
+                                padding-left: 16px !important;
                                 font-weight: 600;
                                 letter-spacing: .30px;
                                 transition: all 150ms linear;
-                                display: block;
+
+
                             }
                             &:last-child{
                                 border-bottom: none;
@@ -266,11 +284,12 @@
                                                 font-family: $mon;
                                                 font-weight: 600;
                                                 font-size: 15px;
-                                                padding: 0px 30px;
+                                                padding: 0px 40px;
                                                 letter-spacing: .30px;
                                                 transition: all 150ms linear;
                                                 display: block;
-                                                background: #eeeeee;
+
+
                                             }
                                             &:hover{
                                                 a{
@@ -312,7 +331,7 @@
                     &.icon-Search{
                         display: inline-block;
                     }
-                }    
+                }
             }
             .search_dropdown{
                 a{
@@ -476,13 +495,13 @@
                     .icon-Search{
                         display: inline-block;
                     }
-                    
-                } 
+
+                }
                 &:last-child{
                     margin-right: 0px;
                     a{
                         opacity: .7;
-                    }    
+                    }
                 }
                 &:hover, &.active{
                     a{
@@ -532,6 +551,7 @@
                             margin-right: 0px;
                             border-bottom: 1px solid #cbcbcb;
                             a{
+
                                 line-height: 45px;
                                 color: $dip;
                                 font-family: $mon;
@@ -620,7 +640,7 @@
         .navbar.navbar-default{
             .nav.navbar-nav{
                 > li{
-                   
+
                     > a{
                         // color: #181426;
                         color:#fff;
