@@ -30,6 +30,17 @@ jobs:
         if: steps.check_composer.outputs.exists == 'true'
         run: composer install --prefer-dist --no-progress --optimize-autoloader --no-dev  # Production-optimized install
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'  # Adjust version as needed; match your development environment
+
+      - name: Install npm dependencies
+        run: npm install
+
+      - name: Build production assets
+        run: npm run prod
+
       - name: Build Docker image
         run: docker build -t laravel-app .  # Assumes Dockerfile in root; tag as needed
 
