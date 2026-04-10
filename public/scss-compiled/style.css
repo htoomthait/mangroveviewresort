@@ -518,6 +518,11 @@ i:before {
   background: transparent;
   border: none;
 }
+@media (max-width: 992px) {
+  .header_menu .navbar.navbar-default #bs-example-navbar-collapse-1 {
+    background-color: #676767;
+  }
+}
 .header_menu .navbar.navbar-default .navbar-header .navbar-brand {
   height: 85px;
   line-height: 75px;
@@ -530,11 +535,11 @@ i:before {
   display: none;
 }
 .header_menu .navbar.navbar-default .navbar-collapse {
-  text-align: right;
+  text-align: center;
 }
 .header_menu .navbar.navbar-default .nav.navbar-nav {
   float: none;
-  text-align: right;
+  text-align: center;
   display: inline-block;
 }
 .header_menu .navbar.navbar-default .nav.navbar-nav li {
@@ -549,7 +554,7 @@ i:before {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  padding: 0px;
+  padding: 0 0 0 8px;
   letter-spacing: 0.45px;
   line-height: 85px;
   transition: all 150ms linear;
@@ -568,6 +573,7 @@ i:before {
   padding: 0px;
   border-radius: 0px;
   box-shadow: none;
+  background-color: #676767;
 }
 @media (min-width: 992px) {
   .header_menu .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu {
@@ -575,7 +581,7 @@ i:before {
     top: 100%;
     left: -40px;
     min-width: 232px;
-    background: #eeeeee;
+    background-color: #676767;
     text-align: left;
     opacity: 0;
     transition: all 300ms ease-in;
@@ -605,17 +611,19 @@ i:before {
   float: none;
   margin-right: 0px;
   border-bottom: 1px solid #cbcbcb;
+  padding-left: 0px;
 }
 .header_menu .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li a {
+  display: block;
+  width: 100%;
   line-height: 45px;
   color: #242424;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  padding: 0px 30px;
+  padding-left: 16px !important;
   font-weight: 600;
   letter-spacing: 0.3px;
   transition: all 150ms linear;
-  display: block;
 }
 .header_menu .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li:last-child {
   border-bottom: none;
@@ -642,11 +650,10 @@ i:before {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 15px;
-    padding: 0px 30px;
+    padding: 0px 40px;
     letter-spacing: 0.3px;
     transition: all 150ms linear;
     display: block;
-    background: #eeeeee;
   }
   .header_menu .navbar.navbar-default .nav.navbar-nav li.submenu .dropdown-menu li.submenu .dropdown-menu li:hover a {
     color: #fff;
