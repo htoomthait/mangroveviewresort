@@ -34,11 +34,11 @@
                                     <h3>{{ number_format($villa['original_price']) }} {{ $villa['currency'] }} <span>/
                                             Night </span></h3>
                                     <h3> <span> (normal rate) </span> </h3>
-                                    <h3>{{ number_format($villa['public_holiday_price']) }} {{ $villa['currency'] }}
+                                    {{-- <h3>{{ number_format($villa['public_holiday_price']) }} {{ $villa['currency'] }}
                                         <span>/
                                             Night </span>
                                     </h3>
-                                    <h3> <span> (public holiday rate) </span> </h3>
+                                    <h3> <span> (public holiday rate) </span> </h3> --}}
                                     <h3>{{ number_format($villa['foreigner_price']) }}
                                         {{ $villa['foreigne_currency'] }}
                                         <span>/

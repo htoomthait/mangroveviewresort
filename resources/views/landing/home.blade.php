@@ -30,7 +30,7 @@
     <!--================End Our Resort Gallery Area =================-->
 
     <!--================Discount Area =================-->
-    @include('landing.discount_area')
+    {{-- @include('landing.discount_area') --}}
     <!--================End Discount Area =================-->
 
     <!--================Client Testimonial Area =================-->
