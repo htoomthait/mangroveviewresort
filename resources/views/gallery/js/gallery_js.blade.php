@@ -9,14 +9,21 @@
 
     // API Fetch
     let fetchGalleryImage = async (gallery_name) => {
-        fetchResult = await $.ajax({
-            url: "{{ route('get.gallery_images') }}",
-            method: 'GET',
-            dataType: "json",
-            data: {
-                "gallery_name": gallery_name
-            }
-        });
+        let fetchResult = null;
+        try {
+            fetchResult = await $.ajax({
+                url: "{{ route('get.gallery_images') }}",
+                method: 'GET',
+                dataType: "json",
+                data: {
+                    "gallery_name": gallery_name
+                }
+            });
+        } catch (error) {
+            console.error("Error fetching gallery images:", error);
+            return []; // Return null or handle the error as needed
+        }
+
 
         return fetchResult.data;
     }
