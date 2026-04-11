@@ -15,6 +15,7 @@
                 url: "{{ route('get.gallery_images') }}",
                 method: 'GET',
                 dataType: "json",
+                crossDomain: true,
                 data: {
                     "gallery_name": gallery_name
                 }
