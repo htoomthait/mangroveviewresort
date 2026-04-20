@@ -16,7 +16,7 @@ $pfont: #898989;
 
 // Mixins
 @mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
-    transition: $property $duration $animate $delay; 
+    transition: $property $duration $animate $delay;
 }
 
 // Placeholder Mixins
@@ -37,4 +37,30 @@ $pfont: #898989;
 @font-face {
     font-family: "ralH";
     src: url(../fonts/theme-font/Arial.ttf.woff);
+}
+
+@font-face {
+    font-family: 'Luxerie';
+    src: url('../fonts/luxerie/Luxerie.eot');
+    src: url('../fonts/luxerie/Luxerie.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/luxerie/Luxerie.woff2') format('woff2'),
+        url('../fonts/luxerie/Luxerie.woff') format('woff'),
+        url('../fonts/luxerie/Luxerie.ttf') format('truetype'),
+        url('../fonts/luxerie/Luxerie.svg#Luxerie') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Luxerie-display';
+    src: url('../fonts/luxerie-display/Luxerie-Display.eot');
+    src: url('../fonts/luxerie-display/Luxerie-Display.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/luxerie-display/Luxerie-Display.woff2') format('woff2'),
+        url('../fonts/luxerie-display/Luxerie-Display.woff') format('woff'),
+        url('../fonts/luxerie-display/Luxerie-Display.ttf') format('truetype'),
+        url('../fonts/luxerie-display/Luxerie-Display.svg#Luxerie') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }

@@ -8,7 +8,9 @@
                     </div>
                     <div class="col-lg-10 col-sm-12 col-xs-12 mangrove_view_resort_banner_text"
                         style="margin-top: 32px;">
-                        <h3 class="resort">Mangrove View Resort</h3>
+                        <h3 class="resort_name">
+                            mangrove view resort
+                        </h3>
                     </div>
 
 

@@ -1,5 +1,5 @@
 <section class="main_slider_area" style="display:block;  ">
-    <div id="main_landing_page_carousel" class="carousel slide" data-ride="carousel">
+    <div id="main_landing_page_carousel" style="" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         {{-- <ol class="carousel-indicators" id="carousel-indicator-landing-main" >
       <li data-target="#main_landing_page_carousel" data-slide-to="0" class="active"></li>

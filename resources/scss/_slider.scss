@@ -1,5 +1,9 @@
 /* Main Slider Area css
 ============================================================================================ */
+#main_landing_page_carousel{
+    // position: relative;
+    // height: 20vh; min-height: 200px; max-height: 350px;
+}
 .main_slider_area{
     position: relative;
     ul{
@@ -21,7 +25,7 @@
                     font-family: $pts;
                     font-style: italic;
                     position: relative;
-                    display: inline-block; 
+                    display: inline-block;
                     &:before{
                         content: "";
                         width: 95px;
@@ -42,7 +46,7 @@
                         bottom: 14px;
                         z-index: 22;
                     }
-                } 
+                }
                 .middle_s_text{
                     color: #fff;
                     font-weight: bold !important;
@@ -115,7 +119,7 @@
         ul{
             li{
                 .slider_text_box{
-                    
+
                 }
             }
         }
