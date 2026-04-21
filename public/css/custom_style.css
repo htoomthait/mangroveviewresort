@@ -1,12 +1,14 @@
-.logo-brand-text {
+h3.logo-brand-text {
     display: inline-block;
+    margin-top: 8px;
     /* color:#013362; */
     /* color:#E24B20; */
     color: #81e3d3;
     font-weight: 800;
     /* width:100%; */
-    font-size: 22px;
+    font-size: 36px;
     /* border:2px solid red; */
+    font-family: 'cenzo-flare-con', sans-serif;
 }
 
 .dp-flex {
