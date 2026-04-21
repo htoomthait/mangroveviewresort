@@ -6,8 +6,13 @@ h3.logo-brand-text {
     color: #81e3d3;
     font-weight: 800;
     /* width:100%; */
-    font-size: 36px;
+    font-size: 25px;
     /* border:2px solid red; */
+    font-family: 'cenzo-flare-con', sans-serif;
+}
+h3.logo-brand-text span {
+    font-weight: 600;
+    font-size: 22px;
     font-family: 'cenzo-flare-con', sans-serif;
 }
 
