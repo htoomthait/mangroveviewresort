@@ -38,7 +38,7 @@
                     <a class="navbar-brand dp-flex" href="{{ route('home.page') }}">
                         <img class="img-fluid" src="{{ asset('/img/logo/sea_and_lake_logo_picture.png') }}"
                             alt="sea and lake transparent logo" width="80px">
-                        <h3 class="logo-brand-text">Sea &amp; Lake Garden</h3>
+                        <h3 class="logo-brand-text" style="font-display: 'cenzo-flare-con';">Sea &amp; Lake Garden</h3>
                     </a>
                 </div>
 

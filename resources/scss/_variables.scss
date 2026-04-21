@@ -64,3 +64,16 @@ $pfont: #898989;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'cenzo-flare-con';
+    src: url('../fonts/cenzo-flare-con/CenzoFlareCond-Regular.eot');
+    src: url('../fonts/cenzo-flare-con/CenzoFlareCond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/cenzo-flare-con/CenzoFlareCond-Regular.woff2') format('woff2'),
+        url('../fonts/cenzo-flare-con/CenzoFlareCond-Regular.woff') format('woff'),
+        url('../fonts/cenzo-flare-con/CenzoFlareCond-Regular.ttf') format('truetype'),
+        url('../fonts/cenzo-flare-con/CenzoFlareCond-Regular.svg#Luxerie') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
