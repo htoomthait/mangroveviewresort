@@ -38,12 +38,12 @@
                     <div class="heading">
                         <h4>Boat <span>Riding</span></h4>
                     </div>
-                    <a href="{{ asset('/images/activities/boat_activity_large.jpg') }}" data-lightbox="activity_page"
+                    <a href="{{ asset('/images/activities/boat_riding_activity_large.jpg') }}" data-lightbox="activity_page"
                         data-title="Boat Riding" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ asset('/images/activities/boat_activity_small.jpg') }}" alt="guide map">
+                        <img src="{{ asset('/images/activities/boat_riding_activity_small.jpg') }}" alt="guide map">
                     </a>
 
                     <div class="content">
