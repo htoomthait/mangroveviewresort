@@ -113,6 +113,15 @@ h3.logo-brand-text span {
     height: 54px !important;
 }
 
+.badge_custom {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5D001A;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
 .error {
     padding: 5px;
     color: red;

@@ -206,7 +206,7 @@
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ asset('/images/activities/kayaking_activity_thumbnail.jpg') }}" alt="guide map">
+                        <img src="{{ asset('/images/activities/kayaking_activity_small.jpg') }}" alt="guide map">
                     </a>
                     <div class="content">
                         <p>Kayaing activity is available.</p>
@@ -237,14 +237,14 @@
             <div class="row activity_row">
                 <div class="col-12 activity_block" id="activity_waterboom">
                     <div class="heading">
-                        <h4>waterboom <span>fun</span> (coming soon)</h4>
+                        <h4>waterboom <span>fun</span></h4>
                     </div>
-                    <a href="{{ asset('/images/utility/coming_soon_activity_large.jpg') }}" data-lightbox="activity_page"
+                    <a href="{{ asset('/images/activities/water_park_activity.jpg') }}" data-lightbox="activity_page"
                         data-title="Water Boom" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ asset('/images/utility/coming_soon_activity_small.jpg') }}" alt="guide map">
+                        <img src="{{ asset('/images/activities/water_park_activity_small.jpg') }}" alt="guide map">
                     </a>
                     <div class="content">
                         {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
@@ -257,12 +257,13 @@
                     <div class="heading">
                         <h4>Wall Climbing <span>fun</span> <br /> &nbsp; </h4>
                     </div>
-                    <a href="{{ asset('/images/activities/wall_climbing_2.jpg') }}" data-lightbox="activity_page"
+                    <a href="{{ asset('/images/activities/wall_climbing_activity.jpg') }}" data-lightbox="activity_page"
                         data-title="Wall Climbing" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ asset('/images/activities/wall_climbing_2_thumbnail.jpg') }}" alt="wall climbing">
+                        <img src="{{ asset('/images/activities/wall_climbing_activity_small.jpg') }}"
+                            alt="wall climbing">
                     </a>
                     <div class="content">
                         <p>
@@ -277,14 +278,14 @@
             <div class="row activity_row">
                 <div class="col-12 activity_block" id="activity_quick_jump">
                     <div class="heading">
-                        <h4>Quick Jumpb <span>fun</span> <br /> &nbsp;</h4>
+                        <h4>Quick Jump <span>fun</span> <br /> &nbsp;</h4>
                     </div>
-                    <a href="{{ asset('/images/activities/quick_jump.jpg') }}" data-lightbox="activity_page"
+                    <a href="{{ asset('/images/activities/quick_jump_activity.jpg') }}" data-lightbox="activity_page"
                         data-title="Quick Jumpb" class="activities_img">
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ asset('/images/activities/quick_jump_thumbnail.jpg') }}" alt="quick jump">
+                        <img src="{{ asset('/images/activities/quick_jump_activity_small.jpg') }}" alt="quick jump">
                     </a>
                     <div class="content">
                         <p>
@@ -303,8 +304,46 @@
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ asset('/images/activities/mini_golf_activity_thumbnail.jpg') }}"
-                            alt="wall climbing">
+                        <img src="{{ asset('/images/activities/mini_golf_activity_thumbnail.jpg') }}" alt="mini golf">
+                    </a>
+                    <div class="content">
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p> --}}
+                    </div>
+                </div>
+                <div class="col-12 activity_block" id="activity_archery">
+                    <div class="heading">
+                        <h4>Archery <span>Sport</span> <br /> &nbsp; </h4>
+                    </div>
+                    <a href="{{ asset('/images/activities/archery_sport_activity.jpg') }}" data-lightbox="activity_page"
+                        data-title="Archery" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ asset('/images/activities/archery_sport_activity_small.jpg') }}"
+                            alt="archery sport">
+                    </a>
+                    <div class="content">
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p> --}}
+                    </div>
+                </div>
+
+                <div class="col-12 activity_block" id="activity_children_playground">
+                    <div class="heading">
+                        <h4>Children Playground <span>Fun</span> <br /> &nbsp; </h4>
+                    </div>
+                    <a href="{{ asset('/images/activities/children_playground_activity.jpg') }}"
+                        data-lightbox="activity_page" data-title="Children Playground" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ asset('/images/activities/children_playground_activity_small.jpg') }}"
+                            alt="children playground">
                     </a>
                     <div class="content">
                         {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat

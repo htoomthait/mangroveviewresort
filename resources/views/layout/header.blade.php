@@ -139,10 +139,9 @@
                                         href="{{ route('page.activities') }}#activity_kayaking">Kayaking </a></li>
                                 <li><a class="anchor_link"
                                         href="{{ route('page.activities') }}#activity_sailing_in_the_lake">Sailing In
-                                        the Lake <span class="badge badge-warning">comming soon</span></a></li>
+                                        the Lake <span class="badge_custom">comming soon</span></a></li>
                                 <li><a class="anchor_link"
-                                        href="{{ route('page.activities') }}#activity_waterboom">Waterboom <span
-                                            class="badge badge-warning">comming soon</span></a></li>
+                                        href="{{ route('page.activities') }}#activity_waterboom">Waterboom </a></li>
                                 <li><a class="anchor_link"
                                         href="{{ route('page.activities') }}#activity_wall_climbing">Wall Climbing
                                     </a></li>
@@ -151,6 +150,13 @@
                                     </a></li>
                                 <li><a class="anchor_link"
                                         href="{{ route('page.activities') }}#activity_mini_golf">Mini Golf
+                                    </a></li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_archery">Archery
+                                    </a></li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_children_playground">Children
+                                        Playground
                                     </a></li>
 
                             </ul>
