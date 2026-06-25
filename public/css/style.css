@@ -2492,10 +2492,12 @@ i:before {
 
 .explore_room_list .explor_room_item_inner .explor_item {
   margin-bottom: 50px;
+
 }
 
 .explor_item {
   background: #fff;
+  min-height: 700px;
 }
 
 .explor_item .room_image {
