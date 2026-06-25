@@ -161,7 +161,7 @@
     }
 }
 .introduction_box{
-    
+
 }
 .introduction_item{
     border: 2px solid #e9e9e9;
@@ -267,7 +267,7 @@
                     margin-right: 26px;
                 }
                 .owl-next{
-                    
+
                 }
             }
 //            .item{
@@ -280,7 +280,7 @@
     }
 }
 .explor_room_item_inner{
-    
+
 }
 .explore_room_list{
     .explor_room_item_inner{
@@ -293,6 +293,7 @@
 }
 .explor_item{
     background: #fff;
+    min-height: 700px;
     .room_image{
         position: relative;
         display: block;
@@ -309,7 +310,7 @@
             background: rgba(0, 0, 0, .40);
             opacity: 0;
             @include transition;
-        } 
+        }
         &:hover{
             &:before{
                 opacity: 1;
@@ -379,7 +380,7 @@
                 }
             }
         }
-    } 
+    }
 }
 /* End Explor Room Area css
 ============================================================================================ */
@@ -401,7 +402,7 @@
                 .media{
                     &:before{
                         display: none;
-                    } 
+                    }
                     .media-left{
                         h3{
                             width: 88px;
@@ -454,7 +455,7 @@
 //                left: 60px;
 //                top: 0px;
 //            }
-//        }    
+//        }
         .media{
             position: relative;
             overflow: visible;
@@ -531,13 +532,13 @@
                 background: url(../img/icon/inbox-bg-icon-white.png) no-repeat scroll center center;
                 height: 128px;
             }
-        }    
+        }
         .input-group-btn{
             .submit_btn_black{
                 margin-left: 16px;
             }
         }
-    } 
+    }
     &.about_fun_fact{
         padding-bottom: 100px;
     }
@@ -602,7 +603,7 @@
     padding: 100px 0px;
 }
 .choose_resot_inner{
-    
+
 }
 .resot_list{
     max-width: 400px;
@@ -640,7 +641,7 @@
                     i{
                         left: 6px;
                     }
-                }    
+                }
             }
         }
     }
@@ -722,7 +723,7 @@
                 color: $baseColor;
             }
         }
-    }    
+    }
 }
 /* End Discount Area css
 ============================================================================================ */
@@ -809,7 +810,7 @@
         }
         p{
             padding-top: 0px;
-        }    
+        }
     }
 }
 .aminities_list{
@@ -844,7 +845,7 @@
                 color: $dip;
             }
             p{
-                
+
             }
         }
         &:nth-child(3){
