@@ -14,36 +14,46 @@
             <div class="item active">
                 <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_1.jpg" alt="Los Angeles"
                     style="width:100%; ">
-                <div class="carousel-caption carousel-caption-landing">
-                    <h3>Sea and Lake Sign</h3>
-                    <p>Sea & Lake’s landmark overlooking the blue sea. </p>
+                <div class="carousel-caption-wrapper">
+                    <div class="carousel-caption carousel-caption-landing">
+                        <h3>Sea and Lake Sign</h3>
+                        <p>Sea & Lake’s landmark overlooking the blue sea. </p>
+                    </div>
                 </div>
+
             </div>
 
             <div class="item">
                 <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_2.jpg" alt="Chicago"
                     style="width:100%;">
-                <div class="carousel-caption carousel-caption-landing">
-                    <h3>Private Beach</h3>
-                    <p>Enjoy and relax at our peacful private beach with crystal clear waters. </p>
+                <div class="carousel-caption-wrapper">
+                    <div class="carousel-caption carousel-caption-landing">
+                        <h3>Private Beach</h3>
+                        <p>Enjoy and relax at our peacful private beach with crystal clear waters. </p>
+                    </div>
                 </div>
+
             </div>
 
             <div class="item">
                 <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_3.jpg" alt="New York"
                     style="width:100%;">
-                <div class="carousel-caption carousel-caption-landing">
-                    <h3>Mangrove View Bridge Bird Sight</h3>
-                    <p>Walk through a mangrove forest and enjoy the views of the salt water river. </p>
+                <div class="carousel-caption-wrapper">
+                    <div class="carousel-caption carousel-caption-landing">
+                        <h3>Mangrove View Bridge Bird Sight</h3>
+                        <p>Walk through a mangrove forest and enjoy the views of the salt water river. </p>
+                    </div>
                 </div>
             </div>
 
             <div class="item">
                 <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_5.jpg" alt="New York"
                     style="width:100%;">
-                <div class="carousel-caption carousel-caption-landing">
-                    <h3>Welcome Entrance</h3>
-                    <p>Enter the gardens of Sea & Lake and fill your day with precious moments.</p>
+                <div class="carousel-caption-wrapper">
+                    <div class="carousel-caption carousel-caption-landing">
+                        <h3>Welcome Entrance</h3>
+                        <p>Enter the gardens of Sea & Lake and fill your day with precious moments.</p>
+                    </div>
                 </div>
             </div>
 
