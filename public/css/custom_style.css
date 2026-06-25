@@ -168,6 +168,21 @@ h3.logo-brand-text span {
 .landing_carousel_img {
     max-height: 860px;
 }
+
+/* @media(max-width: 800px && min-width: 600px) {
+    .landing_carousel_img {
+        min-height: 500px;
+    }
+} */
+
+@media(max-width: 599px) {
+    .landing_carousel_img {
+        margin-top: 12%;
+        /* min-height: 400px; */
+    }
+}
+
+
 .event_img_block {
     min-height: 410px;
     padding-bottom: 24px;
@@ -409,7 +424,7 @@ div.grid_tab_block {
         font-size: 3.5vw;
     }
     .logo-brand-text {
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 
     .carousel-caption-landing p {
