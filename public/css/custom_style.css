@@ -165,6 +165,7 @@ h3.logo-brand-text span {
 .carousel-caption-landing {
     border-radius: 50px;
     margin-bottom: 19%;
+    /* width: 60%; */
 
     text-align: center;
 
