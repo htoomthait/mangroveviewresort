@@ -57,7 +57,7 @@
     font-weight: 600;
     position: relative;
     z-index: 2;
-    transition: all 300ms linear !important; 
+    transition: all 300ms linear !important;
     &:hover{
         color: #fff;
         border-color: $baseColor;
@@ -70,7 +70,7 @@
     border: 1px solid #8e8e8e;
     padding: 0px 27px;
     line-height: 46px;
-    color: #000;
+    color:$pfont2;
     font-size: 15px;
     font-family: $mon;
     font-weight: bold;

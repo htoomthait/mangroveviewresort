@@ -132,7 +132,7 @@
             font-size: 15px;
             line-height: 26px;
             font-family: $open;
-            color: $pfont;
+            color: $pfont2;
             letter-spacing: .225px;
             padding-bottom: 30px;
         }
@@ -292,7 +292,7 @@
     }
 }
 .explor_item{
-    background: #fff;
+    background:none;
     min-height: 700px;
     .room_image{
         position: relative;
@@ -326,11 +326,11 @@
             font-family: $mon;
             font-weight: bold;
             letter-spacing: .60px;
-            color: $dip;
+            color: $baseColor;
             text-transform: uppercase;
             @include transition;
             &:hover{
-                color: $baseColor;
+                color: $pfont2;
             }
         }
         ul{
@@ -350,7 +350,7 @@
             li{
                 display: inline-block;
                 a{
-                    color: $pfont;
+                    color: $pfont2;
                     font-family: $open;
                     letter-spacing: .30px;
                     font-size: 15px;

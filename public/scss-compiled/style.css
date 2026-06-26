@@ -197,7 +197,7 @@ i:before {
 }
 .left_ex_title p {
   font-size: 14px;
-  color: #a0a0a0;
+  color: #C8CDD1;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -1056,7 +1056,7 @@ i:before {
   border: 1px solid #8e8e8e;
   padding: 0px 27px;
   line-height: 46px;
-  color: #000;
+  color: #C8CDD1;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -2031,7 +2031,7 @@ i:before {
   font-size: 15px;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
-  color: #898989;
+  color: #C8CDD1;
   letter-spacing: 0.225px;
   padding-bottom: 30px;
 }
@@ -2172,7 +2172,7 @@ i:before {
 }
 
 .explor_item {
-  background: #fff;
+  background: none;
   min-height: 700px;
 }
 .explor_item .room_image {
@@ -2206,12 +2206,12 @@ i:before {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.6px;
-  color: #242424;
+  color: #008b72;
   text-transform: uppercase;
   transition: all 300ms linear 0s;
 }
 .explor_item .explor_text h4:hover {
-  color: #008b72;
+  color: #C8CDD1;
 }
 .explor_item .explor_text ul {
   padding-top: 15px;
@@ -2232,7 +2232,7 @@ i:before {
   display: inline-block;
 }
 .explor_item .explor_text ul li a {
-  color: #898989;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.3px;
   font-size: 15px;
@@ -3666,7 +3666,7 @@ i:before {
 }
 .clients_slider .item .media .media-body p {
   line-height: 35px;
-  color: #898989;
+  color: #C8CDD1;
   font-family: "Lato", sans-serif;
   font-style: italic;
   font-size: 22px;

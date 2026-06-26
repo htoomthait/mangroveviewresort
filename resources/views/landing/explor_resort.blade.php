@@ -1,27 +1,29 @@
-<section class="explor_room_area">
+<section class="explor_room_area bg_theme_green">
     <div class="container">
         <div class="explor_title row m0">
             <div class="pull-left">
                 <div class="left_ex_title">
-                    <h2>Explor Our <span>Resort</span></h2>
+                    <h2>Explor Our Resort<span>&nbsp;</span></h2>
                     <p>choose villa according to your confort</p>
                 </div>
             </div>
             <div class="pull-right">
-                <a class="about_btn_b" href="{{route('page.resort')}}">explore resort more</a>
+                <a class="about_btn_b" href="{{ route('page.resort') }}">explore resort more</a>
             </div>
         </div>
         <div class="row explor_room_item_inner">
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
-                    <a href="{{route('page.resort')}}#sec_villa_type" class="room_image">
+                    <a href="{{ route('page.resort') }}#sec_villa_type" class="room_image">
                         <img src="images/room/explore_room_1.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="{{route('page.resort')}}#sec_villa_type"><h4>Villas</h4></a>
+                        <a href="{{ route('page.resort') }}#sec_villa_type">
+                            <h4>Villas</h4>
+                        </a>
                         <ul>
                             <li><a href="#">750 to 2,500 square feet</a></li>
-                            <li><a href="#">Mangrove  view</a></li>
+                            <li><a href="#">Mangrove view</a></li>
                             <li><a href="#">2 Balcony</a></li>
                         </ul>
                         <div class="explor_footer ">
@@ -29,7 +31,7 @@
                                 {{-- <h3>$170 <span>/ Night</span></h3> --}}
                             </div>
                             <div class="pull-right">
-                                <a class="book_now_btn" href="{{route('page.resort')}}#sec_villa_type">See Around</a>
+                                <a class="book_now_btn" href="{{ route('page.resort') }}#sec_villa_type">See Around</a>
                             </div>
                         </div>
                     </div>
@@ -37,14 +39,16 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
-                    <a href="{{route('page.resort')}}#sec_spa" class="room_image">
+                    <a href="{{ route('page.resort') }}#sec_spa" class="room_image">
                         <img src="images/resort/spa_landing_page.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="{{route('page.resort')}}#sec_spa"><h4>SPA</h4></a>
+                        <a href="{{ route('page.resort') }}#sec_spa">
+                            <h4>SPA</h4>
+                        </a>
                         <ul>
                             <li><a href="#">3 different kinds of spa and treatments</a></li>
-                            <li><a href="#"> <br/> &nbsp;</a></li>
+                            <li><a href="#"> <br /> &nbsp;</a></li>
                             {{-- <li><a href="#">2 Balcony</a></li> --}}
                         </ul>
                         <div class="explor_footer" style="">
@@ -52,7 +56,7 @@
                                 {{-- <h3>$170 <span>/ Night</span></h3> --}}
                             </div>
                             <div class="pull-right">
-                                <a class="book_now_btn" href="{{route('page.resort')}}#sec_spa">View details</a>
+                                <a class="book_now_btn" href="{{ route('page.resort') }}#sec_spa">View details</a>
                             </div>
                         </div>
                     </div>
@@ -60,11 +64,13 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="explor_item">
-                    <a href="{{route('page.bar_and_restaurant')}}" class="room_image">
+                    <a href="{{ route('page.bar_and_restaurant') }}" class="room_image">
                         <img src="images/restaurant/restaurant_img_at_landing_page.jpg" alt="">
                     </a>
                     <div class="explor_text">
-                        <a href="{{route('page.bar_and_restaurant')}}"><h4>Restaurant</h4></a>
+                        <a href="{{ route('page.bar_and_restaurant') }}">
+                            <h4>Restaurant</h4>
+                        </a>
                         <ul>
                             <li><a href="#">Garden Restuarant, </a></li>
                             <li><a href="#">Resort Restaurant,</a></li>
@@ -76,7 +82,7 @@
                                 {{-- <h3>$170 <span>/ Night</span></h3> --}}
                             </div>
                             <div class="pull-right">
-                                <a class="book_now_btn" href="{{route('page.bar_and_restaurant')}}">View details</a>
+                                <a class="book_now_btn" href="{{ route('page.bar_and_restaurant') }}">View details</a>
                             </div>
                         </div>
                     </div>
