@@ -491,7 +491,8 @@
                     font-size: 15px;
                     line-height: 26px;
                     letter-spacing: .225px;
-                    color: $pfont;
+                    // color: $pfont;
+
                 }
                 &.left_activities{
                     padding-left: 0px;
@@ -500,7 +501,7 @@
             }
         }
         &:nth-child(odd){
-            background: #f6f6f6;
+            // background: #f6f6f6;
         }
     }
 

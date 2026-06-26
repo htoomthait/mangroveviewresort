@@ -15,12 +15,12 @@ a{
     margin: 0px;
 }
 .p0{
-    padding: 0px;   
+    padding: 0px;
 }
 body{
     line-height: 24px;
     font-size: 14px;
-    font-family: $open; 
+    font-family: $open;
     color: $pfont;
 }
 body, p, h1, h2, h3, h4, h5, h6{
@@ -181,7 +181,7 @@ i{
         letter-spacing: .48px;
         color: $dip;
         padding-top: 25px;
-    }    
+    }
 }
 .center_title{
     padding-bottom: 60px;
@@ -272,7 +272,7 @@ i{
         padding-bottom: 15px;
         position: relative;
         span{
-            color: $dip; 
+            color: $dip;
         }
         &:before{
             content: "";
@@ -295,7 +295,7 @@ i{
         padding-bottom: 8px;
         position: relative;
         span{
-            color: $dip; 
+            color: $dip;
         }
         &:before{
             content: "";
@@ -315,7 +315,7 @@ i{
         line-height: 26px;
         color: $pfont;
         padding-top: 25px;
-    }    
+    }
 }
 
 .resort_title{
@@ -328,7 +328,7 @@ i{
         bottom: 0px;
         width: 70px;
         height: 1px;
-        background: #000000;
+        background: #028B72;
     }
     h2{
         font-size: 32px;

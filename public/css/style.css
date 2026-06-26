@@ -383,7 +383,7 @@ i:before {
   bottom: 0px;
   width: 70px;
   height: 1px;
-  background: #000000;
+  background:#19614C;
 }
 
 .resort_title h2 {
@@ -2326,10 +2326,12 @@ i:before {
   font-size: 15px;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
-  color: #898989;
   letter-spacing: .225px;
   padding-bottom: 30px;
+
 }
+
+
 
 /* End Introduction Area css
 ============================================================================================ */

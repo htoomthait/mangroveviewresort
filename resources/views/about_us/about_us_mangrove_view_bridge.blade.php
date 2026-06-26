@@ -2,11 +2,12 @@
     <div class="container">
         <div class="row activities_item_row">
 
-           <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-6">
                 <div class="activities_content left_activities">
-                    <h4>Mangrove View Bridge <span>visiting</span></h4>
-                    <p>
-                        Wonder through the mangrove forest by strolling along the 600 feet bridge made solely from timber.
+                    <h4><span> Mangrove View Bridge visiting</span></h4>
+                    <p class="text_white_grey">
+                        Wonder through the mangrove forest by strolling along the 600 feet bridge made solely from
+                        timber.
                     </p>
                 </div>
             </div>
@@ -16,9 +17,7 @@
                     <i class="fa fa-expand"
                         style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                         aria-hidden="true"></i>
-                    <img
-                        class="img-fluid"
-                        width="100%"
+                    <img class="img-fluid" width="100%"
                         src="{{ asset('images/about_us/mangrove_view_bridge_about_us_thumbnail.jpg') }}" alt="">
                 </a>
             </div>

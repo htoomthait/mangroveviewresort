@@ -7,20 +7,18 @@
 
 
 
-   {{-- Garden Story Area --}}
+    {{-- Garden Story Area --}}
     @include('about_us.about_us_garden')
     {{-- End Garden Story Area --}}
 
-    <section
-        class="video_area"
+    <section class="video_area"
         style="
             background: url(../images/mangrove_view_forest_video_bg.jpg) no-repeat scroll center center;
             background-size: cover;
             position: relative;
             z-index: 3;
             padding: 120px 0px 134px 0px;   s
-            "
-    >
+            ">
         <div class="container">
             <div class="video_inner">
                 <a class="popup-youtube" href="{{ asset('videos/about_mangrove_forest_and_resort.mp4') }}"><i
@@ -37,16 +35,14 @@
 
 
 
-    <section
-        class="video_area"
+    <section class="video_area"
         style="
             background: url(../images/jade_museum_video_bg.jpg) no-repeat scroll center center;
             background-size: cover;
             position: relative;
             z-index: 3;
             padding: 120px 0px 134px 0px;
-            "
-    >
+            ">
         <div class="container">
             <div class="video_inner">
                 <a class="popup-youtube" href="{{ asset('videos/jade_museum.mp4') }}"><i
@@ -57,7 +53,7 @@
         </div>
     </section>
 
-    <section class="activities_area">
+    <section class="activities_area bg_theme_green">
         {{-- Jade Museum Start --}}
         @include('about_us.about_us_jade_museum')
         {{-- End Jade Museum  --}}
@@ -68,15 +64,11 @@
 
 
         {{-- sea and lake adventure zone  --}}
-            @include('about_us.about_us_adeventure_zone')
+        @include('about_us.about_us_adeventure_zone')
         {{-- end sea and lake adeventure zone --}}
 
         {{-- sea and lake mangrove view bridge start  --}}
-            @include('about_us.about_us_mangrove_view_bridge')
+        @include('about_us.about_us_mangrove_view_bridge')
         {{-- sea and lake mangrove view bridge end  --}}
     </section>
-
-
-
-
 @endsection

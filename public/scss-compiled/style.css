@@ -411,7 +411,7 @@ i:before {
   bottom: 0px;
   width: 70px;
   height: 1px;
-  background: #000000;
+  background: #028B72;
 }
 .resort_title h2 {
   font-size: 32px;
@@ -3296,14 +3296,10 @@ i:before {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.225px;
-  color: #898989;
 }
 .activities_area .activities_item_inner .activities_item_row .activities_content.left_activities {
   padding-left: 0px;
   padding-right: 100px;
-}
-.activities_area .activities_item_inner:nth-child(odd) {
-  background: #f6f6f6;
 }
 .activities_area .activity_row {
   display: block;
