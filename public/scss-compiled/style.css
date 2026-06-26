@@ -427,7 +427,6 @@ i:before {
 }
 .resort_title h5 {
   font-size: 14px;
-  color: #a0a0a0;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.42px;
@@ -3225,6 +3224,7 @@ i:before {
 .activities_title .resort_title h5 {
   position: relative;
   padding-bottom: 18px;
+  color: #C8CDD1;
 }
 .activities_title .resort_title h5:before {
   content: "";
@@ -3239,7 +3239,7 @@ i:before {
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   line-height: 26px;
-  color: #898989;
+  color: #C8CDD1;
   letter-spacing: 0.225px;
   padding-top: 30px;
 }
@@ -3351,7 +3351,7 @@ i:before {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.225px;
-  color: #898989;
+  color: #C8CDD1;
   padding: 16px;
 }
 

@@ -418,6 +418,7 @@
         h5 {
             position: relative;
             padding-bottom: 18px;
+            color: $pfont2;
             &:before {
                 content: "";
                 width: 70px;
@@ -432,7 +433,7 @@
             font-size: 15px;
             font-family: $open;
             line-height: 26px;
-            color: $pfont;
+            color: $pfont2;
             letter-spacing: 0.225px;
             padding-top: 30px;
         }
@@ -563,7 +564,7 @@
                 font-size: 15px;
                 line-height: 26px;
                 letter-spacing: 0.225px;
-                color: $pfont;
+                color: $pfont2;
                 padding: 16px;
             }
         }
