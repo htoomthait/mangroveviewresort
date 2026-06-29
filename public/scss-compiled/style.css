@@ -197,7 +197,7 @@ i:before {
 }
 .left_ex_title p {
   font-size: 14px;
-  color: #a0a0a0;
+  color: #C8CDD1;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -396,7 +396,7 @@ i:before {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.225px;
   line-height: 26px;
-  color: #898989;
+  color: #C8CDD1;
   padding-top: 25px;
 }
 
@@ -411,7 +411,7 @@ i:before {
   bottom: 0px;
   width: 70px;
   height: 1px;
-  background: #000000;
+  background: #028B72;
 }
 .resort_title h2 {
   font-size: 32px;
@@ -427,7 +427,7 @@ i:before {
 }
 .resort_title h5 {
   font-size: 14px;
-  color: #a0a0a0;
+  color: #C8CDD1;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.42px;
@@ -1057,7 +1057,7 @@ i:before {
   border: 1px solid #8e8e8e;
   padding: 0px 27px;
   line-height: 46px;
-  color: #000;
+  color: #C8CDD1;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -1634,14 +1634,14 @@ i:before {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: #242424;
+  color: #C8CDD1;
   letter-spacing: 0.6px;
   text-transform: uppercase;
   padding-bottom: 15px;
 }
 .right_contact_info .contact_info_title p {
   font-size: 16px;
-  color: #818181;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   line-height: 26px;
   padding-right: 35px;
@@ -1654,7 +1654,7 @@ i:before {
 }
 .right_contact_info .contact_info_list .media .media-left i {
   font-size: 35px;
-  color: #3e3e3e;
+  color: #C8CDD1;
 }
 .right_contact_info .contact_info_list .media .media-body h4 {
   font-size: 16px;
@@ -1662,19 +1662,19 @@ i:before {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.32px;
-  color: #242424;
+  color: #C8CDD1;
   padding-bottom: 10px;
 }
 .right_contact_info .contact_info_list .media .media-body p {
   font-size: 15px;
-  color: #818181;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   line-height: 22px;
 }
 .right_contact_info .contact_info_list .media .media-body a {
   display: block;
   font-size: 15px;
-  color: #818181;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   line-height: 22px;
   transition: all 300ms linear 0s;
@@ -1987,7 +1987,7 @@ i:before {
 }
 .introduction_area.resort_story_area .introduction_left_text h6 {
   font-size: 16px;
-  color: #242424;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   letter-spacing: 0.48px;
@@ -2021,7 +2021,7 @@ i:before {
 }
 .introduction_inner .introduction_left_text h4 {
   font-size: 18px;
-  color: #363636;
+  color: #C8CDD1;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -2032,9 +2032,12 @@ i:before {
   font-size: 15px;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
-  color: #898989;
+  color: #C8CDD1;
   letter-spacing: 0.225px;
   padding-bottom: 30px;
+}
+.introduction_inner .introduction_left_text ul {
+  color: #C8CDD1;
 }
 
 /* End Introduction Area css
@@ -2057,6 +2060,7 @@ i:before {
 }
 .introduction_box_area .main_big_title p {
   padding-top: 0px;
+  color: #C8CDD1;
 }
 
 .introduction_item {
@@ -2173,7 +2177,7 @@ i:before {
 }
 
 .explor_item {
-  background: #fff;
+  background: none;
   min-height: 700px;
 }
 .explor_item .room_image {
@@ -2207,12 +2211,12 @@ i:before {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.6px;
-  color: #242424;
+  color: #008b72;
   text-transform: uppercase;
   transition: all 300ms linear 0s;
 }
 .explor_item .explor_text h4:hover {
-  color: #008b72;
+  color: #C8CDD1;
 }
 .explor_item .explor_text ul {
   padding-top: 15px;
@@ -2233,7 +2237,7 @@ i:before {
   display: inline-block;
 }
 .explor_item .explor_text ul li a {
-  color: #898989;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.3px;
   font-size: 15px;
@@ -2639,6 +2643,7 @@ i:before {
 }
 .aminities_area .main_big_title p {
   padding-top: 0px;
+  color: #C8CDD1;
 }
 
 .aminities_list {
@@ -3047,7 +3052,7 @@ i:before {
 .spa_wellness_area .main_big_title p {
   padding-top: 0px;
   font-size: 16px;
-  color: #898989;
+  color: #C8CDD1;
   line-height: 28px;
   letter-spacing: 0.48px;
 }
@@ -3079,7 +3084,7 @@ i:before {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.54px;
-  color: #242424;
+  color: #C8CDD1;
   padding: 35px 0px 10px 0px;
   transition: all 300ms linear 0s;
 }
@@ -3089,7 +3094,7 @@ i:before {
 .spa_item .spa_content p {
   font-size: 15px;
   line-height: 28px;
-  color: #898989;
+  color: #C8CDD1;
   letter-spacing: 0.45px;
   font-family: "Open Sans", sans-serif;
   position: relative;
@@ -3141,14 +3146,14 @@ i:before {
   line-height: 28px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.54px;
-  color: #242424;
+  color: #C8CDD1;
   padding: 22px 0px 32px 0px;
 }
 .spa_area .spa_left_text p {
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.45px;
-  color: #898989;
+  color: #C8CDD1;
   line-height: 26px;
 }
 
@@ -3225,12 +3230,13 @@ i:before {
 .activities_title .resort_title h5 {
   position: relative;
   padding-bottom: 18px;
+  color: #C8CDD1;
 }
 .activities_title .resort_title h5:before {
   content: "";
   width: 70px;
   height: 1px;
-  background: #242424;
+  background: #008b72;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -3239,7 +3245,7 @@ i:before {
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   line-height: 26px;
-  color: #898989;
+  color: #C8CDD1;
   letter-spacing: 0.225px;
   padding-top: 30px;
 }
@@ -3296,14 +3302,10 @@ i:before {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.225px;
-  color: #898989;
 }
 .activities_area .activities_item_inner .activities_item_row .activities_content.left_activities {
   padding-left: 0px;
   padding-right: 100px;
-}
-.activities_area .activities_item_inner:nth-child(odd) {
-  background: #f6f6f6;
 }
 .activities_area .activity_row {
   display: block;
@@ -3355,7 +3357,7 @@ i:before {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.225px;
-  color: #898989;
+  color: #C8CDD1;
   padding: 16px;
 }
 
@@ -3670,7 +3672,7 @@ i:before {
 }
 .clients_slider .item .media .media-body p {
   line-height: 35px;
-  color: #898989;
+  color: #C8CDD1;
   font-family: "Lato", sans-serif;
   font-style: italic;
   font-size: 22px;
@@ -5307,7 +5309,7 @@ i:before {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.96px;
-  color: #242424;
+  color: #008b72;
   padding: 45px 0px 20px 0px;
 }
 .room_d_main_text h4 span {
@@ -5319,10 +5321,10 @@ i:before {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  color: #242424;
+  color: #C8CDD1;
 }
 .room_d_main_text h5 span {
-  color: #a0a0a0;
+  color: #C8CDD1;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -5343,7 +5345,7 @@ i:before {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.66px;
-  color: #242424;
+  color: #C8CDD1;
   padding-bottom: 30px;
 }
 
@@ -5356,7 +5358,7 @@ i:before {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   padding-left: 32px;
-  color: #a0a0a0;
+  color: #C8CDD1;
 }
 
 .room_details_clients {

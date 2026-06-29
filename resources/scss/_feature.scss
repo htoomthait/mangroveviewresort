@@ -72,7 +72,7 @@
         .introduction_left_text{
             h6{
                 font-size: 16px;
-                color: $dip;
+                color: $pfont2;
                 font-family: $open;
                 font-style: italic;
                 letter-spacing: .48px;
@@ -121,7 +121,7 @@
         }
         h4{
             font-size: 18px;
-            color: $gray;
+            color: $pfont2;
             font-family: $mon;
             font-weight: bold;
             text-transform: uppercase;
@@ -132,9 +132,12 @@
             font-size: 15px;
             line-height: 26px;
             font-family: $open;
-            color: $pfont;
+            color: $pfont2;
             letter-spacing: .225px;
             padding-bottom: 30px;
+        }
+        ul{
+            color: $pfont2;
         }
     }
 }
@@ -157,6 +160,7 @@
         }
         p{
             padding-top: 0px;
+            color: $pfont2;
         }
     }
 }
@@ -292,7 +296,7 @@
     }
 }
 .explor_item{
-    background: #fff;
+    background:none;
     min-height: 700px;
     .room_image{
         position: relative;
@@ -326,11 +330,11 @@
             font-family: $mon;
             font-weight: bold;
             letter-spacing: .60px;
-            color: $dip;
+            color: $baseColor;
             text-transform: uppercase;
             @include transition;
             &:hover{
-                color: $baseColor;
+                color: $pfont2;
             }
         }
         ul{
@@ -350,7 +354,7 @@
             li{
                 display: inline-block;
                 a{
-                    color: $pfont;
+                    color: $pfont2;
                     font-family: $open;
                     letter-spacing: .30px;
                     font-size: 15px;
@@ -810,6 +814,7 @@
         }
         p{
             padding-top: 0px;
+            color: $pfont2;
         }
     }
 }

@@ -55,7 +55,7 @@
             <div class="col-md-4">
                 <div class="spa_left_text">
                     <div class="main_big_title">
-                        <h2>Pool & Private Beach <span>Fun Moments</span></h2>
+                        <h2>Pool & Private Beach Fun Moments<span>&nbsp;</span></h2>
                         <p>1,216 square feet large pool with a natural Burmese terracotta tile decking. Stand showers
                             decorated with teak wood for a natural feel. An excellent place to order classic cocktails,
                             fresh salads and sandwiches. Juices, detox mixes and teas for the healthy conscious are

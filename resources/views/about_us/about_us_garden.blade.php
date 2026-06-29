@@ -37,7 +37,7 @@
     </div>
 </section> --}}
 
-<section class="introduction_area resort_story_area" id="sec_garden">
+<section class="introduction_area resort_story_area bg_theme_green" id="sec_garden">
     <div class="container">
         <div class="row introduction_inner">
             <div class="col-md-5">
@@ -51,14 +51,14 @@
                 </a>
             </div>
             <div class="col-md-7">
-                <div class="introduction_left_text">
+                <div class="text-container">
                     <div class="resort_title">
-                        <h2>our garden <span>story</span></h2>
+                        <h2>&nbsp;<span>our garden story</span></h2>
                         {{-- <h5>give best service to our customers</h5> --}}
                     </div>
                     {{-- <h6>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h6> --}}
                     {{-- <h4>We are Available for business</h4> --}}
-                    <p class="mt-6">
+                    <p class="mt-6 text_white_grey">
                         Sea and lake garden spans 300 acres with a glistening blue lake at the heart of it all. The
                         garden boasts a variety of tropical trees bearing seasonal fruits and flowers. The winding paths
                         can be navigated by foot or visitors can choose to travel leisurely by renting bicycles and

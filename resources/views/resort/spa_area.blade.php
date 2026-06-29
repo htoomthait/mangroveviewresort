@@ -2,17 +2,20 @@
  <section class="spa_wellness_area resort-background" id="sec_spa" style="margin-top:-24px;padding-bottom: 56px;">
      <div class="container resort-block-container">
          <div class="main_big_title">
-             <h2>spa & <span>wellness</span></h2>
+             <h2>spa & wellness <span>&nbsp;</span></h2>
              <p>
-                <strong> Overview </strong>:  Mangrove View Spa treatments blend authentic Burmese massage techniques and powerful ingredients to rejuvenate and replenish the body. From relaxing skin soothing aroma oil pulls to stress-relieving massages, Mangrove Spa menu features natural healing traditions to provide guests with a deep replenishing and relaxation.
+                 <strong> Overview </strong>: Mangrove View Spa treatments blend authentic Burmese massage techniques
+                 and powerful ingredients to rejuvenate and replenish the body. From relaxing skin soothing aroma oil
+                 pulls to stress-relieving massages, Mangrove Spa menu features natural healing traditions to provide
+                 guests with a deep replenishing and relaxation.
              </p>
          </div>
          <div class="row spa_wellness_inner">
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
 
-                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
-                         data-lightbox="spa_on_resort" data-title="Tradittional Burmese Message">
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}" data-lightbox="spa_on_resort"
+                         data-title="Tradittional Burmese Message">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
@@ -36,8 +39,8 @@
              </div>
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
-                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
-                         data-lightbox="spa_on_resort" data-title="Aroma Oil Massage">
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}" data-lightbox="spa_on_resort"
+                         data-title="Aroma Oil Massage">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
@@ -60,8 +63,8 @@
              </div>
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
-                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}"
-                         data-lightbox="spa_on_resort" data-title="Foot Salt Water Soak and Massage">
+                     <a class="spa_img" href="{{ asset('images/resort/spa_image.jpg') }}" data-lightbox="spa_on_resort"
+                         data-title="Foot Salt Water Soak and Massage">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
