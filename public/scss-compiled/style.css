@@ -1634,14 +1634,14 @@ i:before {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: #242424;
+  color: #C8CDD1;
   letter-spacing: 0.6px;
   text-transform: uppercase;
   padding-bottom: 15px;
 }
 .right_contact_info .contact_info_title p {
   font-size: 16px;
-  color: #818181;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   line-height: 26px;
   padding-right: 35px;
@@ -1654,7 +1654,7 @@ i:before {
 }
 .right_contact_info .contact_info_list .media .media-left i {
   font-size: 35px;
-  color: #3e3e3e;
+  color: #C8CDD1;
 }
 .right_contact_info .contact_info_list .media .media-body h4 {
   font-size: 16px;
@@ -1662,19 +1662,19 @@ i:before {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.32px;
-  color: #242424;
+  color: #C8CDD1;
   padding-bottom: 10px;
 }
 .right_contact_info .contact_info_list .media .media-body p {
   font-size: 15px;
-  color: #818181;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   line-height: 22px;
 }
 .right_contact_info .contact_info_list .media .media-body a {
   display: block;
   font-size: 15px;
-  color: #818181;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   line-height: 22px;
   transition: all 300ms linear 0s;

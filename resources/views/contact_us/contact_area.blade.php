@@ -1,9 +1,9 @@
-<section class="get_contact_area">
+<section class="get_contact_area bg_theme_green">
     <div class="container">
         <div class="row get_contact_inner">
             <div class="col-md-6">
                 <div class="left_ex_title">
-                    <h2>get in <span>touch</span></h2>
+                    <h2>get in touch<span>&nbsp;</span></h2>
                 </div>
                 <form class="contact_us_form row m0" action="contact_process.php" method="post" id="contactForm"
                     novalidate="novalidate">
