@@ -36,7 +36,7 @@ Route::post('/submit-contact-us-form', [ContactUsController::class, 'submitConta
 
 Route::get('/villa-detail/{villaId}', [HomeController::class, 'villaDetail'])->name('page.resort.villa_detail');
 
-Route::get('/promotions', [HomeController::class, 'promotion'])->name('page.promotion');
+// Route::get('/promotions', [HomeController::class, 'promotion'])->name('page.promotion');
 
 Route::get('/gallery', [GalleryController::class, 'showGalleryPage'])->name('page.gallery');
 

@@ -70,8 +70,8 @@
                                 <li><a class="anchor_link"
                                         href="{{ route('page.about_us') }}#activity_mangrove_view_bridge"> Mangrove
                                         View Bridge</a></li>
-                                <li><a class="anchor_link"
-                                        href="{{ route('page.promotion') }}#sec_garden">Promotions</a></li>
+                                {{-- <li><a class="anchor_link"
+                                        href="{{ route('page.promotion') }}#sec_garden">Promotions</a></li> --}}
                             </ul>
 
                         </li>
