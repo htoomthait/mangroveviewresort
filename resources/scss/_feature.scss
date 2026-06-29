@@ -121,7 +121,7 @@
         }
         h4{
             font-size: 18px;
-            color: $gray;
+            color: $pfont2;
             font-family: $mon;
             font-weight: bold;
             text-transform: uppercase;
@@ -135,6 +135,9 @@
             color: $pfont2;
             letter-spacing: .225px;
             padding-bottom: 30px;
+        }
+        ul{
+            color: $pfont2;
         }
     }
 }
@@ -157,6 +160,7 @@
         }
         p{
             padding-top: 0px;
+            color: $pfont2;
         }
     }
 }
@@ -810,6 +814,7 @@
         }
         p{
             padding-top: 0px;
+            color: $pfont2;
         }
     }
 }

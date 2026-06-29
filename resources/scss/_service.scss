@@ -226,7 +226,7 @@
         p {
             padding-top: 0px;
             font-size: 16px;
-            color: $pfont;
+            color: $pfont2;
             line-height: 28px;
             letter-spacing: 0.48px;
         }
@@ -265,7 +265,7 @@
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 0.54px;
-            color: $dip;
+            color: $pfont2;
             padding: 35px 0px 10px 0px;
             @include transition;
             &:hover {
@@ -275,7 +275,7 @@
         p {
             font-size: 15px;
             line-height: 28px;
-            color: $pfont;
+            color: $pfont2;
             letter-spacing: 0.45px;
             font-family: $open;
             position: relative;
@@ -329,14 +329,14 @@
             line-height: 28px;
             font-family: $open;
             letter-spacing: 0.54px;
-            color: $dip;
+            color: $pfont2;
             padding: 22px 0px 32px 0px;
         }
         p {
             font-size: 15px;
             font-family: $open;
             letter-spacing: 0.45px;
-            color: $pfont;
+            color: $pfont2;
             line-height: 26px;
         }
     }
@@ -423,7 +423,7 @@
                 content: "";
                 width: 70px;
                 height: 1px;
-                background: $dip;
+                background: $baseColor;
                 position: absolute;
                 bottom: 0px;
                 left: 0px;
