@@ -107,7 +107,7 @@
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_boat">
                                         Boat</a></li>
                                 <li><a class="anchor_link"
-                                        href="{{ route('page.activities') }}#activity_fisihing">Fishing</a></li>
+                                        href="{{ route('page.activities') }}#activity_fishing">Fishing</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_cycling">
                                         Cycling</a></li>
                                 <li><a class="anchor_link"

@@ -62,7 +62,7 @@
                     </div>
 
                 </div>
-                <div class="col-12 activity_block" id="activity_fisihing">
+                <div class="col-12 activity_block" id="activity_fishing">
                     <div class="heading">
                         <h4>&nbsp; <span>Fishing Around</span></h4>
                     </div>

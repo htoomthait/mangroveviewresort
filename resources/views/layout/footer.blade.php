@@ -98,7 +98,7 @@
                         </div>
                         <ul>
                             <li><a href="{{ route('page.activities') }}#activity_boat">- Boat </a></li>
-                            <li><a href="{{ route('page.activities') }}#activity_fishing">- Fishing </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_fisihing">- Fishing </a></li>
                             <li><a href="{{ route('page.activities') }}#activity_cycling">- Cycling </a></li>
                             <li><a href="{{ route('page.activities') }}#activity_gift_shop">- Gift Shop </a></li>
                             <li><a href="{{ route('page.activities') }}#activity_swimming">- Swimming </a></li>
