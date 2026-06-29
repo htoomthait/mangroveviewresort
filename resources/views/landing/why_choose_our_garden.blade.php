@@ -36,8 +36,8 @@
             <h2>why choose our <span>Sea And Lake</span></h2>
             {{-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p> --}}
         </div>
-        <div class="row" style="  display:flex; justify-content: center; gap: 32px; ">
-            <div class="col-md-5 ">
+        <div class="row unique_selling_row">
+            <div class="col-md-6 col-sm-12">
                 <div class="choose_resort_list ">
                     <ul>
                         <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Spacious 300 acre park
@@ -51,7 +51,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-5 ">
+            <div class="col-md-6 col-sm-12">
                 <div class="choose_resort_list">
                     <ul>
                         <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Zip line
