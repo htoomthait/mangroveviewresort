@@ -38,7 +38,7 @@
     </section>
 
     <!--================Search Room Area =================-->
-    <section class="room_details_area" style="margin-top:-88px;">
+    <section class="room_details_area bg_theme_green" style="margin-top:-88px;">
         <div class="container">
             <div class="row room_details_inner">
                 <div class="col-md-12">

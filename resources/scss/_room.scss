@@ -85,14 +85,14 @@
                         padding-right: 0px;
                         &:before{
                             display: none;
-                        }    
+                        }
                     }
                 }
                 &:hover{
                     a{
                         color: $baseColor;
                     }
-                }    
+                }
             }
         }
         p{
@@ -166,8 +166,8 @@
                     color: $baseColor;
                 }
             }
-        }    
-    }    
+        }
+    }
 }
 
 /* Event Area css
@@ -204,12 +204,12 @@
                             text-transform: uppercase;
                             font-size: 13px;
                             opacity: 1;
-                        }    
+                        }
                     }
                     .add-on{
                         i{
                             color: #8c8c8c;
-                        }    
+                        }
                     }
                 }
                 .bootstrap-select{
@@ -223,7 +223,7 @@
                 }
                 .book_now_btn{
                     line-height: 44px;
-                }    
+                }
             }
         }
     }
@@ -237,9 +237,9 @@
             background: #3b3b3b;
             &:hover{
                 background: transparent;
-            }    
-        }    
-    } 
+            }
+        }
+    }
     .your_book_box{
         border: 1px solid #dcdcdc;
         padding: 40px 0px 45px 18px;
@@ -259,8 +259,8 @@
             color: #a0a0a0;
             text-transform: uppercase;
             letter-spacing: .45px;
-        }    
-    }    
+        }
+    }
 }
 /* End Search Right Side Area css
 ============================================================================================ */
@@ -315,7 +315,7 @@
                         font-weight: normal;
                         color: #bdbdbd;
                         letter-spacing: .42px;
-                    } 
+                    }
                 }
                 .bootstrap-select{
                     width: auto !important;
@@ -417,7 +417,7 @@
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: .96px;
-        color: $dip;
+        color: $baseColor;
         padding: 45px 0px 20px 0px;
         span{
             color: $baseColor;
@@ -429,9 +429,9 @@
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: .60px;
-        color: $dip;
+        color: $pfont2;
         span{
-            color: #a0a0a0;
+            color: $pfont2;
             font-family: $mon;
             font-weight: normal;
             font-size: 14px;
@@ -454,12 +454,12 @@
     font-family: $mon;
     font-weight: bold;
     letter-spacing: .66px;
-    color: $dip;
+    color: $pfont2;
     padding-bottom: 30px;
 }
 
 .room_service_list{
-      
+
 }
 .room_service_list_inner{
     .resot_list{
@@ -472,7 +472,7 @@
                     font-family: $mon;
                     text-transform: uppercase;
                     padding-left: 32px;
-                    color: #a0a0a0;
+                    color: $pfont2;
                 }
             }
         }
@@ -505,7 +505,7 @@
                 }
             }
         }
-    }    
+    }
 }
 .room_details_comment{
     padding-top: 45px;
@@ -563,7 +563,7 @@
                     }
                 }
             }
-        }    
+        }
     }
 }
 /* End Room Details Area css

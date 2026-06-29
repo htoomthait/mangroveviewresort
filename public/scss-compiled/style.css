@@ -1987,7 +1987,7 @@ i:before {
 }
 .introduction_area.resort_story_area .introduction_left_text h6 {
   font-size: 16px;
-  color: #242424;
+  color: #C8CDD1;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   letter-spacing: 0.48px;
@@ -5309,7 +5309,7 @@ i:before {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.96px;
-  color: #242424;
+  color: #008b72;
   padding: 45px 0px 20px 0px;
 }
 .room_d_main_text h4 span {
@@ -5321,10 +5321,10 @@ i:before {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  color: #242424;
+  color: #C8CDD1;
 }
 .room_d_main_text h5 span {
-  color: #a0a0a0;
+  color: #C8CDD1;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -5345,7 +5345,7 @@ i:before {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: 0.66px;
-  color: #242424;
+  color: #C8CDD1;
   padding-bottom: 30px;
 }
 
@@ -5358,7 +5358,7 @@ i:before {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   padding-left: 32px;
-  color: #a0a0a0;
+  color: #C8CDD1;
 }
 
 .room_details_clients {
