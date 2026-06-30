@@ -94,7 +94,8 @@
                                 {{-- <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li> --}}
                                 <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_fitness">Fitness </a>
                                 </li>
-                                <li><a class="anchor_link" href="{{ route('page.karaoke') }}">Karaoke</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_karaoke">Karaoke</a>
+                                </li>
                                 <li><a class="anchor_link" href="{{ route('page.gallery') }}">Gallery</a></li>
                             </ul>
                         </li>

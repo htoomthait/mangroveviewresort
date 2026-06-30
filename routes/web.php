@@ -28,7 +28,7 @@ Route::get('/activities', [HomeController::class, 'activitiesPage'])->name('page
 
 Route::get('/bar-and-restaurant', [HomeController::class, 'barAndRestaurantPage'])->name('page.bar_and_restaurant');
 
-Route::get('/karaoke', [HomeController::class, 'karaokePage'])->name('page.karaoke');
+// Route::get('/karaoke', [HomeController::class, 'karaokePage'])->name('page.karaoke');
 
 Route::get('/contact-us', [ContactUsController::class, 'contactUsPage'])->name('page.contact_us');
 
