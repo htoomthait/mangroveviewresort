@@ -75,7 +75,7 @@
                             <li><a href="{{ route('page.about_us') }}#sec_our_services">- Buggy Car Services</a></li>
                             <li><a href="{{ route('page.resort') }}#sec_restaurant">- Bar &amp; Restaurant</a></li>
                             <li><a href="{{ route('page.resort') }}#sec_spa">- Spa &amp; Gym</a></li>
-                            <li><a href="{{ route('page.karaoke') }}">- Karaoke</a></li>
+                            <li><a href="{{ route('page.resort') }}#sec_karaoke">- Karaoke</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -100,7 +100,7 @@
                             <li><a href="{{ route('page.activities') }}#activity_boat">- Boat </a></li>
                             <li><a href="{{ route('page.activities') }}#activity_fishing">- Fishing </a></li>
                             <li><a href="{{ route('page.activities') }}#activity_cycling">- Cycling </a></li>
-                            <li><a href="{{ route('page.activities') }}#activity_gift_shop">- Gift Shop </a></li>
+                            <li><a href="{{ route('page.activities') }}#activity_fashion_shop">- Fashion Shop </a></li>
                             <li><a href="{{ route('page.activities') }}#activity_swimming">- Swimming </a></li>
                             <li><a href="{{ route('page.activities') }}#activity_zip_riding">- Zipriding </a></li>
                             <li><a href="{{ route('page.activities') }}#activity_kayaking">- Kayaking </a></li>

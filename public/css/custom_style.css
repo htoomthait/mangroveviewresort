@@ -219,6 +219,18 @@ h3.logo-brand-text span {
     max-height: 860px;
 }
 
+.unique_selling_row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media(max-width: 576px){
+    .unique_selling_row{
+        flex-direction: column;
+    }
+}
+
 /* @media(max-width: 800px && min-width: 600px) {
     .landing_carousel_img {
         min-height: 500px;

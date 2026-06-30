@@ -70,8 +70,8 @@
                                 <li><a class="anchor_link"
                                         href="{{ route('page.about_us') }}#activity_mangrove_view_bridge"> Mangrove
                                         View Bridge</a></li>
-                                <li><a class="anchor_link"
-                                        href="{{ route('page.promotion') }}#sec_garden">Promotions</a></li>
+                                {{-- <li><a class="anchor_link"
+                                        href="{{ route('page.promotion') }}#sec_garden">Promotions</a></li> --}}
                             </ul>
 
                         </li>
@@ -94,7 +94,8 @@
                                 {{-- <li><a class="anchor_link"  href="{{ route('page.resort') }}#sec_restaurant">Bar &amp; Restaurant</a></li> --}}
                                 <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_fitness">Fitness </a>
                                 </li>
-                                <li><a class="anchor_link" href="{{ route('page.karaoke') }}">Karaoke</a></li>
+                                <li><a class="anchor_link" href="{{ route('page.resort') }}#sec_karaoke">Karaoke</a>
+                                </li>
                                 <li><a class="anchor_link" href="{{ route('page.gallery') }}">Gallery</a></li>
                             </ul>
                         </li>
@@ -107,7 +108,7 @@
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_boat">
                                         Boat</a></li>
                                 <li><a class="anchor_link"
-                                        href="{{ route('page.activities') }}#activity_fisihing">Fishing</a></li>
+                                        href="{{ route('page.activities') }}#activity_fishing">Fishing</a></li>
                                 <li><a class="anchor_link" href="{{ route('page.activities') }}#activity_cycling">
                                         Cycling</a></li>
                                 <li><a class="anchor_link"

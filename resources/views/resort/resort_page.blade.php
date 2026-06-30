@@ -35,25 +35,20 @@
 
     <!-- ============== Karaoke Area Start =========================-->
     {{-- @include('resort.karaoke') --}}
+    @include('karaoke.karaoke_main_description')
     <!-- ============== Karaoke Area End===================== -->
 
 
     <!-- ============== gallery Area =========================-->
     {{-- @include('resort.gallery') --}}
     <!-- ============== end gallery Area ===================== -->
-
-
-
-
 @endsection
 
 
 @push('page_js')
-
     <script>
-        $(document).ready(function(){
+        $(document).ready(function() {
             // $("#body").addClass('resort-background');
         })
     </script>
-
 @endpush
