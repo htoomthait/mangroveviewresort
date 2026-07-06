@@ -72,6 +72,14 @@ Table of Content:
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "caslon-540-lt-std";
+  src: url(/fonts/Caslon540LTStd-Roman.eot?27c32fe322abc4632e0d834b5264b0ad);
+  src: url(/fonts/Caslon540LTStd-Roman.eot?27c32fe322abc4632e0d834b5264b0ad?#iefix) format("embedded-opentype"), url(/fonts/Caslon540LTStd-Roman.woff2?8213b56ca39cd861859c5d7e4f50b0ba) format("woff2"), url(/fonts/Caslon540LTStd-Roman.woff?999825802e2eaee344594a70ea815282) format("woff"), url(/fonts/Caslon540LTStd-Roman.ttf?0cece91bda308cabf81aaca12199234a) format("truetype"), url(/fonts/Caslon540LTStd-Roman.svg?a5e1d49fcdaed805f102314aa6b0d314#Caslon540LTStd-Roman) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 ul {
@@ -414,9 +422,9 @@ i:before {
   background: #028B72;
 }
 .resort_title h2 {
-  font-size: 32px;
+  font-size: 33px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   letter-spacing: 0.96px;
   text-transform: uppercase;
   color: #242424;
@@ -428,7 +436,7 @@ i:before {
 .resort_title h5 {
   font-size: 14px;
   color: #C8CDD1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   letter-spacing: 0.42px;
   text-transform: uppercase;
@@ -3287,10 +3295,10 @@ i:before {
 }
 .activities_area .activities_item_inner .activities_item_row .activities_content h4 {
   color: #242424;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 24px;
   letter-spacing: 0.96px;
   padding-bottom: 35px;
 }
@@ -3298,10 +3306,10 @@ i:before {
   color: #008b72;
 }
 .activities_area .activities_item_inner .activities_item_row .activities_content p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-family: "caslon-540-lt-std", serif;
+  font-size: 16.5px;
   line-height: 26px;
-  letter-spacing: 0.225px;
+  letter-spacing: 0.325px;
 }
 .activities_area .activities_item_inner .activities_item_row .activities_content.left_activities {
   padding-left: 0px;
