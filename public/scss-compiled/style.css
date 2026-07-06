@@ -3251,7 +3251,7 @@ i:before {
 }
 .activities_title .resort_title p {
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   line-height: 26px;
   color: #C8CDD1;
   letter-spacing: 0.225px;
@@ -3327,7 +3327,7 @@ i:before {
 }
 .activities_area .activity_row .heading h4 {
   color: #242424;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 32px;
@@ -3361,10 +3361,10 @@ i:before {
   opacity: 1;
 }
 .activities_area .activity_row .content p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-family: "caslon-540-lt-std", serif;
+  font-size: 16.5px;
   line-height: 26px;
-  letter-spacing: 0.225px;
+  letter-spacing: 0.325px;
   color: #C8CDD1;
   padding: 16px;
 }

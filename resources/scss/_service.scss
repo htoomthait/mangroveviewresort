@@ -431,7 +431,7 @@
         }
         p {
             font-size: 15px;
-            font-family: $open;
+            font-family: $cl540;
             line-height: 26px;
             color: $pfont2;
             letter-spacing: 0.225px;
@@ -520,7 +520,7 @@
         .heading {
             h4 {
                 color: $dip;
-                font-family: $mon;
+                font-family: $cl540;
                 font-weight: bold;
                 text-transform: uppercase;
                 font-size: 32px;
@@ -560,10 +560,10 @@
 
         .content {
             p {
-                font-family: $open;
-                font-size: 15px;
+                font-family: $cl540;
+                font-size: 16.5px;
                 line-height: 26px;
-                letter-spacing: 0.225px;
+                letter-spacing: .325px;
                 color: $pfont2;
                 padding: 16px;
             }
