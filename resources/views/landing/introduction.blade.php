@@ -34,7 +34,7 @@
                 <div class="introduction_left_text">
                     <div class="intro_title">
                         <h2>About Sea and Lake Garden<span>&nbsp;</span></h2>
-                        <p>
+                        <p class="intro_text_block">
                             Sea and lake garden spans 80 acres with a glistening blue lake at the heart of it all. The
                             garden boasts a variety of tropical trees bearing seasonal fruits and flowers. The winding
                             paths can be navigated by foot or visitors can choose to travel leisurely by renting
