@@ -72,6 +72,22 @@ Table of Content:
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "caslon-540-lt-std";
+  src: url(/fonts/Caslon540LTStd-Roman.eot?27c32fe322abc4632e0d834b5264b0ad);
+  src: url(/fonts/Caslon540LTStd-Roman.eot?27c32fe322abc4632e0d834b5264b0ad?#iefix) format("embedded-opentype"), url(/fonts/Caslon540LTStd-Roman.woff2?8213b56ca39cd861859c5d7e4f50b0ba) format("woff2"), url(/fonts/Caslon540LTStd-Roman.woff?999825802e2eaee344594a70ea815282) format("woff"), url(/fonts/Caslon540LTStd-Roman.ttf?0cece91bda308cabf81aaca12199234a) format("truetype"), url(/fonts/Caslon540LTStd-Roman.svg?a5e1d49fcdaed805f102314aa6b0d314#Caslon540LTStd-Roman) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "swiss-721-regular";
+  src: url(/fonts/Swiss721BT-Roman.eot?1d51897e0ed71bf7291662834b3653d0);
+  src: url(/fonts/Swiss721BT-Roman.eot?1d51897e0ed71bf7291662834b3653d0?#iefix) format("embedded-opentype"), url(/fonts/Swiss721BT-Roman.woff2?b4893e4d18bdaf5a6de2c7292191df94) format("woff2"), url(/fonts/Swiss721BT-Roman.woff?31bdd797344951fe1ce440e86d406ffd) format("woff"), url(/fonts/Swiss721BT-Roman.ttf?8803b0e519d2f1a42a9a387b6d05c878) format("truetype"), url(/fonts/Swiss721BT-Roman.svg?5726d578c3dd5e7bf6ba082acc452702#Swiss721BT-Roman) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 ul {
@@ -142,7 +158,7 @@ i:before {
 ============================================================================================ */
 .intro_title h2 {
   font-size: 32px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #008b72;
@@ -164,7 +180,7 @@ i:before {
 }
 .intro_title p {
   color: #242424;
-  font-family: "Open Sans", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-style: italic;
   font-size: 16px;
   letter-spacing: 0.48px;
@@ -173,7 +189,7 @@ i:before {
 
 .left_ex_title h2 {
   font-size: 32px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #008b72;
@@ -185,7 +201,7 @@ i:before {
 }
 .left_ex_title h3 {
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #008b72;
@@ -198,7 +214,7 @@ i:before {
 .left_ex_title p {
   font-size: 14px;
   color: #C8CDD1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.42px;
@@ -320,7 +336,7 @@ i:before {
 }
 .center_w_title h2 {
   font-size: 32px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
@@ -347,7 +363,7 @@ i:before {
 }
 .main_big_title h2 {
   color: #008b72;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 0.96px;
@@ -370,7 +386,7 @@ i:before {
 }
 .main_big_title h3 {
   color: #008b72;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 0.72px;
@@ -393,7 +409,7 @@ i:before {
 }
 .main_big_title p {
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   letter-spacing: 0.225px;
   line-height: 26px;
   color: #C8CDD1;
@@ -414,9 +430,9 @@ i:before {
   background: #028B72;
 }
 .resort_title h2 {
-  font-size: 32px;
+  font-size: 33px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   letter-spacing: 0.96px;
   text-transform: uppercase;
   color: #242424;
@@ -428,7 +444,7 @@ i:before {
 .resort_title h5 {
   font-size: 14px;
   color: #C8CDD1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   letter-spacing: 0.42px;
   text-transform: uppercase;
@@ -1632,7 +1648,7 @@ i:before {
 }
 .right_contact_info .contact_info_title h3 {
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   color: #C8CDD1;
   letter-spacing: 0.6px;
@@ -1642,7 +1658,7 @@ i:before {
 .right_contact_info .contact_info_title p {
   font-size: 16px;
   color: #C8CDD1;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 26px;
   padding-right: 35px;
 }
@@ -1659,23 +1675,23 @@ i:before {
 .right_contact_info .contact_info_list .media .media-body h4 {
   font-size: 16px;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   letter-spacing: 0.32px;
   color: #C8CDD1;
   padding-bottom: 10px;
 }
 .right_contact_info .contact_info_list .media .media-body p {
-  font-size: 15px;
+  font-size: 16px;
   color: #C8CDD1;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 22px;
 }
 .right_contact_info .contact_info_list .media .media-body a {
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   color: #C8CDD1;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 22px;
   transition: all 300ms linear 0s;
 }
@@ -2022,7 +2038,7 @@ i:before {
 .introduction_inner .introduction_left_text h4 {
   font-size: 18px;
   color: #C8CDD1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 20px;
@@ -2031,10 +2047,15 @@ i:before {
 .introduction_inner .introduction_left_text p {
   font-size: 15px;
   line-height: 26px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   color: #C8CDD1;
   letter-spacing: 0.225px;
   padding-bottom: 30px;
+}
+.introduction_inner .introduction_left_text p.intro_text_block {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.425px;
 }
 .introduction_inner .introduction_left_text ul {
   color: #C8CDD1;
@@ -2207,8 +2228,8 @@ i:before {
   box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.09);
 }
 .explor_item .explor_text h4 {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   letter-spacing: 0.6px;
   color: #008b72;
@@ -2238,7 +2259,7 @@ i:before {
 }
 .explor_item .explor_text ul li a {
   color: #C8CDD1;
-  font-family: "Open Sans", sans-serif;
+  font-family: "swiss-721-regular", sans-serif;
   letter-spacing: 0.3px;
   font-size: 15px;
 }
@@ -3135,7 +3156,7 @@ i:before {
 }
 .spa_area .spa_left_text h3 {
   font-size: 32px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #242424;
@@ -3144,14 +3165,14 @@ i:before {
 .spa_area .spa_left_text h5 {
   font-size: 18px;
   line-height: 28px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   letter-spacing: 0.54px;
   color: #C8CDD1;
   padding: 22px 0px 32px 0px;
 }
 .spa_area .spa_left_text p {
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   letter-spacing: 0.45px;
   color: #C8CDD1;
   line-height: 26px;
@@ -3243,7 +3264,7 @@ i:before {
 }
 .activities_title .resort_title p {
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   line-height: 26px;
   color: #C8CDD1;
   letter-spacing: 0.225px;
@@ -3287,10 +3308,10 @@ i:before {
 }
 .activities_area .activities_item_inner .activities_item_row .activities_content h4 {
   color: #242424;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 24px;
   letter-spacing: 0.96px;
   padding-bottom: 35px;
 }
@@ -3298,10 +3319,10 @@ i:before {
   color: #008b72;
 }
 .activities_area .activities_item_inner .activities_item_row .activities_content p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-family: "caslon-540-lt-std", serif;
+  font-size: 16.5px;
   line-height: 26px;
-  letter-spacing: 0.225px;
+  letter-spacing: 0.325px;
 }
 .activities_area .activities_item_inner .activities_item_row .activities_content.left_activities {
   padding-left: 0px;
@@ -3319,7 +3340,7 @@ i:before {
 }
 .activities_area .activity_row .heading h4 {
   color: #242424;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 32px;
@@ -3353,10 +3374,10 @@ i:before {
   opacity: 1;
 }
 .activities_area .activity_row .content p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-family: "caslon-540-lt-std", serif;
+  font-size: 16.5px;
   line-height: 26px;
-  letter-spacing: 0.225px;
+  letter-spacing: 0.325px;
   color: #C8CDD1;
   padding: 16px;
 }
@@ -5305,7 +5326,7 @@ i:before {
 }
 .room_d_main_text h4 {
   font-size: 32px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.96px;
@@ -5317,7 +5338,7 @@ i:before {
 }
 .room_d_main_text h5 {
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.6px;
@@ -5331,7 +5352,7 @@ i:before {
 }
 .room_d_main_text p {
   color: #a0a0a0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 28px;
@@ -5342,7 +5363,7 @@ i:before {
 .room_d_title {
   text-transform: uppercase;
   font-size: 22px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   font-weight: bold;
   letter-spacing: 0.66px;
   color: #C8CDD1;
@@ -5355,7 +5376,7 @@ i:before {
 .room_service_list_inner .resot_list ul li a {
   font-size: 15px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "caslon-540-lt-std", serif;
   text-transform: uppercase;
   padding-left: 32px;
   color: #C8CDD1;

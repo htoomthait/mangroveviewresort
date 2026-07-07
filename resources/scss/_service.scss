@@ -318,7 +318,7 @@
     .spa_left_text {
         h3 {
             font-size: 32px;
-            font-family: $mon;
+            font-family: $cl540;
             font-weight: bold;
             text-transform: uppercase;
             color: $dip;
@@ -327,14 +327,14 @@
         h5 {
             font-size: 18px;
             line-height: 28px;
-            font-family: $open;
+            font-family: $cl540;
             letter-spacing: 0.54px;
             color: $pfont2;
             padding: 22px 0px 32px 0px;
         }
         p {
             font-size: 15px;
-            font-family: $open;
+            font-family: $cl540;
             letter-spacing: 0.45px;
             color: $pfont2;
             line-height: 26px;
@@ -431,7 +431,7 @@
         }
         p {
             font-size: 15px;
-            font-family: $open;
+            font-family: $cl540;
             line-height: 26px;
             color: $pfont2;
             letter-spacing: 0.225px;
@@ -477,10 +477,10 @@
                 padding-left: 100px;
                 h4{
                     color: $dip;
-                    font-family: $mon;
+                    font-family: $cl540;
                     font-weight: bold;
                     text-transform: uppercase;
-                    font-size: 32px;
+                    font-size: 24px;
                     letter-spacing: .96px;
                     padding-bottom: 35px;
                     span{
@@ -488,10 +488,10 @@
                     }
                 }
                 p{
-                    font-family: $open;
-                    font-size: 15px;
+                    font-family: $cl540;
+                    font-size: 16.5px;
                     line-height: 26px;
-                    letter-spacing: .225px;
+                    letter-spacing: .325px;
                     // color: $pfont;
 
                 }
@@ -520,7 +520,7 @@
         .heading {
             h4 {
                 color: $dip;
-                font-family: $mon;
+                font-family: $cl540;
                 font-weight: bold;
                 text-transform: uppercase;
                 font-size: 32px;
@@ -560,10 +560,10 @@
 
         .content {
             p {
-                font-family: $open;
-                font-size: 15px;
+                font-family: $cl540;
+                font-size: 16.5px;
                 line-height: 26px;
-                letter-spacing: 0.225px;
+                letter-spacing: .325px;
                 color: $pfont2;
                 padding: 16px;
             }
