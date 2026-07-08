@@ -22,8 +22,10 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
     depends_on:
-      - db
-      - redis
+        db:
+            condition: service_healthy
+        redis:
+            condition: service_started
     networks:
       - mangroveview
     command: >
@@ -41,7 +43,7 @@ services:
              /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf"
 
   db:
-    image: mysql:8.0
+    image: mysql:8.0.46
     container_name: mangroveview-db
     restart: unless-stopped
     ports:
