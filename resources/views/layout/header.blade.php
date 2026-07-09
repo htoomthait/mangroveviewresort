@@ -114,6 +114,12 @@
                                 <li><a class="anchor_link"
                                         href="{{ route('page.activities') }}#activity_fashion_shop">fashion Shop</a>
                                 </li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_gift_shop">gift Shop</a>
+                                </li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_billiard">Billiard</a>
+                                </li>
                                 {{-- <li class="dropdown submenu">
                                     <a
                                         href="{{ route('page.activities') }}#activity_jade_museum"
@@ -159,6 +165,21 @@
                                         href="{{ route('page.activities') }}#activity_children_playground">Children
                                         Playground
                                     </a></li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_claw_machine">Claw
+                                        Machine</a>
+                                </li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_private_beach">Private Beach</a>
+                                </li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_exercise_around_lake">Exercise
+                                        Around Lake</a>
+                                </li>
+                                <li><a class="anchor_link"
+                                        href="{{ route('page.activities') }}#activity_exercise_around_lake">Exercise
+                                        Around Lake</a>
+                                </li>
 
                             </ul>
                         </li>
