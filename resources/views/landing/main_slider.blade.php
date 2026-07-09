@@ -56,6 +56,36 @@
                     </div> --}}
                 </div>
             </div>
+            <div class="item">
+                <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_6.jpg" alt="New York"
+                    style="width:100%;">
+                <div class="carousel-caption-wrapper">
+                    {{-- <div class="carousel-caption carousel-caption-landing">
+                        <h3>Welcome Entrance</h3>
+                        <p>Enter the gardens of Sea & Lake and fill your day with precious moments.</p>
+                    </div> --}}
+                </div>
+            </div>
+            <div class="item">
+                <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_7.jpg" alt="New York"
+                    style="width:100%;">
+                <div class="carousel-caption-wrapper">
+                    {{-- <div class="carousel-caption carousel-caption-landing">
+                        <h3>Welcome Entrance</h3>
+                        <p>Enter the gardens of Sea & Lake and fill your day with precious moments.</p>
+                    </div> --}}
+                </div>
+            </div>
+            <div class="item">
+                <img class="landing_carousel_img" src="/images/landing_carousel/slider_img_8.jpg" alt="New York"
+                    style="width:100%;">
+                <div class="carousel-caption-wrapper">
+                    {{-- <div class="carousel-caption carousel-caption-landing">
+                        <h3>Welcome Entrance</h3>
+                        <p>Enter the gardens of Sea & Lake and fill your day with precious moments.</p>
+                    </div> --}}
+                </div>
+            </div>
 
         </div>
 

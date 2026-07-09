@@ -124,6 +124,45 @@
                     </div>
                 </div>
             </div>
+            <div class="row activity_row">
+                <div class="col-12 activity_block" id="activity_gift_shop">
+                    <div class="heading">
+                        <h4>&nbsp;<span>Gift Shop</span></h4>
+                    </div>
+                    <a href="{{ asset('/images/activities/gift_shop_activity.jpg') }}" data-lightbox="activity_page"
+                        data-title="Gift Shop" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ asset('/images/activities/gift_shop_activity_thumbnail.jpg') }}" alt="guide map">
+                    </a>
+                    <div class="content">
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p> --}}
+                    </div>
+                </div>
+
+                <div class="col-12 activity_block" id="activity_billiard">
+                    <div class="heading">
+                        <h4>&nbsp;<span>Biliard</span></h4>
+                    </div>
+                    <a href="{{ asset('/images/activities/billiard_activity.jpg') }}" data-lightbox="activity_page"
+                        data-title="Biliard" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ asset('/images/activities/billiard_activity_thumbnail.jpg') }}" alt="guide map">
+                    </a>
+                    <div class="content">
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p> --}}
+                    </div>
+                </div>
+            </div>
 
             {{-- <div class="row activity_row">
                 <div class="col-12 activity_block" id="activity_jade_museum">
@@ -358,6 +397,90 @@
                 </div>
 
 
+            </div>
+
+            <div class="row activity_row">
+                <div class="col-12 activity_block" id="activity_claw_machine">
+                    <div class="heading">
+                        <h4>&nbsp;<span>Claw Machine</span> <br /> &nbsp; </h4>
+                    </div>
+                    <a href="{{ asset('/images/activities/claw_machine_activity.jpg') }}" data-lightbox="activity_page"
+                        data-title="Claw Machine" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ asset('/images/activities/claw_machine_activity_thumbnail.jpg') }}"
+                            alt="claw machine">
+                    </a>
+                    <div class="content">
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p> --}}
+                    </div>
+                </div>
+
+                <div class="col-12 activity_block" id="activity_private_beach">
+                    <div class="heading">
+                        <h4>&nbsp;<span>Private Beach</span> <br /> &nbsp; </h4>
+                    </div>
+                    <a href="{{ asset('/images/activities/private_beach_activity.jpg') }}" data-lightbox="activity_page"
+                        data-title="Private Beach" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ asset('/images/activities/private_beach_activity_thumbnail.jpg') }}"
+                            alt="private beach">
+                    </a>
+                    <div class="content">
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p> --}}
+                    </div>
+                </div>
+            </div>
+
+            <div class="row activity_row">
+                <div class="col-12 activity_block" id="activity_weight_lifting">
+                    <div class="heading">
+                        <h4>&nbsp;<span>Weight Lifting</span> <br /> &nbsp; </h4>
+                    </div>
+                    <a href="{{ asset('/images/activities/weight_lifting_activity.jpg') }}" data-lightbox="activity_page"
+                        data-title="Weight Lifting" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ asset('/images/activities/weight_lifting_activity_thumbnail.jpg') }}"
+                            alt="weight lifting">
+                    </a>
+                    <div class="content">
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p> --}}
+                    </div>
+                </div>
+
+                <div class="col-12 activity_block" id="activity_exercise_around_lake">
+                    <div class="heading">
+                        <h4>&nbsp;<span>Exercise Around Lake</span> <br /> &nbsp; </h4>
+                    </div>
+                    <a href="{{ asset('/images/activities/exercise_around_lake_activity.jpg') }}"
+                        data-lightbox="activity_page" data-title="Exercise Around Lake" class="activities_img">
+                        <i class="fa fa-expand"
+                            style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
+                            aria-hidden="true"></i>
+                        <img src="{{ asset('/images/activities/exercise_around_lake_activity_thumbnail.jpg') }}"
+                            alt="exercise around lake">
+                    </a>
+                    <div class="content">
+                        {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem. Ut enim ad minima veniam. quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                            qui in ea volup.</p> --}}
+                    </div>
+                </div>
             </div>
 
 
