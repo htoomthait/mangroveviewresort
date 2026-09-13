@@ -27,6 +27,9 @@
         '--',
         '--',
         '--',
+        '--',
+        '--',
+        '--',
     ];
 @endphp
 
@@ -70,7 +73,7 @@
         <div class="resort_gallery owl-carousel imageGallery1">
             @foreach ($titlesOfPhoto as $index => $photoTitle)
                 <div class="item">
-                    <img src="images/why_our_resort/why_our_resort_{{ $index + 1 }}.jpg" alt="">
+                    <img src="images/why_our_resort/why_our_resort_thumbnail_{{ $index + 1 }}.jpg" alt="">
                     <div class="resort_g_hover">
                         <div class="resort_hover_inner">
                             <a class="light" href="images/why_our_resort/why_our_resort_{{ $index + 1 }}.jpg"><i
