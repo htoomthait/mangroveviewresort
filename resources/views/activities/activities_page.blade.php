@@ -114,7 +114,7 @@
                         <i class="fa fa-expand"
                             style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                             aria-hidden="true"></i>
-                        <img src="{{ asset('/images/activities/fashion_shop_activity_small.jpg') }}" alt="guide map">
+                        <img src="{{ asset('/images/activities/fashion_shop_activity_large.jpg') }}" alt="guide map">
                     </a>
                     <div class="content">
                         {{-- <p>Equia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
