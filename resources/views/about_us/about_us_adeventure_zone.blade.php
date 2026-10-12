@@ -6,8 +6,7 @@
                 <div class="activities_content left_activities">
                     <h4><span> Sea and Lake Adventure Zone visiting</span></h4>
                     <p class="text_white_grey">
-                        The adventure zone consists of three different activities: Ziplining, Quick Jump, and Wall
-                        Climbing.
+                        The adventure zone consists of three different activities: Ziplining, wall climbing, and quick jump.
                     </p>
                 </div>
             </div>

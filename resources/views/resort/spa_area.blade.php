@@ -64,7 +64,7 @@
              <div class="col-md-4 col-sm-6">
                  <div class="spa_item">
                      <a class="spa_img" href="{{ asset('images/resort/spa_image_3.jpg') }}" data-lightbox="spa_on_resort"
-                         data-title="Foot Salt Water Soak and Massage">
+                         data-title="Shampoo and Massage">
                          <i class="fa fa-expand"
                              style="position: absolute; z-index:100; margin-top:8px; left: 92%; font-size:21px;"
                              aria-hidden="true"></i>
@@ -72,7 +72,7 @@
                      </a>
                      <div class="spa_content">
                          <a href="#">
-                             <h4 style="text-align:center;">Foot Salt Water Soak and Massage</h4>
+                             <h4 style="text-align:center;">Shampoo and Massage</h4>
                          </a>
                          {{-- <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
                              quod maxime placeat facere possimus cum soluta nobi est eligendi optio cumque nihil
